@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}{{ entry.date_label }} {{ entry.year }} — Naples ’44{% endblock %}
 {% block body_class %}page-entry{% endblock %}
@@ -14,7 +15,7 @@
   <div class="tag-block">
     <h2>Themes</h2>
     <ul class="chips">
-      {% for t in entry.themes.all %}<li class="chip chip-theme" title="{{ t.description }}">{{ t.label }}</li>{% endfor %}
+      {% for t in entry.themes.all %}<li><a class="chip chip-theme" href="{{ t.get_absolute_url }}" title="{{ t.description }}">{{ t.label }}</a></li>{% endfor %}
     </ul>
   </div>
   {% endif %}
@@ -25,7 +26,7 @@
     <ul class="tag-lines">
       {% for p in entry.places.all %}
       <li>
-        {% if p.wikipedia_url %}<a href="{{ p.wikipedia_url }}" rel="noopener">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}
+        <a href="{{ p.get_absolute_url }}">{{ p.name }}</a>
         <span class="tag-type">{{ p.get_place_type_display }}</span>
       </li>
       {% endfor %}
@@ -39,7 +40,7 @@
     <ul class="tag-lines">
       {% for ep in entry.entryperson_set.all %}
       <li>
-        {% if ep.person.wikipedia_url %}<a href="{{ ep.person.wikipedia_url }}" rel="noopener">{{ ep.person.name }}</a>{% else %}{{ ep.person.name }}{% endif %}
+        <a href="{{ ep.person.get_absolute_url }}">{{ ep.person.name }}</a>
         <span class="tag-type">{{ ep.person.get_person_type_display }}</span>
         {% if ep.note %}<span class="tag-note">{{ ep.note }}</span>{% endif %}
       </li>
@@ -54,7 +55,7 @@
     <ul class="tag-lines">
       {% for ef in entry.entryfolklore_set.all %}
       <li>
-        {% if ef.folklore.wikipedia_url %}<a href="{{ ef.folklore.wikipedia_url }}" rel="noopener">{{ ef.folklore.name }}</a>{% else %}{{ ef.folklore.name }}{% endif %}
+        <a href="{{ ef.folklore.get_absolute_url }}">{{ ef.folklore.name }}</a>
         {% if ef.note %}<span class="tag-note">{{ ef.note }}</span>{% endif %}
       </li>
       {% endfor %}
@@ -75,9 +76,14 @@
   {% endif %}
 
   <nav class="entry-nav">
-    {% if prev_entry %}<a class="prev" href="{{ prev_entry.get_absolute_url }}">← {{ prev_entry.date_label }}</a>{% else %}<span></span>{% endif %}
+    {% if prev_entry %}<a class="prev" href="{{ prev_entry.get_absolute_url }}" rel="prev">← {{ prev_entry.date_label }}</a>{% else %}<span></span>{% endif %}
     <a class="to-timeline" href="{% url 'naples44:timeline' %}#entry-{{ entry.id }}">On the timeline</a>
-    {% if next_entry %}<a class="next" href="{{ next_entry.get_absolute_url }}">{{ next_entry.date_label }} →</a>{% else %}<span></span>{% endif %}
+    {% if next_entry %}<a class="next" href="{{ next_entry.get_absolute_url }}" rel="next">{{ next_entry.date_label }} →</a>{% else %}<span></span>{% endif %}
   </nav>
+  <p class="key-hint">Use <kbd>←</kbd> <kbd>→</kbd> to move between entries</p>
 </article>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/entry.js' %}"></script>
 {% endblock %}

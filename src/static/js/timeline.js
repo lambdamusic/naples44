@@ -158,7 +158,7 @@
   }
 
   var entryG = gEntries.selectAll("g.entry").data(entries).join("g").attr("class", "entry");
-  entryG.append("circle")            // generous transparent hit target
+  var hit = entryG.append("circle")   // generous transparent hit target
     .attr("class", "entry-hit")
     .attr("cx", function (d) { return pt(d._date, R_ENTRY)[0]; })
     .attr("cy", function (d) { return pt(d._date, R_ENTRY)[1]; })
@@ -191,7 +191,7 @@
     h += '<p class="d-summary">' + esc(d.summary) + "</p>";
     if (d.themes.length) {
       h += '<p class="d-section">Themes</p><p>' +
-        d.themes.map(function (s) { return themeLabel(s); }).join(", ") + "</p>";
+        d.themes.map(themeLink).join(", ") + "</p>";
     }
     if (d.places.length) {
       h += '<p class="d-section">Places</p><p>' +
@@ -307,13 +307,18 @@
     dot.classed("dim", function (d) { return filtering && !matches(d); })
       .classed("hit", function (d) { return filtering && matches(d); })
       .attr("r", function (d) { return filtering && matches(d) ? 5.5 : 4; });
+    // while filtering, only matching entries stay clickable / hoverable
+    hit.style("pointer-events", function (d) {
+      return filtering && !matches(d) ? "none" : null;
+    });
   }
 
   // ---- helpers ---------------------------------------------------
   function toggle(set, v) { set.has(v) ? set.delete(v) : set.add(v); }
-  function themeLabel(slug) {
+  function themeLink(slug) {
     var t = themes.find(function (x) { return x.slug === slug; });
-    return t ? esc(t.label) : slug;
+    if (!t) return esc(slug);
+    return '<a href="' + esc(t.url) + '">' + esc(t.label) + "</a>";
   }
   // ---- deep link ------------------------------------------------
   var hm = /^#entry-(\d+)$/.exec(location.hash || "");

@@ -8,6 +8,21 @@ The dataset was hand-built while reading Norman Lewis's memoir and seeded once v
 
 from django.db import models
 from django.urls import reverse
+from django.utils.text import slugify
+
+
+def unique_slug(model, value, pk=None):
+    """A slugified `value` that doesn't collide with an existing row of `model`."""
+    base = slugify(value)[:130] or "item"
+    slug = base
+    n = 2
+    qs = model.objects.all()
+    if pk is not None:
+        qs = qs.exclude(pk=pk)
+    while qs.filter(slug=slug).exists():
+        slug = f"{base}-{n}"
+        n += 1
+    return slug
 
 
 class Theme(models.Model):
@@ -24,6 +39,13 @@ class Theme(models.Model):
     def __str__(self):
         return self.label
 
+    @property
+    def name(self):
+        return self.label
+
+    def get_absolute_url(self):
+        return reverse("naples44:theme", args=[self.slug])
+
 
 class Place(models.Model):
     PLACE_TYPES = [
@@ -38,14 +60,24 @@ class Place(models.Model):
     ]
 
     name = models.CharField(max_length=120, unique=True)
+    slug = models.SlugField(max_length=140, unique=True, blank=True)
     place_type = models.CharField(max_length=20, choices=PLACE_TYPES)
-    wikipedia_url = models.URLField(blank=True)
+    description = models.TextField(blank=True, help_text="Shown on the place's page. Optional.")
+    wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the place's own page.")
 
     class Meta:
         ordering = ["name"]
 
     def __str__(self):
         return self.name
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = unique_slug(Place, self.name, self.pk)
+        super().save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return reverse("naples44:place", args=[self.slug])
 
 
 class Person(models.Model):
@@ -61,8 +93,10 @@ class Person(models.Model):
     ]
 
     name = models.CharField(max_length=120, unique=True)
+    slug = models.SlugField(max_length=140, unique=True, blank=True)
     person_type = models.CharField(max_length=20, choices=PERSON_TYPES)
-    wikipedia_url = models.URLField(blank=True)
+    description = models.TextField(blank=True, help_text="Shown on the person's page. Optional.")
+    wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the person's own page.")
 
     class Meta:
         ordering = ["name"]
@@ -71,12 +105,22 @@ class Person(models.Model):
     def __str__(self):
         return self.name
 
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = unique_slug(Person, self.name, self.pk)
+        super().save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return reverse("naples44:person", args=[self.slug])
+
 
 class FolkloreEntity(models.Model):
     """A named saint, feast, superstition or folk custom recurring in the book."""
 
     name = models.CharField(max_length=120, unique=True)
-    wikipedia_url = models.URLField(blank=True)
+    slug = models.SlugField(max_length=140, unique=True, blank=True)
+    description = models.TextField(blank=True, help_text="Shown on the entity's page. Optional.")
+    wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the entity's own page.")
 
     class Meta:
         ordering = ["name"]
@@ -85,6 +129,14 @@ class FolkloreEntity(models.Model):
 
     def __str__(self):
         return self.name
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = unique_slug(FolkloreEntity, self.name, self.pk)
+        super().save(*args, **kwargs)
+
+    def get_absolute_url(self):
+        return reverse("naples44:folklore", args=[self.slug])
 
 
 class Entry(models.Model):

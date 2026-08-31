@@ -1,20 +1,29 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}Naples ’44 — an interactive reading{% endblock %}
 {% block body_class %}page-about{% endblock %}
 
 {% block content %}
 <section class="hero">
-  <p class="kicker">Naples, September 1943 – October 1944</p>
-  <h1>An interactive timeline of <em>Naples&nbsp;’44</em></h1>
-  <p class="lede">
-    Norman Lewis was a British intelligence officer posted to Naples in the year
-    after the Allied landings. His diary of that year — published in 1978 as
-    <em>Naples&nbsp;’44</em> — is a spare, unsparing record of a city surviving
-    occupation, hunger, the black market, bombardment and the everyday theatre of
-    Neapolitan life. This site lets you move through the book by date.
-  </p>
-  <a class="cta" href="{% url 'naples44:timeline' %}">Open the timeline →</a>
+  <div class="hero-text">
+    <p class="kicker">Naples, September 1943 – October 1944</p>
+    <h1>An interactive timeline of <em>Naples&nbsp;’44</em></h1>
+    <p class="lede">
+      Norman Lewis was a British intelligence officer posted to Naples in the year
+      after the Allied landings. His diary of that year — published in 1978 as
+      <em>Naples&nbsp;’44</em> — is a spare, unsparing record of a city surviving
+      occupation, hunger, the black market, bombardment and the everyday theatre of
+      Neapolitan life. This site lets you move through the book by date.
+    </p>
+    <a class="cta" href="{% url 'naples44:timeline' %}">Open the timeline →</a>
+  </div>
+  <figure class="hero-book">
+    <a href="https://www.travelbooks.co.uk/shop-online-books/naples-44" rel="noopener">
+      <img src="{% static 'img/naples-44-cover.jpg' %}" width="220" alt="Cover of Naples ’44, Eland Books edition">
+    </a>
+    <figcaption>The Eland Books edition — <a href="https://www.travelbooks.co.uk/shop-online-books/naples-44" rel="noopener">buy from the publisher</a>.</figcaption>
+  </figure>
 </section>
 
 <section class="about-grid">
@@ -35,8 +44,8 @@
       While reading, each entry was given a short paraphrased summary and tagged
       by <strong>{{ theme_count }} themes</strong>, <strong>{{ place_count }}
       places</strong>, <strong>{{ people_count }} recurring people</strong>, and a
-      running list of saints, feasts and superstitions. Where a person or place
-      has a reliable Wikipedia article, it’s linked.
+      running list of saints, feasts and superstitions. Every place, person and
+      theme has its own page collecting the entries it appears in.
     </p>
   </div>
   <div>

@@ -37,3 +37,26 @@
 - Known rough edges: war-event labels collide near 12 o'clock when events fall a
   day or two apart (no collision detection yet); no per-entity pages for
   place/person/folklore/theme yet (planned).
+
+## 2026-08-31 — Entity pages, filter fix, book links
+
+- **Filter fix**: while a theme/tag filter is active, non-matching entry dots get
+  `pointer-events: none` — only matching entries are clickable/hoverable
+  (`timeline.js`).
+- **Entity pages**: `/places/<slug>/`, `/people/<slug>/`, `/folklore/<slug>/`,
+  `/themes/<slug>/`. Each shows the entity, an optional `description` (new
+  `TextField`, admin-editable), and a vertical chronological timeline of its
+  entries (with the per-occurrence note for people/folklore). Wikipedia is a
+  "further reading" link at the foot of the entity page only.
+- `slug` (unique) added to Place/Person/FolkloreEntity — migration `0002`
+  populates them from names; `save()` auto-slugs new rows; admin has
+  `prepopulated_fields`.
+- **All internal links now point at entity pages first**, never external — entry
+  pages, the timeline detail panel, and the vertical timelines. Payload emits
+  `get_absolute_url()` for every tag.
+- Arrow-key nav on entry pages (`←`/`→`, `entry.js`).
+- Homepage: book cover (`src/static/img/naples-44-cover.jpg`, from Eland/
+  travelbooks) linking to the publisher's shop. Footer: link to the book's
+  Wikipedia page.
+- `tools/db-dump` now dumps only the `naples44` app (keeps users out of the
+  committed fixture). `backups/django/dump.json` re-generated with slugs.

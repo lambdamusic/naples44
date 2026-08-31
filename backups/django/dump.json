@@ -103,7 +103,9 @@
   "pk": 1,
   "fields": {
     "name": "Salerno",
+    "slug": "salerno",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Salerno"
   }
 },
@@ -112,7 +114,9 @@
   "pk": 2,
   "fields": {
     "name": "Oran",
+    "slug": "oran",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Oran"
   }
 },
@@ -121,7 +125,9 @@
   "pk": 3,
   "fields": {
     "name": "Paestum",
+    "slug": "paestum",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Paestum"
   }
 },
@@ -130,7 +136,9 @@
   "pk": 4,
   "fields": {
     "name": "Pompeii",
+    "slug": "pompeii",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pompeii"
   }
 },
@@ -139,7 +147,9 @@
   "pk": 5,
   "fields": {
     "name": "Sele river",
+    "slug": "sele-river",
     "place_type": "natural_feature",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -148,7 +158,9 @@
   "pk": 6,
   "fields": {
     "name": "Albanella",
+    "slug": "albanella",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Albanella"
   }
 },
@@ -157,7 +169,9 @@
   "pk": 7,
   "fields": {
     "name": "Battipaglia",
+    "slug": "battipaglia",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Battipaglia"
   }
 },
@@ -166,7 +180,9 @@
   "pk": 8,
   "fields": {
     "name": "Sicily",
+    "slug": "sicily",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sicily"
   }
 },
@@ -175,7 +191,9 @@
   "pk": 9,
   "fields": {
     "name": "Calore river",
+    "slug": "calore-river",
     "place_type": "natural_feature",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -184,7 +202,9 @@
   "pk": 10,
   "fields": {
     "name": "Avellino",
+    "slug": "avellino",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Avellino"
   }
 },
@@ -193,7 +213,9 @@
   "pk": 11,
   "fields": {
     "name": "Castello Castelluccia",
+    "slug": "castello-castelluccia",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -202,7 +224,9 @@
   "pk": 12,
   "fields": {
     "name": "Resina",
+    "slug": "resina",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ercolano"
   }
 },
@@ -211,7 +235,9 @@
   "pk": 13,
   "fields": {
     "name": "Sorrento",
+    "slug": "sorrento",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sorrento"
   }
 },
@@ -220,7 +246,9 @@
   "pk": 14,
   "fields": {
     "name": "Torre Annunziata",
+    "slug": "torre-annunziata",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_Annunziata"
   }
 },
@@ -229,7 +257,9 @@
   "pk": 15,
   "fields": {
     "name": "Altavilla Silentina",
+    "slug": "altavilla-silentina",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Altavilla_Silentina"
   }
 },
@@ -238,7 +268,9 @@
   "pk": 16,
   "fields": {
     "name": "Portici",
+    "slug": "portici",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Portici"
   }
 },
@@ -247,7 +279,9 @@
   "pk": 17,
   "fields": {
     "name": "Nola",
+    "slug": "nola",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nola"
   }
 },
@@ -256,7 +290,9 @@
   "pk": 18,
   "fields": {
     "name": "Palace of the Princes of Satriano",
+    "slug": "palace-of-the-princes-of-satriano",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -265,7 +301,9 @@
   "pk": 19,
   "fields": {
     "name": "Piazza Vittoria",
+    "slug": "piazza-vittoria",
     "place_type": "piazza",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -274,7 +312,9 @@
   "pk": 20,
   "fields": {
     "name": "Questura (Naples police HQ)",
+    "slug": "questura-naples-police-hq",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -283,7 +323,9 @@
   "pk": 21,
   "fields": {
     "name": "Riviera di Chiaia",
+    "slug": "riviera-di-chiaia",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Riviera_di_Chiaia"
   }
 },
@@ -292,7 +334,9 @@
   "pk": 22,
   "fields": {
     "name": "Afragola",
+    "slug": "afragola",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Afragola"
   }
 },
@@ -301,7 +345,9 @@
   "pk": 23,
   "fields": {
     "name": "Santa Lucia (Naples)",
+    "slug": "santa-lucia-naples",
     "place_type": "district",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Lucia,_Naples"
   }
 },
@@ -310,7 +356,9 @@
   "pk": 24,
   "fields": {
     "name": "Rome",
+    "slug": "rome",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Rome"
   }
 },
@@ -319,7 +367,9 @@
   "pk": 25,
   "fields": {
     "name": "San Gennaro catacombs",
+    "slug": "san-gennaro-catacombs",
     "place_type": "religious_site",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -328,7 +378,9 @@
   "pk": 26,
   "fields": {
     "name": "Bari",
+    "slug": "bari",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bari"
   }
 },
@@ -337,7 +389,9 @@
   "pk": 27,
   "fields": {
     "name": "Taranto",
+    "slug": "taranto",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Taranto"
   }
 },
@@ -346,7 +400,9 @@
   "pk": 28,
   "fields": {
     "name": "Bar Vittoria",
+    "slug": "bar-vittoria",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -355,7 +411,9 @@
   "pk": 29,
   "fields": {
     "name": "Castel Nuovo",
+    "slug": "castel-nuovo",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Nuovo"
   }
 },
@@ -364,7 +422,9 @@
   "pk": 30,
   "fields": {
     "name": "Porta Capuana",
+    "slug": "porta-capuana",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Porta_Capuana"
   }
 },
@@ -373,7 +433,9 @@
   "pk": 31,
   "fields": {
     "name": "Via Partenope",
+    "slug": "via-partenope",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -382,7 +444,9 @@
   "pk": 32,
   "fields": {
     "name": "Aversa",
+    "slug": "aversa",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Aversa"
   }
 },
@@ -391,7 +455,9 @@
   "pk": 33,
   "fields": {
     "name": "Fontanelle (Naples)",
+    "slug": "fontanelle-naples",
     "place_type": "district",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -400,7 +466,9 @@
   "pk": 34,
   "fields": {
     "name": "Vomero (Naples)",
+    "slug": "vomero-naples",
     "place_type": "district",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Vomero"
   }
 },
@@ -409,7 +477,9 @@
   "pk": 35,
   "fields": {
     "name": "Philippeville",
+    "slug": "philippeville",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Skikda"
   }
 },
@@ -418,7 +488,9 @@
   "pk": 36,
   "fields": {
     "name": "Poggio Reale prison",
+    "slug": "poggio-reale-prison",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -427,7 +499,9 @@
   "pk": 37,
   "fields": {
     "name": "Posillipo (Naples)",
+    "slug": "posillipo-naples",
     "place_type": "district",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Posillipo"
   }
 },
@@ -436,7 +510,9 @@
   "pk": 38,
   "fields": {
     "name": "Filangieri prison",
+    "slug": "filangieri-prison",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -445,7 +521,9 @@
   "pk": 39,
   "fields": {
     "name": "Vico Chiatamone",
+    "slug": "vico-chiatamone",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -454,7 +532,9 @@
   "pk": 40,
   "fields": {
     "name": "San Carlo opera house",
+    "slug": "san-carlo-opera-house",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Teatro_di_San_Carlo"
   }
 },
@@ -463,7 +543,9 @@
   "pk": 41,
   "fields": {
     "name": "Via Chiaia",
+    "slug": "via-chiaia",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Chiaia"
   }
 },
@@ -472,7 +554,9 @@
   "pk": 42,
   "fields": {
     "name": "Via San Felice",
+    "slug": "via-san-felice",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -481,7 +565,9 @@
   "pk": 43,
   "fields": {
     "name": "Vesuvius",
+    "slug": "vesuvius",
     "place_type": "natural_feature",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Vesuvius"
   }
 },
@@ -490,7 +576,9 @@
   "pk": 44,
   "fields": {
     "name": "Acerra",
+    "slug": "acerra",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Acerra"
   }
 },
@@ -499,7 +587,9 @@
   "pk": 45,
   "fields": {
     "name": "Casoria",
+    "slug": "casoria",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Casoria"
   }
 },
@@ -508,7 +598,9 @@
   "pk": 46,
   "fields": {
     "name": "San Pasquale (church & district)",
+    "slug": "san-pasquale-church-district",
     "place_type": "religious_site",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -517,7 +609,9 @@
   "pk": 47,
   "fields": {
     "name": "Via Carducci",
+    "slug": "via-carducci",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -526,7 +620,9 @@
   "pk": 48,
   "fields": {
     "name": "Calabritto Palace",
+    "slug": "calabritto-palace",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -535,7 +631,9 @@
   "pk": 49,
   "fields": {
     "name": "Palazzo Carracciolo",
+    "slug": "palazzo-carracciolo",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -544,7 +642,9 @@
   "pk": 50,
   "fields": {
     "name": "Villa Nazionale",
+    "slug": "villa-nazionale",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Comunale,_Naples"
   }
 },
@@ -553,7 +653,9 @@
   "pk": 51,
   "fields": {
     "name": "Torrito",
+    "slug": "torrito",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -562,7 +664,9 @@
   "pk": 52,
   "fields": {
     "name": "Caivano",
+    "slug": "caivano",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Caivano"
   }
 },
@@ -571,7 +675,9 @@
   "pk": 53,
   "fields": {
     "name": "Zona di Camorra",
+    "slug": "zona-di-camorra",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -580,7 +686,9 @@
   "pk": 54,
   "fields": {
     "name": "Forcella (market district)",
+    "slug": "forcella-market-district",
     "place_type": "district",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -589,7 +697,9 @@
   "pk": 55,
   "fields": {
     "name": "Via Forcella",
+    "slug": "via-forcella",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -598,7 +708,9 @@
   "pk": 56,
   "fields": {
     "name": "Matlock",
+    "slug": "matlock",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -607,7 +719,9 @@
   "pk": 57,
   "fields": {
     "name": "Via Filippo Palizzi",
+    "slug": "via-filippo-palizzi",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -616,7 +730,9 @@
   "pk": 58,
   "fields": {
     "name": "Castel Capuano",
+    "slug": "castel-capuano",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Capuano"
   }
 },
@@ -625,7 +741,9 @@
   "pk": 59,
   "fields": {
     "name": "Castellammare di Stabia",
+    "slug": "castellammare-di-stabia",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Castellammare_di_Stabia"
   }
 },
@@ -634,7 +752,9 @@
   "pk": 60,
   "fields": {
     "name": "Agropoli",
+    "slug": "agropoli",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Agropoli"
   }
 },
@@ -643,7 +763,9 @@
   "pk": 61,
   "fields": {
     "name": "Piazza Dante",
+    "slug": "piazza-dante",
     "place_type": "piazza",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Dante,_Naples"
   }
 },
@@ -652,7 +774,9 @@
   "pk": 62,
   "fields": {
     "name": "Procida",
+    "slug": "procida",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Procida"
   }
 },
@@ -661,7 +785,9 @@
   "pk": 63,
   "fields": {
     "name": "Caserta",
+    "slug": "caserta",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Caserta"
   }
 },
@@ -670,7 +796,9 @@
   "pk": 64,
   "fields": {
     "name": "Via San Pasquale",
+    "slug": "via-san-pasquale",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -679,7 +807,9 @@
   "pk": 65,
   "fields": {
     "name": "Vico Satriano",
+    "slug": "vico-satriano",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -688,7 +818,9 @@
   "pk": 66,
   "fields": {
     "name": "Capri",
+    "slug": "capri",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Capri"
   }
 },
@@ -697,7 +829,9 @@
   "pk": 67,
   "fields": {
     "name": "Via Roma",
+    "slug": "via-roma",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Toledo"
   }
 },
@@ -706,7 +840,9 @@
   "pk": 68,
   "fields": {
     "name": "Café Savoia",
+    "slug": "cafe-savoia",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -715,7 +851,9 @@
   "pk": 69,
   "fields": {
     "name": "Ischia",
+    "slug": "ischia",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ischia"
   }
 },
@@ -724,7 +862,9 @@
   "pk": 70,
   "fields": {
     "name": "San Sebastiano (town near Vesuvius)",
+    "slug": "san-sebastiano-town-near-vesuvius",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -733,7 +873,9 @@
   "pk": 71,
   "fields": {
     "name": "San Giorgio (near Vesuvius)",
+    "slug": "san-giorgio-near-vesuvius",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/San_Giorgio_a_Cremano"
   }
 },
@@ -742,7 +884,9 @@
   "pk": 72,
   "fields": {
     "name": "Cercola",
+    "slug": "cercola",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cercola"
   }
 },
@@ -751,7 +895,9 @@
   "pk": 73,
   "fields": {
     "name": "Maddaloni Bridge",
+    "slug": "maddaloni-bridge",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -760,7 +906,9 @@
   "pk": 74,
   "fields": {
     "name": "Pozzuoli",
+    "slug": "pozzuoli",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pozzuoli"
   }
 },
@@ -769,7 +917,9 @@
   "pk": 75,
   "fields": {
     "name": "Torre del Greco",
+    "slug": "torre-del-greco",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_del_Greco"
   }
 },
@@ -778,7 +928,9 @@
   "pk": 76,
   "fields": {
     "name": "Campi Flegrei",
+    "slug": "campi-flegrei",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Phlegraean_Fields"
   }
 },
@@ -787,7 +939,9 @@
   "pk": 77,
   "fields": {
     "name": "Pomigliano",
+    "slug": "pomigliano",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pomigliano_d%27Arco"
   }
 },
@@ -796,7 +950,9 @@
   "pk": 78,
   "fields": {
     "name": "Marano",
+    "slug": "marano",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Marano_di_Napoli"
   }
 },
@@ -805,7 +961,9 @@
   "pk": 79,
   "fields": {
     "name": "Castel Sant'Elmo",
+    "slug": "castel-santelmo",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Sant%27Elmo"
   }
 },
@@ -814,7 +972,9 @@
   "pk": 80,
   "fields": {
     "name": "Padula",
+    "slug": "padula",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Padula"
   }
 },
@@ -823,7 +983,9 @@
   "pk": 81,
   "fields": {
     "name": "Piazza Municipio",
+    "slug": "piazza-municipio",
     "place_type": "piazza",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -832,7 +994,9 @@
   "pk": 82,
   "fields": {
     "name": "Villa Tiberius (Capri)",
+    "slug": "villa-tiberius-capri",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -841,7 +1005,9 @@
   "pk": 83,
   "fields": {
     "name": "Terni",
+    "slug": "terni",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Terni"
   }
 },
@@ -850,7 +1016,9 @@
   "pk": 84,
   "fields": {
     "name": "Santa Maria della Colombina",
+    "slug": "santa-maria-della-colombina",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -859,7 +1027,9 @@
   "pk": 85,
   "fields": {
     "name": "Rione Amedeo",
+    "slug": "rione-amedeo",
     "place_type": "district",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -868,7 +1038,9 @@
   "pk": 86,
   "fields": {
     "name": "Monte Vergine",
+    "slug": "monte-vergine",
     "place_type": "religious_site",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine"
   }
 },
@@ -877,7 +1049,9 @@
   "pk": 87,
   "fields": {
     "name": "Monte Santangelo",
+    "slug": "monte-santangelo",
     "place_type": "religious_site",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -886,7 +1060,9 @@
   "pk": 88,
   "fields": {
     "name": "Frattamaggiore",
+    "slug": "frattamaggiore",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Frattamaggiore"
   }
 },
@@ -895,7 +1071,9 @@
   "pk": 89,
   "fields": {
     "name": "Duomo di Napoli",
+    "slug": "duomo-di-napoli",
     "place_type": "religious_site",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_Cathedral"
   }
 },
@@ -904,7 +1082,9 @@
   "pk": 90,
   "fields": {
     "name": "Vico Freddo",
+    "slug": "vico-freddo",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -913,7 +1093,9 @@
   "pk": 91,
   "fields": {
     "name": "Patrica",
+    "slug": "patrica",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Patrica"
   }
 },
@@ -922,7 +1104,9 @@
   "pk": 92,
   "fields": {
     "name": "Pofi",
+    "slug": "pofi",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pofi"
   }
 },
@@ -931,7 +1115,9 @@
   "pk": 93,
   "fields": {
     "name": "Isoletta",
+    "slug": "isoletta",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -940,7 +1126,9 @@
   "pk": 94,
   "fields": {
     "name": "Supino",
+    "slug": "supino",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Supino"
   }
 },
@@ -949,7 +1137,9 @@
   "pk": 95,
   "fields": {
     "name": "Morolo",
+    "slug": "morolo",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Morolo"
   }
 },
@@ -958,7 +1148,9 @@
   "pk": 96,
   "fields": {
     "name": "Lenola",
+    "slug": "lenola",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Lenola"
   }
 },
@@ -967,7 +1159,9 @@
   "pk": 97,
   "fields": {
     "name": "Castro dei Volsci",
+    "slug": "castro-dei-volsci",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Castro_dei_Volsci"
   }
 },
@@ -976,7 +1170,9 @@
   "pk": 98,
   "fields": {
     "name": "Ceccano",
+    "slug": "ceccano",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ceccano"
   }
 },
@@ -985,7 +1181,9 @@
   "pk": 99,
   "fields": {
     "name": "Santa Maria a Vico",
+    "slug": "santa-maria-a-vico",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -994,7 +1192,9 @@
   "pk": 100,
   "fields": {
     "name": "Via Gravina",
+    "slug": "via-gravina",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1003,7 +1203,9 @@
   "pk": 101,
   "fields": {
     "name": "Cancello",
+    "slug": "cancello",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1012,7 +1214,9 @@
   "pk": 102,
   "fields": {
     "name": "Rione Sant'Antonio Abate",
+    "slug": "rione-santantonio-abate",
     "place_type": "district",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1021,7 +1225,9 @@
   "pk": 103,
   "fields": {
     "name": "Guardia Sanframondi",
+    "slug": "guardia-sanframondi",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guardia_Sanframondi"
   }
 },
@@ -1030,7 +1236,9 @@
   "pk": 104,
   "fields": {
     "name": "Amalfi",
+    "slug": "amalfi",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Amalfi"
   }
 },
@@ -1039,7 +1247,9 @@
   "pk": 105,
   "fields": {
     "name": "Monte Nuovo",
+    "slug": "monte-nuovo",
     "place_type": "natural_feature",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Nuovo"
   }
 },
@@ -1048,7 +1258,9 @@
   "pk": 106,
   "fields": {
     "name": "Mondragone",
+    "slug": "mondragone",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mondragone"
   }
 },
@@ -1057,7 +1269,9 @@
   "pk": 107,
   "fields": {
     "name": "Baia",
+    "slug": "baia",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Baiae"
   }
 },
@@ -1066,7 +1280,9 @@
   "pk": 108,
   "fields": {
     "name": "Capodichino airport",
+    "slug": "capodichino-airport",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_International_Airport"
   }
 },
@@ -1075,7 +1291,9 @@
   "pk": 109,
   "fields": {
     "name": "Algeria",
+    "slug": "algeria",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Algeria"
   }
 },
@@ -1084,7 +1302,9 @@
   "pk": 110,
   "fields": {
     "name": "Altamura",
+    "slug": "altamura",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Altamura"
   }
 },
@@ -1093,7 +1313,9 @@
   "pk": 111,
   "fields": {
     "name": "Benevento",
+    "slug": "benevento",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Benevento"
   }
 },
@@ -1102,7 +1324,9 @@
   "pk": 112,
   "fields": {
     "name": "San Giorgio (near Benevento)",
+    "slug": "san-giorgio-near-benevento",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1111,7 +1335,9 @@
   "pk": 113,
   "fields": {
     "name": "Hotel Vesuvio (Benevento)",
+    "slug": "hotel-vesuvio-benevento",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1120,7 +1346,9 @@
   "pk": 114,
   "fields": {
     "name": "Sagranella",
+    "slug": "sagranella",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1129,7 +1357,9 @@
   "pk": 115,
   "fields": {
     "name": "San Marco di Cavali",
+    "slug": "san-marco-di-cavali",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1138,7 +1368,9 @@
   "pk": 116,
   "fields": {
     "name": "Monti del Sannio",
+    "slug": "monti-del-sannio",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1147,7 +1379,9 @@
   "pk": 117,
   "fields": {
     "name": "Campobasso",
+    "slug": "campobasso",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Campobasso"
   }
 },
@@ -1156,7 +1390,9 @@
   "pk": 118,
   "fields": {
     "name": "Café Roma (Benevento)",
+    "slug": "cafe-roma-benevento",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1165,7 +1401,9 @@
   "pk": 119,
   "fields": {
     "name": "Ufita river",
+    "slug": "ufita-river",
     "place_type": "natural_feature",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1174,7 +1412,9 @@
   "pk": 120,
   "fields": {
     "name": "Corso Umberto",
+    "slug": "corso-umberto",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1183,7 +1423,9 @@
   "pk": 121,
   "fields": {
     "name": "Tunisia",
+    "slug": "tunisia",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tunisia"
   }
 },
@@ -1192,7 +1434,9 @@
   "pk": 122,
   "fields": {
     "name": "Lago di Patria",
+    "slug": "lago-di-patria",
     "place_type": "natural_feature",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1201,7 +1445,9 @@
   "pk": 123,
   "fields": {
     "name": "Via Aniello Falcone",
+    "slug": "via-aniello-falcone",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1210,7 +1456,9 @@
   "pk": 124,
   "fields": {
     "name": "Via Calabritto",
+    "slug": "via-calabritto",
     "place_type": "street",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1219,7 +1467,9 @@
   "pk": 125,
   "fields": {
     "name": "Villa Floridiana",
+    "slug": "villa-floridiana",
     "place_type": "landmark",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Floridiana"
   }
 },
@@ -1228,7 +1478,9 @@
   "pk": 126,
   "fields": {
     "name": "Port Said",
+    "slug": "port-said",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Port_Said"
   }
 },
@@ -1237,7 +1489,9 @@
   "pk": 127,
   "fields": {
     "name": "Persian Gulf",
+    "slug": "persian-gulf",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_Gulf"
   }
 },
@@ -1246,7 +1500,9 @@
   "pk": 128,
   "fields": {
     "name": "Red Sea",
+    "slug": "red-sea",
     "place_type": "region",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Sea"
   }
 },
@@ -1255,7 +1511,9 @@
   "pk": 129,
   "fields": {
     "name": "Khorramshahr",
+    "slug": "khorramshahr",
     "place_type": "town",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Khorramshahr"
   }
 },
@@ -1264,7 +1522,9 @@
   "pk": 1,
   "fields": {
     "name": "Captain Cartwright",
+    "slug": "captain-cartwright",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1273,7 +1533,9 @@
   "pk": 2,
   "fields": {
     "name": "Sergeant-Major Dashwood",
+    "slug": "sergeant-major-dashwood",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1282,7 +1544,9 @@
   "pk": 3,
   "fields": {
     "name": "Moore",
+    "slug": "moore",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1291,7 +1555,9 @@
   "pk": 4,
   "fields": {
     "name": "Robert Parkinson",
+    "slug": "robert-parkinson",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1300,7 +1566,9 @@
   "pk": 5,
   "fields": {
     "name": "Evans",
+    "slug": "evans",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1309,7 +1577,9 @@
   "pk": 6,
   "fields": {
     "name": "Durham",
+    "slug": "durham",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1318,7 +1588,9 @@
   "pk": 7,
   "fields": {
     "name": "Eric Williams",
+    "slug": "eric-williams",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1327,7 +1599,9 @@
   "pk": 8,
   "fields": {
     "name": "Vincente Lattarullo",
+    "slug": "vincente-lattarullo",
     "person_type": "informant_contact",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1336,7 +1610,9 @@
   "pk": 9,
   "fields": {
     "name": "Sauro",
+    "slug": "sauro",
     "person_type": "notable_civilian",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1345,7 +1621,9 @@
   "pk": 10,
   "fields": {
     "name": "Signora Gentile",
+    "slug": "signora-gentile",
     "person_type": "civilian_friend",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1354,7 +1632,9 @@
   "pk": 11,
   "fields": {
     "name": "Captain Frazer",
+    "slug": "captain-frazer",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1363,7 +1643,9 @@
   "pk": 12,
   "fields": {
     "name": "Signora Lola",
+    "slug": "signora-lola",
     "person_type": "companion",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1372,7 +1654,9 @@
   "pk": 13,
   "fields": {
     "name": "Sergeant-Major (John) Dashwood",
+    "slug": "sergeant-major-john-dashwood",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1381,7 +1665,9 @@
   "pk": 14,
   "fields": {
     "name": "Ingeniere Losurdo",
+    "slug": "ingeniere-losurdo",
     "person_type": "informant_contact",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1390,7 +1676,9 @@
   "pk": 15,
   "fields": {
     "name": "Avvocato Mosca",
+    "slug": "avvocato-mosca",
     "person_type": "informant_contact",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1399,7 +1687,9 @@
   "pk": 16,
   "fields": {
     "name": "Prince A.",
+    "slug": "prince-a",
     "person_type": "aristocrat",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1408,7 +1698,9 @@
   "pk": 17,
   "fields": {
     "name": "Luisa",
+    "slug": "luisa",
     "person_type": "aristocrat",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1417,7 +1709,9 @@
   "pk": 18,
   "fields": {
     "name": "Professore Placella",
+    "slug": "professore-placella",
     "person_type": "informant_contact",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1426,7 +1720,9 @@
   "pk": 19,
   "fields": {
     "name": "Albano",
+    "slug": "albano",
     "person_type": "camorrista_bandit",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1435,7 +1731,9 @@
   "pk": 20,
   "fields": {
     "name": "Vito Genovese",
+    "slug": "vito-genovese",
     "person_type": "camorrista_bandit",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Vito_Genovese"
   }
 },
@@ -1444,7 +1742,9 @@
   "pk": 21,
   "fields": {
     "name": "Donna Maria Fidora ('La Pitonessa')",
+    "slug": "donna-maria-fidora-la-pitonessa",
     "person_type": "informant_contact",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1453,7 +1753,9 @@
   "pk": 22,
   "fields": {
     "name": "Norah Gemelli",
+    "slug": "norah-gemelli",
     "person_type": "civilian_friend",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1462,7 +1764,9 @@
   "pk": 23,
   "fields": {
     "name": "Alberto Gemelli",
+    "slug": "alberto-gemelli",
     "person_type": "civilian_friend",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1471,7 +1775,9 @@
   "pk": 24,
   "fields": {
     "name": "Carlo Del Giudice",
+    "slug": "carlo-del-giudice",
     "person_type": "informant_contact",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1480,7 +1786,9 @@
   "pk": 25,
   "fields": {
     "name": "Susanna",
+    "slug": "susanna",
     "person_type": "companion",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1489,7 +1797,9 @@
   "pk": 26,
   "fields": {
     "name": "Contessa della Peruta",
+    "slug": "contessa-della-peruta",
     "person_type": "aristocrat",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1498,7 +1808,9 @@
   "pk": 27,
   "fields": {
     "name": "Domenico 'Lupo' (Wolf)",
+    "slug": "domenico-lupo-wolf",
     "person_type": "camorrista_bandit",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1507,7 +1819,9 @@
   "pk": 28,
   "fields": {
     "name": "Fortuna",
+    "slug": "fortuna",
     "person_type": "camorrista_bandit",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1516,7 +1830,9 @@
   "pk": 29,
   "fields": {
     "name": "Cuoca",
+    "slug": "cuoca",
     "person_type": "camorrista_bandit",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1525,7 +1841,9 @@
   "pk": 30,
   "fields": {
     "name": "George Hankin",
+    "slug": "george-hankin",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1534,7 +1852,9 @@
   "pk": 31,
   "fields": {
     "name": "Salvatore Loreto",
+    "slug": "salvatore-loreto",
     "person_type": "notable_civilian",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1543,7 +1863,9 @@
   "pk": 32,
   "fields": {
     "name": "Giuseppina",
+    "slug": "giuseppina",
     "person_type": "notable_civilian",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1552,7 +1874,9 @@
   "pk": 33,
   "fields": {
     "name": "The Marchesa",
+    "slug": "the-marchesa",
     "person_type": "aristocrat",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1561,7 +1885,9 @@
   "pk": 34,
   "fields": {
     "name": "Marshal Altamura",
+    "slug": "marshal-altamura",
     "person_type": "police_official",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1570,7 +1896,9 @@
   "pk": 35,
   "fields": {
     "name": "Don Ubaldo",
+    "slug": "don-ubaldo",
     "person_type": "civilian_friend",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1579,7 +1907,9 @@
   "pk": 36,
   "fields": {
     "name": "Bernard Durham",
+    "slug": "bernard-durham",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1588,7 +1918,9 @@
   "pk": 37,
   "fields": {
     "name": "De Micco",
+    "slug": "de-micco",
     "person_type": "camorrista_bandit",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1597,7 +1929,9 @@
   "pk": 38,
   "fields": {
     "name": "Neil Armstrong",
+    "slug": "neil-armstrong",
     "person_type": "allied_colleague",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1606,7 +1940,9 @@
   "pk": 39,
   "fields": {
     "name": "Ingeniere Crespi",
+    "slug": "ingeniere-crespi",
     "person_type": "civilian_friend",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1615,6 +1951,8 @@
   "pk": 1,
   "fields": {
     "name": "Madonna of Pompeii",
+    "slug": "madonna-of-pompeii",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Shrine_of_the_Virgin_of_the_Rosary_of_Pompei"
   }
 },
@@ -1623,6 +1961,8 @@
   "pk": 2,
   "fields": {
     "name": "evil eye",
+    "slug": "evil-eye",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Evil_eye"
   }
 },
@@ -1631,6 +1971,8 @@
   "pk": 3,
   "fields": {
     "name": "San Gennaro",
+    "slug": "san-gennaro",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Januarius"
   }
 },
@@ -1639,6 +1981,8 @@
   "pk": 4,
   "fields": {
     "name": "Zio di Roma",
+    "slug": "zio-di-roma",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1647,6 +1991,8 @@
   "pk": 5,
   "fields": {
     "name": "San Rocco",
+    "slug": "san-rocco",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Roch"
   }
 },
@@ -1655,6 +2001,8 @@
   "pk": 6,
   "fields": {
     "name": "Hunchbacks as luck-bringers",
+    "slug": "hunchbacks-as-luck-bringers",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1663,6 +2011,8 @@
   "pk": 7,
   "fields": {
     "name": "Stork veneration",
+    "slug": "stork-veneration",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1671,6 +2021,8 @@
   "pk": 8,
   "fields": {
     "name": "Professional wailers",
+    "slug": "professional-wailers",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1679,6 +2031,8 @@
   "pk": 9,
   "fields": {
     "name": "Blessed Egideo",
+    "slug": "blessed-egideo",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1687,6 +2041,8 @@
   "pk": 10,
   "fields": {
     "name": "San Gaetano",
+    "slug": "san-gaetano",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Cajetan"
   }
 },
@@ -1695,6 +2051,8 @@
   "pk": 11,
   "fields": {
     "name": "Vendetta mourning ritual",
+    "slug": "vendetta-mourning-ritual",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1703,6 +2061,8 @@
   "pk": 12,
   "fields": {
     "name": "pazzariello",
+    "slug": "pazzariello",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1711,6 +2071,8 @@
   "pk": 13,
   "fields": {
     "name": "San Sebastiano",
+    "slug": "san-sebastiano",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Sebastian"
   }
 },
@@ -1719,6 +2081,8 @@
   "pk": 14,
   "fields": {
     "name": "Sant'Antonio Abate",
+    "slug": "santantonio-abate",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_the_Great"
   }
 },
@@ -1727,6 +2091,8 @@
   "pk": 15,
   "fields": {
     "name": "Santo Agnello",
+    "slug": "santo-agnello",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1735,6 +2101,8 @@
   "pk": 16,
   "fields": {
     "name": "Santa Maria d'Intercessione",
+    "slug": "santa-maria-dintercessione",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1743,6 +2111,8 @@
   "pk": 17,
   "fields": {
     "name": "Santa Maria del Carmine",
+    "slug": "santa-maria-del-carmine",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Carmine,_Naples"
   }
 },
@@ -1751,6 +2121,8 @@
   "pk": 18,
   "fields": {
     "name": "St John / San Giovanni a Carbonara",
+    "slug": "st-john-san-giovanni-a-carbonara",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1759,6 +2131,8 @@
   "pk": 19,
   "fields": {
     "name": "Sant'Aspreno",
+    "slug": "santaspreno",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Aspren"
   }
 },
@@ -1767,6 +2141,8 @@
   "pk": 20,
   "fields": {
     "name": "visionary child (local 'Bernadette')",
+    "slug": "visionary-child-local-bernadette",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1775,6 +2151,8 @@
   "pk": 21,
   "fields": {
     "name": "flying monk of Pomigliano",
+    "slug": "flying-monk-of-pomigliano",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1783,6 +2161,8 @@
   "pk": 22,
   "fields": {
     "name": "Monte Vergine",
+    "slug": "monte-vergine",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine"
   }
 },
@@ -1791,6 +2171,8 @@
   "pk": 23,
   "fields": {
     "name": "St Michael",
+    "slug": "st-michael",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Monte_Sant%27Angelo"
   }
 },
@@ -1799,6 +2181,8 @@
   "pk": 24,
   "fields": {
     "name": "Parenti di San Gennaro",
+    "slug": "parenti-di-san-gennaro",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1807,6 +2191,8 @@
   "pk": 25,
   "fields": {
     "name": "Ischia radioactive cure belief",
+    "slug": "ischia-radioactive-cure-belief",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1815,6 +2201,8 @@
   "pk": 26,
   "fields": {
     "name": "Guardia Sanframondi flagellant rite",
+    "slug": "guardia-sanframondi-flagellant-rite",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guardia_Sanframondi"
   }
 },
@@ -1823,6 +2211,8 @@
   "pk": 27,
   "fields": {
     "name": "Festival of the Lilies (Nola)",
+    "slug": "festival-of-the-lilies-nola",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Paulinus_of_Nola"
   }
 },
@@ -1831,6 +2221,8 @@
   "pk": 28,
   "fields": {
     "name": "St Andrew's Manna (Amalfi)",
+    "slug": "st-andrews-manna-amalfi",
+    "description": "",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Amalfi_Cathedral"
   }
 },
@@ -1839,6 +2231,8 @@
   "pk": 29,
   "fields": {
     "name": "Sagranella fox-cult",
+    "slug": "sagranella-fox-cult",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1847,6 +2241,8 @@
   "pk": 30,
   "fields": {
     "name": "Droit du seigneur (Sagranella)",
+    "slug": "droit-du-seigneur-sagranella",
+    "description": "",
     "wikipedia_url": ""
   }
 },
@@ -1855,6 +2251,8 @@
   "pk": 31,
   "fields": {
     "name": "fertility offering superstition",
+    "slug": "fertility-offering-superstition",
+    "description": "",
     "wikipedia_url": ""
   }
 },

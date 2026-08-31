@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}{{ entity.name }} — Naples ’44{% endblock %}
+{% block body_class %}page-entity{% endblock %}
+
+{% block content %}
+<article class="entity">
+  <p class="kicker">{{ kind }}{% if subtitle %} · {{ subtitle }}{% endif %}</p>
+  <h1>{{ entity.name }}</h1>
+
+  {% if entity.description %}
+  <div class="entity-desc">{{ entity.description|linebreaks }}</div>
+  {% endif %}
+
+  <p class="entity-count">
+    Appears in {{ rows|length }} diary entr{{ rows|length|pluralize:"y,ies" }}.
+  </p>
+
+  {% include "naples44/_entry_timeline.html" %}
+
+  {% if entity.wikipedia_url %}
+  <p class="entity-external">
+    Further reading: <a href="{{ entity.wikipedia_url }}" rel="noopener">Wikipedia ↗</a>
+  </p>
+  {% endif %}
+</article>
+{% endblock %}

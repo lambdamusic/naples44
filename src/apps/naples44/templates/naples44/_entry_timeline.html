@@ -1,0 +1,20 @@
+{# Vertical chronological list of entries. Expects `rows` = [{entry, note}]. #}
+<ol class="vtimeline">
+  {% for row in rows %}
+  <li class="vt-item">
+    <div class="vt-date">
+      <span class="vt-day">{{ row.entry.date_label }}</span>
+      <span class="vt-year">{{ row.entry.year }}</span>
+    </div>
+    <div class="vt-body">
+      <a class="vt-summary" href="{{ row.entry.get_absolute_url }}">{{ row.entry.summary }}</a>
+      {% if row.note %}<p class="vt-note">{{ row.note }}</p>{% endif %}
+      {% if row.entry.themes.all %}
+      <ul class="vt-themes">
+        {% for t in row.entry.themes.all %}<li><a href="{{ t.get_absolute_url }}">{{ t.label }}</a></li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>

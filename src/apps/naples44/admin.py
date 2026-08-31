@@ -46,9 +46,14 @@ class ThemeAdmin(admin.ModelAdmin):
 
 @admin.register(models.Place)
 class PlaceAdmin(admin.ModelAdmin):
-    list_display = ["name", "place_type", "has_link", "entry_count"]
+    list_display = ["name", "place_type", "has_desc", "has_link", "entry_count"]
     list_filter = ["place_type"]
     search_fields = ["name"]
+    prepopulated_fields = {"slug": ("name",)}
+
+    @admin.display(boolean=True, description="desc")
+    def has_desc(self, obj):
+        return bool(obj.description)
 
     @admin.display(boolean=True, description="wiki")
     def has_link(self, obj):
@@ -61,9 +66,14 @@ class PlaceAdmin(admin.ModelAdmin):
 
 @admin.register(models.Person)
 class PersonAdmin(admin.ModelAdmin):
-    list_display = ["name", "person_type", "entry_count"]
+    list_display = ["name", "person_type", "has_desc", "entry_count"]
     list_filter = ["person_type"]
     search_fields = ["name"]
+    prepopulated_fields = {"slug": ("name",)}
+
+    @admin.display(boolean=True, description="desc")
+    def has_desc(self, obj):
+        return bool(obj.description)
 
     @admin.display(description="entries")
     def entry_count(self, obj):
@@ -72,8 +82,13 @@ class PersonAdmin(admin.ModelAdmin):
 
 @admin.register(models.FolkloreEntity)
 class FolkloreEntityAdmin(admin.ModelAdmin):
-    list_display = ["name", "has_link", "entry_count"]
+    list_display = ["name", "has_desc", "has_link", "entry_count"]
     search_fields = ["name"]
+    prepopulated_fields = {"slug": ("name",)}
+
+    @admin.display(boolean=True, description="desc")
+    def has_desc(self, obj):
+        return bool(obj.description)
 
     @admin.display(boolean=True, description="wiki")
     def has_link(self, obj):

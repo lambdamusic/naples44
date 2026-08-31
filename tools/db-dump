@@ -9,8 +9,7 @@ echo -e "\nBACKING UP DB DATA ....src/manage.py dumpdata TO /$DIR_DB_BACKUP"
 echo "+++++++++++++++++"
 
 FILENAME="$DIR_DB_BACKUP/dump.json"
-src/manage.py dumpdata \
-    --exclude auth.permission --exclude contenttypes --exclude sessions --exclude admin.logentry \
-    --indent=2 -o $FILENAME
+# Only the content app — keep users / sessions / admin logs out of the committed fixture.
+src/manage.py dumpdata naples44 --indent=2 -o $FILENAME
 
 echo -e "\nDONE: $FILENAME\n"

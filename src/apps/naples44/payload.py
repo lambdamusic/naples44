@@ -12,13 +12,14 @@ from . import models
 
 
 def _entry_dict(e):
+    # tag `url`s point at the on-site entity page, never an external resource
     people = [
         {
             "name": ep.person.name,
             "type": ep.person.person_type,
             "type_label": ep.person.get_person_type_display(),
             "note": ep.note,
-            "url": ep.person.wikipedia_url,
+            "url": ep.person.get_absolute_url(),
         }
         for ep in e.entryperson_set.all()
     ]
@@ -26,7 +27,7 @@ def _entry_dict(e):
         {
             "name": ef.folklore.name,
             "note": ef.note,
-            "url": ef.folklore.wikipedia_url,
+            "url": ef.folklore.get_absolute_url(),
         }
         for ef in e.entryfolklore_set.all()
     ]
@@ -35,7 +36,7 @@ def _entry_dict(e):
             "name": p.name,
             "type": p.place_type,
             "type_label": p.get_place_type_display(),
-            "url": p.wikipedia_url,
+            "url": p.get_absolute_url(),
         }
         for p in e.places.all()
     ]
@@ -92,7 +93,12 @@ def build_payload():
     ]
 
     themes = [
-        {"slug": t.slug, "label": t.label, "description": t.description}
+        {
+            "slug": t.slug,
+            "label": t.label,
+            "description": t.description,
+            "url": t.get_absolute_url(),
+        }
         for t in models.Theme.objects.all()
     ]
 
