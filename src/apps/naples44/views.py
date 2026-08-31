@@ -42,27 +42,54 @@ def entry_detail(request, entry_id):
 
 # --- entity pages ---------------------------------------------------------
 
-def _render_entity(request, *, kind, entity, subtitle, rows):
-    return render(
-        request,
-        "naples44/entity_detail.html",
-        {"kind": kind, "entity": entity, "subtitle": subtitle, "rows": rows},
-    )
+def _render_entity(request, *, kind, entity, subtitle, rows, extra=None):
+    ctx = {"kind": kind, "entity": entity, "subtitle": subtitle, "rows": rows}
+    ctx.update(extra or {})
+    return render(request, "naples44/entity_detail.html", ctx)
 
 
 def _plain_rows(entries):
     return [{"entry": e, "note": ""} for e in entries]
 
 
+_MAP_ZOOM = {
+    "street": 15, "piazza": 15, "landmark": 14, "religious_site": 14,
+    "district": 14, "town": 12, "region": 10, "natural_feature": 11,
+}
+
+
 def place_detail(request, slug):
     place = get_object_or_404(models.Place, slug=slug)
-    entries = place.entries.order_by("date", "id").prefetch_related("themes")
+    entries = list(place.entries.order_by("date", "id").prefetch_related("themes"))
+
+    place_map = None
+    if place.has_coords:
+        others = (
+            models.Place.objects.filter(entries__in=entries, latitude__isnull=False)
+            .exclude(pk=place.pk)
+            .distinct()
+        )
+        place_map = {
+            "focus": {"name": place.name, "lat": place.latitude, "lon": place.longitude},
+            "zoom": _MAP_ZOOM.get(place.place_type, 13),
+            "others": [
+                {
+                    "name": o.name,
+                    "lat": o.latitude,
+                    "lon": o.longitude,
+                    "url": o.get_absolute_url(),
+                }
+                for o in others
+            ],
+        }
+
     return _render_entity(
         request,
         kind="Place",
         entity=place,
         subtitle=place.get_place_type_display(),
         rows=_plain_rows(entries),
+        extra={"place_map": place_map},
     )
 
 

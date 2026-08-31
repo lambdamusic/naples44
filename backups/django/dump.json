@@ -106,7 +106,10 @@
     "slug": "salerno",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Salerno"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Salerno",
+    "latitude": 40.6806,
+    "longitude": 14.7594,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -117,7 +120,10 @@
     "slug": "oran",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Oran"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oran",
+    "latitude": 35.69694444,
+    "longitude": -0.63305556,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -128,7 +134,10 @@
     "slug": "paestum",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Paestum"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paestum",
+    "latitude": 40.42222222,
+    "longitude": 15.00527778,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -139,7 +148,10 @@
     "slug": "pompeii",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pompeii"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pompeii",
+    "latitude": 40.75,
+    "longitude": 14.48611111,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -150,7 +162,10 @@
     "slug": "sele-river",
     "place_type": "natural_feature",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.6103067,
+    "longitude": 15.1436047,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -161,7 +176,10 @@
     "slug": "albanella",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Albanella"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Albanella",
+    "latitude": 40.48333333,
+    "longitude": 15.11666667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -172,7 +190,10 @@
     "slug": "battipaglia",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Battipaglia"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Battipaglia",
+    "latitude": 40.61666667,
+    "longitude": 14.98333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -183,7 +204,10 @@
     "slug": "sicily",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sicily"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sicily",
+    "latitude": 37.5,
+    "longitude": 14.0,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -194,7 +218,10 @@
     "slug": "calore-river",
     "place_type": "natural_feature",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 41.1342878,
+    "longitude": 14.85562,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -205,7 +232,10 @@
     "slug": "avellino",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Avellino"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Avellino",
+    "latitude": 40.91666667,
+    "longitude": 14.78888889,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -216,7 +246,10 @@
     "slug": "castello-castelluccia",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 41.0432606,
+    "longitude": 14.3897932,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -227,7 +260,10 @@
     "slug": "resina",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ercolano"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ercolano",
+    "latitude": 40.8085867,
+    "longitude": 14.347367,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -238,7 +274,10 @@
     "slug": "sorrento",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sorrento"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sorrento",
+    "latitude": 40.624906,
+    "longitude": 14.374836,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -249,7 +288,10 @@
     "slug": "torre-annunziata",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_Annunziata"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_Annunziata",
+    "latitude": 40.75,
+    "longitude": 14.45,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -260,7 +302,10 @@
     "slug": "altavilla-silentina",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Altavilla_Silentina"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Altavilla_Silentina",
+    "latitude": 40.5302405,
+    "longitude": 15.1310307,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -271,7 +316,10 @@
     "slug": "portici",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Portici"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Portici",
+    "latitude": 40.8189733,
+    "longitude": 14.3387454,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -282,7 +330,10 @@
     "slug": "nola",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Nola"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nola",
+    "latitude": 40.92611111,
+    "longitude": 14.5275,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -293,7 +344,10 @@
     "slug": "palace-of-the-princes-of-satriano",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -304,7 +358,10 @@
     "slug": "piazza-vittoria",
     "place_type": "piazza",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8326231,
+    "longitude": 14.241687,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -315,7 +372,10 @@
     "slug": "questura-naples-police-hq",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8388,
+    "longitude": 14.2517,
+    "geocode_source": "manual"
   }
 },
 {
@@ -326,7 +386,10 @@
     "slug": "riviera-di-chiaia",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Riviera_di_Chiaia"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Riviera_di_Chiaia",
+    "latitude": 40.83361111,
+    "longitude": 14.23361111,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -337,7 +400,10 @@
     "slug": "afragola",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Afragola"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Afragola",
+    "latitude": 40.91666667,
+    "longitude": 14.31666667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -348,7 +414,10 @@
     "slug": "santa-lucia-naples",
     "place_type": "district",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Lucia,_Naples"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Lucia,_Naples",
+    "latitude": 40.6242452,
+    "longitude": 14.3688665,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -359,7 +428,10 @@
     "slug": "rome",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Rome"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rome",
+    "latitude": 41.89333333,
+    "longitude": 12.48277778,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -370,7 +442,10 @@
     "slug": "san-gennaro-catacombs",
     "place_type": "religious_site",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8683,
+    "longitude": 14.235,
+    "geocode_source": "manual"
   }
 },
 {
@@ -381,7 +456,10 @@
     "slug": "bari",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Bari"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bari",
+    "latitude": 41.12527778,
+    "longitude": 16.86666667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -392,7 +470,10 @@
     "slug": "taranto",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Taranto"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Taranto",
+    "latitude": 40.47111111,
+    "longitude": 17.24305556,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -403,7 +484,10 @@
     "slug": "bar-vittoria",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8564312,
+    "longitude": 14.2584991,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -414,7 +498,10 @@
     "slug": "castel-nuovo",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Nuovo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Nuovo",
+    "latitude": 40.8383171,
+    "longitude": 14.2537307,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -425,7 +512,10 @@
     "slug": "porta-capuana",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Porta_Capuana"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Porta_Capuana",
+    "latitude": 40.85433,
+    "longitude": 14.26544,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -436,7 +526,10 @@
     "slug": "via-partenope",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8304417,
+    "longitude": 14.2446836,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -447,7 +540,10 @@
     "slug": "aversa",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Aversa"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aversa",
+    "latitude": 40.96666667,
+    "longitude": 14.2,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -458,7 +554,10 @@
     "slug": "fontanelle-naples",
     "place_type": "district",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.7256255,
+    "longitude": 14.4955652,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -469,7 +568,10 @@
     "slug": "vomero-naples",
     "place_type": "district",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Vomero"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vomero",
+    "latitude": 40.83333333,
+    "longitude": 14.23333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -480,7 +582,10 @@
     "slug": "philippeville",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Skikda"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Skikda",
+    "latitude": 36.86666667,
+    "longitude": 6.9,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -491,7 +596,10 @@
     "slug": "poggio-reale-prison",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8583,
+    "longitude": 14.2856,
+    "geocode_source": "manual"
   }
 },
 {
@@ -502,7 +610,10 @@
     "slug": "posillipo-naples",
     "place_type": "district",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Posillipo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Posillipo",
+    "latitude": 40.80555556,
+    "longitude": 14.20333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -513,7 +624,10 @@
     "slug": "filangieri-prison",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.836,
+    "longitude": 14.24,
+    "geocode_source": "manual"
   }
 },
 {
@@ -524,7 +638,10 @@
     "slug": "vico-chiatamone",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8299,
+    "longitude": 14.2468,
+    "geocode_source": "manual"
   }
 },
 {
@@ -535,7 +652,10 @@
     "slug": "san-carlo-opera-house",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Teatro_di_San_Carlo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Teatro_di_San_Carlo",
+    "latitude": 40.8375,
+    "longitude": 14.24944444,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -546,7 +666,10 @@
     "slug": "via-chiaia",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Chiaia"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Chiaia",
+    "latitude": 40.8361063,
+    "longitude": 14.2455368,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -557,7 +680,10 @@
     "slug": "via-san-felice",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.9254279,
+    "longitude": 14.5288501,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -568,7 +694,10 @@
     "slug": "vesuvius",
     "place_type": "natural_feature",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Vesuvius"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Vesuvius",
+    "latitude": 40.82138889,
+    "longitude": 14.42611111,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -579,7 +708,10 @@
     "slug": "acerra",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Acerra"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Acerra",
+    "latitude": 40.95,
+    "longitude": 14.36666667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -590,7 +722,10 @@
     "slug": "casoria",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Casoria"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Casoria",
+    "latitude": 40.9045572,
+    "longitude": 14.2901223,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -601,7 +736,10 @@
     "slug": "san-pasquale-church-district",
     "place_type": "religious_site",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.833,
+    "longitude": 14.236,
+    "geocode_source": "manual"
   }
 },
 {
@@ -612,7 +750,10 @@
     "slug": "via-carducci",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.9294665,
+    "longitude": 14.3105579,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -623,7 +764,10 @@
     "slug": "calabritto-palace",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -634,7 +778,10 @@
     "slug": "palazzo-carracciolo",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -645,7 +792,10 @@
     "slug": "villa-nazionale",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Comunale,_Naples"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Comunale,_Naples",
+    "latitude": 40.8394208,
+    "longitude": 14.2301005,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -656,7 +806,10 @@
     "slug": "torrito",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -667,7 +820,10 @@
     "slug": "caivano",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Caivano"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Caivano",
+    "latitude": 40.957112,
+    "longitude": 14.31023,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -678,7 +834,10 @@
     "slug": "zona-di-camorra",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -689,7 +848,10 @@
     "slug": "forcella-market-district",
     "place_type": "district",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8503,
+    "longitude": 14.2622,
+    "geocode_source": "manual"
   }
 },
 {
@@ -700,7 +862,10 @@
     "slug": "via-forcella",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8506445,
+    "longitude": 14.2631849,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -711,7 +876,10 @@
     "slug": "matlock",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 53.1385,
+    "longitude": -1.5541,
+    "geocode_source": "manual"
   }
 },
 {
@@ -722,7 +890,10 @@
     "slug": "via-filippo-palizzi",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8407807,
+    "longitude": 14.2376423,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -733,7 +904,10 @@
     "slug": "castel-capuano",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Capuano"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Capuano",
+    "latitude": 40.85326944,
+    "longitude": 14.26415833,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -744,7 +918,10 @@
     "slug": "castellammare-di-stabia",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Castellammare_di_Stabia"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castellammare_di_Stabia",
+    "latitude": 40.69472222,
+    "longitude": 14.48027778,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -755,7 +932,10 @@
     "slug": "agropoli",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Agropoli"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Agropoli",
+    "latitude": 40.35,
+    "longitude": 14.98333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -766,7 +946,10 @@
     "slug": "piazza-dante",
     "place_type": "piazza",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Dante,_Naples"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Dante,_Naples",
+    "latitude": 40.84901667,
+    "longitude": 14.25007222,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -777,7 +960,10 @@
     "slug": "procida",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Procida"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Procida",
+    "latitude": 40.758333,
+    "longitude": 14.016667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -788,7 +974,10 @@
     "slug": "caserta",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Caserta"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Caserta",
+    "latitude": 41.06666667,
+    "longitude": 14.33333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -799,7 +988,10 @@
     "slug": "via-san-pasquale",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8092095,
+    "longitude": 14.498971,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -810,7 +1002,10 @@
     "slug": "vico-satriano",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8335652,
+    "longitude": 14.2404191,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -821,7 +1016,10 @@
     "slug": "capri",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Capri"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Capri",
+    "latitude": 40.55,
+    "longitude": 14.23333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -832,7 +1030,10 @@
     "slug": "via-roma",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Toledo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Toledo",
+    "latitude": 40.84555556,
+    "longitude": 14.24916667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -843,7 +1044,10 @@
     "slug": "cafe-savoia",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.7615062,
+    "longitude": 14.4321245,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -854,7 +1058,10 @@
     "slug": "ischia",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ischia"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ischia",
+    "latitude": 40.731204,
+    "longitude": 13.895721,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -865,7 +1072,10 @@
     "slug": "san-sebastiano-town-near-vesuvius",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8419,
+    "longitude": 14.3708,
+    "geocode_source": "manual"
   }
 },
 {
@@ -876,7 +1086,10 @@
     "slug": "san-giorgio-near-vesuvius",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Giorgio_a_Cremano"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Giorgio_a_Cremano",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -887,7 +1100,10 @@
     "slug": "cercola",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Cercola"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cercola",
+    "latitude": 40.86666667,
+    "longitude": 14.35,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -898,7 +1114,10 @@
     "slug": "maddaloni-bridge",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 41.0331,
+    "longitude": 14.4157,
+    "geocode_source": "manual"
   }
 },
 {
@@ -909,7 +1128,10 @@
     "slug": "pozzuoli",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pozzuoli"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pozzuoli",
+    "latitude": 40.84444444,
+    "longitude": 14.09333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -920,7 +1142,10 @@
     "slug": "torre-del-greco",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_del_Greco"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_del_Greco",
+    "latitude": 40.78333333,
+    "longitude": 14.36666667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -931,7 +1156,10 @@
     "slug": "campi-flegrei",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Phlegraean_Fields"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Phlegraean_Fields",
+    "latitude": 40.827,
+    "longitude": 14.139,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -942,7 +1170,10 @@
     "slug": "pomigliano",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pomigliano_d%27Arco"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pomigliano_d%27Arco",
+    "latitude": 40.907912,
+    "longitude": 14.386233,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -953,7 +1184,10 @@
     "slug": "marano",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Marano_di_Napoli"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marano_di_Napoli",
+    "latitude": 40.6270479,
+    "longitude": 14.3833988,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -964,7 +1198,10 @@
     "slug": "castel-santelmo",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Sant%27Elmo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Sant%27Elmo",
+    "latitude": 40.8437067,
+    "longitude": 14.2392516,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -975,7 +1212,10 @@
     "slug": "padula",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Padula"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Padula",
+    "latitude": 40.34,
+    "longitude": 15.65666667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -986,7 +1226,10 @@
     "slug": "piazza-municipio",
     "place_type": "piazza",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8396081,
+    "longitude": 14.2527749,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -997,7 +1240,10 @@
     "slug": "villa-tiberius-capri",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.554,
+    "longitude": 14.2622,
+    "geocode_source": "manual"
   }
 },
 {
@@ -1008,7 +1254,10 @@
     "slug": "terni",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Terni"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Terni",
+    "latitude": 42.56194444,
+    "longitude": 12.64138889,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1019,7 +1268,10 @@
     "slug": "santa-maria-della-colombina",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -1030,7 +1282,10 @@
     "slug": "rione-amedeo",
     "place_type": "district",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8361,
+    "longitude": 14.2311,
+    "geocode_source": "manual"
   }
 },
 {
@@ -1041,7 +1296,10 @@
     "slug": "monte-vergine",
     "place_type": "religious_site",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine",
+    "latitude": 40.9362,
+    "longitude": 14.7285,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1052,7 +1310,10 @@
     "slug": "monte-santangelo",
     "place_type": "religious_site",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -1063,7 +1324,10 @@
     "slug": "frattamaggiore",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Frattamaggiore"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Frattamaggiore",
+    "latitude": 40.93333333,
+    "longitude": 14.28333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1074,7 +1338,10 @@
     "slug": "duomo-di-napoli",
     "place_type": "religious_site",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_Cathedral"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_Cathedral",
+    "latitude": 40.8525,
+    "longitude": 14.2596,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1085,7 +1352,10 @@
     "slug": "vico-freddo",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.7556245,
+    "longitude": 14.448639,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1096,7 +1366,10 @@
     "slug": "patrica",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Patrica"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Patrica",
+    "latitude": 41.592217,
+    "longitude": 13.243998,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1107,7 +1380,10 @@
     "slug": "pofi",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Pofi"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pofi",
+    "latitude": 41.56666667,
+    "longitude": 13.41666667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1118,7 +1394,10 @@
     "slug": "isoletta",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 41.5247484,
+    "longitude": 13.5456008,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1129,7 +1408,10 @@
     "slug": "supino",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Supino"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Supino",
+    "latitude": 40.9991804,
+    "longitude": 14.6860777,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1140,7 +1422,10 @@
     "slug": "morolo",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Morolo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Morolo",
+    "latitude": 41.638218,
+    "longitude": 13.197097,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1151,7 +1436,10 @@
     "slug": "lenola",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Lenola"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lenola",
+    "latitude": 41.406115,
+    "longitude": 13.459406,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1162,7 +1450,10 @@
     "slug": "castro-dei-volsci",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Castro_dei_Volsci"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castro_dei_Volsci",
+    "latitude": 41.5090635,
+    "longitude": 13.4065751,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1173,7 +1464,10 @@
     "slug": "ceccano",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ceccano"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ceccano",
+    "latitude": 41.0757012,
+    "longitude": 14.3377596,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1184,7 +1478,10 @@
     "slug": "santa-maria-a-vico",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 41.0268566,
+    "longitude": 14.4651862,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1195,7 +1492,10 @@
     "slug": "via-gravina",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8213138,
+    "longitude": 14.3471371,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1206,7 +1506,10 @@
     "slug": "cancello",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.9943228,
+    "longitude": 14.4192148,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1217,7 +1520,10 @@
     "slug": "rione-santantonio-abate",
     "place_type": "district",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8557,
+    "longitude": 14.2719,
+    "geocode_source": "manual"
   }
 },
 {
@@ -1228,7 +1534,10 @@
     "slug": "guardia-sanframondi",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Guardia_Sanframondi"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guardia_Sanframondi",
+    "latitude": 41.25,
+    "longitude": 14.6,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1239,7 +1548,10 @@
     "slug": "amalfi",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Amalfi"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amalfi",
+    "latitude": 40.63367,
+    "longitude": 14.60262,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1250,7 +1562,10 @@
     "slug": "monte-nuovo",
     "place_type": "natural_feature",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Nuovo"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Nuovo",
+    "latitude": 40.83527778,
+    "longitude": 14.08805556,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1261,7 +1576,10 @@
     "slug": "mondragone",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Mondragone"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mondragone",
+    "latitude": 41.114112,
+    "longitude": 13.893519,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1272,7 +1590,10 @@
     "slug": "baia",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Baiae"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baiae",
+    "latitude": 41.3004047,
+    "longitude": 14.2513235,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1283,7 +1604,10 @@
     "slug": "capodichino-airport",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_International_Airport"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_International_Airport",
+    "latitude": 40.88444444,
+    "longitude": 14.29083333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1294,7 +1618,10 @@
     "slug": "algeria",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Algeria"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Algeria",
+    "latitude": 28.0,
+    "longitude": 2.0,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1305,7 +1632,10 @@
     "slug": "altamura",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Altamura"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Altamura",
+    "latitude": 40.6364944,
+    "longitude": 14.9124284,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1316,7 +1646,10 @@
     "slug": "benevento",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Benevento"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Benevento",
+    "latitude": 41.13333333,
+    "longitude": 14.78333333,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1327,7 +1660,10 @@
     "slug": "san-giorgio-near-benevento",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -1338,7 +1674,10 @@
     "slug": "hotel-vesuvio-benevento",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -1349,7 +1688,10 @@
     "slug": "sagranella",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -1360,7 +1702,10 @@
     "slug": "san-marco-di-cavali",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -1371,7 +1716,10 @@
     "slug": "monti-del-sannio",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 41.205,
+    "longitude": 14.75,
+    "geocode_source": "manual"
   }
 },
 {
@@ -1382,7 +1730,10 @@
     "slug": "campobasso",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Campobasso"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Campobasso",
+    "latitude": 41.56027778,
+    "longitude": 14.66166667,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1393,7 +1744,10 @@
     "slug": "cafe-roma-benevento",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": null,
+    "longitude": null,
+    "geocode_source": ""
   }
 },
 {
@@ -1404,7 +1758,10 @@
     "slug": "ufita-river",
     "place_type": "natural_feature",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 41.0725355,
+    "longitude": 15.0979106,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1415,7 +1772,10 @@
     "slug": "corso-umberto",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8984688,
+    "longitude": 14.1887142,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1426,7 +1786,10 @@
     "slug": "tunisia",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Tunisia"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tunisia",
+    "latitude": 34.0,
+    "longitude": 9.0,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1437,7 +1800,10 @@
     "slug": "lago-di-patria",
     "place_type": "natural_feature",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.9302515,
+    "longitude": 14.0325623,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1448,7 +1814,10 @@
     "slug": "via-aniello-falcone",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.839641,
+    "longitude": 14.2286759,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1459,7 +1828,10 @@
     "slug": "via-calabritto",
     "place_type": "street",
     "description": "",
-    "wikipedia_url": ""
+    "wikipedia_url": "",
+    "latitude": 40.8335314,
+    "longitude": 14.2413262,
+    "geocode_source": "nominatim"
   }
 },
 {
@@ -1470,7 +1842,10 @@
     "slug": "villa-floridiana",
     "place_type": "landmark",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Floridiana"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Floridiana",
+    "latitude": 40.8394,
+    "longitude": 14.23005,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1481,7 +1856,10 @@
     "slug": "port-said",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Port_Said"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Port_Said",
+    "latitude": 31.2625,
+    "longitude": 32.30611111,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1492,7 +1870,10 @@
     "slug": "persian-gulf",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_Gulf"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_Gulf",
+    "latitude": 26.0,
+    "longitude": 52.0,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1503,7 +1884,10 @@
     "slug": "red-sea",
     "place_type": "region",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Sea"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Sea",
+    "latitude": 22.0,
+    "longitude": 38.0,
+    "geocode_source": "wikipedia"
   }
 },
 {
@@ -1514,7 +1898,10 @@
     "slug": "khorramshahr",
     "place_type": "town",
     "description": "",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Khorramshahr"
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Khorramshahr",
+    "latitude": 30.43944444,
+    "longitude": 48.18166667,
+    "geocode_source": "wikipedia"
   }
 },
 {

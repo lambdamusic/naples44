@@ -60,3 +60,20 @@
   Wikipedia page.
 - `tools/db-dump` now dumps only the `naples44` app (keeps users out of the
   committed fixture). `backups/django/dump.json` re-generated with slugs.
+
+## 2026-08-31 — Maps on place pages
+
+- `Place` gains `latitude` / `longitude` / `geocode_source` (migration `0003`).
+- `manage.py geocode_places` — Wikipedia coordinates for places with a
+  `wikipedia_url`, Nominatim (1 req/s, Campania-biased) for the rest.
+  `--dry-run` / `--refresh`; `geocode_source='manual'` rows are never overwritten.
+- Result: 116/129 placed (55 Wikipedia, ~46 Nominatim, ~15 hand-fixed). The
+  remaining 13 are un-mappable or ambiguous (e.g. "Zona di Camorra", two
+  different "San Giorgio"s) — add via admin if wanted.
+- Place pages render a small **Leaflet** map (vendored `leaflet.js` / `.css` +
+  marker images) centred on the place, with faint clickable markers for the
+  other places mentioned in the same entries. Basemap: **Esri Gray Canvas**
+  (no API key, light + dark to match the theme). No map shown when a place has
+  no coordinates.
+- `tools/*` scripts assume the venv is active (`workon naples44_2026`) — running
+  `tools/db-dump` without it silently uses the wrong Python.

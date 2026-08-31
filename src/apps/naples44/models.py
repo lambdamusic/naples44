@@ -64,6 +64,12 @@ class Place(models.Model):
     place_type = models.CharField(max_length=20, choices=PLACE_TYPES)
     description = models.TextField(blank=True, help_text="Shown on the place's page. Optional.")
     wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the place's own page.")
+    latitude = models.FloatField(null=True, blank=True)
+    longitude = models.FloatField(null=True, blank=True)
+    geocode_source = models.CharField(
+        max_length=20, blank=True,
+        help_text="Where latitude/longitude came from (wikipedia, nominatim, manual).",
+    )
 
     class Meta:
         ordering = ["name"]
@@ -78,6 +84,10 @@ class Place(models.Model):
 
     def get_absolute_url(self):
         return reverse("naples44:place", args=[self.slug])
+
+    @property
+    def has_coords(self):
+        return self.latitude is not None and self.longitude is not None
 
 
 class Person(models.Model):
