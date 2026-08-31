@@ -1,0 +1,5482 @@
+[
+{
+  "model": "naples44.theme",
+  "pk": "allied_conduct",
+  "fields": {
+    "label": "Allied conduct",
+    "description": "Behavior/attitudes of Allied troops toward locals",
+    "order": 9
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "black_market",
+  "fields": {
+    "label": "Black market",
+    "description": "Smuggling, theft of Allied goods, corruption, racketeering",
+    "order": 1
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "bureaucracy_absurdity",
+  "fields": {
+    "label": "Bureaucracy & absurdity",
+    "description": "Military/administrative farce, red tape, false alarms",
+    "order": 6
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "crime_banditry",
+  "fields": {
+    "label": "Crime & banditry",
+    "description": "Camorra, bandits, vendettas, organized crime",
+    "order": 5
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "disease_health",
+  "fields": {
+    "label": "Disease & health",
+    "description": "Illness, hospitals, epidemics, medical matters",
+    "order": 8
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "naples_character",
+  "fields": {
+    "label": "Naples's character",
+    "description": "Naples's social fabric, class, theatricality, daily life/customs",
+    "order": 7
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "personal_reflection",
+  "fields": {
+    "label": "Personal reflection",
+    "description": "Lewis's own introspection, changing perspective, mood",
+    "order": 10
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "poverty_hunger",
+  "fields": {
+    "label": "Poverty & hunger",
+    "description": "Famine, scavenging, destitution, makeshift survival",
+    "order": 2
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "sex_relationships",
+  "fields": {
+    "label": "Sex & relationships",
+    "description": "Prostitution, romance, marriage vetting, wartime liaisons",
+    "order": 3
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "superstition_religion",
+  "fields": {
+    "label": "Superstition & religion",
+    "description": "Miracles, saints, folk magic, the evil eye, ritual",
+    "order": 4
+  }
+},
+{
+  "model": "naples44.theme",
+  "pk": "war_violence",
+  "fields": {
+    "label": "War & violence",
+    "description": "Combat, bombing, casualties, atrocities, military operations",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 1,
+  "fields": {
+    "name": "Salerno",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Salerno"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 2,
+  "fields": {
+    "name": "Oran",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oran"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 3,
+  "fields": {
+    "name": "Paestum",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paestum"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 4,
+  "fields": {
+    "name": "Pompeii",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pompeii"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 5,
+  "fields": {
+    "name": "Sele river",
+    "place_type": "natural_feature",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 6,
+  "fields": {
+    "name": "Albanella",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Albanella"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 7,
+  "fields": {
+    "name": "Battipaglia",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Battipaglia"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 8,
+  "fields": {
+    "name": "Sicily",
+    "place_type": "region",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sicily"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 9,
+  "fields": {
+    "name": "Calore river",
+    "place_type": "natural_feature",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 10,
+  "fields": {
+    "name": "Avellino",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Avellino"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 11,
+  "fields": {
+    "name": "Castello Castelluccia",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 12,
+  "fields": {
+    "name": "Resina",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ercolano"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 13,
+  "fields": {
+    "name": "Sorrento",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sorrento"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 14,
+  "fields": {
+    "name": "Torre Annunziata",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_Annunziata"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 15,
+  "fields": {
+    "name": "Altavilla Silentina",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Altavilla_Silentina"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 16,
+  "fields": {
+    "name": "Portici",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Portici"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 17,
+  "fields": {
+    "name": "Nola",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nola"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 18,
+  "fields": {
+    "name": "Palace of the Princes of Satriano",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 19,
+  "fields": {
+    "name": "Piazza Vittoria",
+    "place_type": "piazza",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 20,
+  "fields": {
+    "name": "Questura (Naples police HQ)",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 21,
+  "fields": {
+    "name": "Riviera di Chiaia",
+    "place_type": "street",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Riviera_di_Chiaia"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 22,
+  "fields": {
+    "name": "Afragola",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Afragola"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 23,
+  "fields": {
+    "name": "Santa Lucia (Naples)",
+    "place_type": "district",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Lucia,_Naples"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 24,
+  "fields": {
+    "name": "Rome",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rome"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 25,
+  "fields": {
+    "name": "San Gennaro catacombs",
+    "place_type": "religious_site",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 26,
+  "fields": {
+    "name": "Bari",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bari"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 27,
+  "fields": {
+    "name": "Taranto",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Taranto"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 28,
+  "fields": {
+    "name": "Bar Vittoria",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 29,
+  "fields": {
+    "name": "Castel Nuovo",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Nuovo"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 30,
+  "fields": {
+    "name": "Porta Capuana",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Porta_Capuana"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 31,
+  "fields": {
+    "name": "Via Partenope",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 32,
+  "fields": {
+    "name": "Aversa",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aversa"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 33,
+  "fields": {
+    "name": "Fontanelle (Naples)",
+    "place_type": "district",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 34,
+  "fields": {
+    "name": "Vomero (Naples)",
+    "place_type": "district",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vomero"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 35,
+  "fields": {
+    "name": "Philippeville",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Skikda"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 36,
+  "fields": {
+    "name": "Poggio Reale prison",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 37,
+  "fields": {
+    "name": "Posillipo (Naples)",
+    "place_type": "district",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Posillipo"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 38,
+  "fields": {
+    "name": "Filangieri prison",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 39,
+  "fields": {
+    "name": "Vico Chiatamone",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 40,
+  "fields": {
+    "name": "San Carlo opera house",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Teatro_di_San_Carlo"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 41,
+  "fields": {
+    "name": "Via Chiaia",
+    "place_type": "street",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Chiaia"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 42,
+  "fields": {
+    "name": "Via San Felice",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 43,
+  "fields": {
+    "name": "Vesuvius",
+    "place_type": "natural_feature",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mount_Vesuvius"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 44,
+  "fields": {
+    "name": "Acerra",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Acerra"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 45,
+  "fields": {
+    "name": "Casoria",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Casoria"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 46,
+  "fields": {
+    "name": "San Pasquale (church & district)",
+    "place_type": "religious_site",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 47,
+  "fields": {
+    "name": "Via Carducci",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 48,
+  "fields": {
+    "name": "Calabritto Palace",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 49,
+  "fields": {
+    "name": "Palazzo Carracciolo",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 50,
+  "fields": {
+    "name": "Villa Nazionale",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Comunale,_Naples"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 51,
+  "fields": {
+    "name": "Torrito",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 52,
+  "fields": {
+    "name": "Caivano",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Caivano"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 53,
+  "fields": {
+    "name": "Zona di Camorra",
+    "place_type": "region",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 54,
+  "fields": {
+    "name": "Forcella (market district)",
+    "place_type": "district",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 55,
+  "fields": {
+    "name": "Via Forcella",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 56,
+  "fields": {
+    "name": "Matlock",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 57,
+  "fields": {
+    "name": "Via Filippo Palizzi",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 58,
+  "fields": {
+    "name": "Castel Capuano",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Capuano"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 59,
+  "fields": {
+    "name": "Castellammare di Stabia",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castellammare_di_Stabia"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 60,
+  "fields": {
+    "name": "Agropoli",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Agropoli"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 61,
+  "fields": {
+    "name": "Piazza Dante",
+    "place_type": "piazza",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Piazza_Dante,_Naples"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 62,
+  "fields": {
+    "name": "Procida",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Procida"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 63,
+  "fields": {
+    "name": "Caserta",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Caserta"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 64,
+  "fields": {
+    "name": "Via San Pasquale",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 65,
+  "fields": {
+    "name": "Vico Satriano",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 66,
+  "fields": {
+    "name": "Capri",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Capri"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 67,
+  "fields": {
+    "name": "Via Roma",
+    "place_type": "street",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Via_Toledo"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 68,
+  "fields": {
+    "name": "Café Savoia",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 69,
+  "fields": {
+    "name": "Ischia",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ischia"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 70,
+  "fields": {
+    "name": "San Sebastiano (town near Vesuvius)",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 71,
+  "fields": {
+    "name": "San Giorgio (near Vesuvius)",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Giorgio_a_Cremano"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 72,
+  "fields": {
+    "name": "Cercola",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cercola"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 73,
+  "fields": {
+    "name": "Maddaloni Bridge",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 74,
+  "fields": {
+    "name": "Pozzuoli",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pozzuoli"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 75,
+  "fields": {
+    "name": "Torre del Greco",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Torre_del_Greco"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 76,
+  "fields": {
+    "name": "Campi Flegrei",
+    "place_type": "region",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Phlegraean_Fields"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 77,
+  "fields": {
+    "name": "Pomigliano",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pomigliano_d%27Arco"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 78,
+  "fields": {
+    "name": "Marano",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marano_di_Napoli"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 79,
+  "fields": {
+    "name": "Castel Sant'Elmo",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castel_Sant%27Elmo"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 80,
+  "fields": {
+    "name": "Padula",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Padula"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 81,
+  "fields": {
+    "name": "Piazza Municipio",
+    "place_type": "piazza",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 82,
+  "fields": {
+    "name": "Villa Tiberius (Capri)",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 83,
+  "fields": {
+    "name": "Terni",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Terni"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 84,
+  "fields": {
+    "name": "Santa Maria della Colombina",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 85,
+  "fields": {
+    "name": "Rione Amedeo",
+    "place_type": "district",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 86,
+  "fields": {
+    "name": "Monte Vergine",
+    "place_type": "religious_site",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 87,
+  "fields": {
+    "name": "Monte Santangelo",
+    "place_type": "religious_site",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 88,
+  "fields": {
+    "name": "Frattamaggiore",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Frattamaggiore"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 89,
+  "fields": {
+    "name": "Duomo di Napoli",
+    "place_type": "religious_site",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_Cathedral"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 90,
+  "fields": {
+    "name": "Vico Freddo",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 91,
+  "fields": {
+    "name": "Patrica",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Patrica"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 92,
+  "fields": {
+    "name": "Pofi",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pofi"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 93,
+  "fields": {
+    "name": "Isoletta",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 94,
+  "fields": {
+    "name": "Supino",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Supino"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 95,
+  "fields": {
+    "name": "Morolo",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Morolo"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 96,
+  "fields": {
+    "name": "Lenola",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lenola"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 97,
+  "fields": {
+    "name": "Castro dei Volsci",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Castro_dei_Volsci"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 98,
+  "fields": {
+    "name": "Ceccano",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ceccano"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 99,
+  "fields": {
+    "name": "Santa Maria a Vico",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 100,
+  "fields": {
+    "name": "Via Gravina",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 101,
+  "fields": {
+    "name": "Cancello",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 102,
+  "fields": {
+    "name": "Rione Sant'Antonio Abate",
+    "place_type": "district",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 103,
+  "fields": {
+    "name": "Guardia Sanframondi",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guardia_Sanframondi"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 104,
+  "fields": {
+    "name": "Amalfi",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amalfi"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 105,
+  "fields": {
+    "name": "Monte Nuovo",
+    "place_type": "natural_feature",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Monte_Nuovo"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 106,
+  "fields": {
+    "name": "Mondragone",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mondragone"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 107,
+  "fields": {
+    "name": "Baia",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baiae"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 108,
+  "fields": {
+    "name": "Capodichino airport",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Naples_International_Airport"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 109,
+  "fields": {
+    "name": "Algeria",
+    "place_type": "region",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Algeria"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 110,
+  "fields": {
+    "name": "Altamura",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Altamura"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 111,
+  "fields": {
+    "name": "Benevento",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Benevento"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 112,
+  "fields": {
+    "name": "San Giorgio (near Benevento)",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 113,
+  "fields": {
+    "name": "Hotel Vesuvio (Benevento)",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 114,
+  "fields": {
+    "name": "Sagranella",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 115,
+  "fields": {
+    "name": "San Marco di Cavali",
+    "place_type": "town",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 116,
+  "fields": {
+    "name": "Monti del Sannio",
+    "place_type": "region",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 117,
+  "fields": {
+    "name": "Campobasso",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Campobasso"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 118,
+  "fields": {
+    "name": "Café Roma (Benevento)",
+    "place_type": "landmark",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 119,
+  "fields": {
+    "name": "Ufita river",
+    "place_type": "natural_feature",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 120,
+  "fields": {
+    "name": "Corso Umberto",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 121,
+  "fields": {
+    "name": "Tunisia",
+    "place_type": "region",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tunisia"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 122,
+  "fields": {
+    "name": "Lago di Patria",
+    "place_type": "natural_feature",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 123,
+  "fields": {
+    "name": "Via Aniello Falcone",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 124,
+  "fields": {
+    "name": "Via Calabritto",
+    "place_type": "street",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 125,
+  "fields": {
+    "name": "Villa Floridiana",
+    "place_type": "landmark",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Villa_Floridiana"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 126,
+  "fields": {
+    "name": "Port Said",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Port_Said"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 127,
+  "fields": {
+    "name": "Persian Gulf",
+    "place_type": "region",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Persian_Gulf"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 128,
+  "fields": {
+    "name": "Red Sea",
+    "place_type": "region",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Sea"
+  }
+},
+{
+  "model": "naples44.place",
+  "pk": 129,
+  "fields": {
+    "name": "Khorramshahr",
+    "place_type": "town",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Khorramshahr"
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 1,
+  "fields": {
+    "name": "Captain Cartwright",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 2,
+  "fields": {
+    "name": "Sergeant-Major Dashwood",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 3,
+  "fields": {
+    "name": "Moore",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 4,
+  "fields": {
+    "name": "Robert Parkinson",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 5,
+  "fields": {
+    "name": "Evans",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 6,
+  "fields": {
+    "name": "Durham",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 7,
+  "fields": {
+    "name": "Eric Williams",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 8,
+  "fields": {
+    "name": "Vincente Lattarullo",
+    "person_type": "informant_contact",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 9,
+  "fields": {
+    "name": "Sauro",
+    "person_type": "notable_civilian",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 10,
+  "fields": {
+    "name": "Signora Gentile",
+    "person_type": "civilian_friend",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 11,
+  "fields": {
+    "name": "Captain Frazer",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 12,
+  "fields": {
+    "name": "Signora Lola",
+    "person_type": "companion",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 13,
+  "fields": {
+    "name": "Sergeant-Major (John) Dashwood",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 14,
+  "fields": {
+    "name": "Ingeniere Losurdo",
+    "person_type": "informant_contact",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 15,
+  "fields": {
+    "name": "Avvocato Mosca",
+    "person_type": "informant_contact",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 16,
+  "fields": {
+    "name": "Prince A.",
+    "person_type": "aristocrat",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 17,
+  "fields": {
+    "name": "Luisa",
+    "person_type": "aristocrat",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 18,
+  "fields": {
+    "name": "Professore Placella",
+    "person_type": "informant_contact",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 19,
+  "fields": {
+    "name": "Albano",
+    "person_type": "camorrista_bandit",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 20,
+  "fields": {
+    "name": "Vito Genovese",
+    "person_type": "camorrista_bandit",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vito_Genovese"
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 21,
+  "fields": {
+    "name": "Donna Maria Fidora ('La Pitonessa')",
+    "person_type": "informant_contact",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 22,
+  "fields": {
+    "name": "Norah Gemelli",
+    "person_type": "civilian_friend",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 23,
+  "fields": {
+    "name": "Alberto Gemelli",
+    "person_type": "civilian_friend",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 24,
+  "fields": {
+    "name": "Carlo Del Giudice",
+    "person_type": "informant_contact",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 25,
+  "fields": {
+    "name": "Susanna",
+    "person_type": "companion",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 26,
+  "fields": {
+    "name": "Contessa della Peruta",
+    "person_type": "aristocrat",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 27,
+  "fields": {
+    "name": "Domenico 'Lupo' (Wolf)",
+    "person_type": "camorrista_bandit",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 28,
+  "fields": {
+    "name": "Fortuna",
+    "person_type": "camorrista_bandit",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 29,
+  "fields": {
+    "name": "Cuoca",
+    "person_type": "camorrista_bandit",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 30,
+  "fields": {
+    "name": "George Hankin",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 31,
+  "fields": {
+    "name": "Salvatore Loreto",
+    "person_type": "notable_civilian",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 32,
+  "fields": {
+    "name": "Giuseppina",
+    "person_type": "notable_civilian",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 33,
+  "fields": {
+    "name": "The Marchesa",
+    "person_type": "aristocrat",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 34,
+  "fields": {
+    "name": "Marshal Altamura",
+    "person_type": "police_official",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 35,
+  "fields": {
+    "name": "Don Ubaldo",
+    "person_type": "civilian_friend",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 36,
+  "fields": {
+    "name": "Bernard Durham",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 37,
+  "fields": {
+    "name": "De Micco",
+    "person_type": "camorrista_bandit",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 38,
+  "fields": {
+    "name": "Neil Armstrong",
+    "person_type": "allied_colleague",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.person",
+  "pk": 39,
+  "fields": {
+    "name": "Ingeniere Crespi",
+    "person_type": "civilian_friend",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 1,
+  "fields": {
+    "name": "Madonna of Pompeii",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shrine_of_the_Virgin_of_the_Rosary_of_Pompei"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 2,
+  "fields": {
+    "name": "evil eye",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Evil_eye"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 3,
+  "fields": {
+    "name": "San Gennaro",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Januarius"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 4,
+  "fields": {
+    "name": "Zio di Roma",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 5,
+  "fields": {
+    "name": "San Rocco",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Roch"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 6,
+  "fields": {
+    "name": "Hunchbacks as luck-bringers",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 7,
+  "fields": {
+    "name": "Stork veneration",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 8,
+  "fields": {
+    "name": "Professional wailers",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 9,
+  "fields": {
+    "name": "Blessed Egideo",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 10,
+  "fields": {
+    "name": "San Gaetano",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Cajetan"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 11,
+  "fields": {
+    "name": "Vendetta mourning ritual",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 12,
+  "fields": {
+    "name": "pazzariello",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 13,
+  "fields": {
+    "name": "San Sebastiano",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Sebastian"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 14,
+  "fields": {
+    "name": "Sant'Antonio Abate",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_the_Great"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 15,
+  "fields": {
+    "name": "Santo Agnello",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 16,
+  "fields": {
+    "name": "Santa Maria d'Intercessione",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 17,
+  "fields": {
+    "name": "Santa Maria del Carmine",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Carmine,_Naples"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 18,
+  "fields": {
+    "name": "St John / San Giovanni a Carbonara",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 19,
+  "fields": {
+    "name": "Sant'Aspreno",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aspren"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 20,
+  "fields": {
+    "name": "visionary child (local 'Bernadette')",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 21,
+  "fields": {
+    "name": "flying monk of Pomigliano",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 22,
+  "fields": {
+    "name": "Monte Vergine",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 23,
+  "fields": {
+    "name": "St Michael",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Monte_Sant%27Angelo"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 24,
+  "fields": {
+    "name": "Parenti di San Gennaro",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 25,
+  "fields": {
+    "name": "Ischia radioactive cure belief",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 26,
+  "fields": {
+    "name": "Guardia Sanframondi flagellant rite",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guardia_Sanframondi"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 27,
+  "fields": {
+    "name": "Festival of the Lilies (Nola)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Paulinus_of_Nola"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 28,
+  "fields": {
+    "name": "St Andrew's Manna (Amalfi)",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amalfi_Cathedral"
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 29,
+  "fields": {
+    "name": "Sagranella fox-cult",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 30,
+  "fields": {
+    "name": "Droit du seigneur (Sagranella)",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.folkloreentity",
+  "pk": 31,
+  "fields": {
+    "name": "fertility offering superstition",
+    "wikipedia_url": ""
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 1,
+  "fields": {
+    "chapter": 2,
+    "year": 1943,
+    "date_label": "September 8",
+    "date": "1943-09-08",
+    "summary": "Aboard ship off Italy, news arrives of the armistice; Lewis notes the total lack of intelligence about what awaits them at Salerno.",
+    "themes": [
+      "war_violence",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      1
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 2,
+  "fields": {
+    "chapter": 3,
+    "year": 1943,
+    "date_label": "September 9",
+    "date": "1943-09-09",
+    "summary": "Landing at Paestum amid dead soldiers and eerie calm; the section is left rudderless, with no briefing, next to the ancient temples.",
+    "themes": [
+      "war_violence"
+    ],
+    "places": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 3,
+  "fields": {
+    "chapter": 4,
+    "year": 1943,
+    "date_label": "September 10",
+    "date": "1943-09-10",
+    "summary": "A strafing run and near-miss becomes almost routine; Lewis contrasts his own hardened nerves with the panic of green American troops.",
+    "themes": [
+      "war_violence",
+      "allied_conduct"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 4,
+  "fields": {
+    "chapter": 5,
+    "year": 1943,
+    "date_label": "September 11",
+    "date": "1943-09-11",
+    "summary": "HQ moves to a tranquil rural setting, but there's a creeping sense that the Fifth Army is unprepared and undefended.",
+    "themes": [
+      "war_violence",
+      "personal_reflection"
+    ],
+    "places": [
+      6,
+      4,
+      5
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 5,
+  "fields": {
+    "chapter": 6,
+    "year": 1943,
+    "date_label": "September 12",
+    "date": "1943-09-12",
+    "summary": "A German counterattack triggers real chaos — panicked tank crews, gas scares, and rumours that Mark Clark may abandon the beachhead.",
+    "themes": [
+      "war_violence"
+    ],
+    "places": [
+      7,
+      3,
+      1,
+      8
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 6,
+  "fields": {
+    "chapter": 7,
+    "year": 1943,
+    "date_label": "September 14",
+    "date": "1943-09-14",
+    "summary": "An intense night battle near the beachhead, with naval bombardment lighting the sky and hurried, ad hoc arming of the intelligence men.",
+    "themes": [
+      "war_violence"
+    ],
+    "places": [
+      6,
+      9,
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 7,
+  "fields": {
+    "chapter": 8,
+    "year": 1943,
+    "date_label": "September 15",
+    "date": "1943-09-15",
+    "summary": "A comrade's harrowing return from Salerno; confusion persists as officers and men lose track of each other amid ongoing shelling.",
+    "themes": [
+      "war_violence",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      1
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 8,
+  "fields": {
+    "chapter": 9,
+    "year": 1943,
+    "date_label": "September 17",
+    "date": "1943-09-17",
+    "summary": "A brief, peaceful excursion to the hill village of Capaccio offers a striking contrast to the surrounding warfare — including a first encounter with a German POW.",
+    "themes": [
+      "war_violence",
+      "naples_character"
+    ],
+    "places": [
+      1
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 9,
+  "fields": {
+    "chapter": 10,
+    "year": 1943,
+    "date_label": "September 18",
+    "date": "1943-09-18",
+    "summary": "An account of a botched American paratroop drop, followed by the grim sight of German tank crews killed in their vehicles.",
+    "themes": [
+      "war_violence"
+    ],
+    "places": [
+      10,
+      7,
+      5
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 10,
+  "fields": {
+    "chapter": 11,
+    "year": 1943,
+    "date_label": "September 20",
+    "date": "1943-09-20",
+    "summary": "Reaching Salerno amid ongoing fighting, Lewis witnesses a brutal interrogation of an Italian civilian by a British officer.",
+    "themes": [
+      "war_violence",
+      "allied_conduct"
+    ],
+    "places": [
+      1
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 11,
+  "fields": {
+    "chapter": 12,
+    "year": 1943,
+    "date_label": "September 21",
+    "date": "1943-09-21",
+    "summary": "Ordered back to the idle beachhead life at Paestum despite its pointlessness; the section finally gets a small, real intelligence task that evening.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "personal_reflection"
+    ],
+    "places": [
+      11,
+      3,
+      1
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 12,
+  "fields": {
+    "chapter": 13,
+    "year": 1943,
+    "date_label": "September 28",
+    "date": "1943-09-28",
+    "summary": "Hospitalized with malaria, Lewis hears disturbing accounts from wounded American soldiers about orders to kill surrendering Germans.",
+    "themes": [
+      "war_violence",
+      "disease_health",
+      "allied_conduct"
+    ],
+    "places": [
+      3
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 13,
+  "fields": {
+    "chapter": 14,
+    "year": 1943,
+    "date_label": "October 3",
+    "date": "1943-10-03",
+    "summary": "A violent storm collapses the hospital tent, flooding the ward and killing one patient.",
+    "themes": [],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 14,
+  "fields": {
+    "chapter": 15,
+    "year": 1943,
+    "date_label": "October 4",
+    "date": "1943-10-04",
+    "summary": "Discharged and hitching toward newly-liberated Naples, Lewis passes through Battipaglia, devastated by Allied carpet bombing, and learns nearby Altavilla was shelled to rubble on the mere suspicion it held Germans. Further on, he witnesses desperate Neapolitan housewives publicly exchanging sex for tins of rations with American soldiers.",
+    "themes": [
+      "war_violence",
+      "poverty_hunger",
+      "sex_relationships"
+    ],
+    "places": [
+      15,
+      7,
+      3,
+      16,
+      12,
+      1,
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 15,
+  "fields": {
+    "chapter": 16,
+    "year": 1943,
+    "date_label": "October 6",
+    "date": "1943-10-06",
+    "summary": "Arriving in a ruined, waterless Naples, the section settles into a grand requisitioned palazzo on the Riviera di Chiaia.",
+    "themes": [
+      "war_violence",
+      "naples_character"
+    ],
+    "places": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      13
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 16,
+  "fields": {
+    "chapter": 17,
+    "year": 1943,
+    "date_label": "October 8",
+    "date": "1943-10-08",
+    "summary": "Floods of dubious civilian tips overwhelm the section, including a \"spy\" who turns out to be rumored a witch by superstitious villagers.",
+    "themes": [
+      "superstition_religion",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      22
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 17,
+  "fields": {
+    "chapter": 18,
+    "year": 1943,
+    "date_label": "October 9",
+    "date": "1943-10-09",
+    "summary": "Desperate Neapolitans scavenge limpets and offal for food, reflecting the extremity of the city's hunger.",
+    "themes": [
+      "poverty_hunger"
+    ],
+    "places": [
+      23
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 18,
+  "fields": {
+    "chapter": 19,
+    "year": 1943,
+    "date_label": "October 10",
+    "date": "1943-10-10",
+    "summary": "Amid the grim work of processing denunciations, Lewis is struck by the vivid street life and rituals of a working-class Neapolitan neighborhood.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "naples_character"
+    ],
+    "places": [
+      24
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 19,
+  "fields": {
+    "chapter": 20,
+    "year": 1943,
+    "date_label": "October 13",
+    "date": "1943-10-13",
+    "summary": "A week of fruitless \"spy scares\" turns up only harmless eccentrics, while a new bureaucracy of mail and phone censorship intercepts trivia.",
+    "themes": [
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      25
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 20,
+  "fields": {
+    "chapter": 21,
+    "year": 1943,
+    "date_label": "October 15",
+    "date": "1943-10-15",
+    "summary": "Introduction of Vincente Lattarullo, an eccentric, impoverished informant obsessed with justice and etiquette, who becomes a key civilian contact.",
+    "themes": [
+      "poverty_hunger",
+      "naples_character"
+    ],
+    "places": [
+      28,
+      26,
+      24,
+      27
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 21,
+  "fields": {
+    "chapter": 22,
+    "year": 1943,
+    "date_label": "October 20",
+    "date": "1943-10-20",
+    "summary": "A motorcycle ride brings Lewis upon the horrifying aftermath of a sudden explosion, with bodies and dust coating a frozen, silent street scene.",
+    "themes": [
+      "war_violence"
+    ],
+    "places": [
+      29,
+      30,
+      31
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 22,
+  "fields": {
+    "chapter": 23,
+    "year": 1943,
+    "date_label": "October 22",
+    "date": "1943-10-22",
+    "summary": "Amid ongoing famine, Lewis investigates an assault on a peasant family by deserters, and is later approached with a plea for help from one of the victims.",
+    "themes": [
+      "war_violence",
+      "poverty_hunger"
+    ],
+    "places": [
+      32
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 23,
+  "fields": {
+    "chapter": 24,
+    "year": 1943,
+    "date_label": "October 23",
+    "date": "1943-10-23",
+    "summary": "A false tip about mass delayed-action mines triggers a chaotic mass evacuation of Naples, including hospital patients and the bedridden.",
+    "themes": [
+      "war_violence",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      33,
+      34
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 24,
+  "fields": {
+    "chapter": 25,
+    "year": 1943,
+    "date_label": "October 24",
+    "date": "1943-10-24",
+    "summary": "Lewis is sent to investigate whether the German soldier behind the mine hoax should be executed as a spy.",
+    "themes": [
+      "war_violence",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      35,
+      36
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 25,
+  "fields": {
+    "chapter": 26,
+    "year": 1943,
+    "date_label": "October 25",
+    "date": "1943-10-25",
+    "summary": "Lewis reflects on the city's collapse into near-medieval conditions — makeshift clothing, scavenging, and looting of abandoned military equipment.",
+    "themes": [
+      "poverty_hunger",
+      "naples_character"
+    ],
+    "places": [
+      38,
+      37
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 26,
+  "fields": {
+    "chapter": 27,
+    "year": 1943,
+    "date_label": "October 28",
+    "date": "1943-10-28",
+    "summary": "Asked to interpret between an Italian woman and her English-speaking-impaired British officer lover, Lewis observes how bread and supplies shape wartime romance.",
+    "themes": [
+      "poverty_hunger",
+      "sex_relationships"
+    ],
+    "places": [
+      20
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 27,
+  "fields": {
+    "chapter": 28,
+    "year": 1943,
+    "date_label": "November 1",
+    "date": "1943-11-01",
+    "summary": "Lewis is indignant at the drastic cut to informant funds, arguing money isn't really what motivates their most dedicated Italian contacts.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "personal_reflection"
+    ],
+    "places": [
+      39,
+      34
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 28,
+  "fields": {
+    "chapter": 29,
+    "year": 1943,
+    "date_label": "November 5",
+    "date": "1943-11-05",
+    "summary": "New contacts Losurdo and Mosca reveal the same pattern as Lattarullo: impoverished nobility clinging to grand, half-empty palazzi.",
+    "themes": [
+      "poverty_hunger",
+      "naples_character"
+    ],
+    "places": [
+      32,
+      24,
+      40,
+      41
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 29,
+  "fields": {
+    "chapter": 30,
+    "year": 1943,
+    "date_label": "November 10",
+    "date": "1943-11-10",
+    "summary": "A Neapolitan prince and his sister calmly request that she be admitted to a (nonexistent) army brothel, illustrating the era's blunt attitudes to sex and survival.",
+    "themes": [
+      "sex_relationships",
+      "naples_character"
+    ],
+    "places": [
+      21
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 30,
+  "fields": {
+    "chapter": 31,
+    "year": 1943,
+    "date_label": "November 15",
+    "date": "1943-11-15",
+    "summary": "Lattarullo hosts an elaborate lunch cobbled together from borrowed furniture and his one prized heirloom, despite having almost nothing.",
+    "themes": [
+      "poverty_hunger",
+      "naples_character"
+    ],
+    "places": [
+      8,
+      42
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 31,
+  "fields": {
+    "chapter": 32,
+    "year": 1943,
+    "date_label": "November 25",
+    "date": "1943-11-25",
+    "summary": "Wartime hunger drives extreme culinary improvisation, including eating storks and rumors of a manatee served at a banquet for General Clark.",
+    "themes": [
+      "poverty_hunger",
+      "naples_character"
+    ],
+    "places": [
+      17,
+      43
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 32,
+  "fields": {
+    "chapter": 33,
+    "year": 1943,
+    "date_label": "November 26",
+    "date": "1943-11-26",
+    "summary": "Restaurants reopen with black-market prices; Lewis catches up with Captain Frazer, whose health and mood have visibly declined.",
+    "themes": [
+      "black_market",
+      "disease_health"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 33,
+  "fields": {
+    "chapter": 34,
+    "year": 1943,
+    "date_label": "December 5",
+    "date": "1943-12-05",
+    "summary": "Lewis avoids an unwanted arrest by spending the day on unrelated errands, reflecting on the unit's discomfort with being used for private vendettas.",
+    "themes": [
+      "crime_banditry",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      44,
+      22,
+      45,
+      38
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 34,
+  "fields": {
+    "chapter": 35,
+    "year": 1943,
+    "date_label": "December 9",
+    "date": "1943-12-09",
+    "summary": "A Sunday spent observing the palazzo neighborhood's blend of aristocratic grandeur and thriving working-class street life.",
+    "themes": [
+      "naples_character"
+    ],
+    "places": [
+      48,
+      49,
+      21,
+      46,
+      47,
+      50
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 35,
+  "fields": {
+    "chapter": 36,
+    "year": 1943,
+    "date_label": "December 18",
+    "date": "1943-12-18",
+    "summary": "Lewis describes how gullible unit commanders and their local interpreters get dragged into baseless denunciations and village feuds, including against a corrupt police marshal.",
+    "themes": [
+      "crime_banditry",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      22,
+      32,
+      8,
+      51
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 36,
+  "fields": {
+    "chapter": 37,
+    "year": 1943,
+    "date_label": "December 20",
+    "date": "1943-12-20",
+    "summary": "Investigating a wartime denunciation case, Lewis interviews an informer with a criminal record about his role in betraying escaped Indian soldiers to the Germans.",
+    "themes": [
+      "war_violence",
+      "crime_banditry"
+    ],
+    "places": [
+      52,
+      20,
+      51,
+      53
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 37,
+  "fields": {
+    "chapter": 38,
+    "year": 1944,
+    "date_label": "January 1",
+    "date": "1944-01-01",
+    "summary": "A tedious, unproductive investigation into telephone-wire theft, which the Army wrongly treats as sabotage rather than opportunistic copper theft.",
+    "themes": [
+      "black_market",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      45,
+      54,
+      55
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 38,
+  "fields": {
+    "chapter": 39,
+    "year": 1944,
+    "date_label": "January 5",
+    "date": "1944-01-05",
+    "summary": "Lewis takes charge of security for several nearby towns, unknowingly located deep in Camorra territory, and finds poverty behind their picturesque exteriors.",
+    "themes": [
+      "poverty_hunger",
+      "crime_banditry"
+    ],
+    "places": [
+      44,
+      22,
+      32,
+      52,
+      45,
+      12,
+      53
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 39,
+  "fields": {
+    "chapter": 40,
+    "year": 1944,
+    "date_label": "January 7",
+    "date": "1944-01-07",
+    "summary": "A visit to Donna Maria \"La Pitonessa,\" a former circus performer turned wealthy landowner, in the Camorra zone.",
+    "themes": [
+      "crime_banditry",
+      "naples_character"
+    ],
+    "places": [
+      52,
+      53
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 40,
+  "fields": {
+    "chapter": 41,
+    "year": 1944,
+    "date_label": "January 12",
+    "date": "1944-01-12",
+    "summary": "The wire-theft crackdown continues to unfairly target small, desperate offenders like an elderly scrap-merchant, while real traders go untouched.",
+    "themes": [
+      "poverty_hunger",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      22,
+      36
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 41,
+  "fields": {
+    "chapter": 42,
+    "year": 1944,
+    "date_label": "January 14",
+    "date": "1944-01-14",
+    "summary": "Amid a flood of usually-worthless rumors, one turns out to be true — an imminent Anzio landing — sending Lewis scrambling to trace a security leak.",
+    "themes": [
+      "war_violence",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      56,
+      24,
+      57,
+      34
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 42,
+  "fields": {
+    "chapter": 43,
+    "year": 1944,
+    "date_label": "January 19",
+    "date": "1944-01-19",
+    "summary": "Chaotic, arbitrary court proceedings at Castel Capuano illustrate the absurd unevenness of wartime justice, set against an open black market.",
+    "themes": [
+      "black_market",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      58,
+      30
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 43,
+  "fields": {
+    "chapter": 44,
+    "year": 1944,
+    "date_label": "January 22",
+    "date": "1944-01-22",
+    "summary": "The Anzio landing succeeds, seemingly aided by German unpreparedness — underscored by discarded operational maps found being burned by locals for fuel.",
+    "themes": [
+      "war_violence"
+    ],
+    "places": [
+      14
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 44,
+  "fields": {
+    "chapter": 45,
+    "year": 1944,
+    "date_label": "February 5",
+    "date": "1944-02-05",
+    "summary": "Thieves brazenly strip the wheels from vehicles at the supposedly secure Field Security Headquarters, showcasing local audacity and ingenuity.",
+    "themes": [
+      "crime_banditry",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      60,
+      59,
+      30,
+      40
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 45,
+  "fields": {
+    "chapter": 46,
+    "year": 1944,
+    "date_label": "February 12",
+    "date": "1944-02-12",
+    "summary": "Lewis reflects on the cultural gulf between cosmopolitan Naples and the archaic, vendetta-bound countryside just miles away, as seen through Lattarullo's ignorance of it.",
+    "themes": [
+      "naples_character",
+      "personal_reflection"
+    ],
+    "places": [
+      22,
+      63,
+      61,
+      36,
+      62,
+      24
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 46,
+  "fields": {
+    "chapter": 47,
+    "year": 1944,
+    "date_label": "February 28",
+    "date": "1944-02-28",
+    "summary": "The arrival of spring in Naples is marked by seasonal foods, street cries, and a burst of communal spring-cleaning and song.",
+    "themes": [
+      "naples_character"
+    ],
+    "places": [
+      23,
+      64,
+      65,
+      50
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 47,
+  "fields": {
+    "chapter": 48,
+    "year": 1944,
+    "date_label": "March 3",
+    "date": "1944-03-03",
+    "summary": "An account of a bizarre, catastrophic Allied intelligence scheme prompted by fears that prostitution was being used to spread disease among troops.",
+    "themes": [
+      "sex_relationships",
+      "bureaucracy_absurdity",
+      "disease_health"
+    ],
+    "places": [
+      66,
+      24,
+      13,
+      34
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 48,
+  "fields": {
+    "chapter": 49,
+    "year": 1944,
+    "date_label": "March 5",
+    "date": "1944-03-05",
+    "summary": "The growing, increasingly careless traffic of \"line-crossers\" and letter-couriers moving between Allied and German territory raises serious security concerns.",
+    "themes": [
+      "war_violence",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      68,
+      61,
+      24,
+      1,
+      8,
+      13,
+      67
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 49,
+  "fields": {
+    "chapter": 50,
+    "year": 1944,
+    "date_label": "March 13",
+    "date": "1944-03-13",
+    "summary": "The crackdown on the black market punishes only the powerless, as shown by a farcical smuggling trial that collapses through prosecutorial incompetence.",
+    "themes": [
+      "black_market",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      58
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 50,
+  "fields": {
+    "chapter": 51,
+    "year": 1944,
+    "date_label": "March 14",
+    "date": "1944-03-14",
+    "summary": "A harrowing case of a boy maimed by soldiers guarding supply trucks against child gangs who steal from them.",
+    "themes": [
+      "war_violence",
+      "black_market"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 51,
+  "fields": {
+    "chapter": 52,
+    "year": 1944,
+    "date_label": "March 15",
+    "date": "1944-03-15",
+    "summary": "After a bombing raid, Lewis witnesses the devastating aftermath among civilians in Santa Lucia, including dead children and grieving families.",
+    "themes": [
+      "war_violence"
+    ],
+    "places": [
+      23
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 52,
+  "fields": {
+    "chapter": 53,
+    "year": 1944,
+    "date_label": "March 19",
+    "date": "1944-03-19",
+    "summary": "Vesuvius erupts in a spectacular, awe-inspiring display, which Lewis compares to Pliny's ancient description of the eruption that destroyed Pompeii.",
+    "themes": [
+      "personal_reflection"
+    ],
+    "places": [
+      43
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 53,
+  "fields": {
+    "chapter": 54,
+    "year": 1944,
+    "date_label": "March 20",
+    "date": "1944-03-20",
+    "summary": "Ashfall blankets the region; Lewis consults a seismologist about the risk to military installations near the volcano.",
+    "themes": [
+      "personal_reflection"
+    ],
+    "places": [
+      66,
+      69,
+      13,
+      43
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 54,
+  "fields": {
+    "chapter": 55,
+    "year": 1944,
+    "date_label": "March 22",
+    "date": "1944-03-22",
+    "summary": "Lewis travels through falling ash and volcanic debris to report on the threatened town of San Sebastiano as lava approaches.",
+    "themes": [
+      "superstition_religion"
+    ],
+    "places": [
+      72,
+      71,
+      70
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 55,
+  "fields": {
+    "chapter": 56,
+    "year": 1944,
+    "date_label": "March 24",
+    "date": "1944-03-24",
+    "summary": "With the eruption subsiding, Lewis meets Del Giudice, an eccentric folklore writer and expert on San Gennaro and Vesuvius.",
+    "themes": [
+      "superstition_religion"
+    ],
+    "places": [
+      73,
+      74,
+      12,
+      70,
+      75,
+      43
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 56,
+  "fields": {
+    "chapter": 57,
+    "year": 1944,
+    "date_label": "March 25",
+    "date": "1944-03-25",
+    "summary": "Widespread fear that San Gennaro's blood may fail to liquefy reflects a surge of religious \"miracle\" fervor sweeping wartime Naples.",
+    "themes": [
+      "superstition_religion"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 57,
+  "fields": {
+    "chapter": 58,
+    "year": 1944,
+    "date_label": "March 26",
+    "date": "1944-03-26",
+    "summary": "Amid desperate poverty, Lewis is confronted by a mother attempting to sell her young daughter for sex — a stark instance of wartime destitution.",
+    "themes": [
+      "poverty_hunger",
+      "sex_relationships"
+    ],
+    "places": [
+      61,
+      67
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 58,
+  "fields": {
+    "chapter": 59,
+    "year": 1944,
+    "date_label": "March 29",
+    "date": "1944-03-29",
+    "summary": "More reported miracles sweep the region, including a visionary child and a monk claimed to have flown to rescue a downed pilot.",
+    "themes": [
+      "superstition_religion"
+    ],
+    "places": [
+      76,
+      78,
+      77
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 59,
+  "fields": {
+    "chapter": 60,
+    "year": 1944,
+    "date_label": "April 1",
+    "date": "1944-04-01",
+    "summary": "A leisurely boat trip to Capri with Captain Frazer, Lola, and her friend Susanna captures a rare golden, carefree day amid the war.",
+    "themes": [
+      "sex_relationships",
+      "personal_reflection"
+    ],
+    "places": [
+      66,
+      79,
+      80,
+      81,
+      13,
+      82
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 60,
+  "fields": {
+    "chapter": 61,
+    "year": 1944,
+    "date_label": "April 3",
+    "date": "1944-04-03",
+    "summary": "Frazer confides his distress over Lola's bruised neck, which Lewis explains is a locally accepted romantic convention rather than abuse.",
+    "themes": [
+      "sex_relationships"
+    ],
+    "places": [
+      66
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 61,
+  "fields": {
+    "chapter": 62,
+    "year": 1944,
+    "date_label": "April 5",
+    "date": "1944-04-05",
+    "summary": "Lewis describes the grim routine of vetting prospective war brides, most of whom turn out to be supporting themselves through prostitution out of dire poverty.",
+    "themes": [
+      "poverty_hunger",
+      "sex_relationships"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 62,
+  "fields": {
+    "chapter": 63,
+    "year": 1944,
+    "date_label": "April 7",
+    "date": "1944-04-07",
+    "summary": "Interviews with escaped British POWs reveal the risky generosity of Italian camp workers who smuggled them civilian clothing.",
+    "themes": [
+      "war_violence",
+      "naples_character"
+    ],
+    "places": [
+      17,
+      83
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 63,
+  "fields": {
+    "chapter": 64,
+    "year": 1944,
+    "date_label": "April 14",
+    "date": "1944-04-14",
+    "summary": "A marriage vetting brings Lewis to the elegant, refined Contessa della Peruta, a rare and striking contrast to the poverty he usually encounters.",
+    "themes": [
+      "sex_relationships",
+      "naples_character"
+    ],
+    "places": [
+      84
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 64,
+  "fields": {
+    "chapter": 65,
+    "year": 1944,
+    "date_label": "April 15",
+    "date": "1944-04-15",
+    "summary": "A marriage candidate frankly admits she's supported by both an Italian major and an American corporal, revealing the going economics of such arrangements.",
+    "themes": [
+      "sex_relationships"
+    ],
+    "places": [
+      41
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 65,
+  "fields": {
+    "chapter": 66,
+    "year": 1944,
+    "date_label": "April 18",
+    "date": "1944-04-18",
+    "summary": "The black market's scale is staggering — a large share of Neapolitan income derives from stolen Allied goods, tolerated by officials at high levels.",
+    "themes": [
+      "black_market"
+    ],
+    "places": [
+      54,
+      36,
+      40
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 66,
+  "fields": {
+    "chapter": 67,
+    "year": 1944,
+    "date_label": "April 24",
+    "date": "1944-04-24",
+    "summary": "Frazer and Lola's tumultuous romance continues through breakups, threats of suicide, and reconciliation.",
+    "themes": [
+      "sex_relationships"
+    ],
+    "places": [
+      66,
+      85,
+      67
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 67,
+  "fields": {
+    "chapter": 68,
+    "year": 1944,
+    "date_label": "April 25",
+    "date": "1944-04-25",
+    "summary": "Dinner at Frazer's looted, makeshift flat showcases the improvised elegance Neapolitans manage despite having almost nothing.",
+    "themes": [
+      "sex_relationships",
+      "naples_character"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 68,
+  "fields": {
+    "chapter": 69,
+    "year": 1944,
+    "date_label": "May 1",
+    "date": "1944-05-01",
+    "summary": "The onset of summer heat is announced by a street vendor's mournful cry, prompting the city's rhythms to visibly slow down.",
+    "themes": [
+      "naples_character"
+    ],
+    "places": [
+      10,
+      87,
+      86,
+      43
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 69,
+  "fields": {
+    "chapter": 70,
+    "year": 1944,
+    "date_label": "May 3",
+    "date": "1944-05-03",
+    "summary": "The story of Domenico \"Lupo\" (Wolf), a released bandit who reorganizes his Camorra-style Robin Hood operation with Allied-issued credentials.",
+    "themes": [
+      "crime_banditry"
+    ],
+    "places": [
+      22,
+      52,
+      63,
+      45,
+      88,
+      21,
+      24,
+      53
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 70,
+  "fields": {
+    "chapter": 71,
+    "year": 1944,
+    "date_label": "May 7 (i)",
+    "date": "1944-05-07",
+    "summary": "San Gennaro's blood liquefies, but slowly — considered a bad omen — after days of anxious public vigil that could have sparked unrest if it had failed.",
+    "themes": [
+      "superstition_religion"
+    ],
+    "places": [
+      89,
+      90
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 71,
+  "fields": {
+    "chapter": 72,
+    "year": 1944,
+    "date_label": "May 7 (ii)",
+    "date": "1944-05-07",
+    "summary": "Frustrated by unresolved banditry, the General pressures Italian police into a harsher new anti-bandit operation, which Lewis observes as an onlooker.",
+    "themes": [
+      "crime_banditry",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      88,
+      36,
+      62
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 72,
+  "fields": {
+    "chapter": 73,
+    "year": 1944,
+    "date_label": "May 9",
+    "date": "1944-05-09",
+    "summary": "The black market's scale and brazenness are staggering — stolen Allied goods are openly, even elegantly, advertised for sale near the courts trying petty thieves.",
+    "themes": [
+      "black_market"
+    ],
+    "places": [
+      54,
+      36,
+      55,
+      67
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 73,
+  "fields": {
+    "chapter": 74,
+    "year": 1944,
+    "date_label": "May 11",
+    "date": "1944-05-11",
+    "summary": "A visit to the confident, well-connected prisoner Fortuna, who expects to be acquitted of a penicillin-racketeering charge despite Lewis's evidence.",
+    "themes": [
+      "black_market",
+      "crime_banditry"
+    ],
+    "places": [
+      66,
+      36,
+      62,
+      24
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 74,
+  "fields": {
+    "chapter": 75,
+    "year": 1944,
+    "date_label": "May 28",
+    "date": "1944-05-28",
+    "summary": "A grim account of widespread, brutal mass sexual violence against civilians committed by French colonial troops advancing through nearby towns.",
+    "themes": [
+      "war_violence",
+      "allied_conduct"
+    ],
+    "places": [
+      22,
+      97,
+      98,
+      93,
+      96,
+      95,
+      91,
+      92,
+      99,
+      94
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 75,
+  "fields": {
+    "chapter": 76,
+    "year": 1944,
+    "date_label": "May 31",
+    "date": "1944-05-31",
+    "summary": "Post-Fascist Italy's political life fragments into dozens of parties, some espousing bizarre or fringe ideas, reflecting a climate of instability.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "personal_reflection"
+    ],
+    "places": [
+      1,
+      100
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 76,
+  "fields": {
+    "chapter": 77,
+    "year": 1944,
+    "date_label": "June 4",
+    "date": "1944-06-04",
+    "summary": "A brutal act of vigilante revenge against Moroccan soldiers accused of atrocities is reported, carried out with ritualized, disturbing cruelty.",
+    "themes": [
+      "war_violence",
+      "crime_banditry"
+    ],
+    "places": [
+      22,
+      101,
+      53
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 77,
+  "fields": {
+    "chapter": 78,
+    "year": 1944,
+    "date_label": "June 7",
+    "date": "1944-06-07",
+    "summary": "Lattarullo's improvised income as a professional \"mourning relative\" at funerals picks up again with the fall of Rome, complete with a rented car and driver.",
+    "themes": [
+      "naples_character"
+    ],
+    "places": [
+      54,
+      86,
+      61,
+      102,
+      24,
+      55
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 78,
+  "fields": {
+    "chapter": 79,
+    "year": 1944,
+    "date_label": "June 9",
+    "date": "1944-06-09",
+    "summary": "Hospitalized again with malaria, Lewis receives a parade of eccentric visitors from his network of contacts, to the disapproval of hospital staff.",
+    "themes": [
+      "naples_character",
+      "disease_health"
+    ],
+    "places": [
+      22,
+      52,
+      66,
+      69
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 79,
+  "fields": {
+    "chapter": 80,
+    "year": 1944,
+    "date_label": "June 27",
+    "date": "1944-06-27",
+    "summary": "A colleague describes a revived, medieval-style flagellant procession at Guardia Sanframondi; two more feast stories follow — Nola's Feast of the Lily disrupting army telephone lines, and a trip to Amalfi for the thrice-yearly 'manna' relic of St Andrew.",
+    "themes": [
+      "superstition_religion"
+    ],
+    "places": [
+      104,
+      26,
+      103,
+      17,
+      8
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 80,
+  "fields": {
+    "chapter": 81,
+    "year": 1944,
+    "date_label": "July 12",
+    "date": "1944-07-12",
+    "summary": "A rare day off as tourist to Pozzuoli reveals a town strangely untouched by the war, calmer and more foreign-feeling than the rest of the Naples area.",
+    "themes": [
+      "naples_character",
+      "personal_reflection"
+    ],
+    "places": [
+      107,
+      106,
+      105,
+      74,
+      53
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 81,
+  "fields": {
+    "chapter": 82,
+    "year": 1944,
+    "date_label": "July 24",
+    "date": "1944-07-24",
+    "summary": "Reflections on Naples's theatrical character, including an elaborate deathbed farewell ceremony and a search of an arrested prince's opulent apartment.",
+    "themes": [
+      "naples_character"
+    ],
+    "places": [
+      24
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 82,
+  "fields": {
+    "chapter": 83,
+    "year": 1944,
+    "date_label": "July 26",
+    "date": "1944-07-26",
+    "summary": "An almost novelistic assignment to escort a mysterious, allegedly dangerous female internee to Rome for interrogation raises awkward questions among the section.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "personal_reflection"
+    ],
+    "places": [
+      108,
+      80,
+      36,
+      24
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 83,
+  "fields": {
+    "chapter": 84,
+    "year": 1944,
+    "date_label": "August 3",
+    "date": "1944-08-03",
+    "summary": "Lewis assesses the security risk of holding a wounded, notorious Italian saboteur in a hospital ward run by a nurse he knew previously in Algeria.",
+    "themes": [
+      "war_violence",
+      "disease_health"
+    ],
+    "places": [
+      109,
+      101,
+      36
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 84,
+  "fields": {
+    "chapter": 85,
+    "year": 1944,
+    "date_label": "August 12",
+    "date": "1944-08-12",
+    "summary": "Posted to Benevento to single-handedly take over security duties, Lewis finds a city devastated by an air raid and living in prolonged, near-universal mourning.",
+    "themes": [
+      "war_violence",
+      "poverty_hunger"
+    ],
+    "places": [
+      110,
+      111
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 85,
+  "fields": {
+    "chapter": 86,
+    "year": 1944,
+    "date_label": "August 13",
+    "date": "1944-08-13",
+    "summary": "A resourceful orphaned girl, Giuseppina, comes seeking a blanket — a valuable currency — revealing the precarious survival of war orphans.",
+    "themes": [
+      "war_violence",
+      "poverty_hunger"
+    ],
+    "places": [
+      111
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 86,
+  "fields": {
+    "chapter": 87,
+    "year": 1944,
+    "date_label": "August 15",
+    "date": "1944-08-15",
+    "summary": "A visit to an eccentric, aging Marchesa living amid ruin in her ancestral castle, rumored for scandalous past behavior with local youths.",
+    "themes": [
+      "sex_relationships",
+      "naples_character"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 87,
+  "fields": {
+    "chapter": 88,
+    "year": 1944,
+    "date_label": "August 18",
+    "date": "1944-08-18",
+    "summary": "Lewis settles into a stripped-down, damaged hotel in Benevento, comically failing to avoid the pasta he'd meant to forgo in favor of rations.",
+    "themes": [
+      "naples_character",
+      "personal_reflection"
+    ],
+    "places": [
+      110,
+      111,
+      113,
+      112
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 88,
+  "fields": {
+    "chapter": 89,
+    "year": 1944,
+    "date_label": "August 20",
+    "date": "1944-08-20",
+    "summary": "The local Marshal frets over bandit threats to the town, but Lewis notes how absurdly under-armed and unprepared the local security forces really are.",
+    "themes": [
+      "crime_banditry",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      1,
+      8
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 89,
+  "fields": {
+    "chapter": 90,
+    "year": 1944,
+    "date_label": "August 21",
+    "date": "1944-08-21",
+    "summary": "A schoolmaster explains the long, entrenched history of banditry in Southern Italy, including bandits' traditional ties to landowners.",
+    "themes": [
+      "crime_banditry"
+    ],
+    "places": [
+      111,
+      8
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 90,
+  "fields": {
+    "chapter": 91,
+    "year": 1944,
+    "date_label": "August 25",
+    "date": "1944-08-25",
+    "summary": "A grenade attack on an MP sergeant prompts a tense but ultimately toothless conference about how to respond to the now-motorized bandits.",
+    "themes": [
+      "crime_banditry",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      17
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 91,
+  "fields": {
+    "chapter": 92,
+    "year": 1944,
+    "date_label": "August 28",
+    "date": "1944-08-28",
+    "summary": "Amid outbreaks of typhoid, smallpox, and typhus in Benevento, the local Marshal remarks darkly on outsiders' inability to survive the harsh conditions.",
+    "themes": [
+      "disease_health"
+    ],
+    "places": [
+      111,
+      24
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 92,
+  "fields": {
+    "chapter": 93,
+    "year": 1944,
+    "date_label": "August 30",
+    "date": "1944-08-30",
+    "summary": "Lewis races to Naples to fetch medicine for an ailing friend, discovering along the way a black-market pharmacy relabeling stolen drugs.",
+    "themes": [
+      "black_market",
+      "disease_health"
+    ],
+    "places": [
+      111,
+      113
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 93,
+  "fields": {
+    "chapter": 94,
+    "year": 1944,
+    "date_label": "August 31",
+    "date": "1944-08-31",
+    "summary": "Delivering the medicine, Lewis witnesses a bloody mourning ritual, a chaotic anti-typhus spraying operation, and the arrival of freewheeling Canadian troops.",
+    "themes": [
+      "disease_health",
+      "allied_conduct"
+    ],
+    "places": [
+      111
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 94,
+  "fields": {
+    "chapter": 95,
+    "year": 1944,
+    "date_label": "September 1",
+    "date": "1944-09-01",
+    "summary": "The newly-arrived Canadian soldiers prove restless, undisciplined, and utterly disconnected from the war and the local population around them.",
+    "themes": [
+      "allied_conduct"
+    ],
+    "places": [
+      10,
+      111,
+      113
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 95,
+  "fields": {
+    "chapter": 96,
+    "year": 1944,
+    "date_label": "September 3",
+    "date": "1944-09-03",
+    "summary": "Following Don Ubaldo's death, the section relocates to a remote, archaic hill village with its own strange local fox-cult ritual.",
+    "themes": [
+      "superstition_religion"
+    ],
+    "places": [
+      114
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 96,
+  "fields": {
+    "chapter": 97,
+    "year": 1944,
+    "date_label": "September 6",
+    "date": "1944-09-06",
+    "summary": "The generous but reckless Canadians treat everything, including two local girls they've picked up, with careless ease; Lewis is assigned to probe a clandestine political party.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "allied_conduct"
+    ],
+    "places": [
+      111,
+      117,
+      116,
+      114,
+      115
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 97,
+  "fields": {
+    "chapter": 98,
+    "year": 1944,
+    "date_label": "September 11",
+    "date": "1944-09-11",
+    "summary": "A reported gangland-style shooting near a café vanishes without a trace or a single willing witness, revealing the town's undercurrent of fear and silence.",
+    "themes": [
+      "crime_banditry"
+    ],
+    "places": [
+      111,
+      118
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 98,
+  "fields": {
+    "chapter": 99,
+    "year": 1944,
+    "date_label": "September 16",
+    "date": "1944-09-16",
+    "summary": "A section colleague is shot and wounded by a bandit disguised as an American officer, forcing Lewis to weigh his own role in the anti-bandit effort.",
+    "themes": [
+      "war_violence",
+      "crime_banditry"
+    ],
+    "places": [
+      110,
+      10,
+      111
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 99,
+  "fields": {
+    "chapter": 100,
+    "year": 1944,
+    "date_label": "September 19",
+    "date": "1944-09-19",
+    "summary": "A tense overnight checkpoint operation against suspected bandit traffic is set up on a lonely road, staffed by a poorly coordinated mix of Allied and Italian forces.",
+    "themes": [
+      "crime_banditry",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      111,
+      119
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 100,
+  "fields": {
+    "chapter": 101,
+    "year": 1944,
+    "date_label": "September 20",
+    "date": "1944-09-20",
+    "summary": "A search for confiscated goods turns up little, and Lewis senses a cooling, more guarded attitude from the Marshal and townspeople toward him. He reflects that what he'd been treating as bribery may really be a customary, expected exchange of courtesy gifts — and that his own rigid refusal of it has cost him local goodwill.",
+    "themes": [
+      "crime_banditry",
+      "personal_reflection"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 101,
+  "fields": {
+    "chapter": 102,
+    "year": 1944,
+    "date_label": "September 23",
+    "date": "1944-09-23",
+    "summary": "Lewis realizes with unease that locals now regard him as a possible *jettatore* (bearer of the evil eye), noting superstitious gestures made in his presence. He then reflects that a year after liberation, still hungry and diseased amid lawless ruins with only the distant promise of corrupt democracy ahead, Neapolitans may reasonably look back on the Mussolini years as a lost paradise by comparison.",
+    "themes": [
+      "superstition_religion",
+      "personal_reflection"
+    ],
+    "places": [
+      113,
+      114
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 102,
+  "fields": {
+    "chapter": 103,
+    "year": 1944,
+    "date_label": "September 25",
+    "date": "1944-09-25",
+    "summary": "A reunion with an old colleague who has become almost entirely assimilated into Southern Italian life prompts reflection on how deeply the region changes people.",
+    "themes": [
+      "naples_character",
+      "personal_reflection"
+    ],
+    "places": [
+      110,
+      26,
+      111,
+      120,
+      8,
+      121
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 103,
+  "fields": {
+    "chapter": 104,
+    "year": 1944,
+    "date_label": "October 6",
+    "date": "1944-10-06",
+    "summary": "Back in Naples, Lewis finds the section overworked, understaffed, and increasingly worn down by illness after months of dispersal. He reflects that the strange fascination of the intelligence work itself — a kind of legalised eavesdropping on humanity — is what keeps him working dangerously long hours despite the toll.",
+    "themes": [
+      "war_violence",
+      "disease_health",
+      "personal_reflection"
+    ],
+    "places": [
+      110,
+      111,
+      69,
+      24
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 104,
+  "fields": {
+    "chapter": 105,
+    "year": 1944,
+    "date_label": "October 8",
+    "date": "1944-10-08",
+    "summary": "Mob violence breaks out against local girls seen with Allied soldiers, and the section is controversially ordered to intervene with sub-machine guns.",
+    "themes": [
+      "war_violence",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      21,
+      23,
+      50
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 105,
+  "fields": {
+    "chapter": 106,
+    "year": 1944,
+    "date_label": "October 10",
+    "date": "1944-10-10",
+    "summary": "A description of the Neapolitan tradition of autumn *ottobrate* family outings to gather chestnuts, mushrooms, and wild greens.",
+    "themes": [
+      "naples_character"
+    ],
+    "places": [
+      122
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 106,
+  "fields": {
+    "chapter": 107,
+    "year": 1944,
+    "date_label": "October 16",
+    "date": "1944-10-16",
+    "summary": "A large-scale, coercive round-up of women for VD examinations follows a tip from a gynecologist contact, exposing the harsh methods used to fight the disease.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "disease_health"
+    ],
+    "places": []
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 107,
+  "fields": {
+    "chapter": 108,
+    "year": 1944,
+    "date_label": "October 20",
+    "date": "1944-10-20",
+    "summary": "Official policy strongly discourages marriages between soldiers and Italian civilians, citing poor historical outcomes for such wartime unions.",
+    "themes": [
+      "sex_relationships",
+      "bureaucracy_absurdity"
+    ],
+    "places": [
+      66,
+      45,
+      23,
+      13,
+      123,
+      124,
+      67
+    ]
+  }
+},
+{
+  "model": "naples44.entry",
+  "pk": 108,
+  "fields": {
+    "chapter": 109,
+    "year": 1944,
+    "date_label": "October 24",
+    "date": "1944-10-24",
+    "summary": "Lewis is abruptly ordered to a new mission repatriating Russian ex-POWs, sensing this marks the end of his time in Naples.",
+    "themes": [
+      "bureaucracy_absurdity",
+      "personal_reflection"
+    ],
+    "places": [
+      48,
+      129,
+      127,
+      126,
+      128,
+      8,
+      27,
+      43,
+      125,
+      34
+    ]
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 67,
+  "fields": {
+    "entry": 2,
+    "person": 1,
+    "note": "Field Security Officer, injured in a car crash before embarkation"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 68,
+  "fields": {
+    "entry": 5,
+    "person": 2,
+    "note": "attempts to organise transport to Salerno amid the chaos"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 69,
+  "fields": {
+    "entry": 7,
+    "person": 3,
+    "note": "sergeant who makes it back from Salerno through the battle"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 70,
+  "fields": {
+    "entry": 11,
+    "person": 1,
+    "note": "tells the section their presence at Paestum serves no purpose"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 71,
+  "fields": {
+    "entry": 15,
+    "person": 4,
+    "note": "section member, deals with Naples's doctors"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 72,
+  "fields": {
+    "entry": 15,
+    "person": 5,
+    "note": "section member"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 73,
+  "fields": {
+    "entry": 15,
+    "person": 6,
+    "note": "section member"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 74,
+  "fields": {
+    "entry": 15,
+    "person": 7,
+    "note": "best Italian speaker, sent as a solitary exile to Nola"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 75,
+  "fields": {
+    "entry": 20,
+    "person": 8,
+    "note": "starving non-practising Naples lawyer, Lewis's prize civilian contact; moved by a 'passion for justice'"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 76,
+  "fields": {
+    "entry": 24,
+    "person": 9,
+    "note": "young Italian-German soldier behind the mine hoax; Lewis reports him mentally unbalanced to spare him execution"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 77,
+  "fields": {
+    "entry": 25,
+    "person": 10,
+    "note": "recently released from the Filangieri gaol, hosts the dinner where Lewis meets Lola"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 78,
+  "fields": {
+    "entry": 26,
+    "person": 11,
+    "note": "RASC captain, Lola's lover; Lewis interprets for the couple"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 79,
+  "fields": {
+    "entry": 26,
+    "person": 12,
+    "note": "Frazer's lover, met at Signora Gentile's dinner party; asks Lewis to interpret for the relationship"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 80,
+  "fields": {
+    "entry": 27,
+    "person": 8,
+    "note": "reports on black-market corruption; Lewis witnesses his desperate poverty and the blind orphan girls scene with him"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 81,
+  "fields": {
+    "entry": 27,
+    "person": 13,
+    "note": "brings news of reduced informant funds"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 82,
+  "fields": {
+    "entry": 28,
+    "person": 14,
+    "note": "impoverished engineer contact living in genteel poverty on the Via Chiaia, resembling Lattarullo"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 83,
+  "fields": {
+    "entry": 28,
+    "person": 15,
+    "note": "impoverished lawyer contact, entitled to the style 'Conte' but no longer using it"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 84,
+  "fields": {
+    "entry": 29,
+    "person": 16,
+    "note": "enthusiastic informant, absentee landlord and head of a leading noble family"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 85,
+  "fields": {
+    "entry": 29,
+    "person": 17,
+    "note": "the Prince's sister, for whom he requests entry to a nonexistent army brothel"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 86,
+  "fields": {
+    "entry": 29,
+    "person": 18,
+    "note": "gynaecologist specialising in the restoration of virginity, one of Parkinson's medical contacts"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 87,
+  "fields": {
+    "entry": 30,
+    "person": 8,
+    "note": "hosts an elaborate lunch cobbled together from borrowed furniture and one prized heirloom salver"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 88,
+  "fields": {
+    "entry": 32,
+    "person": 11,
+    "note": "found gaunt and wasted, eating sea urchins on medical advice related to his relationship with Lola"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 89,
+  "fields": {
+    "entry": 36,
+    "person": 19,
+    "note": "bandit near Torrito, killed in a locally-arranged reprisal for looting rather than political resistance"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 90,
+  "fields": {
+    "entry": 38,
+    "person": 20,
+    "note": "American gangster who, via an AMG interpreter post, gained influence over Camorra-linked mayoral appointments in the Zona di Camorra"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 91,
+  "fields": {
+    "entry": 39,
+    "person": 21,
+    "note": "wealthy landowner near Caivano, former circus python-wrestler; not Camorra herself (women excluded) but a valuable informant"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 92,
+  "fields": {
+    "entry": 41,
+    "person": 22,
+    "note": "half-Italian, half-Irish friend whose information about the Anzio leak Lewis is forced to pursue"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 93,
+  "fields": {
+    "entry": 41,
+    "person": 23,
+    "note": "Norah's husband, part of the friendship network Lewis values"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 94,
+  "fields": {
+    "entry": 45,
+    "person": 8,
+    "note": "reveals he has no first-hand knowledge of vendetta country just miles from his own café haunts"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 95,
+  "fields": {
+    "entry": 55,
+    "person": 8,
+    "note": "introduces his friend Del Giudice"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 96,
+  "fields": {
+    "entry": 55,
+    "person": 24,
+    "note": "non-practising lawyer turned folklore/astronomy writer, an expert on San Gennaro and Vesuvius"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 97,
+  "fields": {
+    "entry": 59,
+    "person": 11,
+    "note": "on the Capri boat trip"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 98,
+  "fields": {
+    "entry": 59,
+    "person": 12,
+    "note": "on the Capri boat trip"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 99,
+  "fields": {
+    "entry": 59,
+    "person": 25,
+    "note": "Lola's friend, on the Capri boat trip"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 100,
+  "fields": {
+    "entry": 60,
+    "person": 11,
+    "note": "worried about a bruise on Lola's neck, later explained as a local romantic convention"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 101,
+  "fields": {
+    "entry": 63,
+    "person": 26,
+    "note": "beautiful aristocrat found to be performing wealth with borrowed furniture and an empty house for her marriage vetting"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 102,
+  "fields": {
+    "entry": 65,
+    "person": 20,
+    "note": "described as protecting black-market operations from within AMG, beyond the reach of the law"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 103,
+  "fields": {
+    "entry": 66,
+    "person": 11,
+    "note": "reconciled with Lola on more formal, arduous terms after her rival is dismissed"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 104,
+  "fields": {
+    "entry": 66,
+    "person": 12,
+    "note": "reconciles with Frazer after dismissing a rival lover, becomes his official fidanzata"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 105,
+  "fields": {
+    "entry": 67,
+    "person": 11,
+    "note": "hosts a dinner in his looted, makeshift requisitioned flat"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 106,
+  "fields": {
+    "entry": 67,
+    "person": 12,
+    "note": "hosts dinner at Frazer's flat"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 107,
+  "fields": {
+    "entry": 67,
+    "person": 25,
+    "note": "guest at Frazer's dinner party"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 108,
+  "fields": {
+    "entry": 69,
+    "person": 27,
+    "note": "Robin Hood-style bandit of Frattamaggiore; released from prison by advancing Allied troops, reorganised his band using a forged AMG travel pass"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 109,
+  "fields": {
+    "entry": 71,
+    "person": 27,
+    "note": "captured after a police operation exploiting his jealous mistress; his downfall observed by Lewis as an onlooker"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 110,
+  "fields": {
+    "entry": 73,
+    "person": 28,
+    "note": "imperturbable penicillin-racketeer, confident of acquittal despite Lewis's evidence"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 111,
+  "fields": {
+    "entry": 77,
+    "person": 8,
+    "note": "resumes his role as a hired 'uncle from Rome' at funerals after the fall of Rome"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 112,
+  "fields": {
+    "entry": 78,
+    "person": 21,
+    "note": "visits Lewis in hospital along with Lo Scalzo and a Camorra contact"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 113,
+  "fields": {
+    "entry": 78,
+    "person": 24,
+    "note": "visits Lewis in hospital"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 114,
+  "fields": {
+    "entry": 78,
+    "person": 11,
+    "note": "posted away, ending his affair with Lola"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 115,
+  "fields": {
+    "entry": 78,
+    "person": 12,
+    "note": "retires to Ischia for the summer as Frazer's affair with her ends"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 116,
+  "fields": {
+    "entry": 78,
+    "person": 25,
+    "note": "retires to Ischia with Lola for the summer"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 117,
+  "fields": {
+    "entry": 79,
+    "person": 7,
+    "note": "describes his frustrations with the Feast of the Lily disrupting telephone lines at Nola"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 118,
+  "fields": {
+    "entry": 80,
+    "person": 29,
+    "note": "described as the last of the great Camorra chieftains; lured to a funeral feast at Pozzuoli and assassinated by his own underlings in the 1920s"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 119,
+  "fields": {
+    "entry": 82,
+    "person": 30,
+    "note": "the section member with religious scruples given the job of escorting a female internee to Rome"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 120,
+  "fields": {
+    "entry": 83,
+    "person": 31,
+    "note": "wounded infiltrator/saboteur dying in hospital, mistakes Lewis for his brother"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 121,
+  "fields": {
+    "entry": 85,
+    "person": 32,
+    "note": "twelve-year-old orphaned child prostitute who comes asking for her weekly blanket"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 122,
+  "fields": {
+    "entry": 86,
+    "person": 33,
+    "note": "last surviving member of a great landowning family near Benevento, living amid ruin and pigeon droppings in her castle"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 123,
+  "fields": {
+    "entry": 88,
+    "person": 34,
+    "note": "local Carabinieri marshal in Benevento; later suspected via an anonymous letter of involvement with one of the bandit gangs"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 124,
+  "fields": {
+    "entry": 89,
+    "person": 35,
+    "note": "schoolmaster who explains the long history of Southern Italian banditry"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 125,
+  "fields": {
+    "entry": 95,
+    "person": 35,
+    "note": "dies of typhoid"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 126,
+  "fields": {
+    "entry": 98,
+    "person": 34,
+    "note": "Lewis grows increasingly uneasy about his alliance with the marshal amid suspicions of bandit collusion"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 127,
+  "fields": {
+    "entry": 98,
+    "person": 36,
+    "note": "the section's first casualty, wounded by a bandit disguised as an American officer"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 128,
+  "fields": {
+    "entry": 100,
+    "person": 37,
+    "note": "local farmer arrested for sheltering a wounded bandit; his arrest meets with general disapproval among townspeople"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 129,
+  "fields": {
+    "entry": 102,
+    "person": 38,
+    "note": "old colleague from Tunisia, reunited after eighteen months, visibly transformed by Southern Italy"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 130,
+  "fields": {
+    "entry": 103,
+    "person": 3,
+    "note": "sick with hepatitis"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 131,
+  "fields": {
+    "entry": 105,
+    "person": 39,
+    "note": "contact since the Anzio leak episode, hosts a family mushroom- and bird-hunting expedition"
+  }
+},
+{
+  "model": "naples44.entryperson",
+  "pk": 132,
+  "fields": {
+    "entry": 106,
+    "person": 18,
+    "note": "helps set the trap that exposes the VD round-up operation"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 41,
+  "fields": {
+    "entry": 4,
+    "folklore": 1,
+    "note": "tinsel from her mantle believed to grant protection/bulletproofing"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 42,
+  "fields": {
+    "entry": 16,
+    "folklore": 2,
+    "note": "local witch belief; villagers convinced a woman could curse the water supply"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 43,
+  "fields": {
+    "entry": 19,
+    "folklore": 3,
+    "note": "catacombs entered from behind his church"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 44,
+  "fields": {
+    "entry": 20,
+    "folklore": 4,
+    "note": "hired-mourner funeral custom — a well-dressed stranger poses as a dignified 'uncle from Rome' to add prestige to a family's funeral display"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 45,
+  "fields": {
+    "entry": 26,
+    "folklore": 5,
+    "note": "invoked as patron of coitus reservatus"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 46,
+  "fields": {
+    "entry": 27,
+    "folklore": 6,
+    "note": "hunchbacks are considered lucky in Naples; lottery-ticket buyers touch or stroke a hunchback's hump as part of the purchase"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 47,
+  "fields": {
+    "entry": 31,
+    "folklore": 7,
+    "note": "a widespread superstitious aversion to harming storks; a village that ate its storks' nestlings during famine is regarded as having brought calamity on itself"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 48,
+  "fields": {
+    "entry": 33,
+    "folklore": 8,
+    "note": "hired mourners attend funerals to perform grief, reinforcing the family's display of loss"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 49,
+  "fields": {
+    "entry": 34,
+    "folklore": 9,
+    "note": "incorrupt body at San Pasquale church, protector of pregnant women"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 50,
+  "fields": {
+    "entry": 34,
+    "folklore": 10,
+    "note": "exorcist protector invoked against the evil eye"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 51,
+  "fields": {
+    "entry": 34,
+    "folklore": 2,
+    "note": "malefic house belief"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 52,
+  "fields": {
+    "entry": 45,
+    "folklore": 11,
+    "note": "when a man is killed in a vendetta, his mother, if living, kisses and sucks at his wounds at the funeral as a display of grief and desire for vengeance"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 53,
+  "fields": {
+    "entry": 46,
+    "folklore": 12,
+    "note": "hereditary exorcist/joker figure warding off evil spirits and the evil eye"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 54,
+  "fields": {
+    "entry": 54,
+    "folklore": 13,
+    "note": "processional image confronting the eruption"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 55,
+  "fields": {
+    "entry": 54,
+    "folklore": 3,
+    "note": "image smuggled in as backup during the Vesuvius eruption"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 56,
+  "fields": {
+    "entry": 55,
+    "folklore": 3,
+    "note": "deposed then reinstated as protector, 1799 episode"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 57,
+  "fields": {
+    "entry": 55,
+    "folklore": 14,
+    "note": "briefly replaced San Gennaro as fire-saint"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 58,
+  "fields": {
+    "entry": 56,
+    "folklore": 3,
+    "note": "blood-liquefaction miracle, fear of its failure"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 59,
+  "fields": {
+    "entry": 56,
+    "folklore": 15,
+    "note": "speaking crucifix"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 60,
+  "fields": {
+    "entry": 56,
+    "folklore": 16,
+    "note": ""
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 61,
+  "fields": {
+    "entry": 56,
+    "folklore": 17,
+    "note": "image said to bow its head"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 62,
+  "fields": {
+    "entry": 56,
+    "folklore": 18,
+    "note": "bubbling blood relic"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 63,
+  "fields": {
+    "entry": 56,
+    "folklore": 19,
+    "note": "patron saint invoked against headaches; sufferers push their heads through a hole in the wall of his chapel seeking relief"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 64,
+  "fields": {
+    "entry": 58,
+    "folklore": 20,
+    "note": "Marian apparitions at Campi Flegrei"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 65,
+  "fields": {
+    "entry": 58,
+    "folklore": 21,
+    "note": "claimed to rescue a downed pilot mid-air, displays stigmata"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 66,
+  "fields": {
+    "entry": 68,
+    "folklore": 3,
+    "note": "Whitsun liquefaction expectation"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 67,
+  "fields": {
+    "entry": 68,
+    "folklore": 22,
+    "note": "pilgrimage shrine of the Virgin, formerly an ancient shrine of Cybele"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 68,
+  "fields": {
+    "entry": 68,
+    "folklore": 23,
+    "note": "cave-sanctuary at Monte Santangelo"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 69,
+  "fields": {
+    "entry": 70,
+    "folklore": 3,
+    "note": "blood liquefies slowly, seen as ill omen"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 70,
+  "fields": {
+    "entry": 70,
+    "folklore": 24,
+    "note": "aged women believed descended from the saint"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 71,
+  "fields": {
+    "entry": 77,
+    "folklore": 22,
+    "note": "site referenced in a black-market swindle involving fake clergy"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 72,
+  "fields": {
+    "entry": 78,
+    "folklore": 25,
+    "note": "belief that the Naples-facing side of Ischia is radioactive and beneficial, slimming and good for the kidneys, bladder and complexion, aided by rabbits bred in darkness for pale, 'non-fattening' meat"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 73,
+  "fields": {
+    "entry": 79,
+    "folklore": 26,
+    "note": "flagellant procession held every seven years in honour of the Virgin"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 74,
+  "fields": {
+    "entry": 79,
+    "folklore": 27,
+    "note": "Feast of St Paulinus; giant wooden 'lily' towers paraded through Nola, cutting army telephone cables in the process"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 75,
+  "fields": {
+    "entry": 79,
+    "folklore": 28,
+    "note": "relic in Amalfi Cathedral's crypt said to exude a miraculous liquid several times a year; Del Giudice queues to buy a sample"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 76,
+  "fields": {
+    "entry": 80,
+    "folklore": 3,
+    "note": "martyrdom at Pozzuoli; blood-stained rock relic said to react in sync with the cathedral miracle"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 77,
+  "fields": {
+    "entry": 95,
+    "folklore": 29,
+    "note": "an annual fox burned as ritual, its tail hung at the village entrance"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 78,
+  "fields": {
+    "entry": 95,
+    "folklore": 30,
+    "note": "reported to be practised as a matter of course on the neighbouring estate, where the steward is said to feel a prospective female worker's muscles before employing her"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 79,
+  "fields": {
+    "entry": 101,
+    "folklore": 2,
+    "note": "jettatore superstition; protective gestures made against Lewis himself"
+  }
+},
+{
+  "model": "naples44.entryfolklore",
+  "pk": 80,
+  "fields": {
+    "entry": 108,
+    "folklore": 31,
+    "note": "a woman's ritualized gesture interpreted as an offering to a fertility deity"
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 36,
+  "fields": {
+    "entry": 2,
+    "title": "Acclimatizing to danger",
+    "note": "Lewis notes his section's nerves have already adapted to combat's minor dangers, in sharp contrast to green American HQ troops fresh from peaceful Kansas and Wisconsin, whose raw panic he finds more dangerous than the enemy.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 37,
+  "fields": {
+    "entry": 6,
+    "title": "Official history vs. what he witnessed",
+    "note": "After the chaotic Salerno counterattack, Lewis predicts official history will dress up the retreat with false dignity, when what he actually saw was ineptitude and cowardice spreading down from the command.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 38,
+  "fields": {
+    "entry": 15,
+    "title": "The psychology of informants",
+    "note": "Lewis compares an informant to a duckling imprinting on the first sympathetic listener: driven by a strange, exclusive loyalty to one master rather than by payment, and never transferring allegiance once given.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 39,
+  "fields": {
+    "entry": 20,
+    "title": "Educated poverty and family pride",
+    "note": "Reflecting on Lattarullo, Lewis notes Naples has thousands of unemployed lawyers and doctors — families starve themselves so a son can be addressed with the honorific avvocato or dottore, even if he never practises.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 40,
+  "fields": {
+    "entry": 23,
+    "title": "Naples seen from above — un-European, oriental",
+    "note": "Awaiting a rumoured mass mine detonation from the heights of the Vomero, Lewis is struck, seeing the city whole for the first time, by how un-European and almost oriental Naples appears from a distance.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 41,
+  "fields": {
+    "entry": 24,
+    "title": "Generals passing moral responsibility",
+    "note": "Asked to help decide whether to execute a captured teenage German soldier, Lewis observes that generals who like to appear ruthless are often eager in practice to offload the moral responsibility for such decisions onto subordinates like himself.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 42,
+  "fields": {
+    "entry": 27,
+    "title": "Conversion to pessimism — the blind orphan girls",
+    "note": "Watching a group of weeping blind orphan girls ignored by indifferent diners in a restaurant, Lewis says the experience changed his outlook permanently: he had believed people eventually come to terms with pain, and now understands he was wrong.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 43,
+  "fields": {
+    "entry": 28,
+    "title": "Genteel poverty as a historical constant",
+    "note": "Comparing his near-destitute contacts Lattarullo, Losurdo and Mosca to Alexandre Dumas's 1835 account of Naples's aristocracy, Lewis concludes their poverty isn't just a wartime effect but a century-old pattern of the city's oversupplied professional classes.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 44,
+  "fields": {
+    "entry": 34,
+    "title": "Naples's unconscious class proximity",
+    "note": "Lewis observes that in his neighbourhood the rich and poor live physically side by side — grand palazzi and one-room working-class households sharing the same buildings — while remaining almost entirely unconscious of one another.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 45,
+  "fields": {
+    "entry": 37,
+    "title": "Omertà and the irony of 'liberation'",
+    "note": "After a wire-cutting investigation dead-ends in silence, a Carabinieri sergeant sardonically thanks Lewis for teaching Naples 'what democratic justice is all about' — Lewis registers the biting irony without the sergeant cracking a smile.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 46,
+  "fields": {
+    "entry": 38,
+    "title": "The historical roots of the Zona di Camorra's poverty",
+    "note": "Taking charge of security in the Camorra-controlled towns north of Naples, Lewis notes the great fertility of the land was extracted for centuries to build Naples's ducal palaces, leaving the peasants who worked it in conditions close to slavery.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 47,
+  "fields": {
+    "entry": 45,
+    "title": "Naples's cultural distance from its own hinterland",
+    "note": "Lewis observes that cosmopolitan Naples knows and cares nothing for the archaic, vendetta-bound countryside just miles away — his contact Lattarullo has visited Rome many times but never once turned aside into nearby Afragola.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 48,
+  "fields": {
+    "entry": 46,
+    "title": "Historical amnesia of the ordinary Neapolitan",
+    "note": "Watching street storytellers recount the deeds of Charlemagne, Lewis reflects that ten centuries of invading armies and drowned revolutions have left no mark on the common Neapolitan's imagination or memory.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 49,
+  "fields": {
+    "entry": 50,
+    "title": "Justice only for the poor",
+    "note": "Lewis observes that the crackdown on the black market only ever catches those with no one to speak for them and no money to bribe their way out, while the well-connected are acquitted or let off with light sentences.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 50,
+  "fields": {
+    "entry": 52,
+    "title": "Bombing kills only the poor — Allied and German alike",
+    "note": "After a bad air raid kills children in Santa Lucia, Lewis notes bitterly that both the Germans and the Allies, in these indiscriminate raids, only ever seem to kill the poor.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 51,
+  "fields": {
+    "entry": 54,
+    "title": "Faith in permanence against Vesuvius's certainty",
+    "note": "Visiting San Sebastiano as lava approaches, Lewis marvels that its people build to last centuries and refuse to admit the town's eventual destruction is a mathematical certainty — civic permanency treated as an article of religious faith.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 52,
+  "fields": {
+    "entry": 56,
+    "title": "Miracle fervor as collective coping with crisis",
+    "note": "Lewis observes that wartime hardship has pushed Naples back into the Middle Ages, with a sudden explosion of talking, bleeding, and weeping religious images answering a citywide craving for miracles and cures.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 53,
+  "fields": {
+    "entry": 59,
+    "title": "Capri as escapist psychological release",
+    "note": "On a boat trip to Capri, Lewis compares the island to hashish — bringing out whatever demon lurks at the bottom of the personality — and finds it a world entirely disengaged from the war, unlike Naples.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 54,
+  "fields": {
+    "entry": 61,
+    "title": "Economic desperation behind 'prostitution'",
+    "note": "Investigating marriage candidates, Lewis finds most so-called prostitutes are ordinary girls with no other means of survival, and reflects that with the whole population out of work and producing nothing, it's remarkable they can even find a man to support them at all.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 55,
+  "fields": {
+    "entry": 62,
+    "title": "Solidarity of the poor toward escaped POWs",
+    "note": "Interviewing escaped British POWs, Lewis notes they'd been trained to seek help only from the poor, who 'have nothing to lose' — and reflects that in fact the poor risked everything, since sheltering escapees was a capital risk.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 56,
+  "fields": {
+    "entry": 64,
+    "title": "The arithmetic of survival wages",
+    "note": "Cross-checking a marriage candidate's income against real wage figures — a major earning £7 10s a month, a postman far less — Lewis lays out the impossible arithmetic facing a family of seven trying to survive on about a pound a month.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 57,
+  "fields": {
+    "entry": 71,
+    "title": "Injustice of the anti-bandit crackdown",
+    "note": "Lewis opens by calling the General's mass-arrest campaign against bandits 'a shameful example of the perfidiousness and injustices of this war we conduct behind the scenes' — the crackdown falls only on small-time opportunists, not real gang leadership.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 58,
+  "fields": {
+    "entry": 73,
+    "title": "Justice bought — the big fish always escape",
+    "note": "Visiting the imperturbable racketeer Fortuna in prison, Lewis reflects that every 'big fish' defendant in the corruption cases has gone free through disappearing witnesses, lost documents, and bribed officials, while small offenders like old Antonio Priore serve long sentences.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 59,
+  "fields": {
+    "entry": 75,
+    "title": "Postwar political fragmentation and 'respectable insanity'",
+    "note": "Surveying Italy's sudden explosion of some sixty political parties, some proposing perpetual-motion machines as national policy, Lewis remarks that this is a season and situation in which insanity has become almost respectable.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 60,
+  "fields": {
+    "entry": 76,
+    "title": "Selective reporting of Allied troops' crimes",
+    "note": "After describing the vigilante killing of five Moroccan soldiers in reprisal for earlier atrocities, Lewis wonders drily whether any account of the episode will make it into the Allied Psychological Warfare Bureau's bulletin.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 61,
+  "fields": {
+    "entry": 80,
+    "title": "Pozzuoli's separateness from Naples",
+    "note": "Visiting as a tourist, Lewis finds Pozzuoli calm, self-absorbed, and almost untouched by the war — noting it lies outside the Zona di Camorra and its 'secret tribal life', with a population distinct from Neapolitans in dialect, custom, and possibly blood.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 62,
+  "fields": {
+    "entry": 81,
+    "title": "Naples as an 'Eastern city'",
+    "note": "Quoting the journalist Scarfoglio's line that Naples is 'the only Eastern city where there is no residential European quarter,' Lewis finds it still holds true, prompted by an aristocrat's theatrically staged deathbed farewell.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 63,
+  "fields": {
+    "entry": 89,
+    "title": "Fascism remembered as a 'golden interlude'",
+    "note": "Discussing Southern Italy's long history of banditry with the schoolmaster Don Ubaldo, Lewis records that most people were already beginning to see the Fascist era as a golden interlude of security and firm government.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 64,
+  "fields": {
+    "entry": 92,
+    "title": "Becoming drawn into the system",
+    "note": "After quietly watching a black-market pharmacy relabel stolen drugs to help a sick friend, Lewis catches himself: 'I am gradually becoming drawn into the system!' — a rare moment of self-aware complicity.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 65,
+  "fields": {
+    "entry": 97,
+    "title": "Collective omertà — the town that saw nothing",
+    "note": "Investigating a reported shotgun murder that leaves no trace but blood on the cobbles, Lewis finds everyone he asks — waiters, shopkeepers, even the Marshal — trained to silence, bland smiles, and seeing nothing.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 66,
+  "fields": {
+    "entry": 100,
+    "title": "Gift-exchange vs. bribery",
+    "note": "Lewis reconsiders the routine 100-lire notes offered for travel passes: not bribes in the Western sense, but what he compares to an African tribal system of ritual gift-giving ('dashes') that a well-bred person is expected to honour. By refusing them out of principle, he concludes he has unintentionally offended and lost the trust of people around him.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 67,
+  "fields": {
+    "entry": 101,
+    "title": "Liberation's disappointing aftermath vs. Fascist-era stability",
+    "note": "Lewis reflects that a year after the Allies 'liberated' Naples from Fascism, the population remains hungrier, more disease-ridden, and more lawless than before, with only a distant and compromised promise of corrupt democracy to show for it — concluding that the Mussolini years must now seem like a lost paradise by comparison.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 68,
+  "fields": {
+    "entry": 102,
+    "title": "How Southern Italy transforms outsiders",
+    "note": "Reunited with an old colleague after eighteen months apart, Lewis is struck by how completely Southern Italy has transformed the Englishman — he would now take him for an Italian in a British uniform.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 69,
+  "fields": {
+    "entry": 103,
+    "title": "The addictive pull of intelligence work",
+    "note": "Lewis attributes his declining health partly to overwork, describing the strange excitement of 'legalised eavesdropping on humanity' as a fascination that keeps him working up to fifteen-hour days — to the point of falling asleep at the wheel on three recent occasions.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.reflection",
+  "pk": 70,
+  "fields": {
+    "entry": 108,
+    "title": "Abrupt departure — no time for goodbyes",
+    "note": "Suddenly ordered to leave for a new posting, Lewis reflects with wistful regret on all the small rituals of Naples life he will have no time to close out — one last marsala with a contact, one last view from the Vomero, one last meal at Zi' Teresa's.",
+    "order": 0
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 1,
+  "fields": {
+    "date": "1939-09-01",
+    "title": "WWII begins",
+    "category": "global",
+    "note": "Germany invades Poland, triggering Britain and France's declarations of war and the start of the Second World War in Europe.",
+    "link": "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 2,
+  "fields": {
+    "date": "1941-12-07",
+    "title": "Pearl Harbor / US enters the war",
+    "category": "global",
+    "note": "Japan's attack on Pearl Harbor brings the United States into the Second World War.",
+    "link": "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 3,
+  "fields": {
+    "date": "1943-07-10",
+    "title": "Allied invasion of Sicily begins",
+    "category": "italian_campaign",
+    "note": "Operation Husky lands Allied forces on Sicily, opening the Italian campaign.",
+    "link": "https://en.wikipedia.org/wiki/Allied_invasion_of_Sicily"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 4,
+  "fields": {
+    "date": "1943-07-25",
+    "title": "Mussolini removed from power",
+    "category": "italian_campaign",
+    "note": "King Victor Emmanuel III dismisses and arrests Mussolini; Marshal Pietro Badoglio becomes prime minister.",
+    "link": "https://en.wikipedia.org/wiki/Benito_Mussolini"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 5,
+  "fields": {
+    "date": "1943-09-08",
+    "title": "Armistice of Cassibile announced",
+    "category": "italian_campaign",
+    "note": "Italy's secret armistice with the Allies (signed Sept 3) is publicly announced, taking Italy out of the war on the Axis side. This is the same news Lewis's unit receives aboard ship in the book's opening entry.",
+    "link": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 6,
+  "fields": {
+    "date": "1943-09-09",
+    "title": "Salerno landings (Operation Avalanche)",
+    "category": "italian_campaign",
+    "note": "US Fifth Army lands at Salerno, opening the mainland Italian campaign — the landing Lewis himself takes part in at Paestum the same day.",
+    "link": "https://en.wikipedia.org/wiki/Landing_at_Salerno"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 7,
+  "fields": {
+    "date": "1943-10-01",
+    "title": "Naples liberated",
+    "category": "italian_campaign",
+    "note": "Allied troops enter Naples after the Four Days of Naples uprising against the German garrison.",
+    "link": "https://en.wikipedia.org/wiki/Four_days_of_Naples"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 8,
+  "fields": {
+    "date": "1943-10-12",
+    "title": "Volturno Line offensive begins",
+    "category": "italian_campaign",
+    "note": "Fifth Army begins crossing the Volturno River north of Naples, the first of a series of offensives pushing toward the Gustav Line.",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_the_Volturno_Line"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 9,
+  "fields": {
+    "date": "1944-01-22",
+    "title": "Anzio landings (Operation Shingle)",
+    "category": "italian_campaign",
+    "note": "Allied forces land at Anzio, south of Rome, hoping to outflank the Gustav Line — the landing Lewis reports on in the book via a security leak he is sent to trace.",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Anzio"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 10,
+  "fields": {
+    "date": "1944-02-15",
+    "title": "Bombing of Monte Cassino abbey",
+    "category": "italian_campaign",
+    "note": "Allied bombers destroy the historic Benedictine abbey at Monte Cassino, believing (wrongly, it later emerged) that German troops were using it.",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Monte_Cassino"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 11,
+  "fields": {
+    "date": "1944-05-18",
+    "title": "Monte Cassino falls / Gustav Line broken",
+    "category": "italian_campaign",
+    "note": "Polish II Corps troops raise their flag over the ruins of Monte Cassino after four months of battle, finally breaking the Gustav Line and opening the road to Rome.",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Monte_Cassino"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 12,
+  "fields": {
+    "date": "1944-06-04",
+    "title": "Rome liberated",
+    "category": "italian_campaign",
+    "note": "US Fifth Army enters Rome, the first Axis capital to fall to the Allies.",
+    "link": "https://en.wikipedia.org/wiki/Liberation_of_Rome"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 13,
+  "fields": {
+    "date": "1944-06-06",
+    "title": "D-Day — Normandy landings",
+    "category": "global",
+    "note": "Allied forces land in Normandy, opening the Western Front in France — coming two days after Rome's liberation, it quickly overshadowed that achievement in the wider war narrative.",
+    "link": "https://en.wikipedia.org/wiki/Normandy_landings"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 14,
+  "fields": {
+    "date": "1944-08-11",
+    "title": "Florence liberated",
+    "category": "italian_campaign",
+    "note": "Allied troops and Italian partisans complete the liberation of Florence after the Germans destroyed the city's bridges (sparing only the Ponte Vecchio) during their retreat.",
+    "link": "https://en.wikipedia.org/wiki/Battle_of_Florence"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 15,
+  "fields": {
+    "date": "1944-08-15",
+    "title": "Operation Dragoon — invasion of southern France",
+    "category": "global",
+    "note": "Allied forces land in southern France, a landing that drew significant troop strength away from the Italian campaign.",
+    "link": "https://en.wikipedia.org/wiki/Operation_Dragoon"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 16,
+  "fields": {
+    "date": "1944-08-25",
+    "title": "Paris liberated",
+    "category": "global",
+    "note": "Allied forces and the French Resistance liberate Paris from German occupation.",
+    "link": "https://en.wikipedia.org/wiki/Liberation_of_Paris"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 17,
+  "fields": {
+    "date": "1944-08-25",
+    "title": "Gothic Line offensive begins (Operation Olive)",
+    "category": "italian_campaign",
+    "note": "The Allies launch their first major assault on the Gothic Line, the Germans' last major defensive line in the northern Apennines.",
+    "link": "https://en.wikipedia.org/wiki/Operation_Olive"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 18,
+  "fields": {
+    "date": "1945-04-28",
+    "title": "Mussolini captured and executed",
+    "category": "italian_campaign",
+    "note": "Mussolini is captured by Italian partisans while attempting to flee to Switzerland and is executed the following day.",
+    "link": "https://en.wikipedia.org/wiki/Death_of_Benito_Mussolini"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 19,
+  "fields": {
+    "date": "1945-05-02",
+    "title": "German forces in Italy surrender",
+    "category": "italian_campaign",
+    "note": "Surrender at Caserta takes effect, ending the Italian campaign — fought in the very city, Caserta, that appears repeatedly in the book's own pages.",
+    "link": "https://en.wikipedia.org/wiki/German_instrument_of_surrender_(Caserta)"
+  }
+},
+{
+  "model": "naples44.outerringevent",
+  "pk": 20,
+  "fields": {
+    "date": "1945-05-08",
+    "title": "VE Day — war ends in Europe",
+    "category": "global",
+    "note": "Germany's unconditional surrender takes effect, ending the Second World War in Europe.",
+    "link": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day"
+  }
+}
+]

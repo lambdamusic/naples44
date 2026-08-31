@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+# Copy this to `db-bootstrap` (gitignored — keep real creds out of git),
+# fill in real values, then run it from the repo root.
+
+cd src
+
+python manage.py makemigrations
+python manage.py migrate
+
+echo "from django.contrib.auth.models import User; User.objects.filter(username='NAME').exists() or User.objects.create_superuser('NAME', 'EMAIL', 'PASSWORD')" | python manage.py shell
+
+echo "SUPERUSER READY: 'NAME'"

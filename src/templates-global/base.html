@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Naples '44{% endblock %}</title>
+  <meta name="description" content="An interactive timeline of Norman Lewis's WWII memoir Naples '44.">
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  {% block extrahead %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  <header class="site-header">
+    <a class="site-title" href="{% url 'naples44:index' %}">
+      Naples&nbsp;<span class="year">’44</span>
+    </a>
+    <nav class="site-nav">
+      <a href="{% url 'naples44:index' %}">About</a>
+      <a href="{% url 'naples44:timeline' %}">Timeline</a>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Based on <em>Naples ’44</em> by Norman Lewis (1978). Entry summaries are
+      paraphrased, not quoted. An independent reading project — not affiliated
+      with the author’s estate or publisher.
+    </p>
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

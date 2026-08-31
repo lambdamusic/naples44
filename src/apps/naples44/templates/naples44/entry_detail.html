@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}{{ entry.date_label }} {{ entry.year }} — Naples ’44{% endblock %}
+{% block body_class %}page-entry{% endblock %}
+
+{% block content %}
+<article class="entry">
+  <p class="kicker">Entry {{ entry.id }} · Book chapter {{ entry.chapter }}</p>
+  <h1>{{ entry.date_label }} <span class="year">{{ entry.year }}</span></h1>
+
+  <p class="entry-summary">{{ entry.summary }}</p>
+
+  {% if entry.themes.all %}
+  <div class="tag-block">
+    <h2>Themes</h2>
+    <ul class="chips">
+      {% for t in entry.themes.all %}<li class="chip chip-theme" title="{{ t.description }}">{{ t.label }}</li>{% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if entry.places.all %}
+  <div class="tag-block">
+    <h2>Places</h2>
+    <ul class="tag-lines">
+      {% for p in entry.places.all %}
+      <li>
+        {% if p.wikipedia_url %}<a href="{{ p.wikipedia_url }}" rel="noopener">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}
+        <span class="tag-type">{{ p.get_place_type_display }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if entry.entryperson_set.all %}
+  <div class="tag-block">
+    <h2>People</h2>
+    <ul class="tag-lines">
+      {% for ep in entry.entryperson_set.all %}
+      <li>
+        {% if ep.person.wikipedia_url %}<a href="{{ ep.person.wikipedia_url }}" rel="noopener">{{ ep.person.name }}</a>{% else %}{{ ep.person.name }}{% endif %}
+        <span class="tag-type">{{ ep.person.get_person_type_display }}</span>
+        {% if ep.note %}<span class="tag-note">{{ ep.note }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if entry.entryfolklore_set.all %}
+  <div class="tag-block">
+    <h2>Saints &amp; folklore</h2>
+    <ul class="tag-lines">
+      {% for ef in entry.entryfolklore_set.all %}
+      <li>
+        {% if ef.folklore.wikipedia_url %}<a href="{{ ef.folklore.wikipedia_url }}" rel="noopener">{{ ef.folklore.name }}</a>{% else %}{{ ef.folklore.name }}{% endif %}
+        {% if ef.note %}<span class="tag-note">{{ ef.note }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if entry.reflections.all %}
+  <div class="tag-block">
+    <h2>Reflections</h2>
+    {% for r in entry.reflections.all %}
+    <div class="reflection">
+      <h3>{{ r.title }}</h3>
+      <p>{{ r.note }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <nav class="entry-nav">
+    {% if prev_entry %}<a class="prev" href="{{ prev_entry.get_absolute_url }}">← {{ prev_entry.date_label }}</a>{% else %}<span></span>{% endif %}
+    <a class="to-timeline" href="{% url 'naples44:timeline' %}#entry-{{ entry.id }}">On the timeline</a>
+    {% if next_entry %}<a class="next" href="{{ next_entry.get_absolute_url }}">{{ next_entry.date_label }} →</a>{% else %}<span></span>{% endif %}
+  </nav>
+</article>
+{% endblock %}

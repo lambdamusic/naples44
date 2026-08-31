@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+# Run the local dev server (Django admin + rendered views) against sqlite.
+# Depends on django-extensions + Werkzeug (runserver_plus).
+
+export ENVIRONMENT=local
+
+cd src
+python manage.py runserver_plus

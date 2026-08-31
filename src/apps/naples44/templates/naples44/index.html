@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Naples ’44 — an interactive reading{% endblock %}
+{% block body_class %}page-about{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <p class="kicker">Naples, September 1943 – October 1944</p>
+  <h1>An interactive timeline of <em>Naples&nbsp;’44</em></h1>
+  <p class="lede">
+    Norman Lewis was a British intelligence officer posted to Naples in the year
+    after the Allied landings. His diary of that year — published in 1978 as
+    <em>Naples&nbsp;’44</em> — is a spare, unsparing record of a city surviving
+    occupation, hunger, the black market, bombardment and the everyday theatre of
+    Neapolitan life. This site lets you move through the book by date.
+  </p>
+  <a class="cta" href="{% url 'naples44:timeline' %}">Open the timeline →</a>
+</section>
+
+<section class="about-grid">
+  <div>
+    <h2>What you’re looking at</h2>
+    <p>
+      Every dated entry in the book sits on a circular timeline. An
+      <strong>inner ring</strong> holds Lewis’s {{ entry_count }} diary entries;
+      an <strong>outer ring</strong> marks {{ event_count }} events of the wider
+      war, on the same date axis — so you can see what was happening at Anzio or
+      Monte Cassino while Lewis was writing about a saint’s procession or a
+      requisitioned piano.
+    </p>
+  </div>
+  <div>
+    <h2>How it was built</h2>
+    <p>
+      While reading, each entry was given a short paraphrased summary and tagged
+      by <strong>{{ theme_count }} themes</strong>, <strong>{{ place_count }}
+      places</strong>, <strong>{{ people_count }} recurring people</strong>, and a
+      running list of saints, feasts and superstitions. Where a person or place
+      has a reliable Wikipedia article, it’s linked.
+    </p>
+  </div>
+  <div>
+    <h2>Moving around</h2>
+    <p>
+      Hover or tap a point on the inner ring to read its summary and tags. Use
+      the theme and tag filters to light up every entry that touches a subject —
+      the evil eye, the Camorra, Allied conduct. Each entry also has its own
+      page you can link to directly.
+    </p>
+  </div>
+</section>
+
+<section class="stat-row">
+  <div class="stat"><span class="num">{{ entry_count }}</span><span class="lbl">diary entries</span></div>
+  <div class="stat"><span class="num">{{ place_count }}</span><span class="lbl">places</span></div>
+  <div class="stat"><span class="num">{{ people_count }}</span><span class="lbl">people</span></div>
+  <div class="stat"><span class="num">{{ theme_count }}</span><span class="lbl">themes</span></div>
+  <div class="stat"><span class="num">{{ event_count }}</span><span class="lbl">war events</span></div>
+</section>
+{% endblock %}

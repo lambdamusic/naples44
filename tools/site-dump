@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+#
+# wget-mirror the running dev server into build/, then rsync into docs/.
+# Requires the dev server running on 127.0.0.1:8000 (tools/run-dev-local-db).
+
+echo "================="
+echo "PREREQUISITE"
+echo "Ensure site is running on 127.0.0.1:8000..."
+echo "================="
+
+if lsof -Pi :8000 -sTCP:LISTEN -t >/dev/null ; then
+    echo ">>>>>>> DJANGO is RUNNING! "
+    echo "================="
+else
+    echo "********* Django not running **********"
+    echo ".. Exiting process. Please run the django server first."
+    exit 1
+fi
+
+#
+# Folders excluded from the rsync into docs/ — anything manually maintained
+# there (a hand-placed CNAME, .nojekyll, manually-managed assets) survives
+# regeneration.
+#
+
+DIR_BUILD="build"
+DIR_DOCS="docs"
+
+echo -e "\nCLEAN UP TEMP BUILD DIR.."
+echo "+++++++++++++++++"
+rm -rf $DIR_BUILD/*
+
+echo -e "\nWGET SITE INTO TEMP BUILD DIRECTORY.."
+echo "+++++++++++++++++"
+wget -P $DIR_BUILD -mkEpnp -nH http://127.0.0.1:8000/ --wait=0.1
+
+cd $DIR_BUILD
+touch "$(date +"%Y_%m_%d_%I_%M_%p").log"
+cd ..
+
+echo -e "\nRSYNC TEMP BUILD DIRECTORY INTO FINAL LOCATION:  /$DIR_DOCS"
+echo "+++++++++++++++++"
+rsync -av --delete --exclude '.nojekyll' --exclude 'CNAME' --exclude assets $DIR_BUILD/ $DIR_DOCS/
+
+# WGET flags used above:
+# -m -k -E -p : recursive, convert-links, adjust-extension, page-requisites
+# -np  : --no-parent, don't ascend above the start URL
+# -nH  : --no-host-directories, don't prefix output with the hostname
+# --wait=0.1 : be polite to the local dev server between requests

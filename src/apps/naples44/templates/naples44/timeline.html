@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Timeline — Naples ’44{% endblock %}
+{% block body_class %}page-timeline{% endblock %}
+
+{% block content %}
+{{ payload|json_script:"naples-data" }}
+
+<div class="timeline-app">
+  <div class="viz-wrap">
+    <div id="viz" role="img" aria-label="Radial timeline of the diary entries"></div>
+    <p class="viz-hint">Inner ring — Lewis’s diary · outer ring — the wider war · hover to preview, click to open</p>
+    <div class="oor">
+      <div id="oor-before" hidden></div>
+      <div id="oor-after" hidden></div>
+    </div>
+  </div>
+
+  <aside class="panel">
+    <div id="detail" class="detail is-empty">
+      <p class="detail-placeholder">
+        Select a point on the inner ring to read Lewis’s entry for that day.
+      </p>
+    </div>
+
+    <div class="filters">
+      <div class="filter-head">
+        <h2>Filter by theme</h2>
+        <button type="button" id="clear-filters" hidden>Clear</button>
+      </div>
+      <ul id="theme-list" class="theme-list"></ul>
+
+      <h2>Filter by tag</h2>
+      <input type="search" id="tag-search" placeholder="Search places, people, folklore…" autocomplete="off">
+      <ul id="tag-list" class="tag-list"></ul>
+    </div>
+  </aside>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/d3.v7.min.js' %}"></script>
+<script src="{% static 'js/timeline.js' %}"></script>
+{% endblock %}
