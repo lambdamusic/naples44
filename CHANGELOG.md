@@ -104,3 +104,15 @@
 - **← / → arrow keys** and a prev/next nav now move between sibling entity pages
   (places → places, people → people, …) in the model's default order, reusing
   `entry.js` and the `.entry-nav` markup.
+
+## 2026-09-01 — Place book_role: second pass from the full text
+
+- Read the epub (`plan-files/…Naples '44….epub`) and wrote `book_role` for 90
+  more places, grounded in the actual passages where each is mentioned
+  (paraphrased, project house style; ≤1 short quoted phrase each). **123/129**
+  places now have a book_role.
+- Still empty (all look like thin or mis-applied tags — leave or reconsider):
+  Altamura (actually *Marshal* Altamura, a person), Castel Sant'Elmo,
+  Castellammare di Stabia, Palazzo Carracciolo, Rione Sant'Antonio Abate,
+  San Giorgio (near Benevento).
+- Fixed one geocode from the text: "Corso Umberto" is Benevento's, not Naples's.
