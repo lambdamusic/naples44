@@ -155,3 +155,18 @@
 - Reflections get real visual weight: each is a pull-quote card (accent left
   border, decorative quote mark, serif title, italic body) instead of a plain
   tag-block entry.
+
+## 2026-09-01 — Browse / index pages
+
+- New listing pages: `/places/`, `/people/`, `/folklore/`, `/themes/`
+  (`entity_list.html`, four thin views). Places & people are grouped by type
+  (place_type / person_type) with per-group counts; folklore is A–Z; themes keep
+  the taxonomy order and show their descriptions.
+- Client-side sort toggle (`entity-list.js`) — restore the server order, A–Z, or
+  most-mentioned — as progressive enhancement (the grouped list stands without JS).
+- Landing page: the stats row is now a labelled "Browse" set of links to these
+  pages (+ a folklore count); the "How it was built" copy links to the indexes.
+- Each entity detail page's centre nav link now points at its index
+  ("All places", "All people", …).
+- Note: `Theme.objects.annotate(Count(...))` drops `Meta.ordering` — the theme
+  list re-applies `.order_by("order", "slug")` explicitly.

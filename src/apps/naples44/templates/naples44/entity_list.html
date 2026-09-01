@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ kind }} — Naples ’44{% endblock %}
+{% block body_class %}page-entity-list{% endblock %}
+
+{% block content %}
+<div class="entity-index">
+  {% include "naples44/_entity_icon.html" %}
+  <p class="kicker">Browse</p>
+  <h1>{{ kind }} <span class="eix-total">{{ total }}</span></h1>
+  <p class="eix-blurb">{{ blurb }}</p>
+
+  <div class="entity-sort" hidden>
+    <button type="button" data-sort="type" class="is-active">{{ first_sort_label }}</button>
+    {% if first_sort_label != "A–Z" %}<button type="button" data-sort="name">A–Z</button>{% endif %}
+    <button type="button" data-sort="count">Most mentioned</button>
+  </div>
+
+  <ul class="ei-list{% if wide %} ei-list--wide{% endif %}">
+    {% for group in groups %}
+      {% if group.label %}<li class="ei-group">{{ group.label }} <span>{{ group.items|length }}</span></li>{% endif %}
+      {% for it in group.items %}
+      <li class="ei-item" data-name="{{ it.name|lower }}" data-count="{{ it.count }}">
+        <a class="ei-name" href="{{ it.url }}">{{ it.name }}</a>
+        {% if wide and it.description %}<span class="ei-desc">{{ it.description }}</span>{% endif %}
+        <span class="ei-count" title="{{ it.count }} diary entr{{ it.count|pluralize:'y,ies' }}">{{ it.count }}</span>
+      </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'js/entity-list.js' %}"></script>
+{% endblock %}

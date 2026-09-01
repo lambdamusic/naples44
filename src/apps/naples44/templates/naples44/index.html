@@ -44,8 +44,9 @@
       While reading, each entry was given a short paraphrased summary and tagged
       by <strong>{{ theme_count }} themes</strong>, <strong>{{ place_count }}
       places</strong>, <strong>{{ people_count }} recurring people</strong>, and a
-      running list of saints, feasts and superstitions. Every place, person and
-      theme has its own page collecting the entries it appears in.
+      running list of saints, feasts and superstitions. Every one of these has its
+      own page, and you can <a href="{% url 'naples44:place_list' %}">browse the
+      full indexes</a>.
     </p>
   </div>
   <div>
@@ -60,10 +61,12 @@
 </section>
 
 <section class="stat-row">
-  <div class="stat"><span class="num">{{ entry_count }}</span><span class="lbl">diary entries</span></div>
-  <div class="stat"><span class="num">{{ place_count }}</span><span class="lbl">places</span></div>
-  <div class="stat"><span class="num">{{ people_count }}</span><span class="lbl">people</span></div>
-  <div class="stat"><span class="num">{{ theme_count }}</span><span class="lbl">themes</span></div>
-  <div class="stat"><span class="num">{{ event_count }}</span><span class="lbl">war events</span></div>
+  <p class="kicker stat-row-head">Browse</p>
+  <a class="stat" href="{% url 'naples44:timeline' %}"><span class="num">{{ entry_count }}</span><span class="lbl">diary entries</span></a>
+  <a class="stat" href="{% url 'naples44:place_list' %}"><span class="num">{{ place_count }}</span><span class="lbl">places</span></a>
+  <a class="stat" href="{% url 'naples44:person_list' %}"><span class="num">{{ people_count }}</span><span class="lbl">people</span></a>
+  <a class="stat" href="{% url 'naples44:folklore_list' %}"><span class="num">{{ folklore_count }}</span><span class="lbl">saints &amp; folklore</span></a>
+  <a class="stat" href="{% url 'naples44:theme_list' %}"><span class="num">{{ theme_count }}</span><span class="lbl">themes</span></a>
+  <a class="stat" href="{% url 'naples44:timeline' %}"><span class="num">{{ event_count }}</span><span class="lbl">war events</span></a>
 </section>
 {% endblock %}

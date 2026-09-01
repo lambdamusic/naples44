@@ -1,6 +1,8 @@
 from urllib.parse import quote_plus
 
+from django.db.models import Count
 from django.shortcuts import get_object_or_404, render
+from django.urls import reverse
 
 from . import models
 from .payload import build_payload
@@ -14,6 +16,7 @@ def index(request):
             "entry_count": models.Entry.objects.count(),
             "place_count": models.Place.objects.count(),
             "people_count": models.Person.objects.count(),
+            "folklore_count": models.FolkloreEntity.objects.count(),
             "theme_count": models.Theme.objects.count(),
             "event_count": models.OuterRingEvent.objects.count(),
         },
@@ -65,8 +68,17 @@ def _neighbours(model, obj):
     return prev, nxt
 
 
+_ENTITY_INDEX = {
+    "place": ("naples44:place_list", "All places"),
+    "person": ("naples44:person_list", "All people"),
+    "folklore": ("naples44:folklore_list", "All saints & folklore"),
+    "theme": ("naples44:theme_list", "All themes"),
+}
+
+
 def _render_entity(request, *, kind, icon, entity, subtitle, rows, extra=None):
     prev_entity, next_entity = _neighbours(type(entity), entity)
+    idx = _ENTITY_INDEX.get(icon)
     ctx = {
         "kind": kind,
         "icon": icon,
@@ -76,6 +88,8 @@ def _render_entity(request, *, kind, icon, entity, subtitle, rows, extra=None):
         "google_url": _google_url(entity.name),
         "prev_entity": prev_entity,
         "next_entity": next_entity,
+        "index_url": reverse(idx[0]) if idx else None,
+        "index_label": idx[1] if idx else "",
     }
     ctx.update(extra or {})
     return render(request, "naples44/entity_detail.html", ctx)
@@ -173,4 +187,102 @@ def theme_detail(request, slug):
         entity=theme,
         subtitle="",
         rows=_plain_rows(entries),
+    )
+
+
+# --- entity index pages -------------------------------------------------
+
+def _item(obj, count):
+    return {"name": obj.name, "url": obj.get_absolute_url(), "count": count,
+            "description": getattr(obj, "description", "")}
+
+
+def _render_index(request, *, kind, icon, groups, total, blurb,
+                  first_sort_label, wide=False):
+    return render(
+        request,
+        "naples44/entity_list.html",
+        {
+            "kind": kind,
+            "icon": icon,
+            "groups": groups,               # [{"label": str|None, "items": [...]}]
+            "total": total,
+            "blurb": blurb,
+            "wide": wide,                   # one-column rows (items with a description)
+            # label for the button that restores the server-rendered order
+            "first_sort_label": first_sort_label,
+        },
+    )
+
+
+_PLACE_GROUP_LABELS = {
+    "street": "Streets", "piazza": "Piazzas", "landmark": "Landmarks",
+    "district": "Districts", "religious_site": "Religious sites",
+    "town": "Towns", "region": "Regions", "natural_feature": "Natural features",
+}
+_PERSON_GROUP_LABELS = {
+    "camorrista_bandit": "Camorristi & bandits",
+    "police_official": "Police officials",
+    "informant_contact": "Informants & contacts",
+    "companion": "Companions",
+    "aristocrat": "Aristocrats",
+    "allied_colleague": "Allied colleagues",
+    "civilian_friend": "Civilian friends",
+    "notable_civilian": "Notable civilians",
+}
+
+
+def _grouped_by(qs, field, labels):
+    by_value = {}
+    for obj in qs:
+        by_value.setdefault(getattr(obj, field), []).append(obj)
+    groups = []
+    for value, label in labels.items():
+        items = by_value.get(value)
+        if items:
+            groups.append({
+                "label": label,
+                "items": [_item(o, o.n) for o in sorted(items, key=lambda o: o.name.lower())],
+            })
+    return groups
+
+
+def place_list(request):
+    qs = models.Place.objects.annotate(n=Count("entries"))
+    groups = _grouped_by(qs, "place_type", _PLACE_GROUP_LABELS)
+    return _render_index(
+        request, kind="Places", icon="place", groups=groups, total=qs.count(),
+        first_sort_label="By type",
+        blurb="Every place Lewis names in the diary, grouped by kind. "
+        "Sort A–Z or by how often each is mentioned.",
+    )
+
+
+def person_list(request):
+    qs = models.Person.objects.annotate(n=Count("entries"))
+    groups = _grouped_by(qs, "person_type", _PERSON_GROUP_LABELS)
+    return _render_index(
+        request, kind="People", icon="person", groups=groups, total=qs.count(),
+        first_sort_label="By type",
+        blurb="The recurring figures of Naples ’44, grouped by their role.",
+    )
+
+
+def folklore_list(request):
+    qs = models.FolkloreEntity.objects.annotate(n=Count("entries")).order_by("name")
+    groups = [{"label": None, "items": [_item(o, o.n) for o in qs]}]
+    return _render_index(
+        request, kind="Saints & folklore", icon="folklore", groups=groups,
+        total=qs.count(), first_sort_label="A–Z",
+        blurb="Saints, feasts, miracles and superstitions recorded in the book.",
+    )
+
+
+def theme_list(request):
+    qs = models.Theme.objects.annotate(n=Count("entries")).order_by("order", "slug")
+    groups = [{"label": None, "items": [_item(o, o.n) for o in qs]}]
+    return _render_index(
+        request, kind="Themes", icon="theme", groups=groups, total=qs.count(),
+        first_sort_label="In order", wide=True,
+        blurb="The eleven threads running through the diary.",
     )
