@@ -125,6 +125,7 @@ em { font-style: italic; }
   line-height: 1.5;
 }
 .site-footer p { max-width: 46rem; margin: 0; }
+.site-footer p.site-footer-by { margin-top: 0.5rem; }
 
 .kicker {
   font-size: 0.8rem;
