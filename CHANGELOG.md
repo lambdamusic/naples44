@@ -170,3 +170,5 @@
   ("All places", "All people", …).
 - Note: `Theme.objects.annotate(Count(...))` drops `Meta.ordering` — the theme
   list re-applies `.order_by("order", "slug")` explicitly.
+- Top navbar now carries all six sections: About · Timeline · Places · People ·
+  Folklore · Themes, with the current one highlighted.

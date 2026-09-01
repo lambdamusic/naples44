@@ -16,8 +16,12 @@
       Naples&nbsp;<span class="year">’44</span>
     </a>
     <nav class="site-nav">
-      <a href="{% url 'naples44:index' %}">About</a>
-      <a href="{% url 'naples44:timeline' %}">Timeline</a>
+      <a href="{% url 'naples44:index' %}"{% if request.path == '/' %} class="is-current" aria-current="page"{% endif %}>About</a>
+      <a href="{% url 'naples44:timeline' %}"{% if '/timeline/' in request.path %} class="is-current" aria-current="page"{% endif %}>Timeline</a>
+      <a href="{% url 'naples44:place_list' %}"{% if '/places/' in request.path %} class="is-current" aria-current="page"{% endif %}>Places</a>
+      <a href="{% url 'naples44:person_list' %}"{% if '/people/' in request.path %} class="is-current" aria-current="page"{% endif %}>People</a>
+      <a href="{% url 'naples44:folklore_list' %}"{% if '/folklore/' in request.path %} class="is-current" aria-current="page"{% endif %}>Folklore</a>
+      <a href="{% url 'naples44:theme_list' %}"{% if '/themes/' in request.path %} class="is-current" aria-current="page"{% endif %}>Themes</a>
     </nav>
   </header>
 
