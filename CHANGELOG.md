@@ -146,3 +146,12 @@
   (forward + backward relaxation pass) so clustered events (e.g. the four
   mid-August 1944 liberations, the Sept 1943 armistice/Salerno pair) no longer
   overlap. A faint tick + connector marks a nudged event's true date on the ring.
+
+## 2026-09-01 — Entry page: two-column layout, reflections made prominent
+
+- `entry_detail.html` restructured into `.entry-layout` (main + sidebar) — main
+  column: summary, Themes, Reflections; sidebar: Places, People, Saints & folklore.
+  Nav/key-hint stay full-width below. Stacks to one column under 46rem.
+- Reflections get real visual weight: each is a pull-quote card (accent left
+  border, decorative quote mark, serif title, italic body) instead of a plain
+  tag-block entry.

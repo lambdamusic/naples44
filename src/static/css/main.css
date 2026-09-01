@@ -334,11 +334,21 @@ em { font-style: italic; }
 
 /* ---------- entry detail ---------- */
 
-.entry { max-width: 40rem; }
+.entry { max-width: 58rem; }
 .entry h1 { font-size: clamp(1.8rem, 4vw, 2.4rem); margin: 0 0 1.2rem; }
 .entry-summary { font-size: 1.12rem; color: var(--ink); }
 
+.entry-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 18rem;
+  gap: 1rem 2.75rem;
+  align-items: start;
+}
+
+.entry-sidebar { min-width: 0; }
+
 .tag-block { padding-top: 1.4rem; margin-top: 1.4rem; border-top: 1px solid var(--rule); }
+.entry-sidebar .tag-block:first-child { padding-top: 0; margin-top: 0; border-top: none; }
 .tag-block h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.11em; color: var(--ink-faint); margin: 0 0 0.7rem; }
 
 .chips { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; padding: 0; }
@@ -359,8 +369,36 @@ a.chip:hover { color: var(--accent); border-color: var(--accent-soft); }
 }
 .tag-note { display: block; font-size: 0.88rem; color: var(--ink-soft); margin-top: 0.15rem; }
 
-.reflection h3 { font-size: 1.02rem; margin: 0.8rem 0 0.2rem; }
-.reflection p { margin: 0; color: var(--ink-soft); }
+/* Reflections — Lewis's own standout observations, given real visual weight
+   rather than reading as just another tag list. */
+.reflections { margin-top: 2.2rem; }
+.reflections h2 {
+  font-family: var(--serif); font-size: 1.1rem; font-weight: 600;
+  color: var(--ink); margin: 0 0 1rem;
+}
+.reflection-card {
+  position: relative;
+  margin: 0 0 1.2rem;
+  padding: 1.1rem 1.3rem 1.1rem 2.1rem;
+  background: var(--paper-raised);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 1px 3px var(--shadow);
+}
+.reflection-card::before {
+  content: "\201C";
+  position: absolute; left: 0.5rem; top: 0.35rem;
+  font-family: var(--serif); font-size: 2.4rem; line-height: 1;
+  color: var(--accent-soft); opacity: 0.7;
+}
+.reflection-title {
+  font-family: var(--serif); font-size: 1.08rem; font-weight: 600;
+  margin: 0 0 0.4rem; color: var(--ink);
+}
+.reflection-note {
+  font-size: 1rem; font-style: italic; color: var(--ink-soft);
+  margin: 0; line-height: 1.65;
+}
 
 .entry-nav {
   display: flex; justify-content: space-between; align-items: center; gap: 1rem;
@@ -461,6 +499,11 @@ a.chip:hover { color: var(--accent); border-color: var(--accent-soft); }
   .timeline-app { grid-template-columns: 1fr; }
   .viz-wrap { position: static; }
   #viz { max-width: 32rem; margin: 0 auto; }
+}
+
+@media (max-width: 46rem) {
+  .entry-layout { grid-template-columns: 1fr; }
+  .entry-sidebar .tag-block:first-child { padding-top: 1.4rem; margin-top: 1.4rem; border-top: 1px solid var(--rule); }
 }
 
 @media (max-width: 34rem) {

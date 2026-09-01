@@ -6,75 +6,81 @@
 
 {% block content %}
 <article class="entry">
-  {% include "naples44/_entity_icon.html" with icon="entry" %}
-  <p class="kicker">Entry {{ entry.id }} · Book chapter {{ entry.chapter }}</p>
-  <h1>{{ entry.date_label }} <span class="year">{{ entry.year }}</span></h1>
+  <div class="entry-layout">
+    <div class="entry-main">
+      {% include "naples44/_entity_icon.html" with icon="entry" %}
+      <p class="kicker">Entry {{ entry.id }} · Book chapter {{ entry.chapter }}</p>
+      <h1>{{ entry.date_label }} <span class="year">{{ entry.year }}</span></h1>
 
-  <p class="entry-summary">{{ entry.summary }}</p>
+      <p class="entry-summary">{{ entry.summary }}</p>
 
-  {% if entry.themes.all %}
-  <div class="tag-block">
-    <h2>Themes</h2>
-    <ul class="chips">
-      {% for t in entry.themes.all %}<li><a class="chip chip-theme" href="{{ t.get_absolute_url }}" title="{{ t.description }}">{{ t.label }}</a></li>{% endfor %}
-    </ul>
-  </div>
-  {% endif %}
+      {% if entry.themes.all %}
+      <div class="tag-block">
+        <h2>Themes</h2>
+        <ul class="chips">
+          {% for t in entry.themes.all %}<li><a class="chip chip-theme" href="{{ t.get_absolute_url }}" title="{{ t.description }}">{{ t.label }}</a></li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
 
-  {% if entry.places.all %}
-  <div class="tag-block">
-    <h2>Places</h2>
-    <ul class="tag-lines">
-      {% for p in entry.places.all %}
-      <li>
-        <a href="{{ p.get_absolute_url }}">{{ p.name }}</a>
-        <span class="tag-type">{{ p.get_place_type_display }}</span>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-
-  {% if entry.entryperson_set.all %}
-  <div class="tag-block">
-    <h2>People</h2>
-    <ul class="tag-lines">
-      {% for ep in entry.entryperson_set.all %}
-      <li>
-        <a href="{{ ep.person.get_absolute_url }}">{{ ep.person.name }}</a>
-        <span class="tag-type">{{ ep.person.get_person_type_display }}</span>
-        {% if ep.note %}<span class="tag-note">{{ ep.note }}</span>{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-
-  {% if entry.entryfolklore_set.all %}
-  <div class="tag-block">
-    <h2>Saints &amp; folklore</h2>
-    <ul class="tag-lines">
-      {% for ef in entry.entryfolklore_set.all %}
-      <li>
-        <a href="{{ ef.folklore.get_absolute_url }}">{{ ef.folklore.name }}</a>
-        {% if ef.note %}<span class="tag-note">{{ ef.note }}</span>{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-
-  {% if entry.reflections.all %}
-  <div class="tag-block">
-    <h2>Reflections</h2>
-    {% for r in entry.reflections.all %}
-    <div class="reflection">
-      <h3>{{ r.title }}</h3>
-      <p>{{ r.note }}</p>
+      {% if entry.reflections.all %}
+      <div class="reflections">
+        <h2>Reflections</h2>
+        {% for r in entry.reflections.all %}
+        <blockquote class="reflection-card">
+          <p class="reflection-title">{{ r.title }}</p>
+          <p class="reflection-note">{{ r.note }}</p>
+        </blockquote>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
-    {% endfor %}
+
+    <aside class="entry-sidebar">
+      {% if entry.places.all %}
+      <div class="tag-block">
+        <h2>Places</h2>
+        <ul class="tag-lines">
+          {% for p in entry.places.all %}
+          <li>
+            <a href="{{ p.get_absolute_url }}">{{ p.name }}</a>
+            <span class="tag-type">{{ p.get_place_type_display }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if entry.entryperson_set.all %}
+      <div class="tag-block">
+        <h2>People</h2>
+        <ul class="tag-lines">
+          {% for ep in entry.entryperson_set.all %}
+          <li>
+            <a href="{{ ep.person.get_absolute_url }}">{{ ep.person.name }}</a>
+            <span class="tag-type">{{ ep.person.get_person_type_display }}</span>
+            {% if ep.note %}<span class="tag-note">{{ ep.note }}</span>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if entry.entryfolklore_set.all %}
+      <div class="tag-block">
+        <h2>Saints &amp; folklore</h2>
+        <ul class="tag-lines">
+          {% for ef in entry.entryfolklore_set.all %}
+          <li>
+            <a href="{{ ef.folklore.get_absolute_url }}">{{ ef.folklore.name }}</a>
+            {% if ef.note %}<span class="tag-note">{{ ef.note }}</span>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </aside>
   </div>
-  {% endif %}
 
   <nav class="entry-nav">
     {% if prev_entry %}<a class="prev" href="{{ prev_entry.get_absolute_url }}" rel="prev">← {{ prev_entry.date_label }}</a>{% else %}<span></span>{% endif %}
