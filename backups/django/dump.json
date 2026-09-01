@@ -2047,18 +2047,6 @@
 },
 {
   "model": "naples44.person",
-  "pk": 2,
-  "fields": {
-    "name": "Sergeant-Major Dashwood",
-    "slug": "sergeant-major-dashwood",
-    "person_type": "allied_colleague",
-    "description": "The section's warrant officer. (Same man as 'Sergeant-Major (John) Dashwood'.)",
-    "book_role": "In the confusion after the landing, decides to send four of the section by motorcycle along the shore to Salerno in the hope of finding the Field Security Officer and an order releasing them from their 'absurd predicament'.",
-    "wikipedia_url": ""
-  }
-},
-{
-  "model": "naples44.person",
   "pk": 3,
   "fields": {
     "name": "Moore",
@@ -2172,8 +2160,8 @@
     "name": "Sergeant-Major (John) Dashwood",
     "slug": "sergeant-major-john-dashwood",
     "person_type": "allied_colleague",
-    "description": "The section's warrant officer. (Also recorded here as 'Sergeant-Major Dashwood'.)",
-    "book_role": "Runs the section in the Field Security Officer's absence in the leaderless first weeks in Italy, and is later the bearer of unwelcome HQ news — including the cut to informant funds.",
+    "description": "The section's warrant officer.",
+    "book_role": "In the confusion after the landing, sends four of the section by motorcycle along the shore to Salerno in the hope of finding the Field Security Officer and an order releasing them from their 'absurd predicament'. Runs the section through those leaderless first weeks, and is later the bearer of unwelcome HQ news — including the cut to informant funds.",
     "wikipedia_url": ""
   }
 },
@@ -4941,7 +4929,7 @@
   "pk": 68,
   "fields": {
     "entry": 5,
-    "person": 2,
+    "person": 13,
     "note": "attempts to organise transport to Salerno amid the chaos"
   }
 },
