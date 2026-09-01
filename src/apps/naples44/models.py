@@ -62,7 +62,15 @@ class Place(models.Model):
     name = models.CharField(max_length=120, unique=True)
     slug = models.SlugField(max_length=140, unique=True, blank=True)
     place_type = models.CharField(max_length=20, choices=PLACE_TYPES)
-    description = models.TextField(blank=True, help_text="Shown on the place's page. Optional.")
+    description = models.TextField(
+        blank=True,
+        help_text="What / where the place is. Seedable from Wikipedia via "
+        "`manage.py seed_place_descriptions`.",
+    )
+    book_role = models.TextField(
+        blank=True,
+        help_text="How the place figures in Naples '44 — hand-written, never auto-seeded.",
+    )
     wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the place's own page.")
     latitude = models.FloatField(null=True, blank=True)
     longitude = models.FloatField(null=True, blank=True)

@@ -1,6 +1,6 @@
 /* Small Leaflet map on place pages — centred on the place, with faint markers
-   for the other places mentioned in the same diary entries. CARTO basemap,
-   no API key; matches the light/dark theme. */
+   for the other places mentioned in the same diary entries. Esri Gray Canvas
+   basemap + labels overlay, no API key; matches the light/dark theme. */
 (function () {
   "use strict";
 
@@ -26,15 +26,17 @@
   }).setView([f.lat, f.lon], data.zoom || 13);
 
   // Esri "Gray Canvas" — muted, free with attribution, no API key, light + dark.
-  var base = dark ? "World_Dark_Gray_Base" : "World_Light_Gray_Base";
-  L.tileLayer(
-    "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/" +
-      base + "/MapServer/tile/{z}/{y}/{x}",
-    {
-      maxZoom: 16,
-      attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>',
-    }
-  ).addTo(map);
+  // Two layers: the label-free base, then a transparent reference overlay that
+  // carries place names, roads and boundaries so nearby places are readable.
+  var variant = dark ? "Dark" : "Light";
+  var esri = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_";
+  L.tileLayer(esri + variant + "_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 16,
+    attribution: 'Tiles &copy; <a href="https://www.esri.com/">Esri</a>',
+  }).addTo(map);
+  L.tileLayer(esri + variant + "_Gray_Reference/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 16,  // added after the base -> labels sit on top of it, under the markers
+  }).addTo(map);
 
   (data.others || []).forEach(function (o) {
     var m = L.circleMarker([o.lat, o.lon], {

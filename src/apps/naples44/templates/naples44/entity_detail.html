@@ -17,11 +17,18 @@
   <div class="entity-desc">{{ entity.description|linebreaks }}</div>
   {% endif %}
 
+  {% if entity.book_role %}
+  <div class="entity-book-role">
+    <p class="entity-book-role-label">In the book</p>
+    {{ entity.book_role|linebreaks }}
+  </div>
+  {% endif %}
+
   {% if place_map %}
   {{ place_map|json_script:"place-map-data" }}
   <figure class="place-map-wrap">
     <div id="place-map"></div>
-    {% if place_map.others %}<figcaption>Grey dots: other places mentioned in the same entries.</figcaption>{% endif %}
+    {% if place_map.others %}<figcaption>Grey dots: other places mentioned in the same entries. Click one to open it.</figcaption>{% endif %}
   </figure>
   {% endif %}
 

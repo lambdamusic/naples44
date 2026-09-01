@@ -77,3 +77,18 @@
   no coordinates.
 - `tools/*` scripts assume the venv is active (`workon naples44_2026`) — running
   `tools/db-dump` without it silently uses the wrong Python.
+
+## 2026-09-01 — Map labels + place descriptions
+
+- Place maps now use the Esri Gray **base + reference** layers, so nearby place
+  names, roads and boundaries are readable.
+- `Place.book_role` field (migration `0004`) — a hand-written note on how the
+  place figures in the book, shown as an "In the book" block on the page.
+  Seeded for 33 places from the entry summaries; the rest are Michele's to write.
+- `Place.description` seeded from Wikipedia article intros (2–3 sentences) via
+  `manage.py seed_place_descriptions` (`--refresh` / `--only`). 74 of 78 places
+  with a `wikipedia_url` filled; 4 have stale URLs (404) to fix by hand.
+- Fixed ~10 more Nominatim mis-hits found while reviewing (Naples streets that
+  matched same-named streets elsewhere in Campania — Santa Lucia was landing
+  near Sorrento). 114/129 placed; "Via Gravina" / "Via San Felice" cleared as
+  unidentifiable.

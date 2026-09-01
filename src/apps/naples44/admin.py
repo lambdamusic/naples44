@@ -46,7 +46,7 @@ class ThemeAdmin(admin.ModelAdmin):
 
 @admin.register(models.Place)
 class PlaceAdmin(admin.ModelAdmin):
-    list_display = ["name", "place_type", "has_desc", "has_link", "geo", "entry_count"]
+    list_display = ["name", "place_type", "has_desc", "has_role", "has_link", "geo", "entry_count"]
     list_filter = ["place_type", "geocode_source"]
     search_fields = ["name"]
     prepopulated_fields = {"slug": ("name",)}
@@ -54,6 +54,10 @@ class PlaceAdmin(admin.ModelAdmin):
     @admin.display(boolean=True, description="desc")
     def has_desc(self, obj):
         return bool(obj.description)
+
+    @admin.display(boolean=True, description="role")
+    def has_role(self, obj):
+        return bool(obj.book_role)
 
     @admin.display(description="geo")
     def geo(self, obj):
