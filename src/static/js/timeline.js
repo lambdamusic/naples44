@@ -112,20 +112,47 @@
   var eventsAfter = events.filter(function (d) { return d._date > dmax; });
 
   eventsInRange.sort(function (a, b) { return a._date - b._date; });
+
+  // Keep every event dot at least MIN_GAP apart around the ring so labels don't
+  // collide. Start from each event's true date-angle, then nudge clustered ones
+  // apart with a forward + backward relaxation pass (a few iterations centres
+  // each cluster near its true position rather than shoving it all one way).
+  var MIN_GAP = (5.5 * Math.PI) / 180;
+  var ang = eventsInRange.map(function (d) { return angle(d._date); });
+  for (var pass = 0; pass < 4; pass++) {
+    for (var i = 1; i < ang.length; i++) {
+      if (ang[i] - ang[i - 1] < MIN_GAP) ang[i] = ang[i - 1] + MIN_GAP;
+    }
+    for (var j = ang.length - 2; j >= 0; j--) {
+      if (ang[j + 1] - ang[j] < MIN_GAP) ang[j] = ang[j + 1] - MIN_GAP;
+    }
+  }
+
+  function ptA(a, r) { return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; }
+
   eventsInRange.forEach(function (d, i) {
+    var a = ang[i];
+    var trueA = angle(d._date);
+    var nudged = Math.abs(a - trueA) > 0.015;
     var g = gEvents.append("g").attr("class", "event");
-    var p = pt(d._date, R_EVENT);
-    var a = (angle(d._date) * 180) / Math.PI;
-    var flip = a > 90 && a < 270;
-    var lead = 12 + (i % 3) * 24;        // 3-level stagger to reduce label collisions
+    var deg = (a * 180) / Math.PI;
+    var flip = deg > 90 && deg < 270;
+    var lead = i % 2 ? 26 : 12;   // 2-level radial stagger for the label text
+
+    // faint tick at the event's real date; slanted connector if the dot was nudged
+    if (nudged) {
+      g.append("line").attr("class", "event-truetick")
+        .attr("x1", ptA(trueA, R_EVENT - 4)[0]).attr("y1", ptA(trueA, R_EVENT - 4)[1])
+        .attr("x2", ptA(a, R_EVENT)[0]).attr("y2", ptA(a, R_EVENT)[1]);
+    }
     g.append("line").attr("class", "event-leader")
-      .attr("x1", p[0]).attr("y1", p[1])
-      .attr("x2", pt(d._date, R_EVENT + lead - 4)[0]).attr("y2", pt(d._date, R_EVENT + lead - 4)[1]);
+      .attr("x1", ptA(a, R_EVENT)[0]).attr("y1", ptA(a, R_EVENT)[1])
+      .attr("x2", ptA(a, R_EVENT + lead - 3)[0]).attr("y2", ptA(a, R_EVENT + lead - 3)[1]);
     g.append("circle").attr("class", "event-dot")
-      .attr("cx", p[0]).attr("cy", p[1]).attr("r", 3.5);
-    var lp = pt(d._date, R_EVENT + lead);
+      .attr("cx", ptA(a, R_EVENT)[0]).attr("cy", ptA(a, R_EVENT)[1]).attr("r", 3.5);
+    var lp = ptA(a, R_EVENT + lead);
     g.append("text").attr("class", "event-label")
-      .attr("transform", "translate(" + lp[0] + "," + lp[1] + ") rotate(" + (flip ? a + 180 : a) + ")")
+      .attr("transform", "translate(" + lp[0] + "," + lp[1] + ") rotate(" + (flip ? deg + 180 : deg) + ")")
       .attr("text-anchor", flip ? "end" : "start")
       .attr("dominant-baseline", "middle")
       .text(d.title.length > 30 ? d.title.slice(0, 29) + "…" : d.title);
@@ -189,6 +216,7 @@
     h += '<p class="d-date">' + esc(d.date_label) + " " + d.year + "</p>";
     h += '<p class="d-meta">Entry ' + d.id + " · Book chapter " + d.chapter + "</p>";
     h += '<p class="d-summary">' + esc(d.summary) + "</p>";
+    h += '<a class="d-open d-open-top" href="' + d.url + '">Read the full entry →</a>';
     if (d.themes.length) {
       h += '<p class="d-section">Themes</p><p>' +
         d.themes.map(themeLink).join(", ") + "</p>";

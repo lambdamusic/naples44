@@ -258,6 +258,14 @@ em { font-style: italic; }
 .detail .d-section { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-faint); margin: 0.7rem 0 0.3rem; }
 .detail .d-open { display: inline-block; margin-top: 0.6rem; font-size: 0.85rem; font-weight: 600; }
 
+.detail .d-open-top {
+  display: block; margin: 0 0 1rem; padding: 0.45rem 0.8rem;
+  text-align: center; text-decoration: none;
+  background: var(--accent); color: #fbf8f0;
+  font-size: 0.85rem; font-weight: 600; border-radius: 3px;
+}
+.detail .d-open-top:hover { background: var(--link); color: #fff; }
+
 .filters h2 {
   font-size: 0.72rem;
   text-transform: uppercase;
@@ -303,6 +311,7 @@ em { font-style: italic; }
 .entry-dot.selected { stroke: var(--ink); stroke-width: 2px; }
 .event-dot { fill: var(--outer); }
 .event-leader { stroke: var(--outer); stroke-width: 0.75px; opacity: 0.5; }
+.event-truetick { stroke: var(--outer); stroke-width: 0.75px; opacity: 0.3; }
 .event-label { font-family: var(--sans); font-size: 10px; fill: var(--outer); }
 .ring-guide { fill: none; stroke: var(--rule); }
 .month-tick { stroke: var(--rule); }

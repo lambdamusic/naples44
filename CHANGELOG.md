@@ -136,3 +136,13 @@
 - Noted duplicates to reconcile: `bernard-durham` / `durham` are the same man;
   `sergeant-major-john-dashwood` / `sergeant-major-dashwood` likewise.
 - Admin: `has_role` indicator column on Person and FolkloreEntity.
+
+## 2026-09-01 — Timeline: entry-page link + outer-ring spacing
+
+- Detail panel: a prominent "Read the full entry →" button now sits right after
+  the summary, before Themes; the subtler "Open the full entry page →" link stays
+  at the bottom too.
+- Outer-ring events: dots are nudged apart with a minimum ~5.5° angular gap
+  (forward + backward relaxation pass) so clustered events (e.g. the four
+  mid-August 1944 liberations, the Sept 1943 armistice/Salerno pair) no longer
+  overlap. A faint tick + connector marks a nudged event's true date on the ring.
