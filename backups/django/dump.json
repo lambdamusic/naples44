@@ -2095,18 +2095,6 @@
 },
 {
   "model": "naples44.person",
-  "pk": 6,
-  "fields": {
-    "name": "Durham",
-    "slug": "durham",
-    "person_type": "allied_colleague",
-    "description": "A member of Lewis's Field Security section, one of only four left to cover Naples itself. (Same man as 'Bernard Durham'.)",
-    "book_role": "Among the handful of section men — with Parkinson, Evans and Lewis — holding the city after the rest were dispersed to the coast and to Nola; later wounded near Avellino.",
-    "wikipedia_url": ""
-  }
-},
-{
-  "model": "naples44.person",
   "pk": 7,
   "fields": {
     "name": "Eric Williams",
@@ -2460,8 +2448,8 @@
     "name": "Bernard Durham",
     "slug": "bernard-durham",
     "person_type": "allied_colleague",
-    "description": "A sergeant in Lewis's Field Security section. (Also recorded here as 'Durham'.)",
-    "book_role": "Shot through the shoulder by a bandit dressed as an American officer during an anti-bandit drive near Avellino — the section's first casualty.",
+    "description": "A sergeant in Lewis's Field Security section, one of only four left to cover Naples itself.",
+    "book_role": "Among the handful of section men — with Parkinson, Evans and Lewis — holding the city after the rest were dispersed to the coast and to Nola. Later shot through the shoulder by a bandit dressed as an American officer during an anti-bandit drive near Avellino — the section's first casualty.",
     "wikipedia_url": ""
   }
 },
@@ -4998,7 +4986,7 @@
   "pk": 73,
   "fields": {
     "entry": 15,
-    "person": 6,
+    "person": 36,
     "note": "section member"
   }
 },
