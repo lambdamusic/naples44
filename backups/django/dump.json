@@ -2040,7 +2040,8 @@
     "name": "Captain Cartwright",
     "slug": "captain-cartwright",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "The section's Field Security Officer.",
+    "book_role": "Smashed up in a car crash the day before embarkation and left in hospital in Oran, so the section lands in Italy leaderless; when he finally reaches them, his face 'covered with plaster', it is to admit that their presence at Paestum serves 'no purpose of any kind'.",
     "wikipedia_url": ""
   }
 },
@@ -2051,7 +2052,8 @@
     "name": "Sergeant-Major Dashwood",
     "slug": "sergeant-major-dashwood",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "The section's warrant officer. (Same man as 'Sergeant-Major (John) Dashwood'.)",
+    "book_role": "In the confusion after the landing, decides to send four of the section by motorcycle along the shore to Salerno in the hope of finding the Field Security Officer and an order releasing them from their 'absurd predicament'.",
     "wikipedia_url": ""
   }
 },
@@ -2062,7 +2064,8 @@
     "name": "Moore",
     "slug": "moore",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "One of the section's sergeants.",
+    "book_role": "Makes a hair-raising twelve-mile jeep dash out of the Salerno battle to rejoin the section; a year later he is 'working on with unabated vigour' despite hepatitis — part of the section's slow grinding-down by illness.",
     "wikipedia_url": ""
   }
 },
@@ -2073,7 +2076,8 @@
     "name": "Robert Parkinson",
     "slug": "robert-parkinson",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "A section member — 'that investigatory tiger' — who handles Lewis's doctor contacts.",
+    "book_role": "Works for weeks with Placella to shut down the Pace Hospital's certificate racket; when Lewis is manoeuvred off a marriage vetting, it is Parkinson who is sent to do it instead.",
     "wikipedia_url": ""
   }
 },
@@ -2084,7 +2088,8 @@
     "name": "Evans",
     "slug": "evans",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "A member of Lewis's Field Security section.",
+    "book_role": "One of the four men left to police Naples itself; he and Lewis are sent to ransack the silk-lined apartment of Prince Pignatelli, arrested for espionage.",
     "wikipedia_url": ""
   }
 },
@@ -2095,7 +2100,8 @@
     "name": "Durham",
     "slug": "durham",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "A member of Lewis's Field Security section, one of only four left to cover Naples itself. (Same man as 'Bernard Durham'.)",
+    "book_role": "Among the handful of section men — with Parkinson, Evans and Lewis — holding the city after the rest were dispersed to the coast and to Nola; later wounded near Avellino.",
     "wikipedia_url": ""
   }
 },
@@ -2106,7 +2112,8 @@
     "name": "Eric Williams",
     "slug": "eric-williams",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "The section's best Italian speaker.",
+    "book_role": "Sent as 'a solitary exile' to run security in Nola, where the Feast of the Lily brings the town — and the army's telephone lines — to a standstill; his complaints supply one of the book's set-piece feast stories.",
     "wikipedia_url": ""
   }
 },
@@ -2117,7 +2124,8 @@
     "name": "Vincente Lattarullo",
     "slug": "vincente-lattarullo",
     "person_type": "informant_contact",
-    "description": "",
+    "description": "One of Naples's four thousand briefless lawyers — 'distinguished, fragile-looking' and slowly starving; 'motivated', he says, 'by a passion for justice'.",
+    "book_role": "Lewis's 'prize acquisition' among his civilian contacts and, more than that, his window onto the city: the borrowed-furniture lunch, the sideline as a hired 'uncle from Rome' at funerals, and his complete ignorance of the vendetta country ten miles from his café all become set-pieces of the book.",
     "wikipedia_url": ""
   }
 },
@@ -2128,7 +2136,8 @@
     "name": "Sauro",
     "slug": "sauro",
     "person_type": "notable_civilian",
-    "description": "",
+    "description": "A young soldier — Italian father, German mother — behind the October 1943 delayed-mine hoax that emptied Naples.",
+    "book_role": "Sent to decide whether he should be shot as a spy, Lewis finds not a 'gigantic pale-eyed Teuton' but a small, hungry boy, and reports him mentally unbalanced to save his life.",
     "wikipedia_url": ""
   }
 },
@@ -2139,7 +2148,8 @@
     "name": "Signora Gentile",
     "slug": "signora-gentile",
     "person_type": "civilian_friend",
-    "description": "",
+    "description": "A Naples woman recently released from the Filangieri gaol, where the partisans had held her on 'vague charges of collaboration'.",
+    "book_role": "Hosts the escapist, nostalgically frivolous dinner — Lewis's first in a civilian house — at which he meets Lola.",
     "wikipedia_url": ""
   }
 },
@@ -2150,7 +2160,8 @@
     "name": "Captain Frazer",
     "slug": "captain-frazer",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "A tall, handsome RASC captain whose hands are on military supplies.",
+    "book_role": "Lola's lover; Lewis is roped in to interpret for the couple and becomes a bemused witness to the whole affair — the white-bread courtship, Frazer's health wrecked by Lola's demands, the golden Capri outing, the break-ups and reconciliations, and finally his posting away.",
     "wikipedia_url": ""
   }
 },
@@ -2161,7 +2172,8 @@
     "name": "Signora Lola",
     "slug": "signora-lola",
     "person_type": "companion",
-    "description": "",
+    "description": "A war widow, once the mistress of a Fascist hierarch, now Captain Frazer's lover.",
+    "book_role": "Asks Lewis to interpret her affair with the wordless Frazer and to settle its 'basic matters'; over the following months he follows the relationship through the Capri trip, the break-ups and suicide threats, and her retirement to Ischia 'to deflate' once Frazer is posted away.",
     "wikipedia_url": ""
   }
 },
@@ -2172,7 +2184,8 @@
     "name": "Sergeant-Major (John) Dashwood",
     "slug": "sergeant-major-john-dashwood",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "The section's warrant officer. (Also recorded here as 'Sergeant-Major Dashwood'.)",
+    "book_role": "Runs the section in the Field Security Officer's absence in the leaderless first weeks in Italy, and is later the bearer of unwelcome HQ news — including the cut to informant funds.",
     "wikipedia_url": ""
   }
 },
@@ -2183,7 +2196,8 @@
     "name": "Ingeniere Losurdo",
     "slug": "ingeniere-losurdo",
     "person_type": "informant_contact",
-    "description": "",
+    "description": "An impoverished Naples engineer living in genteel poverty on the Via Chiaia.",
+    "book_role": "One of the trio — with Mosca and Lattarullo — of unmarried, well-connected, near-destitute contacts so alike they 'could easily have been members of the same family'.",
     "wikipedia_url": ""
   }
 },
@@ -2194,7 +2208,8 @@
     "name": "Avvocato Mosca",
     "slug": "avvocato-mosca",
     "person_type": "informant_contact",
-    "description": "",
+    "description": "An impoverished Naples lawyer, entitled to style himself Conte but no longer bothering.",
+    "book_role": "One of the trio of genteel-poor bachelor contacts — with Losurdo and Lattarullo — whose grand, mouldering, half-empty palazzi on the Via Chiaia become Lewis's picture of the ruined Neapolitan gentry.",
     "wikipedia_url": ""
   }
 },
@@ -2205,7 +2220,8 @@
     "name": "Prince A.",
     "slug": "prince-a",
     "person_type": "aristocrat",
-    "description": "",
+    "description": "The head of a leading Neapolitan noble family, an absentee landlord and enthusiastic informant.",
+    "book_role": "Calls at HQ with his sister Luisa to ask, with complete composure, whether she might enter an army brothel.",
     "wikipedia_url": ""
   }
 },
@@ -2216,7 +2232,8 @@
     "name": "Luisa",
     "slug": "luisa",
     "person_type": "aristocrat",
-    "description": "",
+    "description": "The sister of the informant Prince A.",
+    "book_role": "On the visit when her brother asks whether she might be admitted to a (nonexistent) British army brothel, she takes the refusal with the same 'polite calm' — a small scene of the era's blunt calculus of sex and survival.",
     "wikipedia_url": ""
   }
 },
@@ -2227,7 +2244,8 @@
     "name": "Professore Placella",
     "slug": "professore-placella",
     "person_type": "informant_contact",
-    "description": "",
+    "description": "A Naples gynaecologist whose speciality is the surgical restoration of virginity — his replacement, he boasts, is better than the original.",
+    "book_role": "Parkinson's most valuable medical contact; he helps expose the hospital racket by which syphilitic prostitutes bought clean bills of health, and later helps spring the trap on the coercive VD round-up.",
     "wikipedia_url": ""
   }
 },
@@ -2238,7 +2256,8 @@
     "name": "Albano",
     "slug": "albano",
     "person_type": "camorrista_bandit",
-    "description": "",
+    "description": "The partisan leader of Torrito, a village near Aversa.",
+    "book_role": "Lewis reluctantly travels to Torrito to hear his account of the 'heroic four days' of the September 1943 uprising and the SS reprisal that followed — a massacre that has left the whole village in mourning. He finds Albano a haggard, haunted man who speaks very quietly, as if afraid of being overheard.",
     "wikipedia_url": ""
   }
 },
@@ -2249,7 +2268,8 @@
     "name": "Vito Genovese",
     "slug": "vito-genovese",
     "person_type": "camorrista_bandit",
-    "description": "",
+    "description": "Vito Genovese was an Italian-born American mafioso and the boss of the Genovese crime family of New York City. A childhood friend and criminal associate of Lucky Luciano, Genovese took part in the Castellammarese War and helped Luciano shape the Mafia's rise as a major force in organized crime in the United States. He would later lead Luciano's crime family, which was renamed by the FBI after Genovese in 1957.",
+    "book_role": "Born near Naples, the exiled American mafia boss has taken a job as an AMG interpreter and manoeuvred himself into 'unassailable power' in the military government; the new mayors of the Camorra-zone towns are said to be his nominees, and the black market runs under his protection.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Vito_Genovese"
   }
 },
@@ -2260,7 +2280,8 @@
     "name": "Donna Maria Fidora ('La Pitonessa')",
     "slug": "donna-maria-fidora-la-pitonessa",
     "person_type": "informant_contact",
-    "description": "",
+    "description": "The richest landowner near Caivano, a former circus performer who had wrestled a python — hence 'La Pitonessa'.",
+    "book_role": "Lewis's first contact inside the Camorra zone outside the police; barred as a woman from the Camorra itself but a valuable informant, she runs her late husband's estate with professional efficiency and turns up, incongruously, at Lewis's hospital bedside.",
     "wikipedia_url": ""
   }
 },
@@ -2271,7 +2292,8 @@
     "name": "Norah Gemelli",
     "slug": "norah-gemelli",
     "person_type": "civilian_friend",
-    "description": "",
+    "description": "A Naples neighbour of the arrested Signora Esposito-Lau, with an Irish mother and perfect English; she reads Dante and Leopardi aloud.",
+    "book_role": "The centre of the circle of friends Lewis makes and treasures — and, at a dinner, the source of the true Anzio-landing leak he is then ordered to chase down, at the cost of their trust.",
     "wikipedia_url": ""
   }
 },
@@ -2282,7 +2304,8 @@
     "name": "Alberto Gemelli",
     "slug": "alberto-gemelli",
     "person_type": "civilian_friend",
-    "description": "",
+    "description": "A Naples neighbour of the arrested Signora Esposito-Lau, and Norah Gemelli's husband.",
+    "book_role": "Part of the circle of friends Lewis builds after that arrest and hopes will outlast the war; when a true leak about the Anzio landing is traced to a dinner at the Gemellis', Lewis is ordered back to pump his own friends for more.",
     "wikipedia_url": ""
   }
 },
@@ -2293,7 +2316,8 @@
     "name": "Carlo Del Giudice",
     "slug": "carlo-del-giudice",
     "person_type": "informant_contact",
-    "description": "",
+    "description": "A non-practising Naples lawyer scraping a living writing newspaper articles on folklore and astronomy, and an expert on San Gennaro and Vesuvius.",
+    "book_role": "Introduced by Lattarullo during the 1944 eruption; he quizzes Lewis about the threatened towns, supplies much of the book's San Gennaro lore, and later joins the parade of eccentric visitors to Lewis's hospital bed.",
     "wikipedia_url": ""
   }
 },
@@ -2304,7 +2328,8 @@
     "name": "Susanna",
     "slug": "susanna",
     "person_type": "companion",
-    "description": "",
+    "description": "Lola's friend — 'a frisky redhead of about twenty-five' with an unusually expressive mime.",
+    "book_role": "A fixture of the Frazer–Lola circle, from the Capri outing to the dinner in the looted flat, where she memorably calls a drunk, boorish British adjutant a cornuto and a stronzo to his uncomprehending face.",
     "wikipedia_url": ""
   }
 },
@@ -2315,7 +2340,8 @@
     "name": "Contessa della Peruta",
     "slug": "contessa-della-peruta",
     "person_type": "aristocrat",
-    "description": "",
+    "description": "A beautiful, refined aristocrat living in a near-castle above Santa Maria della Colombina.",
+    "book_role": "The subject of an 'extraordinary' marriage vetting: the elegance turns out to be staged with borrowed furniture in an otherwise empty house — a sharp variation on the genteel poverty Lewis keeps meeting.",
     "wikipedia_url": ""
   }
 },
@@ -2326,7 +2352,8 @@
     "name": "Domenico 'Lupo' (Wolf)",
     "slug": "domenico-lupo-wolf",
     "person_type": "camorrista_bandit",
-    "description": "",
+    "description": "A young, handsome, dashing bandit of Frattamaggiore — robber of the rich and giver to the poor.",
+    "book_role": "Freed from prison by the advancing Allies, he rebuilds his band with a forged AMG travel pass; Lewis watches, as an onlooker, the police operation that finally takes him, sprung by his jealous mistress.",
     "wikipedia_url": ""
   }
 },
@@ -2337,7 +2364,8 @@
     "name": "Fortuna",
     "slug": "fortuna",
     "person_type": "camorrista_bandit",
-    "description": "",
+    "description": "A well-connected penicillin racketeer, a lieutenant of Vito Genovese.",
+    "book_role": "Lewis visits him in Poggio Reale and finds him serenely certain of acquittal despite the evidence — and he is proved right: an emblem of how the powerful stay 'beyond the reach of the law' while petty thieves rot in the cells.",
     "wikipedia_url": ""
   }
 },
@@ -2348,7 +2376,8 @@
     "name": "Cuoca",
     "slug": "cuoca",
     "person_type": "camorrista_bandit",
-    "description": "",
+    "description": "The last of the great Camorra chieftains, a figure of the 1920s.",
+    "book_role": "His end is told on Lewis's tourist day at Pozzuoli: deposed by his own underlings, he was feasted and embraced at a 'funeral feast' at Vicenzo a Mare, then taken away and stabbed to death.",
     "wikipedia_url": ""
   }
 },
@@ -2359,7 +2388,8 @@
     "name": "George Hankin",
     "slug": "george-hankin",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "The one member of the section, Lewis reckons, with 'deep religious scruples'.",
+    "book_role": "Lands the delicate job of escorting a female internee — too important to be named in writing — to Rome; predictably, she spends the night in prison.",
     "wikipedia_url": ""
   }
 },
@@ -2370,7 +2400,8 @@
     "name": "Salvatore Loreto",
     "slug": "salvatore-loreto",
     "person_type": "notable_civilian",
-    "description": "",
+    "description": "A notorious infiltrator and saboteur with the Italian 10th Flotilla MAS.",
+    "book_role": "Lewis finds him dying in the PW ward at Cancello, shot clean through the body; mistaken for his brother, Loreto throws his arms round Lewis's neck and rambles about their shared childhood as he dies.",
     "wikipedia_url": ""
   }
 },
@@ -2381,7 +2412,8 @@
     "name": "Giuseppina",
     "slug": "giuseppina",
     "person_type": "notable_civilian",
-    "description": "",
+    "description": "A 'begrimed and bedraggled' twelve-year-old orphan in Benevento who lives 'under a house' by the river.",
+    "book_role": "The first abandoned girl Lewis has seen among the city's hundreds of boy-orphans; she comes matter-of-factly to the office to collect her weekly blanket — a currency worth a factory-worker's wage.",
     "wikipedia_url": ""
   }
 },
@@ -2392,7 +2424,8 @@
     "name": "The Marchesa",
     "slug": "the-marchesa",
     "person_type": "aristocrat",
-    "description": "",
+    "description": "The last of one of the great landowning families near Benevento — 'laden with jewellery, yellowed with fever', and smoking a pipe.",
+    "book_role": "Living in her ruined castle among pigeon droppings — selling pigeons to the hotel, growing vegetables in soil spread on the banqueting-hall floor — she boasts of her family's feudal oppressions and turns up, unabashed, at Lewis's supper for the Benevento elite.",
     "wikipedia_url": ""
   }
 },
@@ -2403,7 +2436,8 @@
     "name": "Marshal Altamura",
     "slug": "marshal-altamura",
     "person_type": "police_official",
-    "description": "",
+    "description": "The SIM secret-police officer who effectively runs Benevento — 'handsome, good-humoured, quite imperturbable' and exuding 'sinister power'.",
+    "book_role": "Ordered by Naples to place himself at Lewis's disposal, he stage-manages Lewis's introduction to the town's notables; but an anonymous letter, and the wounding of Durham, leave Lewis increasingly uneasy that the Marshal is in league with the bandits.",
     "wikipedia_url": ""
   }
 },
@@ -2414,7 +2448,8 @@
     "name": "Don Ubaldo",
     "slug": "don-ubaldo",
     "person_type": "civilian_friend",
-    "description": "",
+    "description": "The schoolmaster of the Benevento town, nominally on the rolls of a left-wing party.",
+    "book_role": "Gives Lewis the long historical view of Southern Italian banditry — that the bands surface whenever order collapses and attach themselves to the landowners. He dies of typhoid, and the section moves on to Sagranella.",
     "wikipedia_url": ""
   }
 },
@@ -2425,7 +2460,8 @@
     "name": "Bernard Durham",
     "slug": "bernard-durham",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "A sergeant in Lewis's Field Security section. (Also recorded here as 'Durham'.)",
+    "book_role": "Shot through the shoulder by a bandit dressed as an American officer during an anti-bandit drive near Avellino — the section's first casualty.",
     "wikipedia_url": ""
   }
 },
@@ -2436,7 +2472,8 @@
     "name": "De Micco",
     "slug": "de-micco",
     "person_type": "camorrista_bandit",
-    "description": "",
+    "description": "A farmer in the Benevento countryside.",
+    "book_role": "Arrested for sheltering a wounded bandit; the arrest draws open disapproval — 'Who wouldn't have done the same thing?' — and marks the point at which the town turns cool toward Lewis.",
     "wikipedia_url": ""
   }
 },
@@ -2447,7 +2484,8 @@
     "name": "Neil Armstrong",
     "slug": "neil-armstrong",
     "person_type": "allied_colleague",
-    "description": "",
+    "description": "A Field Security colleague Lewis last saw in Tunisia eighteen months before.",
+    "book_role": "Their September 1944 reunion in Benevento — Armstrong now so wary that Lewis half-expects him to grope for his testicles at the sight of a stranger — becomes the book's measure of how completely the south changes a man.",
     "wikipedia_url": ""
   }
 },
@@ -2458,7 +2496,8 @@
     "name": "Ingeniere Crespi",
     "slug": "ingeniere-crespi",
     "person_type": "civilian_friend",
-    "description": "",
+    "description": "A prosperous Naples engineer, a contact since the Anzio-leak affair.",
+    "book_role": "Hosts the family mushroom- and bird-hunting expedition to the Lago di Patria that gives the book its portrait of the Neapolitan ottobrate outing.",
     "wikipedia_url": ""
   }
 },
@@ -2468,7 +2507,8 @@
   "fields": {
     "name": "Madonna of Pompeii",
     "slug": "madonna-of-pompeii",
-    "description": "",
+    "description": "The Pontifical Shrine of the Blessed Virgin of the Rosary of Pompei is a Catholic cathedral, Marian pontifical shrine, and Pontifical minor basilica commissioned and co-founded by Bartolo Longo and his wife the Countess Mariana di Fusco, located in Pompei, Italy. It is the see of the Territorial Prelature of Pompei.",
+    "book_role": "A soldier gives Lewis a scrap of tinsel torn from her mantle, promising it will render him bulletproof for a year.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Shrine_of_the_Virgin_of_the_Rosary_of_Pompei"
   }
 },
@@ -2478,7 +2518,8 @@
   "fields": {
     "name": "evil eye",
     "slug": "evil-eye",
-    "description": "",
+    "description": "The evil eye is a supernatural belief in a curse brought about by a malevolent glare, usually inspired by envy. Amulets to protect against it have been found dating to around 5,000 years ago. It is found in many cultures in the Mediterranean region, the Balkans, Eastern Europe, West Asia, Central Asia, South Asia, Africa, the Caribbean, and Latin America, with such cultures often believing that receiving the evil eye will cause misfortune or injury, while others believe it to be a kind of supernatural force that casts or reflects a malevolent gaze back upon those who wish harm upon others.",
+    "book_role": "The pervasive Neapolitan dread of the malevolent glance — coral-horn amulets in every jeweller's window, a Via Carducci block shunned as cursed, a woman blamed for poisoning a village water supply — and, by September 1944, the Benevento notables making protective gestures at Lewis himself, taking him for a jettatore.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Evil_eye"
   }
 },
@@ -2488,7 +2529,8 @@
   "fields": {
     "name": "San Gennaro",
     "slug": "san-gennaro",
-    "description": "",
+    "description": "Januarius, also known as Januarius I of Benevento, was Bishop of Benevento and is a martyr and saint of the Catholic Church. While no contemporary sources on his life are preserved, later sources and legends say he died during the Great Persecution, which ended with Diocletian's retirement in 305.",
+    "book_role": "The patron of Naples, whose dried blood is expected to liquefy on his feast days; the wartime vigils over whether — and how fast — the miracle happens run through the book as a barometer of public nerves, and his rivalry with San Sebastiano flares during the eruption, when his image is smuggled to San Sebastiano 'on an outside chance'.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Januarius"
   }
 },
@@ -2498,7 +2540,8 @@
   "fields": {
     "name": "Zio di Roma",
     "slug": "zio-di-roma",
-    "description": "",
+    "description": "A hired mourner who impersonates a distinguished 'uncle from Rome' at a funeral to raise the bereaved family's standing.",
+    "book_role": "Lattarullo's suspended sideline, resumed once Rome falls — complete with a rented car and driver and a special 'Zio di Roma' suit.",
     "wikipedia_url": ""
   }
 },
@@ -2508,7 +2551,8 @@
   "fields": {
     "name": "San Rocco",
     "slug": "san-rocco",
-    "description": "",
+    "description": "Roch, also called Rock in English, was a Majorcan Catholic confessor whose death is commemorated on 16 August and 9 September in Italy; he was especially invoked against the plague.",
+    "book_role": "Advising the exhausted Captain Frazer, Lewis recommends a medal of San Rocco — 'patron of coitus reservatus' — to be had in any religious-supplies shop.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Roch"
   }
 },
@@ -2518,7 +2562,8 @@
   "fields": {
     "name": "Hunchbacks as luck-bringers",
     "slug": "hunchbacks-as-luck-bringers",
-    "description": "",
+    "description": "A Neapolitan belief that a hunched back brings good fortune.",
+    "book_role": "Lewis notes lottery-ticket buyers touching or stroking a hunchback's hump as part of the purchase.",
     "wikipedia_url": ""
   }
 },
@@ -2528,7 +2573,8 @@
   "fields": {
     "name": "Stork veneration",
     "slug": "stork-veneration",
-    "description": "",
+    "description": "A Southern Italian taboo against harming storks, held to bring bad luck.",
+    "book_role": "A village that ate its storks' young during the famine is regarded as having called down calamity on itself.",
     "wikipedia_url": ""
   }
 },
@@ -2538,7 +2584,8 @@
   "fields": {
     "name": "Professional wailers",
     "slug": "professional-wailers",
-    "description": "",
+    "description": "Mourners paid to weep and lament at a funeral, amplifying the family's display of loss.",
+    "book_role": "Lewis notes 'several professional wailers in attendance' at the funeral of a Carabiniere murdered by bandits at Casoria.",
     "wikipedia_url": ""
   }
 },
@@ -2548,7 +2595,8 @@
   "fields": {
     "name": "Blessed Egideo",
     "slug": "blessed-egideo",
-    "description": "",
+    "description": "A holy figure whose preserved body is venerated at the church of San Pasquale in Naples.",
+    "book_role": "The incorrupt body Lewis views in its two-hundred-year-old glass case — serene 'to the point of indifference' — locally famous as the protector of pregnant women, and two miracles short of full sainthood.",
     "wikipedia_url": ""
   }
 },
@@ -2558,7 +2606,8 @@
   "fields": {
     "name": "San Gaetano",
     "slug": "san-gaetano",
-    "description": "",
+    "description": "Gaetano dei Conti di Thiene, known in English as Saint Cajetan, was an Italian Catholic priest and religious reformer, co-founder of the Theatines. He is recognised as a saint in the Catholic Church, and his feast day is 7 August.",
+    "book_role": "Invoked as a 'powerful exorcist': the remedy for a Via Carducci block of flats blighted by suicides would be for the neighbours to club together and build a street shrine under his protection.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Cajetan"
   }
 },
@@ -2568,7 +2617,8 @@
   "fields": {
     "name": "Vendetta mourning ritual",
     "slug": "vendetta-mourning-ritual",
-    "description": "",
+    "description": "A funeral rite of the Southern Italian interior in which the dead man's mother mouths his wounds as a pledge of revenge.",
+    "book_role": "When a man is killed in a vendetta his mother, if living, kisses and sucks at his wounds at the funeral — the kind of 'Bronze-Age' custom Lattarullo, ten miles away in Naples, knows nothing of.",
     "wikipedia_url": ""
   }
 },
@@ -2578,7 +2628,8 @@
   "fields": {
     "name": "pazzariello",
     "slug": "pazzariello",
-    "description": "",
+    "description": "A traditional Neapolitan costumed figure, part street-advertiser, part exorcist; 'one is born a pazzariello, not made one'.",
+    "book_role": "Cocked hat, stick, drummers and piper, hired to caper into a newly reopening shop — explained as advertising for the illiterate, but 'his real function is that of an exorcist', driving out evil spirits and the evil eye. Lewis sees his first on the Via San Pasquale.",
     "wikipedia_url": ""
   }
 },
@@ -2588,7 +2639,8 @@
   "fields": {
     "name": "San Sebastiano",
     "slug": "san-sebastiano",
-    "description": "",
+    "description": "Sebastian was an early Christian saint and martyr. According to traditional belief, he was killed during the Diocletianic Persecution of Christians. He was initially tied to a post or tree and shot with arrows, though this did not kill him.",
+    "book_role": "The patron of the town in the lava's path; his processional image is carried out to confront the 1944 eruption, and the smuggling-in of a rival San Gennaro image has to be hidden under a sheet to avoid giving him offence.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Sebastian"
   }
 },
@@ -2598,7 +2650,8 @@
   "fields": {
     "name": "Sant'Antonio Abate",
     "slug": "santantonio-abate",
-    "description": "",
+    "description": "Anthony the Great was a Christian monk from Egypt, revered since his death as a saint. He is distinguished from other saints named Anthony, such as Anthony of Padua, by various epithets: Anthony of Egypt, Anthony the Abbot, Anthony of the Desert, Anthony the Anchorite, Anthony the Hermit, and Anthony of Thebes. For his importance among the Desert Fathers and to all later Christian monasticism, he is also known as the Father of All Monks.",
+    "book_role": "During the eruption he briefly displaces San Gennaro as the saint charged with holding back Vesuvius's fire.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Anthony_the_Great"
   }
 },
@@ -2608,7 +2661,8 @@
   "fields": {
     "name": "Santo Agnello",
     "slug": "santo-agnello",
-    "description": "",
+    "description": "A Naples church, site of a 'speaking crucifix' during the 1944 miracle fervour.",
+    "book_role": "Its crucifix carries on a running dialogue with the image of Santa Maria d'Intercessione — reported daily in the newspapers of spring 1944.",
     "wikipedia_url": ""
   }
 },
@@ -2618,7 +2672,8 @@
   "fields": {
     "name": "Santa Maria d'Intercessione",
     "slug": "santa-maria-dintercessione",
-    "description": "",
+    "description": "A venerated Marian image in Naples.",
+    "book_role": "In the church of Santo Agnello her image holds a 'regular conversation' with a speaking crucifix — 'a fact confirmed by reporters on the spot' — among the talking, bleeding, sweating images multiplying across Naples in spring 1944.",
     "wikipedia_url": ""
   }
 },
@@ -2628,7 +2683,8 @@
   "fields": {
     "name": "Santa Maria del Carmine",
     "slug": "santa-maria-del-carmine",
-    "description": "",
+    "description": "Santa Maria del Carmine is a church in Naples, Italy. It is at one end of Piazza Mercato, the centre of civic life in Naples for many centuries until it was cut off from the rest of the city by urban renewal in 1900. The church was founded in the 13th century by Carmelite friars driven from the Holy Land in the Crusades, presumably arriving in the Bay of Naples aboard Amalfitan ships.",
+    "book_role": "Her image, first said to have bowed its head to dodge a cannon-shot during Alfonso of Aragon's siege of Naples, now 'does this as a matter of daily routine' in the 1944 wave of miracles.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Santa_Maria_del_Carmine,_Naples"
   }
 },
@@ -2638,7 +2694,8 @@
   "fields": {
     "name": "St John / San Giovanni a Carbonara",
     "slug": "st-john-san-giovanni-a-carbonara",
-    "description": "",
+    "description": "A Naples church holding a blood relic said to liquefy.",
+    "book_role": "One of the churches whose blood relic is reported to be bubbling amid the spring 1944 miracle fever.",
     "wikipedia_url": ""
   }
 },
@@ -2648,7 +2705,8 @@
   "fields": {
     "name": "Sant'Aspreno",
     "slug": "santaspreno",
-    "description": "",
+    "description": "Aspren or Asprenas was a 1st-century Christian saint and venerated as the first Bishop of Naples.",
+    "book_role": "The patron invoked against headaches: sufferers push their heads through a hole in the wall of his chapel in search of relief — one of the cures Lewis lists in the miracle-fever of spring 1944.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Aspren"
   }
 },
@@ -2658,7 +2716,8 @@
   "fields": {
     "name": "visionary child (local 'Bernadette')",
     "slug": "visionary-child-local-bernadette",
-    "description": "",
+    "description": "A child visionary of the Campi Flegrei reporting Marian apparitions in spring 1944.",
+    "book_role": "A twelve-year-old girl to whom the Virgin is said to appear with 'comforting messages for the population'; crowds flock out to watch, and the mayor of Marano arrives in a motor-hearse for want of other transport.",
     "wikipedia_url": ""
   }
 },
@@ -2668,7 +2727,8 @@
   "fields": {
     "name": "flying monk of Pomigliano",
     "slug": "flying-monk-of-pomigliano",
-    "description": "",
+    "description": "A stigmatic monk of Pomigliano credited with the power of flight — identified in the book's own footnote as the future Padre Pio.",
+    "book_role": "He claims to have flown through the air to rescue a downed pilot, and displays the stigmata — one of the wave of miracles sweeping the region in 1944.",
     "wikipedia_url": ""
   }
 },
@@ -2678,7 +2738,8 @@
   "fields": {
     "name": "Monte Vergine",
     "slug": "monte-vergine",
-    "description": "",
+    "description": "Sanctuary of Montevergine is a Marian church in Mercogliano, located in the hamlet of Montevergine. It's a part of the Territorial Abbey of Montevergine, one of the six Italian territorial abbeys. Inside, the painting of the Madonna di Montevergine is venerated and it is estimated that about one and a half million pilgrims visit it every year.",
+    "book_role": "The mountain sanctuary of the Virgin above Avellino, on the site of an ancient shrine of Cybele; the banning of its 1944 Whitsun pilgrimage causes widespread public dismay, and its district furnishes Lattarullo with a lurid tale of fake clergy fleecing a woman black-marketeer.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine"
   }
 },
@@ -2688,7 +2749,8 @@
   "fields": {
     "name": "St Michael",
     "slug": "st-michael",
-    "description": "",
+    "description": "The Sanctuary of Saint Michael the Archangel is a Roman Catholic shrine on Mount Gargano, Italy, part of the commune of Monte Sant'Angelo, in the province of Foggia, northern Apulia. It has the dignity of a minor basilica.",
+    "book_role": "The cave-sanctuary at Monte Sant'Angelo in Puglia — source of the venerated lump of rock that is, with a royal salver, the one treasured possession in Lattarullo's bare flat.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sanctuary_of_Monte_Sant%27Angelo"
   }
 },
@@ -2698,7 +2760,8 @@
   "fields": {
     "name": "Parenti di San Gennaro",
     "slug": "parenti-di-san-gennaro",
-    "description": "",
+    "description": "A clique of aged Neapolitan women held to be the blood descendants of San Gennaro.",
+    "book_role": "Led in to take their places around the cathedral altar, they are credited with the power — and the duty — of browbeating their ancestor into performing the blood miracle.",
     "wikipedia_url": ""
   }
 },
@@ -2708,7 +2771,8 @@
   "fields": {
     "name": "Ischia radioactive cure belief",
     "slug": "ischia-radioactive-cure-belief",
-    "description": "",
+    "description": "A local conviction that Ischia's natural radioactivity is health-giving.",
+    "book_role": "The belief that the Naples-facing side of Ischia is beneficially radioactive — slimming, good for the kidneys, bladder and complexion — is why Lola and Susanna go there for the summer 'to deflate'.",
     "wikipedia_url": ""
   }
 },
@@ -2718,7 +2782,8 @@
   "fields": {
     "name": "Guardia Sanframondi flagellant rite",
     "slug": "guardia-sanframondi-flagellant-rite",
-    "description": "",
+    "description": "Guardia Sanframondi is a town and comune in the Province of Benevento, in Campania region, in Italy. It is best known for its wine production, the wine festival Vinalia and for its Christian penitential rite held every seven years.",
+    "book_role": "The seven-yearly penitential procession in honour of the Virgin, revived in 1944 — described to Lewis by a colleague: robes soaked with blood, and one banner-carrier nearly lynched after being publicly named a cuckold.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guardia_Sanframondi"
   }
 },
@@ -2728,7 +2793,8 @@
   "fields": {
     "name": "Festival of the Lilies (Nola)",
     "slug": "festival-of-the-lilies-nola",
-    "description": "",
+    "description": "Paulinus of Nola born Pontius Meropius Anicius Paulinus, was a Roman poet, writer, senator, and bishop. He attained the ranks of suffect consul and governor of Campania, but, prompted by the counsels of his Hispanic wife Therasia of Nola and by the assassination of the emperor Gratian, abandoned his career and was baptized as a Christian. Later, probably after Therasia's death, he became bishop of Nola in Campania.",
+    "book_role": "Nola's Feast of St Paulinus, in which towering wooden 'lily' structures are carried through the streets; in 1944 the procession brought the town to a standstill and sliced through the army's telephone cables by the hundred — Eric Williams's despair.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Paulinus_of_Nola"
   }
 },
@@ -2738,7 +2804,8 @@
   "fields": {
     "name": "St Andrew's Manna (Amalfi)",
     "slug": "st-andrews-manna-amalfi",
-    "description": "",
+    "description": "Amalfi Cathedral is a medieval Roman Catholic cathedral in the Piazza del Duomo, Amalfi, Italy. It is dedicated to the Apostle Saint Andrew whose relics are kept here. Formerly the archiepiscopal seat of the Diocese of Amalfi, it has been since 1986 that of the Diocese of Amalfi-Cava de' Tirreni.",
+    "book_role": "The relic in the crypt of Amalfi Cathedral said to exude a miraculous liquid several times a year; Del Giudice asks Lewis to drive him there, and queues to buy a sample.",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Amalfi_Cathedral"
   }
 },
@@ -2749,6 +2816,7 @@
     "name": "Sagranella fox-cult",
     "slug": "sagranella-fox-cult",
     "description": "While stationed in southern Italy during the war, Lewis came across accounts of \"fox-magic\" in Sagranella, a remote village located in the hills behind Benevento. \r\n\r\nHe noted that the village felt so isolated and archaic that it \"seems hardly to have moved out of the Bronze Age.\"According to his writings, the local cult ritual involved two primary acts:\r\n\r\n- The Ritual Sacrifice: Every year, the villagers would capture a live fox and burn it to death.\r\n- The Display: After the burning, the fox's tail was severed and hung like a banner from a pole erected at the entrance of the village.\r\n\r\nHistorians and travel writers often link this specific practice to ancient Samnite or localized pagan traditions in the region, where animals were sacrificed to ward off evil spirits, ensure agricultural fertility, or mark territory.",
+    "book_role": "The annual ritual of the hill village where the section is billeted after Don Ubaldo's death: a live fox burned to death and its tail hung 'like a banner' from a pole at the village entrance, near an Easter Island-style stone head probably older than the Samnites.",
     "wikipedia_url": ""
   }
 },
@@ -2758,7 +2826,8 @@
   "fields": {
     "name": "Droit du seigneur (Sagranella)",
     "slug": "droit-du-seigneur-sagranella",
-    "description": "",
+    "description": "The lord's claimed right of sexual access to the women of his estate.",
+    "book_role": "Said, at Sagranella, to be still practised as a matter of course on the neighbouring big estate, whose steward reportedly feels a prospective woman worker's muscles before hiring her for a sixteen-hour day.",
     "wikipedia_url": ""
   }
 },
@@ -2768,7 +2837,8 @@
   "fields": {
     "name": "fertility offering superstition",
     "slug": "fertility-offering-superstition",
-    "description": "",
+    "description": "A gesture read as a survival of ancient fertility worship.",
+    "book_role": "A woman's ritual gesture that Lewis takes for an offering to a fertility deity — one of the glimpses of pre-Christian cult he keeps catching in and around Naples.",
     "wikipedia_url": ""
   }
 },

@@ -121,3 +121,18 @@
 
 - `naples44/ga.html` (Google Analytics gtag, G-T4B4FDV3TR) is now included in
   `<head>` of `base.html`, so it loads on every page.
+
+## 2026-09-01 — Descriptions for people & folklore
+
+- `book_role` added to `Person` and `FolkloreEntity` (migration `0005`); both
+  models now carry the same `description` + `book_role` pair as `Place`, rendered
+  the same way on the entity page.
+- `seed_place_descriptions` → **`seed_wikipedia_descriptions`**, generalised to
+  Place / Person / FolkloreEntity (`--model` flag). Ran it: 14 folklore + 1
+  person (Vito Genovese) descriptions from Wikipedia.
+- Wrote `description` + `book_role` for **all 39 people and all 31 folklore
+  entities** from the epub — identity line + a grounded "In the book" note,
+  paraphrased house style.
+- Noted duplicates to reconcile: `bernard-durham` / `durham` are the same man;
+  `sergeant-major-john-dashwood` / `sergeant-major-dashwood` likewise.
+- Admin: `has_role` indicator column on Person and FolkloreEntity.

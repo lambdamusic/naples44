@@ -65,7 +65,7 @@ class Place(models.Model):
     description = models.TextField(
         blank=True,
         help_text="What / where the place is. Seedable from Wikipedia via "
-        "`manage.py seed_place_descriptions`.",
+        "`manage.py seed_wikipedia_descriptions`.",
     )
     book_role = models.TextField(
         blank=True,
@@ -113,7 +113,15 @@ class Person(models.Model):
     name = models.CharField(max_length=120, unique=True)
     slug = models.SlugField(max_length=140, unique=True, blank=True)
     person_type = models.CharField(max_length=20, choices=PERSON_TYPES)
-    description = models.TextField(blank=True, help_text="Shown on the person's page. Optional.")
+    description = models.TextField(
+        blank=True,
+        help_text="Who they are / were. Seedable from Wikipedia via "
+        "`manage.py seed_wikipedia_descriptions` where an article exists.",
+    )
+    book_role = models.TextField(
+        blank=True,
+        help_text="How they figure in Naples '44 — hand-written, never auto-seeded.",
+    )
     wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the person's own page.")
 
     class Meta:
@@ -137,7 +145,15 @@ class FolkloreEntity(models.Model):
 
     name = models.CharField(max_length=120, unique=True)
     slug = models.SlugField(max_length=140, unique=True, blank=True)
-    description = models.TextField(blank=True, help_text="Shown on the entity's page. Optional.")
+    description = models.TextField(
+        blank=True,
+        help_text="What the saint / feast / custom is. Seedable from Wikipedia via "
+        "`manage.py seed_wikipedia_descriptions` where an article exists.",
+    )
+    book_role = models.TextField(
+        blank=True,
+        help_text="How it figures in Naples '44 — hand-written, never auto-seeded.",
+    )
     wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the entity's own page.")
 
     class Meta:
