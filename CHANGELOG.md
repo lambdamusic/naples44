@@ -172,3 +172,6 @@
   list re-applies `.order_by("order", "slug")` explicitly.
 - Top navbar now carries all six sections: About · Timeline · Places · People ·
   Folklore · Themes, with the current one highlighted.
+- External links (entity-page Wikipedia + Google search, footer book link,
+  landing publisher links, timeline out-of-range event links) now open in a new
+  tab (`target="_blank" rel="noopener"`).

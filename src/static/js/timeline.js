@@ -169,7 +169,7 @@
     box.innerHTML = "<h3>" + label + "</h3><ul>" + list.map(function (d) {
       var inner = esc(fmtFull(d._date)) + " — " + esc(d.title);
       return "<li>" + (d.link
-        ? '<a href="' + esc(d.link) + '" rel="noopener">' + inner + "</a>"
+        ? '<a href="' + esc(d.link) + '" target="_blank" rel="noopener">' + inner + "</a>"
         : inner) + "</li>";
     }).join("") + "</ul>";
   }
