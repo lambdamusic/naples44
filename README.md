@@ -1,4 +1,12 @@
-# naples44
+# Naples '44: An Interactive Timelime
+
+An interactive timeline of Naples ’44 - a [book](https://en.wikipedia.org/wiki/Naples_%2744) by Norman Lewis.
+
+Norman Lewis was a British intelligence officer posted to Naples in the year after the Allied landings. His diary of that year — published in 1978 as Naples ’44 — is a spare, unsparing record of a city surviving occupation, hunger, the black market, bombardment and the everyday theatre of Neapolitan life. This site lets you move through the book by date.
+
+> The site is live at http://naples44.michelepasin.org/
+
+## Development
 
 A static website built with the **Django-as-a-static-site-generator** pattern
 ([methodology](https://www.michelepasin.org/blog/2021/10/29/django-wget-static-site/index.html)).
@@ -9,7 +17,6 @@ rendered by normal Django views/templates on the local dev server, then
 `wget --mirror`'d into `docs/`, which **GitHub Pages** serves directly. There is
 no production Django deployment.
 
-> _Site purpose: TBD — Michele will fill this in._
 
 ## Layout
 
