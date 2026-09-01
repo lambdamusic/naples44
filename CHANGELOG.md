@@ -116,3 +116,8 @@
   Castellammare di Stabia, Palazzo Carracciolo, Rione Sant'Antonio Abate,
   San Giorgio (near Benevento).
 - Fixed one geocode from the text: "Corso Umberto" is Benevento's, not Naples's.
+
+## 2026-09-01 — Analytics
+
+- `naples44/ga.html` (Google Analytics gtag, G-T4B4FDV3TR) is now included in
+  `<head>` of `base.html`, so it loads on every page.
