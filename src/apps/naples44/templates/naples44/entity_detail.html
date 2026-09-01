@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% load static %}
+{% load static naples44_extras %}
 
 {% block title %}{{ entity.name }} — Naples ’44{% endblock %}
 {% block body_class %}page-entity{% endblock %}
@@ -10,17 +10,18 @@
 
 {% block content %}
 <article class="entity">
+  {% include "naples44/_entity_icon.html" %}
   <p class="kicker">{{ kind }}{% if subtitle %} · {{ subtitle }}{% endif %}</p>
   <h1>{{ entity.name }}</h1>
 
   {% if entity.description %}
-  <div class="entity-desc">{{ entity.description|linebreaks }}</div>
+  <div class="entity-desc prose">{{ entity.description|markdownify }}</div>
   {% endif %}
 
   {% if entity.book_role %}
-  <div class="entity-book-role">
+  <div class="entity-book-role prose">
     <p class="entity-book-role-label">In the book</p>
-    {{ entity.book_role|linebreaks }}
+    {{ entity.book_role|markdownify }}
   </div>
   {% endif %}
 
@@ -38,15 +39,22 @@
 
   {% include "naples44/_entry_timeline.html" %}
 
-  {% if entity.wikipedia_url %}
   <p class="entity-external">
-    Further reading: <a href="{{ entity.wikipedia_url }}" rel="noopener">Wikipedia ↗</a>
+    {% if entity.wikipedia_url %}<a href="{{ entity.wikipedia_url }}" rel="noopener">Wikipedia ↗</a> · {% endif %}
+    <a href="{{ google_url }}" rel="noopener nofollow">Search Google ↗</a>
   </p>
-  {% endif %}
+
+  <nav class="entry-nav">
+    {% if prev_entity %}<a class="prev" href="{{ prev_entity.get_absolute_url }}" rel="prev">← {{ prev_entity.name }}</a>{% else %}<span></span>{% endif %}
+    <span class="to-timeline">{{ kind }}</span>
+    {% if next_entity %}<a class="next" href="{{ next_entity.get_absolute_url }}" rel="next">{{ next_entity.name }} →</a>{% else %}<span></span>{% endif %}
+  </nav>
+  <p class="key-hint">Use <kbd>←</kbd> <kbd>→</kbd> to move between pages</p>
 </article>
 {% endblock %}
 
 {% block scripts %}
+<script src="{% static 'js/entry.js' %}"></script>
 {% if place_map %}
 <script src="{% static 'js/leaflet.js' %}"></script>
 <script src="{% static 'js/place-map.js' %}"></script>

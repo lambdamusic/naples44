@@ -6,6 +6,7 @@
 
 {% block content %}
 <article class="entry">
+  {% include "naples44/_entity_icon.html" with icon="entry" %}
   <p class="kicker">Entry {{ entry.id }} · Book chapter {{ entry.chapter }}</p>
   <h1>{{ entry.date_label }} <span class="year">{{ entry.year }}</span></h1>
 

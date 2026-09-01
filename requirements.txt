@@ -3,3 +3,4 @@ django-extensions
 Werkzeug
 click
 requests
+Markdown

@@ -1,4 +1,4 @@
-/* Entry pages: ← / → arrow keys walk to the previous / next diary entry. */
+/* Entry + entity pages: ← / → arrow keys follow the prev / next link in .entry-nav. */
 (function () {
   "use strict";
 

@@ -92,3 +92,15 @@
   matched same-named streets elsewhere in Campania — Santa Lucia was landing
   near Sorrento). 114/129 placed; "Via Gravina" / "Via San Felice" cleared as
   unidentifiable.
+
+## 2026-09-01 — Entity page polish
+
+- Each entity/entry page now shows a line-art **type icon** (book / map-pin /
+  person / evil-eye / tag), colour-coded per type — `_entity_icon.html`.
+- **Markdown** in `description` and `book_role` (all entity types) via a
+  `markdownify` filter (`templatetags/naples44_extras.py`, `Markdown` package).
+  Content is admin-only so the HTML is not sanitised.
+- Every entity page links to a Google search: `"<name>" naples 44`.
+- **← / → arrow keys** and a prev/next nav now move between sibling entity pages
+  (places → places, people → people, …) in the model's default order, reusing
+  `entry.js` and the `.entry-nav` markup.

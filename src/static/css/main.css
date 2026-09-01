@@ -13,6 +13,12 @@
   --outer:        #3f5a63;   /* teal-grey for war events */
   --shadow:       rgba(40, 32, 20, 0.14);
 
+  --icon-entry:    #6f6656;
+  --icon-place:    #a8603a;
+  --icon-person:   #4f7480;
+  --icon-folklore: #a97c2f;
+  --icon-theme:    #9c3327;
+
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
@@ -32,6 +38,12 @@
     --link:         #e39079;
     --outer:        #7fa6b0;
     --shadow:       rgba(0, 0, 0, 0.4);
+
+    --icon-entry:    #9a8f79;
+    --icon-place:    #cf8a5f;
+    --icon-person:   #85a9b3;
+    --icon-folklore: #cea748;
+    --icon-theme:    #d9614e;
   }
 }
 
@@ -114,6 +126,32 @@ em { font-style: italic; }
   color: var(--ink-faint);
   margin: 0 0 0.75rem;
 }
+
+/* entity / entry type icon */
+.entity-icon { display: block; width: 40px; height: 40px; margin: 0 0 0.7rem -2px; }
+.entity-icon svg { width: 100%; height: 100%; display: block; }
+.icon-entry    { color: var(--icon-entry); }
+.icon-place    { color: var(--icon-place); }
+.icon-person   { color: var(--icon-person); }
+.icon-folklore { color: var(--icon-folklore); }
+.icon-theme    { color: var(--icon-theme); }
+
+/* rendered markdown */
+.prose p { margin: 0 0 0.7rem; }
+.prose ul, .prose ol { margin: 0 0 0.7rem; padding-left: 1.3rem; }
+.prose li { margin: 0.15rem 0; }
+.prose a { color: var(--link); }
+.prose em { font-style: italic; }
+.prose blockquote {
+  margin: 0.7rem 0; padding-left: 0.9rem;
+  border-left: 2px solid var(--rule); color: var(--ink-soft); font-style: italic;
+}
+.prose code {
+  font-size: 0.9em; background: var(--paper-raised);
+  padding: 0.05rem 0.3rem; border-radius: 2px;
+}
+.prose h2, .prose h3 { font-family: var(--serif); font-size: 1.05rem; margin: 1rem 0 0.4rem; }
+.prose > :last-child { margin-bottom: 0; }
 
 /* ---------- landing ---------- */
 

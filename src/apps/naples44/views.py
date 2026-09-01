@@ -1,3 +1,5 @@
+from urllib.parse import quote_plus
+
 from django.shortcuts import get_object_or_404, render
 
 from . import models
@@ -36,14 +38,45 @@ def entry_detail(request, entry_id):
     return render(
         request,
         "naples44/entry_detail.html",
-        {"entry": entry, "prev_entry": prev_entry, "next_entry": next_entry},
+        {
+            "entry": entry,
+            "prev_entry": prev_entry,
+            "next_entry": next_entry,
+            "icon": "entry",
+        },
     )
 
 
 # --- entity pages ---------------------------------------------------------
 
-def _render_entity(request, *, kind, entity, subtitle, rows, extra=None):
-    ctx = {"kind": kind, "entity": entity, "subtitle": subtitle, "rows": rows}
+def _google_url(name):
+    return "https://www.google.com/search?q=" + quote_plus(f'"{name}" naples 44')
+
+
+def _neighbours(model, obj):
+    """(previous, next) sibling in the model's default ordering."""
+    pks = list(model.objects.values_list("pk", flat=True))
+    try:
+        i = pks.index(obj.pk)
+    except ValueError:
+        return None, None
+    prev = model.objects.get(pk=pks[i - 1]) if i > 0 else None
+    nxt = model.objects.get(pk=pks[i + 1]) if i < len(pks) - 1 else None
+    return prev, nxt
+
+
+def _render_entity(request, *, kind, icon, entity, subtitle, rows, extra=None):
+    prev_entity, next_entity = _neighbours(type(entity), entity)
+    ctx = {
+        "kind": kind,
+        "icon": icon,
+        "entity": entity,
+        "subtitle": subtitle,
+        "rows": rows,
+        "google_url": _google_url(entity.name),
+        "prev_entity": prev_entity,
+        "next_entity": next_entity,
+    }
     ctx.update(extra or {})
     return render(request, "naples44/entity_detail.html", ctx)
 
@@ -86,6 +119,7 @@ def place_detail(request, slug):
     return _render_entity(
         request,
         kind="Place",
+        icon="place",
         entity=place,
         subtitle=place.get_place_type_display(),
         rows=_plain_rows(entries),
@@ -104,6 +138,7 @@ def person_detail(request, slug):
     return _render_entity(
         request,
         kind="Person",
+        icon="person",
         entity=person,
         subtitle=person.get_person_type_display(),
         rows=rows,
@@ -119,7 +154,12 @@ def folklore_detail(request, slug):
     )
     rows = [{"entry": link.entry, "note": link.note} for link in links]
     return _render_entity(
-        request, kind="Saint / folklore", entity=ent, subtitle="", rows=rows
+        request,
+        kind="Saint / folklore",
+        icon="folklore",
+        entity=ent,
+        subtitle="",
+        rows=rows,
     )
 
 
@@ -129,6 +169,7 @@ def theme_detail(request, slug):
     return _render_entity(
         request,
         kind="Theme",
+        icon="theme",
         entity=theme,
         subtitle="",
         rows=_plain_rows(entries),
