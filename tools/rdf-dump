@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# Export the whole dataset as schema.org RDF (Turtle) → backups/rdf/naples44.ttl
+# Re-run after admin edits, alongside tools/db-dump. Commit the .ttl.
+
+echo -e "\nEXPORTING DATA AS RDF ....src/manage.py export_rdf"
+echo "+++++++++++++++++"
+
+src/manage.py export_rdf
+
+echo -e "\nDONE: backups/rdf/naples44.ttl\n"

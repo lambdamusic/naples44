@@ -30,6 +30,9 @@ Pages. No live Django deployment.
 
 - **`backups/django/dump.json`** is the committed source of truth for the data
   (479 objects). Load a fresh DB with `./tools/db-load backups/django/dump.json`.
+- **`backups/rdf/naples44.ttl`** — the same data as a schema.org RDF graph
+  (`./tools/rdf-dump`), regenerated from the DB, not a second source of truth.
+  Model lives in `src/apps/naples44/rdf_export.py`.
 - `plan-files/` (gitignored) holds the original hand-built JSON. It was a
   **one-time seed** via `import_naples_data`; **the Django admin is the editor
   now**, and `./tools/db-dump` re-snapshots to `dump.json` after admin edits.
@@ -46,6 +49,7 @@ Pages. No live Django deployment.
 | `./tools/run-dev-local-db` | dev server on `127.0.0.1:8000` (admin + views) |
 | `./tools/db-dump` | snapshot DB → `backups/django/dump.json` (commit it) |
 | `./tools/db-load backups/django/dump.json` | load fixture into an empty DB |
+| `./tools/rdf-dump` | export DB → `backups/rdf/naples44.ttl` (schema.org Turtle; commit it) |
 | `./tools/site-dump` | wget-mirror the running server into `docs/` |
 | `./tools/site-dump-and-publish` | site-dump + commit + push |
 
