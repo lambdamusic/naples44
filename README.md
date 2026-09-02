@@ -6,6 +6,14 @@ Norman Lewis was a British intelligence officer posted to Naples in the year aft
 
 > The site is live at https://naples44.michelepasin.org/
 
+## Data
+
+The full dataset — 108 diary entries with their summaries, themes, places,
+people and folklore tags, plus the 20 broader war events — is also available as
+RDF (a small [schema.org](https://schema.org/)-based model, serialized as
+Turtle):
+[`backups/rdf/naples44.ttl`](https://github.com/lambdamusic/naples44/blob/main/backups/rdf/naples44.ttl).
+
 ## Development
 
 A static website built with the **Django-as-a-static-site-generator** pattern
@@ -31,6 +39,7 @@ src/
 build/                 disposable wget mirror target (gitignored)
 docs/                  committed static output GitHub Pages publishes (/docs)
 backups/django/        portable JSON fixtures (manage.py dumpdata) — the real backup
+backups/rdf/           the same data as schema.org RDF / Turtle (manage.py export_rdf)
 tools/                 shell scripts = the whole operational surface
 ```
 
@@ -56,6 +65,7 @@ cp tools/db-bootstrap_EXAMPLE tools/db-bootstrap         # fill in superuser cre
 | `./tools/run-dev-local-db` | Run the dev server (`runserver_plus`) on `127.0.0.1:8000` — author content in the Django admin, preview rendered views. |
 | `./tools/db-dump` | Dump DB data to `backups/django/dump.json` (commit this). |
 | `./tools/db-load backups/django/dump.json` | Load a JSON fixture into an empty DB. |
+| `./tools/rdf-dump` | Export DB data to `backups/rdf/naples44.ttl` (schema.org Turtle; commit this). |
 | `./tools/site-dump` | With the dev server running: wget-mirror it into `build/`, rsync into `docs/`. |
 | `./tools/site-dump-and-publish` | `site-dump` + `git add -A && git commit && git push`. |
 | `./tools/run-static-site` | Serve `docs/` at `127.0.0.1:9111` to preview the published output. |
