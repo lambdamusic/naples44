@@ -1,6 +1,6 @@
 """
 Download the Wikipedia lead image for any Place / Person / FolkloreEntity that has
-a `wikipedia_url`, into src/static/img/entities/<model>/<slug>.<ext>, and record
+a `wikipedia_url` (and, for each Theme, the hand-picked file in THEME_IMAGES), into src/static/img/entities/<model>/<slug>.<ext>, and record
 its path, source page and credit (author + licence, from Commons metadata).
 
 Images are fetched once and stored locally — the static site never hotlinks.
@@ -39,6 +39,23 @@ MODELS = {
     "place": models.Place,
     "person": models.Person,
     "folklore": models.FolkloreEntity,
+    "theme": models.Theme,
+}
+
+# Themes have no Wikipedia article of their own, so each gets a hand-picked
+# Commons file — period photographs of Naples 1943–44 where one fits.
+THEME_IMAGES = {
+    "war_violence": "Un ragazzo italiano sostiene il suo amico ferito gravemente durante il bombardamento alleato su Napoli nel 1943.jpg",
+    "black_market": "Wayne Miller - Giovane venditrice.jpg",
+    "poverty_hunger": "Children of Naples, Italy - NARA - 520941.jpg",
+    "sex_relationships": "The Skin poster.jpg",
+    "superstition_religion": "CornicelloCharm.jpg",
+    "crime_banditry": "GiulianoGenovese1.jpg",
+    "bureaucracy_absurdity": "Napoli, Gran Dogana Marittima (nel 1943).jpg",
+    "naples_character": "Pulcinella - stampa ottocento.jpg",
+    "disease_health": "SC 190591 - 23rd Gen. Hospital view of operating room. Naples, Italy, 10 September, 1944. (49764764041).jpg",
+    "allied_conduct": "Napoli 1943, entrata degli alleati (1).jpg",
+    "personal_reflection": "Norman Lewis (1908–2003).jpg",
 }
 
 
@@ -76,19 +93,24 @@ def lead_image(wikipedia_url):
 
     page = _first_page(_get_json({
         "action": "query", "redirects": 1, "titles": title,
-        "prop": "pageimages", "piprop": "thumbnail|name",
-        "pithumbsize": THUMB_WIDTH, "pilicense": "any",
+        "prop": "pageimages", "piprop": "name", "pilicense": "any",
     }))
-    thumb = page.get("thumbnail", {}).get("source")
     name = page.get("pageimage")
-    if not thumb or not name or SKIP_FILE.search(name):
+    if not name or SKIP_FILE.search(name):
         return None
+    return commons_file(name)
 
+
+def commons_file(name):
+    """{"src", "file_page", "credit"} for a named file (Commons or local), or None."""
     info = _first_page(_get_json({
         "action": "query", "titles": "File:" + name,
-        "prop": "imageinfo", "iiprop": "url|extmetadata",
+        "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": THUMB_WIDTH,
     }))
     ii = (info.get("imageinfo") or [{}])[0]
+    thumb = ii.get("thumburl")
+    if not thumb:
+        return None
     meta = ii.get("extmetadata", {})
     artist = _short(_plain(meta.get("Artist", {}).get("value")), 120)
     licence = _plain(meta.get("LicenseShortName", {}).get("value"))
@@ -120,11 +142,11 @@ def download(url, dest):
 
 
 class Command(BaseCommand):
-    help = "Download Wikipedia lead images for Place / Person / FolkloreEntity."
+    help = "Download Wikipedia lead images for Place / Person / FolkloreEntity / Theme."
 
     def add_arguments(self, parser):
         parser.add_argument("--model", choices=sorted(MODELS), action="append",
-                            help="Limit to this model (repeatable). Default: all three.")
+                            help="Limit to this model (repeatable). Default: all four.")
         parser.add_argument("--refresh", action="store_true",
                             help="Re-fetch images that are already set.")
         parser.add_argument("--dry-run", action="store_true")
@@ -138,7 +160,10 @@ class Command(BaseCommand):
 
         for name in names:
             Model = MODELS[name]
-            qs = Model.objects.exclude(wikipedia_url="").order_by("name")
+            if Model is models.Theme:
+                qs = Model.objects.filter(slug__in=THEME_IMAGES)
+            else:
+                qs = Model.objects.exclude(wikipedia_url="").order_by("name")
             if opts["only"]:
                 qs = qs.filter(slug__in=opts["only"])
             if not opts["refresh"]:
@@ -149,7 +174,10 @@ class Command(BaseCommand):
             self.stdout.write(self.style.MIGRATE_HEADING(f"\n{name}:"))
             for obj in qs:
                 try:
-                    img = lead_image(obj.wikipedia_url)
+                    if Model is models.Theme:
+                        img = commons_file(THEME_IMAGES[obj.slug])
+                    else:
+                        img = lead_image(obj.wikipedia_url)
                     if not img:
                         if obj.image and not opts["dry_run"]:  # --refresh dropped it
                             obj.image = obj.image_source_url = obj.image_credit = ""

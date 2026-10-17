@@ -194,7 +194,8 @@ def theme_detail(request, slug):
 
 def _item(obj, count):
     return {"name": obj.name, "url": obj.get_absolute_url(), "count": count,
-            "description": getattr(obj, "description", "")}
+            "description": getattr(obj, "description", ""),
+            "image": getattr(obj, "image", "")}
 
 
 def _render_index(request, *, kind, icon, groups, total, blurb,

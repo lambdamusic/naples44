@@ -45,7 +45,8 @@
     {% for group in groups %}
       {% if group.label %}<li class="ei-group">{{ group.label }} <span>{{ group.items|length }}</span></li>{% endif %}
       {% for it in group.items %}
-      <li class="ei-item" data-name="{{ it.name|lower }}" data-count="{{ it.count }}">
+      <li class="ei-item{% if wide and it.image %} has-thumb{% endif %}" data-name="{{ it.name|lower }}" data-count="{{ it.count }}">
+        {% if wide and it.image %}<a class="ei-thumb" href="{{ it.url }}" tabindex="-1" aria-hidden="true"><img src="{% static it.image %}" alt="" loading="lazy"></a>{% endif %}
         <a class="ei-name" href="{{ it.url }}">{{ it.name }}</a>
         {% if wide and it.description %}<span class="ei-desc">{{ it.description }}</span>{% endif %}
         <span class="ei-count" title="{{ it.count }} diary entr{{ it.count|pluralize:'y,ies' }}">{{ it.count }}</span>

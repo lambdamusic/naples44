@@ -146,6 +146,7 @@ def _add_themes(g):
         g.add((uri, SCHEMA.name, Literal(t.label)))
         if t.description:
             g.add((uri, SCHEMA.description, _lit_en(t.description)))
+        _add_image(g, uri, t)
         g.add((uri, SCHEMA.inDefinedTermSet, THEME_SET))
         g.add((uri, SCHEMA.url, _abs(t.get_absolute_url())))
 

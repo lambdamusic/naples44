@@ -570,6 +570,20 @@ a.chip:hover { color: var(--accent); border-color: var(--accent-soft); }
 .ei-list--wide .ei-desc {
   flex: 1 1 100%; order: 3; font-size: 0.9rem; color: var(--ink-soft); margin-top: 0.15rem;
 }
+.ei-list--wide .ei-item.has-thumb {
+  display: grid; grid-template-columns: 5.5rem 1fr auto; grid-template-rows: auto 1fr;
+  column-gap: 1.1rem; align-items: baseline;
+}
+.ei-item.has-thumb .ei-thumb { grid-row: 1 / span 2; align-self: start; display: block; }
+.ei-item.has-thumb .ei-thumb img {
+  display: block; width: 5.5rem; height: 5.5rem; object-fit: cover;
+  border: 1px solid var(--rule); border-radius: 3px; background: var(--paper-raised);
+  filter: grayscale(0.25);
+}
+.ei-item.has-thumb .ei-thumb:hover img { filter: none; border-color: var(--accent-soft); }
+.ei-item.has-thumb .ei-name { grid-column: 2; }
+.ei-item.has-thumb .ei-count { grid-column: 3; }
+.ei-item.has-thumb .ei-desc { grid-column: 2 / span 2; align-self: start; margin-top: 0.3rem; }
 
 /* ---------- responsive ---------- */
 

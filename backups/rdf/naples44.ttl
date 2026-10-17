@@ -253,11 +253,11 @@ entry:26 a schema:Chapter ;
     schema:dateCreated "1943-10-28"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "RASC captain, Lola's lover; Lewis interprets for the couple"@en ;
-            schema:mentions person:captain-frazer ],
-        [ a schema:Role ;
             schema:description "invoked as patron of coitus reservatus"@en ;
             schema:mentions folklore:san-rocco ],
+        [ a schema:Role ;
+            schema:description "RASC captain, Lola's lover; Lewis interprets for the couple"@en ;
+            schema:mentions person:captain-frazer ],
         [ a schema:Role ;
             schema:description "Frazer's lover, met at Signora Gentile's dinner party; asks Lewis to interpret for the relationship"@en ;
             schema:mentions person:signora-lola ],
@@ -276,11 +276,11 @@ entry:29 a schema:Chapter ;
     schema:dateCreated "1943-11-10"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "enthusiastic informant, absentee landlord and head of a leading noble family"@en ;
-            schema:mentions person:prince-a ],
-        [ a schema:Role ;
             schema:description "the Prince's sister, for whom he requests entry to a nonexistent army brothel"@en ;
             schema:mentions person:luisa ],
+        [ a schema:Role ;
+            schema:description "enthusiastic informant, absentee landlord and head of a leading noble family"@en ;
+            schema:mentions person:prince-a ],
         [ a schema:Role ;
             schema:description "gynaecologist specialising in the restoration of virginity, one of Parkinson's medical contacts"@en ;
             schema:mentions person:professore-placella ],
@@ -453,11 +453,11 @@ entry:41 a schema:Chapter ;
     schema:dateCreated "1944-01-14"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "half-Italian, half-Irish friend whose information about the Anzio leak Lewis is forced to pursue"@en ;
-            schema:mentions person:norah-gemelli ],
-        [ a schema:Role ;
             schema:description "Norah's husband, part of the friendship network Lewis values"@en ;
             schema:mentions person:alberto-gemelli ],
+        [ a schema:Role ;
+            schema:description "half-Italian, half-Irish friend whose information about the Anzio leak Lewis is forced to pursue"@en ;
+            schema:mentions person:norah-gemelli ],
         person:alberto-gemelli,
         person:norah-gemelli ;
     schema:name "January 14, 1944" ;
@@ -595,14 +595,14 @@ entry:55 a schema:Chapter ;
     schema:dateCreated "1944-03-24"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "briefly replaced San Gennaro as fire-saint"@en ;
-            schema:mentions folklore:santantonio-abate ],
-        [ a schema:Role ;
             schema:description "introduces his friend Del Giudice"@en ;
             schema:mentions person:vincente-lattarullo ],
         [ a schema:Role ;
             schema:description "deposed then reinstated as protector, 1799 episode"@en ;
             schema:mentions folklore:san-gennaro ],
+        [ a schema:Role ;
+            schema:description "briefly replaced San Gennaro as fire-saint"@en ;
+            schema:mentions folklore:santantonio-abate ],
         [ a schema:Role ;
             schema:description "non-practising lawyer turned folklore/astronomy writer, an expert on San Gennaro and Vesuvius"@en ;
             schema:mentions person:carlo-del-giudice ],
@@ -635,11 +635,11 @@ entry:58 a schema:Chapter ;
     schema:dateCreated "1944-03-29"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "Marian apparitions at Campi Flegrei"@en ;
-            schema:mentions folklore:visionary-child-local-bernadette ],
-        [ a schema:Role ;
             schema:description "claimed to rescue a downed pilot mid-air, displays stigmata"@en ;
             schema:mentions folklore:flying-monk-of-pomigliano ],
+        [ a schema:Role ;
+            schema:description "Marian apparitions at Campi Flegrei"@en ;
+            schema:mentions folklore:visionary-child-local-bernadette ],
         folklore:flying-monk-of-pomigliano,
         folklore:visionary-child-local-bernadette ;
     schema:name "March 29, 1944" ;
@@ -700,11 +700,11 @@ entry:66 a schema:Chapter ;
     schema:dateCreated "1944-04-24"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "reconciled with Lola on more formal, arduous terms after her rival is dismissed"@en ;
-            schema:mentions person:captain-frazer ],
-        [ a schema:Role ;
             schema:description "reconciles with Frazer after dismissing a rival lover, becomes his official fidanzata"@en ;
             schema:mentions person:signora-lola ],
+        [ a schema:Role ;
+            schema:description "reconciled with Lola on more formal, arduous terms after her rival is dismissed"@en ;
+            schema:mentions person:captain-frazer ],
         person:captain-frazer,
         person:signora-lola ;
     schema:name "April 24, 1944" ;
@@ -718,14 +718,14 @@ entry:67 a schema:Chapter ;
     schema:dateCreated "1944-04-25"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "hosts a dinner in his looted, makeshift requisitioned flat"@en ;
-            schema:mentions person:captain-frazer ],
+            schema:description "guest at Frazer's dinner party"@en ;
+            schema:mentions person:susanna ],
         [ a schema:Role ;
             schema:description "hosts dinner at Frazer's flat"@en ;
             schema:mentions person:signora-lola ],
         [ a schema:Role ;
-            schema:description "guest at Frazer's dinner party"@en ;
-            schema:mentions person:susanna ],
+            schema:description "hosts a dinner in his looted, makeshift requisitioned flat"@en ;
+            schema:mentions person:captain-frazer ],
         person:captain-frazer,
         person:signora-lola,
         person:susanna ;
@@ -743,14 +743,14 @@ entry:68 a schema:Chapter ;
     schema:dateCreated "1944-05-01"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "cave-sanctuary at Monte Santangelo"@en ;
+            schema:mentions folklore:st-michael ],
+        [ a schema:Role ;
             schema:description "pilgrimage shrine of the Virgin, formerly an ancient shrine of Cybele"@en ;
             schema:mentions folklore:monte-vergine ],
         [ a schema:Role ;
             schema:description "Whitsun liquefaction expectation"@en ;
             schema:mentions folklore:san-gennaro ],
-        [ a schema:Role ;
-            schema:description "cave-sanctuary at Monte Santangelo"@en ;
-            schema:mentions folklore:st-michael ],
         folklore:monte-vergine,
         folklore:san-gennaro,
         folklore:st-michael ;
@@ -802,11 +802,11 @@ entry:70 a schema:Chapter ;
     schema:dateCreated "1944-05-07"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "aged women believed descended from the saint"@en ;
-            schema:mentions folklore:parenti-di-san-gennaro ],
-        [ a schema:Role ;
             schema:description "blood liquefies slowly, seen as ill omen"@en ;
             schema:mentions folklore:san-gennaro ],
+        [ a schema:Role ;
+            schema:description "aged women believed descended from the saint"@en ;
+            schema:mentions folklore:parenti-di-san-gennaro ],
         folklore:parenti-di-san-gennaro,
         folklore:san-gennaro ;
     schema:name "May 7 (i), 1944" ;
@@ -858,11 +858,11 @@ entry:77 a schema:Chapter ;
     schema:dateCreated "1944-06-07"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "site referenced in a black-market swindle involving fake clergy"@en ;
-            schema:mentions folklore:monte-vergine ],
-        [ a schema:Role ;
             schema:description "resumes his role as a hired 'uncle from Rome' at funerals after the fall of Rome"@en ;
             schema:mentions person:vincente-lattarullo ],
+        [ a schema:Role ;
+            schema:description "site referenced in a black-market swindle involving fake clergy"@en ;
+            schema:mentions folklore:monte-vergine ],
         folklore:monte-vergine,
         person:vincente-lattarullo ;
     schema:name "June 7, 1944" ;
@@ -880,6 +880,9 @@ entry:78 a schema:Chapter ;
     schema:dateCreated "1944-06-09"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "retires to Ischia for the summer as Frazer's affair with her ends"@en ;
+            schema:mentions person:signora-lola ],
+        [ a schema:Role ;
             schema:description "posted away, ending his affair with Lola"@en ;
             schema:mentions person:captain-frazer ],
         [ a schema:Role ;
@@ -889,14 +892,11 @@ entry:78 a schema:Chapter ;
             schema:description "visits Lewis in hospital"@en ;
             schema:mentions person:carlo-del-giudice ],
         [ a schema:Role ;
-            schema:description "retires to Ischia for the summer as Frazer's affair with her ends"@en ;
-            schema:mentions person:signora-lola ],
+            schema:description "belief that the Naples-facing side of Ischia is radioactive and beneficial, slimming and good for the kidneys, bladder and complexion, aided by rabbits bred in darkness for pale, 'non-fattening' meat"@en ;
+            schema:mentions folklore:ischia-radioactive-cure-belief ],
         [ a schema:Role ;
             schema:description "visits Lewis in hospital along with Lo Scalzo and a Camorra contact"@en ;
             schema:mentions person:donna-maria-fidora-la-pitonessa ],
-        [ a schema:Role ;
-            schema:description "belief that the Naples-facing side of Ischia is radioactive and beneficial, slimming and good for the kidneys, bladder and complexion, aided by rabbits bred in darkness for pale, 'non-fattening' meat"@en ;
-            schema:mentions folklore:ischia-radioactive-cure-belief ],
         folklore:ischia-radioactive-cure-belief,
         person:captain-frazer,
         person:carlo-del-giudice,
@@ -918,6 +918,9 @@ entry:79 a schema:Chapter ;
     schema:dateCreated "1944-06-27"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "relic in Amalfi Cathedral's crypt said to exude a miraculous liquid several times a year; Del Giudice queues to buy a sample"@en ;
+            schema:mentions folklore:st-andrews-manna-amalfi ],
+        [ a schema:Role ;
             schema:description "Feast of St Paulinus; giant wooden 'lily' towers paraded through Nola, cutting army telephone cables in the process"@en ;
             schema:mentions folklore:festival-of-the-lilies-nola ],
         [ a schema:Role ;
@@ -926,9 +929,6 @@ entry:79 a schema:Chapter ;
         [ a schema:Role ;
             schema:description "describes his frustrations with the Feast of the Lily disrupting telephone lines at Nola"@en ;
             schema:mentions person:eric-williams ],
-        [ a schema:Role ;
-            schema:description "relic in Amalfi Cathedral's crypt said to exude a miraculous liquid several times a year; Del Giudice queues to buy a sample"@en ;
-            schema:mentions folklore:st-andrews-manna-amalfi ],
         folklore:festival-of-the-lilies-nola,
         folklore:guardia-sanframondi-flagellant-rite,
         folklore:st-andrews-manna-amalfi,
@@ -1121,11 +1121,11 @@ entry:95 a schema:Chapter ;
             schema:description "an annual fox burned as ritual, its tail hung at the village entrance"@en ;
             schema:mentions folklore:sagranella-fox-cult ],
         [ a schema:Role ;
-            schema:description "dies of typhoid"@en ;
-            schema:mentions person:don-ubaldo ],
-        [ a schema:Role ;
             schema:description "reported to be practised as a matter of course on the neighbouring estate, where the steward is said to feel a prospective female worker's muscles before employing her"@en ;
             schema:mentions folklore:droit-du-seigneur-sagranella ],
+        [ a schema:Role ;
+            schema:description "dies of typhoid"@en ;
+            schema:mentions person:don-ubaldo ],
         folklore:droit-du-seigneur-sagranella,
         folklore:sagranella-fox-cult,
         person:don-ubaldo ;
@@ -1453,17 +1453,17 @@ entry:15 a schema:Chapter ;
     schema:hasPart reflection:38 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "section member"@en ;
-            schema:mentions person:evans ],
-        [ a schema:Role ;
-            schema:description "section member, deals with Naples's doctors"@en ;
-            schema:mentions person:robert-parkinson ],
-        [ a schema:Role ;
             schema:description "best Italian speaker, sent as a solitary exile to Nola"@en ;
             schema:mentions person:eric-williams ],
         [ a schema:Role ;
             schema:description "section member"@en ;
+            schema:mentions person:evans ],
+        [ a schema:Role ;
+            schema:description "section member"@en ;
             schema:mentions person:bernard-durham ],
+        [ a schema:Role ;
+            schema:description "section member, deals with Naples's doctors"@en ;
+            schema:mentions person:robert-parkinson ],
         person:bernard-durham,
         person:eric-williams,
         person:evans,
@@ -1554,11 +1554,11 @@ entry:27 a schema:Chapter ;
             schema:description "brings news of reduced informant funds"@en ;
             schema:mentions person:sergeant-major-john-dashwood ],
         [ a schema:Role ;
-            schema:description "hunchbacks are considered lucky in Naples; lottery-ticket buyers touch or stroke a hunchback's hump as part of the purchase"@en ;
-            schema:mentions folklore:hunchbacks-as-luck-bringers ],
-        [ a schema:Role ;
             schema:description "reports on black-market corruption; Lewis witnesses his desperate poverty and the blind orphan girls scene with him"@en ;
             schema:mentions person:vincente-lattarullo ],
+        [ a schema:Role ;
+            schema:description "hunchbacks are considered lucky in Naples; lottery-ticket buyers touch or stroke a hunchback's hump as part of the purchase"@en ;
+            schema:mentions folklore:hunchbacks-as-luck-bringers ],
         folklore:hunchbacks-as-luck-bringers,
         person:sergeant-major-john-dashwood,
         person:vincente-lattarullo ;
@@ -1578,11 +1578,11 @@ entry:28 a schema:Chapter ;
     schema:hasPart reflection:43 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "impoverished engineer contact living in genteel poverty on the Via Chiaia, resembling Lattarullo"@en ;
-            schema:mentions person:ingeniere-losurdo ],
-        [ a schema:Role ;
             schema:description "impoverished lawyer contact, entitled to the style 'Conte' but no longer using it"@en ;
             schema:mentions person:avvocato-mosca ],
+        [ a schema:Role ;
+            schema:description "impoverished engineer contact living in genteel poverty on the Via Chiaia, resembling Lattarullo"@en ;
+            schema:mentions person:ingeniere-losurdo ],
         person:avvocato-mosca,
         person:ingeniere-losurdo ;
     schema:name "November 5, 1943" ;
@@ -1602,14 +1602,14 @@ entry:34 a schema:Chapter ;
     schema:hasPart reflection:44 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "incorrupt body at San Pasquale church, protector of pregnant women"@en ;
+            schema:mentions folklore:blessed-egideo ],
+        [ a schema:Role ;
             schema:description "exorcist protector invoked against the evil eye"@en ;
             schema:mentions folklore:san-gaetano ],
         [ a schema:Role ;
             schema:description "malefic house belief"@en ;
             schema:mentions folklore:evil-eye ],
-        [ a schema:Role ;
-            schema:description "incorrupt body at San Pasquale church, protector of pregnant women"@en ;
-            schema:mentions folklore:blessed-egideo ],
         folklore:blessed-egideo,
         folklore:evil-eye,
         folklore:san-gaetano ;
@@ -1728,11 +1728,11 @@ entry:54 a schema:Chapter ;
     schema:hasPart reflection:51 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "processional image confronting the eruption"@en ;
-            schema:mentions folklore:san-sebastiano ],
-        [ a schema:Role ;
             schema:description "image smuggled in as backup during the Vesuvius eruption"@en ;
             schema:mentions folklore:san-gennaro ],
+        [ a schema:Role ;
+            schema:description "processional image confronting the eruption"@en ;
+            schema:mentions folklore:san-sebastiano ],
         folklore:san-gennaro,
         folklore:san-sebastiano ;
     schema:name "March 22, 1944" ;
@@ -1746,8 +1746,8 @@ entry:56 a schema:Chapter ;
     schema:hasPart reflection:52 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "blood-liquefaction miracle, fear of its failure"@en ;
-            schema:mentions folklore:san-gennaro ],
+            schema:description "bubbling blood relic"@en ;
+            schema:mentions folklore:st-john-san-giovanni-a-carbonara ],
         [ a schema:Role ;
             schema:description "patron saint invoked against headaches; sufferers push their heads through a hole in the wall of his chapel seeking relief"@en ;
             schema:mentions folklore:santaspreno ],
@@ -1755,11 +1755,11 @@ entry:56 a schema:Chapter ;
             schema:description "speaking crucifix"@en ;
             schema:mentions folklore:santo-agnello ],
         [ a schema:Role ;
+            schema:description "blood-liquefaction miracle, fear of its failure"@en ;
+            schema:mentions folklore:san-gennaro ],
+        [ a schema:Role ;
             schema:description "image said to bow its head"@en ;
             schema:mentions folklore:santa-maria-del-carmine ],
-        [ a schema:Role ;
-            schema:description "bubbling blood relic"@en ;
-            schema:mentions folklore:st-john-san-giovanni-a-carbonara ],
         folklore:san-gennaro,
         folklore:santa-maria-del-carmine,
         folklore:santa-maria-dintercessione,
@@ -1788,10 +1788,10 @@ entry:59 a schema:Chapter ;
             schema:mentions person:susanna ],
         [ a schema:Role ;
             schema:description "on the Capri boat trip"@en ;
-            schema:mentions person:captain-frazer ],
+            schema:mentions person:signora-lola ],
         [ a schema:Role ;
             schema:description "on the Capri boat trip"@en ;
-            schema:mentions person:signora-lola ],
+            schema:mentions person:captain-frazer ],
         person:captain-frazer,
         person:signora-lola,
         person:susanna ;
@@ -1925,11 +1925,11 @@ entry:80 a schema:Chapter ;
     schema:hasPart reflection:61 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "martyrdom at Pozzuoli; blood-stained rock relic said to react in sync with the cathedral miracle"@en ;
-            schema:mentions folklore:san-gennaro ],
-        [ a schema:Role ;
             schema:description "described as the last of the great Camorra chieftains; lured to a funeral feast at Pozzuoli and assassinated by his own underlings in the 1920s"@en ;
             schema:mentions person:cuoca ],
+        [ a schema:Role ;
+            schema:description "martyrdom at Pozzuoli; blood-stained rock relic said to react in sync with the cathedral miracle"@en ;
+            schema:mentions folklore:san-gennaro ],
         folklore:san-gennaro,
         person:cuoca ;
     schema:name "July 12, 1944" ;
@@ -4125,6 +4125,10 @@ place:sorrento a schema:Place ;
 
 theme:allied_conduct a schema:DefinedTerm ;
     schema:description "Behavior/attitudes of Allied troops toward locals"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/allied_conduct.jpg> ;
+            schema:creditText "Serg. Gladstone, British Army Film and Photographic Unit (AFPU) Number 2 · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli_1943,_entrata_degli_alleati_(1).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Allied conduct" ;
     schema:url <https://naples44.michelepasin.org/themes/allied_conduct/> .
@@ -4166,12 +4170,20 @@ place:sicily a schema:Place ;
 
 theme:black_market a schema:DefinedTerm ;
     schema:description "Smuggling, theft of Allied goods, corruption, racketeering"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/black_market.jpg> ;
+            schema:creditText "Wayne Miller · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Wayne_Miller_-_Giovane_venditrice.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Black market" ;
     schema:url <https://naples44.michelepasin.org/themes/black_market/> .
 
 theme:superstition_religion a schema:DefinedTerm ;
     schema:description "Miracles, saints, folk magic, the evil eye, ritual"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/superstition_religion.jpg> ;
+            schema:creditText "Antonio Cavallo · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:CornicelloCharm.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Superstition & religion" ;
     schema:url <https://naples44.michelepasin.org/themes/superstition_religion/> .
@@ -4200,6 +4212,10 @@ place:afragola a schema:Place ;
 
 theme:disease_health a schema:DefinedTerm ;
     schema:description "Illness, hospitals, epidemics, medical matters"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/disease_health.jpg> ;
+            schema:creditText "Signal Corps Archive from Ireland and United States · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:SC_190591_-_23rd_Gen._Hospital_view_of_operating_room._Naples,_Italy,_10_September,_1944._(49764764041).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Disease & health" ;
     schema:url <https://naples44.michelepasin.org/themes/disease_health/> .
@@ -4280,24 +4296,40 @@ place:rome a schema:Place ;
 
 theme:sex_relationships a schema:DefinedTerm ;
     schema:description "Prostitution, romance, marriage vetting, wartime liaisons"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/sex_relationships.jpg> ;
+            schema:creditText "Fair use" ;
+            schema:isBasedOn <https://en.wikipedia.org/wiki/File:The_Skin_poster.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Sex & relationships" ;
     schema:url <https://naples44.michelepasin.org/themes/sex_relationships/> .
 
 theme:poverty_hunger a schema:DefinedTerm ;
     schema:description "Famine, scavenging, destitution, makeshift survival"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/poverty_hunger.jpg> ;
+            schema:creditText "Wayne Miller · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Children_of_Naples,_Italy_-_NARA_-_520941.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Poverty & hunger" ;
     schema:url <https://naples44.michelepasin.org/themes/poverty_hunger/> .
 
 theme:personal_reflection a schema:DefinedTerm ;
     schema:description "Lewis's own introspection, changing perspective, mood"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/personal_reflection.jpg> ;
+            schema:creditText "Fair use" ;
+            schema:isBasedOn <https://en.wikipedia.org/wiki/File:Norman_Lewis_(1908%E2%80%932003).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Personal reflection" ;
     schema:url <https://naples44.michelepasin.org/themes/personal_reflection/> .
 
 theme:crime_banditry a schema:DefinedTerm ;
     schema:description "Camorra, bandits, vendettas, organized crime"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/crime_banditry.jpg> ;
+            schema:creditText "Unknown · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:GiulianoGenovese1.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Crime & banditry" ;
     schema:url <https://naples44.michelepasin.org/themes/crime_banditry/> .
@@ -4308,12 +4340,20 @@ id:world-war-ii a schema:Event ;
 
 theme:naples_character a schema:DefinedTerm ;
     schema:description "Naples's social fabric, class, theatricality, daily life/customs"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/naples_character.jpg> ;
+            schema:creditText "Unknown author · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Pulcinella_-_stampa_ottocento.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Naples's character" ;
     schema:url <https://naples44.michelepasin.org/themes/naples_character/> .
 
 theme:bureaucracy_absurdity a schema:DefinedTerm ;
     schema:description "Military/administrative farce, red tape, false alarms"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/bureaucracy_absurdity.jpg> ;
+            schema:creditText "Margaret Bourke-White · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli,_Gran_Dogana_Marittima_(nel_1943).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Bureaucracy & absurdity" ;
     schema:url <https://naples44.michelepasin.org/themes/bureaucracy_absurdity/> .
@@ -4323,6 +4363,10 @@ id:folklore a schema:DefinedTermSet ;
 
 theme:war_violence a schema:DefinedTerm ;
     schema:description "Combat, bombing, casualties, atrocities, military operations"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/war_violence.jpg> ;
+            schema:creditText "Wayne Miller · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Un_ragazzo_italiano_sostiene_il_suo_amico_ferito_gravemente_durante_il_bombardamento_alleato_su_Napoli_nel_1943.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "War & violence" ;
     schema:url <https://naples44.michelepasin.org/themes/war_violence/> .

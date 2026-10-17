@@ -3,6 +3,9 @@
   "model": "naples44.theme",
   "pk": "allied_conduct",
   "fields": {
+    "image": "img/entities/theme/allied_conduct.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Napoli_1943,_entrata_degli_alleati_(1).jpg",
+    "image_credit": "Serg. Gladstone, British Army Film and Photographic Unit (AFPU) Number 2 · Public domain",
     "label": "Allied conduct",
     "description": "Behavior/attitudes of Allied troops toward locals",
     "order": 9
@@ -12,6 +15,9 @@
   "model": "naples44.theme",
   "pk": "black_market",
   "fields": {
+    "image": "img/entities/theme/black_market.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Wayne_Miller_-_Giovane_venditrice.jpg",
+    "image_credit": "Wayne Miller · Public domain",
     "label": "Black market",
     "description": "Smuggling, theft of Allied goods, corruption, racketeering",
     "order": 1
@@ -21,6 +27,9 @@
   "model": "naples44.theme",
   "pk": "bureaucracy_absurdity",
   "fields": {
+    "image": "img/entities/theme/bureaucracy_absurdity.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Napoli,_Gran_Dogana_Marittima_(nel_1943).jpg",
+    "image_credit": "Margaret Bourke-White · Public domain",
     "label": "Bureaucracy & absurdity",
     "description": "Military/administrative farce, red tape, false alarms",
     "order": 6
@@ -30,6 +39,9 @@
   "model": "naples44.theme",
   "pk": "crime_banditry",
   "fields": {
+    "image": "img/entities/theme/crime_banditry.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:GiulianoGenovese1.jpg",
+    "image_credit": "Unknown · Public domain",
     "label": "Crime & banditry",
     "description": "Camorra, bandits, vendettas, organized crime",
     "order": 5
@@ -39,6 +51,9 @@
   "model": "naples44.theme",
   "pk": "disease_health",
   "fields": {
+    "image": "img/entities/theme/disease_health.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:SC_190591_-_23rd_Gen._Hospital_view_of_operating_room._Naples,_Italy,_10_September,_1944._(49764764041).jpg",
+    "image_credit": "Signal Corps Archive from Ireland and United States · Public domain",
     "label": "Disease & health",
     "description": "Illness, hospitals, epidemics, medical matters",
     "order": 8
@@ -48,6 +63,9 @@
   "model": "naples44.theme",
   "pk": "naples_character",
   "fields": {
+    "image": "img/entities/theme/naples_character.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Pulcinella_-_stampa_ottocento.jpg",
+    "image_credit": "Unknown author · Public domain",
     "label": "Naples's character",
     "description": "Naples's social fabric, class, theatricality, daily life/customs",
     "order": 7
@@ -57,6 +75,9 @@
   "model": "naples44.theme",
   "pk": "personal_reflection",
   "fields": {
+    "image": "img/entities/theme/personal_reflection.jpg",
+    "image_source_url": "https://en.wikipedia.org/wiki/File:Norman_Lewis_(1908%E2%80%932003).jpg",
+    "image_credit": "Fair use",
     "label": "Personal reflection",
     "description": "Lewis's own introspection, changing perspective, mood",
     "order": 10
@@ -66,6 +87,9 @@
   "model": "naples44.theme",
   "pk": "poverty_hunger",
   "fields": {
+    "image": "img/entities/theme/poverty_hunger.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Children_of_Naples,_Italy_-_NARA_-_520941.jpg",
+    "image_credit": "Wayne Miller · Public domain",
     "label": "Poverty & hunger",
     "description": "Famine, scavenging, destitution, makeshift survival",
     "order": 2
@@ -75,6 +99,9 @@
   "model": "naples44.theme",
   "pk": "sex_relationships",
   "fields": {
+    "image": "img/entities/theme/sex_relationships.jpg",
+    "image_source_url": "https://en.wikipedia.org/wiki/File:The_Skin_poster.jpg",
+    "image_credit": "Fair use",
     "label": "Sex & relationships",
     "description": "Prostitution, romance, marriage vetting, wartime liaisons",
     "order": 3
@@ -84,6 +111,9 @@
   "model": "naples44.theme",
   "pk": "superstition_religion",
   "fields": {
+    "image": "img/entities/theme/superstition_religion.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:CornicelloCharm.jpg",
+    "image_credit": "Antonio Cavallo · Public domain",
     "label": "Superstition & religion",
     "description": "Miracles, saints, folk magic, the evil eye, ritual",
     "order": 4
@@ -93,6 +123,9 @@
   "model": "naples44.theme",
   "pk": "war_violence",
   "fields": {
+    "image": "img/entities/theme/war_violence.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Un_ragazzo_italiano_sostiene_il_suo_amico_ferito_gravemente_durante_il_bombardamento_alleato_su_Napoli_nel_1943.jpg",
+    "image_credit": "Wayne Miller · Public domain",
     "label": "War & violence",
     "description": "Combat, bombing, casualties, atrocities, military operations",
     "order": 0

@@ -41,7 +41,7 @@ class EntityImage(models.Model):
         abstract = True
 
 
-class Theme(models.Model):
+class Theme(EntityImage):
     """One of the 11 controlled-vocabulary themes tagged on entries."""
 
     slug = models.SlugField(primary_key=True, max_length=40)
