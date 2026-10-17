@@ -253,11 +253,11 @@ entry:26 a schema:Chapter ;
     schema:dateCreated "1943-10-28"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "Frazer's lover, met at Signora Gentile's dinner party; asks Lewis to interpret for the relationship"@en ;
-            schema:mentions person:signora-lola ],
-        [ a schema:Role ;
             schema:description "RASC captain, Lola's lover; Lewis interprets for the couple"@en ;
             schema:mentions person:captain-frazer ],
+        [ a schema:Role ;
+            schema:description "Frazer's lover, met at Signora Gentile's dinner party; asks Lewis to interpret for the relationship"@en ;
+            schema:mentions person:signora-lola ],
         [ a schema:Role ;
             schema:description "invoked as patron of coitus reservatus"@en ;
             schema:mentions folklore:san-rocco ],
@@ -595,14 +595,14 @@ entry:55 a schema:Chapter ;
     schema:dateCreated "1944-03-24"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "non-practising lawyer turned folklore/astronomy writer, an expert on San Gennaro and Vesuvius"@en ;
+            schema:mentions person:carlo-del-giudice ],
+        [ a schema:Role ;
             schema:description "deposed then reinstated as protector, 1799 episode"@en ;
             schema:mentions folklore:san-gennaro ],
         [ a schema:Role ;
             schema:description "briefly replaced San Gennaro as fire-saint"@en ;
             schema:mentions folklore:santantonio-abate ],
-        [ a schema:Role ;
-            schema:description "non-practising lawyer turned folklore/astronomy writer, an expert on San Gennaro and Vesuvius"@en ;
-            schema:mentions person:carlo-del-giudice ],
         [ a schema:Role ;
             schema:description "introduces his friend Del Giudice"@en ;
             schema:mentions person:vincente-lattarullo ],
@@ -635,11 +635,11 @@ entry:58 a schema:Chapter ;
     schema:dateCreated "1944-03-29"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "claimed to rescue a downed pilot mid-air, displays stigmata"@en ;
-            schema:mentions folklore:flying-monk-of-pomigliano ],
-        [ a schema:Role ;
             schema:description "Marian apparitions at Campi Flegrei"@en ;
             schema:mentions folklore:visionary-child-local-bernadette ],
+        [ a schema:Role ;
+            schema:description "claimed to rescue a downed pilot mid-air, displays stigmata"@en ;
+            schema:mentions folklore:flying-monk-of-pomigliano ],
         folklore:flying-monk-of-pomigliano,
         folklore:visionary-child-local-bernadette ;
     schema:name "March 29, 1944" ;
@@ -718,14 +718,14 @@ entry:67 a schema:Chapter ;
     schema:dateCreated "1944-04-25"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "guest at Frazer's dinner party"@en ;
-            schema:mentions person:susanna ],
+            schema:description "hosts a dinner in his looted, makeshift requisitioned flat"@en ;
+            schema:mentions person:captain-frazer ],
         [ a schema:Role ;
             schema:description "hosts dinner at Frazer's flat"@en ;
             schema:mentions person:signora-lola ],
         [ a schema:Role ;
-            schema:description "hosts a dinner in his looted, makeshift requisitioned flat"@en ;
-            schema:mentions person:captain-frazer ],
+            schema:description "guest at Frazer's dinner party"@en ;
+            schema:mentions person:susanna ],
         person:captain-frazer,
         person:signora-lola,
         person:susanna ;
@@ -743,14 +743,14 @@ entry:68 a schema:Chapter ;
     schema:dateCreated "1944-05-01"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "cave-sanctuary at Monte Santangelo"@en ;
-            schema:mentions folklore:st-michael ],
+            schema:description "Whitsun liquefaction expectation"@en ;
+            schema:mentions folklore:san-gennaro ],
         [ a schema:Role ;
             schema:description "pilgrimage shrine of the Virgin, formerly an ancient shrine of Cybele"@en ;
             schema:mentions folklore:monte-vergine ],
         [ a schema:Role ;
-            schema:description "Whitsun liquefaction expectation"@en ;
-            schema:mentions folklore:san-gennaro ],
+            schema:description "cave-sanctuary at Monte Santangelo"@en ;
+            schema:mentions folklore:st-michael ],
         folklore:monte-vergine,
         folklore:san-gennaro,
         folklore:st-michael ;
@@ -880,12 +880,6 @@ entry:78 a schema:Chapter ;
     schema:dateCreated "1944-06-09"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "visits Lewis in hospital along with Lo Scalzo and a Camorra contact"@en ;
-            schema:mentions person:donna-maria-fidora-la-pitonessa ],
-        [ a schema:Role ;
-            schema:description "retires to Ischia for the summer as Frazer's affair with her ends"@en ;
-            schema:mentions person:signora-lola ],
-        [ a schema:Role ;
             schema:description "visits Lewis in hospital"@en ;
             schema:mentions person:carlo-del-giudice ],
         [ a schema:Role ;
@@ -897,6 +891,12 @@ entry:78 a schema:Chapter ;
         [ a schema:Role ;
             schema:description "posted away, ending his affair with Lola"@en ;
             schema:mentions person:captain-frazer ],
+        [ a schema:Role ;
+            schema:description "visits Lewis in hospital along with Lo Scalzo and a Camorra contact"@en ;
+            schema:mentions person:donna-maria-fidora-la-pitonessa ],
+        [ a schema:Role ;
+            schema:description "retires to Ischia for the summer as Frazer's affair with her ends"@en ;
+            schema:mentions person:signora-lola ],
         folklore:ischia-radioactive-cure-belief,
         person:captain-frazer,
         person:carlo-del-giudice,
@@ -918,8 +918,8 @@ entry:79 a schema:Chapter ;
     schema:dateCreated "1944-06-27"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "flagellant procession held every seven years in honour of the Virgin"@en ;
-            schema:mentions folklore:guardia-sanframondi-flagellant-rite ],
+            schema:description "describes his frustrations with the Feast of the Lily disrupting telephone lines at Nola"@en ;
+            schema:mentions person:eric-williams ],
         [ a schema:Role ;
             schema:description "relic in Amalfi Cathedral's crypt said to exude a miraculous liquid several times a year; Del Giudice queues to buy a sample"@en ;
             schema:mentions folklore:st-andrews-manna-amalfi ],
@@ -927,8 +927,8 @@ entry:79 a schema:Chapter ;
             schema:description "Feast of St Paulinus; giant wooden 'lily' towers paraded through Nola, cutting army telephone cables in the process"@en ;
             schema:mentions folklore:festival-of-the-lilies-nola ],
         [ a schema:Role ;
-            schema:description "describes his frustrations with the Feast of the Lily disrupting telephone lines at Nola"@en ;
-            schema:mentions person:eric-williams ],
+            schema:description "flagellant procession held every seven years in honour of the Virgin"@en ;
+            schema:mentions folklore:guardia-sanframondi-flagellant-rite ],
         folklore:festival-of-the-lilies-nola,
         folklore:guardia-sanframondi-flagellant-rite,
         folklore:st-andrews-manna-amalfi,
@@ -1118,14 +1118,14 @@ entry:95 a schema:Chapter ;
     schema:dateCreated "1944-09-03"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "an annual fox burned as ritual, its tail hung at the village entrance"@en ;
-            schema:mentions folklore:sagranella-fox-cult ],
+            schema:description "reported to be practised as a matter of course on the neighbouring estate, where the steward is said to feel a prospective female worker's muscles before employing her"@en ;
+            schema:mentions folklore:droit-du-seigneur-sagranella ],
         [ a schema:Role ;
             schema:description "dies of typhoid"@en ;
             schema:mentions person:don-ubaldo ],
         [ a schema:Role ;
-            schema:description "reported to be practised as a matter of course on the neighbouring estate, where the steward is said to feel a prospective female worker's muscles before employing her"@en ;
-            schema:mentions folklore:droit-du-seigneur-sagranella ],
+            schema:description "an annual fox burned as ritual, its tail hung at the village entrance"@en ;
+            schema:mentions folklore:sagranella-fox-cult ],
         folklore:droit-du-seigneur-sagranella,
         folklore:sagranella-fox-cult,
         person:don-ubaldo ;
@@ -1158,11 +1158,11 @@ entry:98 a schema:Chapter ;
     schema:dateCreated "1944-09-16"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "Lewis grows increasingly uneasy about his alliance with the marshal amid suspicions of bandit collusion"@en ;
-            schema:mentions person:marshal-altamura ],
-        [ a schema:Role ;
             schema:description "the section's first casualty, wounded by a bandit disguised as an American officer"@en ;
             schema:mentions person:bernard-durham ],
+        [ a schema:Role ;
+            schema:description "Lewis grows increasingly uneasy about his alliance with the marshal amid suspicions of bandit collusion"@en ;
+            schema:mentions person:marshal-altamura ],
         person:bernard-durham,
         person:marshal-altamura ;
     schema:name "September 16, 1944" ;
@@ -1459,11 +1459,11 @@ entry:15 a schema:Chapter ;
             schema:description "best Italian speaker, sent as a solitary exile to Nola"@en ;
             schema:mentions person:eric-williams ],
         [ a schema:Role ;
-            schema:description "section member, deals with Naples's doctors"@en ;
-            schema:mentions person:robert-parkinson ],
-        [ a schema:Role ;
             schema:description "section member"@en ;
             schema:mentions person:evans ],
+        [ a schema:Role ;
+            schema:description "section member, deals with Naples's doctors"@en ;
+            schema:mentions person:robert-parkinson ],
         person:bernard-durham,
         person:eric-williams,
         person:evans,
@@ -1551,14 +1551,14 @@ entry:27 a schema:Chapter ;
     schema:hasPart reflection:42 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "reports on black-market corruption; Lewis witnesses his desperate poverty and the blind orphan girls scene with him"@en ;
+            schema:mentions person:vincente-lattarullo ],
+        [ a schema:Role ;
             schema:description "brings news of reduced informant funds"@en ;
             schema:mentions person:sergeant-major-john-dashwood ],
         [ a schema:Role ;
             schema:description "hunchbacks are considered lucky in Naples; lottery-ticket buyers touch or stroke a hunchback's hump as part of the purchase"@en ;
             schema:mentions folklore:hunchbacks-as-luck-bringers ],
-        [ a schema:Role ;
-            schema:description "reports on black-market corruption; Lewis witnesses his desperate poverty and the blind orphan girls scene with him"@en ;
-            schema:mentions person:vincente-lattarullo ],
         folklore:hunchbacks-as-luck-bringers,
         person:sergeant-major-john-dashwood,
         person:vincente-lattarullo ;
@@ -1578,11 +1578,11 @@ entry:28 a schema:Chapter ;
     schema:hasPart reflection:43 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "impoverished engineer contact living in genteel poverty on the Via Chiaia, resembling Lattarullo"@en ;
-            schema:mentions person:ingeniere-losurdo ],
-        [ a schema:Role ;
             schema:description "impoverished lawyer contact, entitled to the style 'Conte' but no longer using it"@en ;
             schema:mentions person:avvocato-mosca ],
+        [ a schema:Role ;
+            schema:description "impoverished engineer contact living in genteel poverty on the Via Chiaia, resembling Lattarullo"@en ;
+            schema:mentions person:ingeniere-losurdo ],
         person:avvocato-mosca,
         person:ingeniere-losurdo ;
     schema:name "November 5, 1943" ;
@@ -1602,14 +1602,14 @@ entry:34 a schema:Chapter ;
     schema:hasPart reflection:44 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "incorrupt body at San Pasquale church, protector of pregnant women"@en ;
-            schema:mentions folklore:blessed-egideo ],
-        [ a schema:Role ;
             schema:description "malefic house belief"@en ;
             schema:mentions folklore:evil-eye ],
         [ a schema:Role ;
             schema:description "exorcist protector invoked against the evil eye"@en ;
             schema:mentions folklore:san-gaetano ],
+        [ a schema:Role ;
+            schema:description "incorrupt body at San Pasquale church, protector of pregnant women"@en ;
+            schema:mentions folklore:blessed-egideo ],
         folklore:blessed-egideo,
         folklore:evil-eye,
         folklore:san-gaetano ;
@@ -1667,11 +1667,11 @@ entry:45 a schema:Chapter ;
     schema:hasPart reflection:47 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "when a man is killed in a vendetta, his mother, if living, kisses and sucks at his wounds at the funeral as a display of grief and desire for vengeance"@en ;
-            schema:mentions folklore:vendetta-mourning-ritual ],
-        [ a schema:Role ;
             schema:description "reveals he has no first-hand knowledge of vendetta country just miles from his own café haunts"@en ;
             schema:mentions person:vincente-lattarullo ],
+        [ a schema:Role ;
+            schema:description "when a man is killed in a vendetta, his mother, if living, kisses and sucks at his wounds at the funeral as a display of grief and desire for vengeance"@en ;
+            schema:mentions folklore:vendetta-mourning-ritual ],
         folklore:vendetta-mourning-ritual,
         person:vincente-lattarullo ;
     schema:name "February 12, 1944" ;
@@ -1728,11 +1728,11 @@ entry:54 a schema:Chapter ;
     schema:hasPart reflection:51 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "processional image confronting the eruption"@en ;
-            schema:mentions folklore:san-sebastiano ],
-        [ a schema:Role ;
             schema:description "image smuggled in as backup during the Vesuvius eruption"@en ;
             schema:mentions folklore:san-gennaro ],
+        [ a schema:Role ;
+            schema:description "processional image confronting the eruption"@en ;
+            schema:mentions folklore:san-sebastiano ],
         folklore:san-gennaro,
         folklore:san-sebastiano ;
     schema:name "March 22, 1944" ;
@@ -1746,20 +1746,20 @@ entry:56 a schema:Chapter ;
     schema:hasPart reflection:52 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "patron saint invoked against headaches; sufferers push their heads through a hole in the wall of his chapel seeking relief"@en ;
-            schema:mentions folklore:santaspreno ],
-        [ a schema:Role ;
-            schema:description "blood-liquefaction miracle, fear of its failure"@en ;
-            schema:mentions folklore:san-gennaro ],
+            schema:description "image said to bow its head"@en ;
+            schema:mentions folklore:santa-maria-del-carmine ],
         [ a schema:Role ;
             schema:description "bubbling blood relic"@en ;
             schema:mentions folklore:st-john-san-giovanni-a-carbonara ],
         [ a schema:Role ;
-            schema:description "image said to bow its head"@en ;
-            schema:mentions folklore:santa-maria-del-carmine ],
+            schema:description "patron saint invoked against headaches; sufferers push their heads through a hole in the wall of his chapel seeking relief"@en ;
+            schema:mentions folklore:santaspreno ],
         [ a schema:Role ;
             schema:description "speaking crucifix"@en ;
             schema:mentions folklore:santo-agnello ],
+        [ a schema:Role ;
+            schema:description "blood-liquefaction miracle, fear of its failure"@en ;
+            schema:mentions folklore:san-gennaro ],
         folklore:san-gennaro,
         folklore:santa-maria-del-carmine,
         folklore:santa-maria-dintercessione,
@@ -1787,11 +1787,11 @@ entry:59 a schema:Chapter ;
             schema:description "on the Capri boat trip"@en ;
             schema:mentions person:captain-frazer ],
         [ a schema:Role ;
-            schema:description "on the Capri boat trip"@en ;
-            schema:mentions person:signora-lola ],
-        [ a schema:Role ;
             schema:description "Lola's friend, on the Capri boat trip"@en ;
             schema:mentions person:susanna ],
+        [ a schema:Role ;
+            schema:description "on the Capri boat trip"@en ;
+            schema:mentions person:signora-lola ],
         person:captain-frazer,
         person:signora-lola,
         person:susanna ;
@@ -1991,6 +1991,10 @@ entry:97 a schema:Chapter ;
 folklore:santa-maria-dintercessione a schema:DefinedTerm ;
     schema:description "A venerated Marian image in Naples."@en ;
     schema:disambiguatingDescription "In the church of Santo Agnello her image holds a 'regular conversation' with a speaking crucifix — 'a fact confirmed by reporters on the spot' — among the talking, bleeding, sweating images multiplying across Naples in spring 1944."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/santa-maria-dintercessione.jpg> ;
+            schema:creditText "Bartolomé Esteban Murillo · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Inmaculada_Concepci%C3%B3n_de_Aranjuez.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Santa Maria d'Intercessione" ;
     schema:url <https://naples44.michelepasin.org/folklore/santa-maria-dintercessione/> .
@@ -3036,6 +3040,10 @@ reflection:70 a schema:CreativeWork ;
 folklore:blessed-egideo a schema:DefinedTerm ;
     schema:description "A holy figure whose preserved body is venerated at the church of San Pasquale in Naples."@en ;
     schema:disambiguatingDescription "The incorrupt body Lewis views in its two-hundred-year-old glass case — serene 'to the point of indifference' — locally famous as the protector of pregnant women, and two miracles short of full sainthood."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/blessed-egideo.jpg> ;
+            schema:creditText "Giuseppe Gnaccarini · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Sant%27Egidio_Maria_di_San_Giuseppe.JPG> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Blessed Egideo" ;
     schema:url <https://naples44.michelepasin.org/folklore/blessed-egideo/> .
@@ -3043,6 +3051,10 @@ folklore:blessed-egideo a schema:DefinedTerm ;
 folklore:droit-du-seigneur-sagranella a schema:DefinedTerm ;
     schema:description "The lord's claimed right of sexual access to the women of his estate."@en ;
     schema:disambiguatingDescription "Said, at Sagranella, to be still practised as a matter of course on the neighbouring big estate, whose steward reportedly feels a prospective woman worker's muscles before hiring her for a sixteen-hour day."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/droit-du-seigneur-sagranella.jpg> ;
+            schema:creditText "Vasily Polenov · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Le_droit_du_Seigneur_by_Vasiliy_Polenov.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Droit du seigneur (Sagranella)" ;
     schema:url <https://naples44.michelepasin.org/folklore/droit-du-seigneur-sagranella/> .
@@ -3050,6 +3062,10 @@ folklore:droit-du-seigneur-sagranella a schema:DefinedTerm ;
 folklore:fertility-offering-superstition a schema:DefinedTerm ;
     schema:description "A gesture read as a survival of ancient fertility worship."@en ;
     schema:disambiguatingDescription "A woman's ritual gesture that Lewis takes for an offering to a fertility deity — one of the glimpses of pre-Christian cult he keeps catching in and around Naples."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/fertility-offering-superstition.jpg> ;
+            schema:creditText "Mark Landon · CC BY 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Anatomical_votives_from_the_Gorga_collection_(Rome,_Mus_Naz_Rom).jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "fertility offering superstition" ;
     schema:url <https://naples44.michelepasin.org/folklore/fertility-offering-superstition/> .
@@ -3069,6 +3085,10 @@ folklore:festival-of-the-lilies-nola a schema:DefinedTerm ;
 folklore:flying-monk-of-pomigliano a schema:DefinedTerm ;
     schema:description "A stigmatic monk of Pomigliano credited with the power of flight — identified in the book's own footnote as the future Padre Pio."@en ;
     schema:disambiguatingDescription "He claims to have flown through the air to rescue a downed pilot, and displays the stigmata — one of the wave of miracles sweeping the region in 1944."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/flying-monk-of-pomigliano.jpg> ;
+            schema:creditText "Jornal O Bom Católico · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Padre_Pio_Stigmata.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "flying monk of Pomigliano" ;
     schema:url <https://naples44.michelepasin.org/folklore/flying-monk-of-pomigliano/> .
@@ -3088,6 +3108,10 @@ folklore:guardia-sanframondi-flagellant-rite a schema:DefinedTerm ;
 folklore:hunchbacks-as-luck-bringers a schema:DefinedTerm ;
     schema:description "A Neapolitan belief that a hunched back brings good fortune."@en ;
     schema:disambiguatingDescription "Lewis notes lottery-ticket buyers touching or stroking a hunchback's hump as part of the purchase."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/hunchbacks-as-luck-bringers.jpg> ;
+            schema:creditText "Didier Descouens · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:(Venice)_Il_Gobbo_di_Rialto_front_view.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Hunchbacks as luck-bringers" ;
     schema:url <https://naples44.michelepasin.org/folklore/hunchbacks-as-luck-bringers/> .
@@ -3095,6 +3119,10 @@ folklore:hunchbacks-as-luck-bringers a schema:DefinedTerm ;
 folklore:ischia-radioactive-cure-belief a schema:DefinedTerm ;
     schema:description "A local conviction that Ischia's natural radioactivity is health-giving."@en ;
     schema:disambiguatingDescription "The belief that the Naples-facing side of Ischia is beneficially radioactive — slimming, good for the kidneys, bladder and complexion — is why Lola and Susanna go there for the summer 'to deflate'."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/ischia-radioactive-cure-belief.jpg> ;
+            schema:creditText "Sam LaRussa from United States of America · CC BY-SA 2.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Radithor_bottle_(25799475341).jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Ischia radioactive cure belief" ;
     schema:url <https://naples44.michelepasin.org/folklore/ischia-radioactive-cure-belief/> .
@@ -3114,6 +3142,10 @@ folklore:madonna-of-pompeii a schema:DefinedTerm ;
 folklore:parenti-di-san-gennaro a schema:DefinedTerm ;
     schema:description "A clique of aged Neapolitan women held to be the blood descendants of San Gennaro."@en ;
     schema:disambiguatingDescription "Led in to take their places around the cathedral altar, they are credited with the power — and the duty — of browbeating their ancestor into performing the blood miracle."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/parenti-di-san-gennaro.jpg> ;
+            schema:creditText "Pietro espasian · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Reliquiario_di_Roberto_d%27Angio.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Parenti di San Gennaro" ;
     schema:url <https://naples44.michelepasin.org/folklore/parenti-di-san-gennaro/> .
@@ -3121,6 +3153,10 @@ folklore:parenti-di-san-gennaro a schema:DefinedTerm ;
 folklore:pazzariello a schema:DefinedTerm ;
     schema:description "A traditional Neapolitan costumed figure, part street-advertiser, part exorcist; 'one is born a pazzariello, not made one'."@en ;
     schema:disambiguatingDescription "Cocked hat, stick, drummers and piper, hired to caper into a newly reopening shop — explained as advertising for the illiterate, but 'his real function is that of an exorcist', driving out evil spirits and the evil eye. Lewis sees his first on the Via San Pasquale."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/pazzariello.jpg> ;
+            schema:creditText "Unknown author · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Pazzariello_napoletano.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "pazzariello" ;
     schema:url <https://naples44.michelepasin.org/folklore/pazzariello/> .
@@ -3128,6 +3164,10 @@ folklore:pazzariello a schema:DefinedTerm ;
 folklore:professional-wailers a schema:DefinedTerm ;
     schema:description "Mourners paid to weep and lament at a funeral, amplifying the family's display of loss."@en ;
     schema:disambiguatingDescription "Lewis notes 'several professional wailers in attendance' at the funeral of a Carabiniere murdered by bandits at Casoria."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/professional-wailers.jpg> ;
+            schema:creditText "Marie-Lan Nguyen · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Female_mourners_Louvre_CA1325.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Professional wailers" ;
     schema:url <https://naples44.michelepasin.org/folklore/professional-wailers/> .
@@ -3142,6 +3182,10 @@ He noted that the village felt so isolated and archaic that it "seems hardly to 
 \r
 Historians and travel writers often link this specific practice to ancient Samnite or localized pagan traditions in the region, where animals were sacrificed to ward off evil spirits, ensure agricultural fertility, or mark territory."""@en ;
     schema:disambiguatingDescription "The annual ritual of the hill village where the section is billeted after Don Ubaldo's death: a live fox burned to death and its tail hung 'like a banner' from a pole at the village entrance, near an Easter Island-style stone head probably older than the Samnites."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/sagranella-fox-cult.jpg> ;
+            schema:creditText "ClaudiaTen · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Sagranella fox-cult" ;
     schema:url <https://naples44.michelepasin.org/folklore/sagranella-fox-cult/> .
@@ -3221,6 +3265,10 @@ folklore:santaspreno a schema:DefinedTerm ;
 folklore:santo-agnello a schema:DefinedTerm ;
     schema:description "A Naples church, site of a 'speaking crucifix' during the 1944 miracle fervour."@en ;
     schema:disambiguatingDescription "Its crucifix carries on a running dialogue with the image of Santa Maria d'Intercessione — reported daily in the newspapers of spring 1944."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/santo-agnello.jpg> ;
+            schema:creditText "Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Facciata_di_Sant%27Agnello_Maggiore.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Santo Agnello" ;
     schema:url <https://naples44.michelepasin.org/folklore/santo-agnello/> .
@@ -3240,6 +3288,10 @@ folklore:st-andrews-manna-amalfi a schema:DefinedTerm ;
 folklore:st-john-san-giovanni-a-carbonara a schema:DefinedTerm ;
     schema:description "A Naples church holding a blood relic said to liquefy."@en ;
     schema:disambiguatingDescription "One of the churches whose blood relic is reported to be bubbling amid the spring 1944 miracle fever."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/st-john-san-giovanni-a-carbonara.jpg> ;
+            schema:creditText "Diego Delso · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Giovanni_a_Carbonara,_N%C3%A1poles,_Italia,_2023-03-25,_DD_130.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "St John / San Giovanni a Carbonara" ;
     schema:url <https://naples44.michelepasin.org/folklore/st-john-san-giovanni-a-carbonara/> .
@@ -3259,6 +3311,10 @@ folklore:st-michael a schema:DefinedTerm ;
 folklore:stork-veneration a schema:DefinedTerm ;
     schema:description "A Southern Italian taboo against harming storks, held to bring bad luck."@en ;
     schema:disambiguatingDescription "A village that ate its storks' young during the famine is regarded as having called down calamity on itself."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/stork-veneration.jpg> ;
+            schema:creditText "Charles J. Sharp · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:White_stork_(Ciconia_ciconia)_Bia%C5%82owieza.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Stork veneration" ;
     schema:url <https://naples44.michelepasin.org/folklore/stork-veneration/> .
@@ -3266,6 +3322,10 @@ folklore:stork-veneration a schema:DefinedTerm ;
 folklore:vendetta-mourning-ritual a schema:DefinedTerm ;
     schema:description "A funeral rite of the Southern Italian interior in which the dead man's mother mouths his wounds as a pledge of revenge."@en ;
     schema:disambiguatingDescription "When a man is killed in a vendetta his mother, if living, kisses and sucks at his wounds at the funeral — the kind of 'Bronze-Age' custom Lattarullo, ten miles away in Naples, knows nothing of."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/vendetta-mourning-ritual.jpg> ;
+            schema:creditText "Andrea Mantegna · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:The_dead_Christ_and_three_mourners,_by_Andrea_Mantegna.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Vendetta mourning ritual" ;
     schema:url <https://naples44.michelepasin.org/folklore/vendetta-mourning-ritual/> .
@@ -3273,6 +3333,10 @@ folklore:vendetta-mourning-ritual a schema:DefinedTerm ;
 folklore:visionary-child-local-bernadette a schema:DefinedTerm ;
     schema:description "A child visionary of the Campi Flegrei reporting Marian apparitions in spring 1944."@en ;
     schema:disambiguatingDescription "A twelve-year-old girl to whom the Virgin is said to appear with 'comforting messages for the population'; crowds flock out to watch, and the mayor of Marano arrives in a motor-hearse for want of other transport."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/visionary-child-local-bernadette.jpg> ;
+            schema:creditText "abbé P. Bernadou · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Bernadette_Soubirous.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "visionary child (local 'Bernadette')" ;
     schema:url <https://naples44.michelepasin.org/folklore/visionary-child-local-bernadette/> .
@@ -3280,6 +3344,10 @@ folklore:visionary-child-local-bernadette a schema:DefinedTerm ;
 folklore:zio-di-roma a schema:DefinedTerm ;
     schema:description "A hired mourner who impersonates a distinguished 'uncle from Rome' at a funeral to raise the bereaved family's standing."@en ;
     schema:disambiguatingDescription "Lattarullo's suspended sideline, resumed once Rome falls — complete with a rented car and driver and a special 'Zio di Roma' suit."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/zio-di-roma.jpg> ;
+            schema:creditText "Unknown author · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli,_Funerale_di_Enrico_Caruso.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Zio di Roma" ;
     schema:url <https://naples44.michelepasin.org/folklore/zio-di-roma/> .

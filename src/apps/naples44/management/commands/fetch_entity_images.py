@@ -1,6 +1,6 @@
 """
 Download the Wikipedia lead image for any Place / Person / FolkloreEntity that has
-a `wikipedia_url` (and, for each Theme, the hand-picked file in THEME_IMAGES), into src/static/img/entities/<model>/<slug>.<ext>, and record
+a `wikipedia_url` (or a hand-picked file in HAND_PICKED, which wins), into src/static/img/entities/<model>/<slug>.<ext>, and record
 its path, source page and credit (author + licence, from Commons metadata).
 
 Images are fetched once and stored locally — the static site never hotlinks.
@@ -23,6 +23,7 @@ import urllib.request
 
 from django.conf import settings
 from django.core.management.base import BaseCommand
+from django.db.models import Q
 
 from naples44 import models
 
@@ -44,7 +45,7 @@ MODELS = {
 
 # Themes have no Wikipedia article of their own, so each gets a hand-picked
 # Commons file — period photographs of Naples 1943–44 where one fits.
-THEME_IMAGES = {
+_THEME_IMAGES = {
     "war_violence": "Un ragazzo italiano sostiene il suo amico ferito gravemente durante il bombardamento alleato su Napoli nel 1943.jpg",
     "black_market": "Wayne Miller - Giovane venditrice.jpg",
     "poverty_hunger": "Children of Naples, Italy - NARA - 520941.jpg",
@@ -57,6 +58,30 @@ THEME_IMAGES = {
     "allied_conduct": "Napoli 1943, entrata degli alleati (1).jpg",
     "personal_reflection": "Norman Lewis (1908–2003).jpg",
 }
+
+# Folklore entities with no article (or no usable lead image): a picture of the
+# saint / church itself where one exists, otherwise something evocative of it.
+_FOLKLORE_IMAGES = {
+    "blessed-egideo": "Sant'Egidio Maria di San Giuseppe.JPG",
+    "droit-du-seigneur-sagranella": "Le droit du Seigneur by Vasiliy Polenov.jpg",
+    "hunchbacks-as-luck-bringers": "(Venice) Il Gobbo di Rialto front view.jpg",
+    "ischia-radioactive-cure-belief": "Radithor bottle (25799475341).jpg",
+    "parenti-di-san-gennaro": "Reliquiario di Roberto d'Angio.jpg",
+    "professional-wailers": "Female mourners Louvre CA1325.jpg",
+    "sagranella-fox-cult": "Portrait of a red fox in Rautas fjällurskog (cropped).jpg",
+    "santa-maria-dintercessione": "Inmaculada Concepción de Aranjuez.jpg",
+    "santo-agnello": "Facciata di Sant'Agnello Maggiore.jpg",
+    "st-john-san-giovanni-a-carbonara": "Iglesia de San Giovanni a Carbonara, Nápoles, Italia, 2023-03-25, DD 130.jpg",
+    "stork-veneration": "White stork (Ciconia ciconia) Białowieza.jpg",
+    "vendetta-mourning-ritual": "The dead Christ and three mourners, by Andrea Mantegna.jpg",
+    "zio-di-roma": "Napoli, Funerale di Enrico Caruso.jpg",
+    "fertility-offering-superstition": "Anatomical votives from the Gorga collection (Rome, Mus Naz Rom).jpg",
+    "flying-monk-of-pomigliano": "Padre Pio Stigmata.jpg",
+    "pazzariello": "Pazzariello napoletano.jpg",
+    "visionary-child-local-bernadette": "Bernadette Soubirous.jpg",
+}
+
+HAND_PICKED = {"theme": _THEME_IMAGES, "folklore": _FOLKLORE_IMAGES}
 
 
 def _get_json(params):
@@ -159,10 +184,11 @@ class Command(BaseCommand):
 
         for name in names:
             Model = MODELS[name]
-            if Model is models.Theme:
-                qs = Model.objects.filter(slug__in=THEME_IMAGES)
-            else:
-                qs = Model.objects.exclude(wikipedia_url="").order_by("name")
+            picked = HAND_PICKED.get(name, {})
+            qs = Model.objects.filter(
+                ~Q(wikipedia_url="") if hasattr(Model, "wikipedia_url") else Q(pk__in=[]),
+            ) | Model.objects.filter(slug__in=picked)
+            qs = qs.distinct().order_by("slug")
             if opts["only"]:
                 qs = qs.filter(slug__in=opts["only"])
             if not opts["refresh"]:
@@ -173,8 +199,8 @@ class Command(BaseCommand):
             self.stdout.write(self.style.MIGRATE_HEADING(f"\n{name}:"))
             for obj in qs:
                 try:
-                    if Model is models.Theme:
-                        img = commons_file(THEME_IMAGES[obj.slug])
+                    if obj.slug in picked:
+                        img = commons_file(picked[obj.slug])
                     else:
                         img = lead_image(obj.wikipedia_url)
                     if not img:
