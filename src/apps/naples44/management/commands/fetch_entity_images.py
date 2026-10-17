@@ -48,7 +48,7 @@ THEME_IMAGES = {
     "war_violence": "Un ragazzo italiano sostiene il suo amico ferito gravemente durante il bombardamento alleato su Napoli nel 1943.jpg",
     "black_market": "Wayne Miller - Giovane venditrice.jpg",
     "poverty_hunger": "Children of Naples, Italy - NARA - 520941.jpg",
-    "sex_relationships": "The Skin poster.jpg",
+    "sex_relationships": "SHE MAY LOOK CLEAN - BUT - NARA - 513618.jpg",
     "superstition_religion": "CornicelloCharm.jpg",
     "crime_banditry": "GiulianoGenovese1.jpg",
     "bureaucracy_absurdity": "Napoli, Gran Dogana Marittima (nel 1943).jpg",
@@ -76,8 +76,7 @@ def _plain(value):
     text = html.unescape(re.sub(r"<[^>]+>", "", value or "")).strip()
     text = re.split(r"\n\s*\n", text)[0]
     text = re.sub(r"\s+", " ", text).strip()
-    m = re.fullmatch(r"(.+?)\1", text)  # "Unknown authorUnknown author"
-    return m.group(1) if m else text
+    return re.sub(r"^(.{4,}?)\1", r"\1", text)  # "Unknown authorUnknown author …"
 
 
 def _short(text, n):

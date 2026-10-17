@@ -100,8 +100,8 @@
   "pk": "sex_relationships",
   "fields": {
     "image": "img/entities/theme/sex_relationships.jpg",
-    "image_source_url": "https://en.wikipedia.org/wiki/File:The_Skin_poster.jpg",
-    "image_credit": "Fair use",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:SHE_MAY_LOOK_CLEAN_-_BUT_-_NARA_-_513618.jpg",
+    "image_credit": "Unknown author or not provided · Public domain",
     "label": "Sex & relationships",
     "description": "Prostitution, romance, marriage vetting, wartime liaisons",
     "order": 3
