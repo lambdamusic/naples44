@@ -102,6 +102,9 @@
   "model": "naples44.place",
   "pk": 1,
   "fields": {
+    "image": "img/entities/place/salerno.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Panorama_of_salerno_from_arechi.jpg",
+    "image_credit": "Cabalist12 · CC BY-SA 4.0",
     "name": "Salerno",
     "slug": "salerno",
     "place_type": "town",
@@ -117,6 +120,9 @@
   "model": "naples44.place",
   "pk": 2,
   "fields": {
+    "image": "img/entities/place/oran.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:31-4_Chapelle_de_Santa-Cruz_(7).jpg",
+    "image_credit": "R hakka · CC BY-SA 4.0",
     "name": "Oran",
     "slug": "oran",
     "place_type": "town",
@@ -132,6 +138,9 @@
   "model": "naples44.place",
   "pk": 3,
   "fields": {
+    "image": "img/entities/place/paestum.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Veduta_di_Paestum_2010.jpg",
+    "image_credit": "Oliver-Bonjoch · CC BY-SA 3.0",
     "name": "Paestum",
     "slug": "paestum",
     "place_type": "town",
@@ -147,6 +156,9 @@
   "model": "naples44.place",
   "pk": 4,
   "fields": {
+    "image": "img/entities/place/pompeii.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Pompeii_and_Mount_Vesuvius_(view_from_the_southeast).jpg",
+    "image_credit": "Carsten Steger · CC BY-SA 4.0",
     "name": "Pompeii",
     "slug": "pompeii",
     "place_type": "town",
@@ -162,6 +174,9 @@
   "model": "naples44.place",
   "pk": 5,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Sele river",
     "slug": "sele-river",
     "place_type": "natural_feature",
@@ -177,6 +192,9 @@
   "model": "naples44.place",
   "pk": 6,
   "fields": {
+    "image": "img/entities/place/albanella.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Albanella_Panorama.jpg",
+    "image_credit": "Lobufalo · Public domain",
     "name": "Albanella",
     "slug": "albanella",
     "place_type": "town",
@@ -192,6 +210,9 @@
   "model": "naples44.place",
   "pk": 7,
   "fields": {
+    "image": "img/entities/place/battipaglia.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Battipaglia_-_Castelluccio_-_2023-09-29_17-18-53_001.JPG",
+    "image_credit": "DaniClick · CC BY-SA 4.0",
     "name": "Battipaglia",
     "slug": "battipaglia",
     "place_type": "town",
@@ -207,6 +228,9 @@
   "model": "naples44.place",
   "pk": 8,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Sicily",
     "slug": "sicily",
     "place_type": "region",
@@ -222,6 +246,9 @@
   "model": "naples44.place",
   "pk": 9,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Calore river",
     "slug": "calore-river",
     "place_type": "natural_feature",
@@ -237,6 +264,9 @@
   "model": "naples44.place",
   "pk": 10,
   "fields": {
+    "image": "img/entities/place/avellino.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Campanile_del_Duomo_e_Torre_dell%27Orologio_al_tramonto.jpg",
+    "image_credit": "Costangelopacilio · CC BY-SA 4.0",
     "name": "Avellino",
     "slug": "avellino",
     "place_type": "town",
@@ -252,6 +282,9 @@
   "model": "naples44.place",
   "pk": 11,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Castello Castelluccia",
     "slug": "castello-castelluccia",
     "place_type": "landmark",
@@ -267,6 +300,9 @@
   "model": "naples44.place",
   "pk": 12,
   "fields": {
+    "image": "img/entities/place/resina.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Herculaneum03.jpg",
+    "image_credit": "CharlesS at Dutch Wikipedia · CC BY-SA 3.0",
     "name": "Resina",
     "slug": "resina",
     "place_type": "town",
@@ -282,6 +318,9 @@
   "model": "naples44.place",
   "pk": 13,
   "fields": {
+    "image": "img/entities/place/sorrento.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:View_of_Sorrento.jpg",
+    "image_credit": "Kim Traynor · CC BY-SA 3.0",
     "name": "Sorrento",
     "slug": "sorrento",
     "place_type": "town",
@@ -297,6 +336,9 @@
   "model": "naples44.place",
   "pk": 14,
   "fields": {
+    "image": "img/entities/place/torre-annunziata.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Torre_Annunziata_-_view_from_the_port.jpg",
+    "image_credit": "Bboss at Italian Wikipedia · Public domain",
     "name": "Torre Annunziata",
     "slug": "torre-annunziata",
     "place_type": "town",
@@ -312,6 +354,9 @@
   "model": "naples44.place",
   "pk": 15,
   "fields": {
+    "image": "img/entities/place/altavilla-silentina.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Altavilla_Silentina.jpg",
+    "image_credit": "Liberotag73 · CC BY-SA 3.0",
     "name": "Altavilla Silentina",
     "slug": "altavilla-silentina",
     "place_type": "town",
@@ -327,6 +372,9 @@
   "model": "naples44.place",
   "pk": 16,
   "fields": {
+    "image": "img/entities/place/portici.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Reggia_di_Portici1.jpg",
+    "image_credit": "Ferdinando Scala. · CC BY-SA 3.0",
     "name": "Portici",
     "slug": "portici",
     "place_type": "town",
@@ -342,6 +390,9 @@
   "model": "naples44.place",
   "pk": 17,
   "fields": {
+    "image": "img/entities/place/nola.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:NolaDuomo.jpg",
+    "image_credit": "Bocachete · Public domain",
     "name": "Nola",
     "slug": "nola",
     "place_type": "town",
@@ -357,6 +408,9 @@
   "model": "naples44.place",
   "pk": 18,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Palace of the Princes of Satriano",
     "slug": "palace-of-the-princes-of-satriano",
     "place_type": "landmark",
@@ -372,6 +426,9 @@
   "model": "naples44.place",
   "pk": 19,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Piazza Vittoria",
     "slug": "piazza-vittoria",
     "place_type": "piazza",
@@ -387,6 +444,9 @@
   "model": "naples44.place",
   "pk": 20,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Questura (Naples police HQ)",
     "slug": "questura-naples-police-hq",
     "place_type": "landmark",
@@ -402,6 +462,9 @@
   "model": "naples44.place",
   "pk": 21,
   "fields": {
+    "image": "img/entities/place/riviera-di-chiaia.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Riviera.jpg",
+    "image_credit": "Baku · CC BY-SA 4.0",
     "name": "Riviera di Chiaia",
     "slug": "riviera-di-chiaia",
     "place_type": "street",
@@ -417,6 +480,9 @@
   "model": "naples44.place",
   "pk": 22,
   "fields": {
+    "image": "img/entities/place/afragola.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Municipio_Afragola.jpg",
+    "image_credit": "Original uploader was Utente:Danielevincenzo at it.wikipedia · CC BY-SA 3.0",
     "name": "Afragola",
     "slug": "afragola",
     "place_type": "town",
@@ -432,6 +498,9 @@
   "model": "naples44.place",
   "pk": 23,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Santa Lucia (Naples)",
     "slug": "santa-lucia-naples",
     "place_type": "district",
@@ -447,6 +516,9 @@
   "model": "naples44.place",
   "pk": 24,
   "fields": {
+    "image": "img/entities/place/rome.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Trevi_Fountain,_Rome,_Italy_2_-_May_2007.jpg",
+    "image_credit": "Diliff · CC BY 3.0",
     "name": "Rome",
     "slug": "rome",
     "place_type": "town",
@@ -462,6 +534,9 @@
   "model": "naples44.place",
   "pk": 25,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "San Gennaro catacombs",
     "slug": "san-gennaro-catacombs",
     "place_type": "religious_site",
@@ -477,6 +552,9 @@
   "model": "naples44.place",
   "pk": 26,
   "fields": {
+    "image": "img/entities/place/bari.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Bari_-_Lungomare_Imperatore_Augusto_%26_Mare.jpg",
+    "image_credit": "Benjamin Smith · CC BY-SA 4.0",
     "name": "Bari",
     "slug": "bari",
     "place_type": "town",
@@ -492,6 +570,9 @@
   "model": "naples44.place",
   "pk": 27,
   "fields": {
+    "image": "img/entities/place/taranto.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Ponte_Girevole_(Taranto)_01.jpg",
+    "image_credit": "Bernard Gagnon · CC0",
     "name": "Taranto",
     "slug": "taranto",
     "place_type": "town",
@@ -507,6 +588,9 @@
   "model": "naples44.place",
   "pk": 28,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Bar Vittoria",
     "slug": "bar-vittoria",
     "place_type": "landmark",
@@ -522,6 +606,9 @@
   "model": "naples44.place",
   "pk": 29,
   "fields": {
+    "image": "img/entities/place/castel-nuovo.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Municip.jpg",
+    "image_credit": "Little john at Italian Wikipedia · Public domain",
     "name": "Castel Nuovo",
     "slug": "castel-nuovo",
     "place_type": "landmark",
@@ -537,6 +624,9 @@
   "model": "naples44.place",
   "pk": 30,
   "fields": {
+    "image": "img/entities/place/porta-capuana.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Porta_Capuana_2025.jpg",
+    "image_credit": "August Dominus · CC0",
     "name": "Porta Capuana",
     "slug": "porta-capuana",
     "place_type": "landmark",
@@ -552,6 +642,9 @@
   "model": "naples44.place",
   "pk": 31,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Partenope",
     "slug": "via-partenope",
     "place_type": "street",
@@ -567,6 +660,9 @@
   "model": "naples44.place",
   "pk": 32,
   "fields": {
+    "image": "img/entities/place/aversa.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Porta_Napoli_Aversa.jpg",
+    "image_credit": "http://www.comune.aversa.ce.it/biblioteca/nuova_pagina_2.htm · CC BY-SA 3.0",
     "name": "Aversa",
     "slug": "aversa",
     "place_type": "town",
@@ -582,6 +678,9 @@
   "model": "naples44.place",
   "pk": 33,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Fontanelle (Naples)",
     "slug": "fontanelle-naples",
     "place_type": "district",
@@ -597,6 +696,9 @@
   "model": "naples44.place",
   "pk": 34,
   "fields": {
+    "image": "img/entities/place/vomero-naples.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Vomero.jpg",
+    "image_credit": "No machine-readable author provided. Inviaggiocommons assumed (based on copyright claims). · Public domain",
     "name": "Vomero (Naples)",
     "slug": "vomero-naples",
     "place_type": "district",
@@ -612,6 +714,9 @@
   "model": "naples44.place",
   "pk": 35,
   "fields": {
+    "image": "img/entities/place/philippeville.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Port_de_stora(skikda).jpg",
+    "image_credit": "Dinatae13 · CC BY-SA 4.0",
     "name": "Philippeville",
     "slug": "philippeville",
     "place_type": "town",
@@ -627,6 +732,9 @@
   "model": "naples44.place",
   "pk": 36,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Poggio Reale prison",
     "slug": "poggio-reale-prison",
     "place_type": "landmark",
@@ -642,6 +750,9 @@
   "model": "naples44.place",
   "pk": 37,
   "fields": {
+    "image": "img/entities/place/posillipo-naples.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Villa_Elisa_Napoli.jpg",
+    "image_credit": "Baku · CC BY-SA 4.0",
     "name": "Posillipo (Naples)",
     "slug": "posillipo-naples",
     "place_type": "district",
@@ -657,6 +768,9 @@
   "model": "naples44.place",
   "pk": 38,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Filangieri prison",
     "slug": "filangieri-prison",
     "place_type": "landmark",
@@ -672,6 +786,9 @@
   "model": "naples44.place",
   "pk": 39,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Vico Chiatamone",
     "slug": "vico-chiatamone",
     "place_type": "street",
@@ -687,6 +804,9 @@
   "model": "naples44.place",
   "pk": 40,
   "fields": {
+    "image": "img/entities/place/san-carlo-opera-house.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Teatro_de_San_Carlos,_N%C3%A1poles,_Italia,_2023-03-25,_DD_184-186_HDR.jpg",
+    "image_credit": "Diego Delso · CC BY-SA 4.0",
     "name": "San Carlo opera house",
     "slug": "san-carlo-opera-house",
     "place_type": "landmark",
@@ -702,6 +822,9 @@
   "model": "naples44.place",
   "pk": 41,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Chiaia",
     "slug": "via-chiaia",
     "place_type": "street",
@@ -717,6 +840,9 @@
   "model": "naples44.place",
   "pk": 42,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via San Felice",
     "slug": "via-san-felice",
     "place_type": "street",
@@ -732,6 +858,9 @@
   "model": "naples44.place",
   "pk": 43,
   "fields": {
+    "image": "img/entities/place/vesuvius.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Il_cratere_del_Vulcano_-_panoramio.jpg",
+    "image_credit": "pietro scerrato · CC BY 3.0",
     "name": "Vesuvius",
     "slug": "vesuvius",
     "place_type": "natural_feature",
@@ -747,6 +876,9 @@
   "model": "naples44.place",
   "pk": 44,
   "fields": {
+    "image": "img/entities/place/acerra.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Acerra_aerea.jpg",
+    "image_credit": "Original uploaded by Balzacle (Transfered by T137) · Public domain",
     "name": "Acerra",
     "slug": "acerra",
     "place_type": "town",
@@ -762,6 +894,9 @@
   "model": "naples44.place",
   "pk": 45,
   "fields": {
+    "image": "img/entities/place/casoria.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Casoria.jpg",
+    "image_credit": "mauro nemesio rossi at Italian Wikipedia · Public domain",
     "name": "Casoria",
     "slug": "casoria",
     "place_type": "town",
@@ -777,6 +912,9 @@
   "model": "naples44.place",
   "pk": 46,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "San Pasquale (church & district)",
     "slug": "san-pasquale-church-district",
     "place_type": "religious_site",
@@ -792,6 +930,9 @@
   "model": "naples44.place",
   "pk": 47,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Carducci",
     "slug": "via-carducci",
     "place_type": "street",
@@ -807,6 +948,9 @@
   "model": "naples44.place",
   "pk": 48,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Calabritto Palace",
     "slug": "calabritto-palace",
     "place_type": "landmark",
@@ -822,6 +966,9 @@
   "model": "naples44.place",
   "pk": 49,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Palazzo Carracciolo",
     "slug": "palazzo-carracciolo",
     "place_type": "landmark",
@@ -837,6 +984,9 @@
   "model": "naples44.place",
   "pk": 50,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Villa Nazionale",
     "slug": "villa-nazionale",
     "place_type": "landmark",
@@ -852,6 +1002,9 @@
   "model": "naples44.place",
   "pk": 51,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Torrito",
     "slug": "torrito",
     "place_type": "town",
@@ -867,6 +1020,9 @@
   "model": "naples44.place",
   "pk": 52,
   "fields": {
+    "image": "img/entities/place/caivano.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Caivano.jpg",
+    "image_credit": "Umberto Basilica at Italian Wikipedia · Public domain",
     "name": "Caivano",
     "slug": "caivano",
     "place_type": "town",
@@ -882,6 +1038,9 @@
   "model": "naples44.place",
   "pk": 53,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Zona di Camorra",
     "slug": "zona-di-camorra",
     "place_type": "region",
@@ -897,6 +1056,9 @@
   "model": "naples44.place",
   "pk": 54,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Forcella (market district)",
     "slug": "forcella-market-district",
     "place_type": "district",
@@ -912,6 +1074,9 @@
   "model": "naples44.place",
   "pk": 55,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Forcella",
     "slug": "via-forcella",
     "place_type": "street",
@@ -927,6 +1092,9 @@
   "model": "naples44.place",
   "pk": 56,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Matlock",
     "slug": "matlock",
     "place_type": "town",
@@ -942,6 +1110,9 @@
   "model": "naples44.place",
   "pk": 57,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Filippo Palizzi",
     "slug": "via-filippo-palizzi",
     "place_type": "street",
@@ -957,6 +1128,9 @@
   "model": "naples44.place",
   "pk": 58,
   "fields": {
+    "image": "img/entities/place/castel-capuano.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Napoli_-_Castel_Capuano.jpg",
+    "image_credit": "Armando Mancini · CC BY-SA 2.0",
     "name": "Castel Capuano",
     "slug": "castel-capuano",
     "place_type": "landmark",
@@ -972,6 +1146,9 @@
   "model": "naples44.place",
   "pk": 59,
   "fields": {
+    "image": "img/entities/place/castellammare-di-stabia.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Castellammare_di_Stabia_3.JPG",
+    "image_credit": "Mentnafunangann · CC BY-SA 3.0",
     "name": "Castellammare di Stabia",
     "slug": "castellammare-di-stabia",
     "place_type": "town",
@@ -987,6 +1164,9 @@
   "model": "naples44.place",
   "pk": 60,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Agropoli",
     "slug": "agropoli",
     "place_type": "town",
@@ -1002,6 +1182,9 @@
   "model": "naples44.place",
   "pk": 61,
   "fields": {
+    "image": "img/entities/place/piazza-dante.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Piazza_Dante_(Naples).jpg",
+    "image_credit": "IlSistemone · CC BY-SA 3.0",
     "name": "Piazza Dante",
     "slug": "piazza-dante",
     "place_type": "piazza",
@@ -1017,6 +1200,9 @@
   "model": "naples44.place",
   "pk": 62,
   "fields": {
+    "image": "img/entities/place/procida.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Corricella_2016,_Procida_(2).jpg",
+    "image_credit": "Ekrem Canli · CC BY-SA 4.0",
     "name": "Procida",
     "slug": "procida",
     "place_type": "town",
@@ -1032,6 +1218,9 @@
   "model": "naples44.place",
   "pk": 63,
   "fields": {
+    "image": "img/entities/place/caserta.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Maddaloni_-_Panorama_di_Caserta_dal_Santuario_di_San_Michele.jpg",
+    "image_credit": "Lucamato · CC BY-SA 4.0",
     "name": "Caserta",
     "slug": "caserta",
     "place_type": "town",
@@ -1047,6 +1236,9 @@
   "model": "naples44.place",
   "pk": 64,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via San Pasquale",
     "slug": "via-san-pasquale",
     "place_type": "street",
@@ -1062,6 +1254,9 @@
   "model": "naples44.place",
   "pk": 65,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Vico Satriano",
     "slug": "vico-satriano",
     "place_type": "street",
@@ -1077,6 +1272,9 @@
   "model": "naples44.place",
   "pk": 66,
   "fields": {
+    "image": "img/entities/place/capri.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Capri_in_Cartolina_-_Vista_da_Termini_(Massa_Lubrense).jpg",
+    "image_credit": "Mario Apuzzo · CC BY-SA 4.0",
     "name": "Capri",
     "slug": "capri",
     "place_type": "town",
@@ -1092,6 +1290,9 @@
   "model": "naples44.place",
   "pk": 67,
   "fields": {
+    "image": "img/entities/place/via-roma.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Napoli_-_Toledo_aka_Via_Roma.jpg",
+    "image_credit": "Unknown author · Public domain",
     "name": "Via Roma",
     "slug": "via-roma",
     "place_type": "street",
@@ -1107,6 +1308,9 @@
   "model": "naples44.place",
   "pk": 68,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Café Savoia",
     "slug": "cafe-savoia",
     "place_type": "landmark",
@@ -1122,6 +1326,9 @@
   "model": "naples44.place",
   "pk": 69,
   "fields": {
+    "image": "img/entities/place/ischia.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Ischia_da_procida.jpg",
+    "image_credit": "Retaggio · CC BY-SA 3.0",
     "name": "Ischia",
     "slug": "ischia",
     "place_type": "town",
@@ -1137,6 +1344,9 @@
   "model": "naples44.place",
   "pk": 70,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "San Sebastiano (town near Vesuvius)",
     "slug": "san-sebastiano-town-near-vesuvius",
     "place_type": "town",
@@ -1152,6 +1362,9 @@
   "model": "naples44.place",
   "pk": 71,
   "fields": {
+    "image": "img/entities/place/san-giorgio-near-vesuvius.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:AerialVannucchi.jpg",
+    "image_credit": "Tozzabancone · CC BY-SA 4.0",
     "name": "San Giorgio (near Vesuvius)",
     "slug": "san-giorgio-near-vesuvius",
     "place_type": "town",
@@ -1167,6 +1380,9 @@
   "model": "naples44.place",
   "pk": 72,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Cercola",
     "slug": "cercola",
     "place_type": "town",
@@ -1182,6 +1398,9 @@
   "model": "naples44.place",
   "pk": 73,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Maddaloni Bridge",
     "slug": "maddaloni-bridge",
     "place_type": "landmark",
@@ -1197,6 +1416,9 @@
   "model": "naples44.place",
   "pk": 74,
   "fields": {
+    "image": "img/entities/place/pozzuoli.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Pozzuoli_2010-by-RaBoe-23.jpg",
+    "image_credit": "© Ra Boe / Wikipedia · CC BY-SA 3.0 de",
     "name": "Pozzuoli",
     "slug": "pozzuoli",
     "place_type": "town",
@@ -1212,6 +1434,9 @@
   "model": "naples44.place",
   "pk": 75,
   "fields": {
+    "image": "img/entities/place/torre-del-greco.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Torre_del_greco_porto.jpg",
+    "image_credit": "Simone Di Somma · CC BY-SA 3.0",
     "name": "Torre del Greco",
     "slug": "torre-del-greco",
     "place_type": "town",
@@ -1227,6 +1452,9 @@
   "model": "naples44.place",
   "pk": 76,
   "fields": {
+    "image": "img/entities/place/campi-flegrei.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:VedutaEremo2.jpg",
+    "image_credit": "Baku · CC BY-SA 4.0",
     "name": "Campi Flegrei",
     "slug": "campi-flegrei",
     "place_type": "region",
@@ -1242,6 +1470,9 @@
   "model": "naples44.place",
   "pk": 77,
   "fields": {
+    "image": "img/entities/place/pomigliano.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:DCN1125.JPG",
+    "image_credit": "Lukewill · Public domain",
     "name": "Pomigliano",
     "slug": "pomigliano",
     "place_type": "town",
@@ -1257,6 +1488,9 @@
   "model": "naples44.place",
   "pk": 78,
   "fields": {
+    "image": "img/entities/place/marano.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Arcobaleno_su_marano.jpg",
+    "image_credit": "Salvatore.geometra · CC BY-SA 4.0",
     "name": "Marano",
     "slug": "marano",
     "place_type": "town",
@@ -1272,6 +1506,9 @@
   "model": "naples44.place",
   "pk": 79,
   "fields": {
+    "image": "img/entities/place/castel-santelmo.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Castel_Sant_Elmo_Napoli_lato_ingresso.jpg",
+    "image_credit": "This Photo was taken by Wolfgang Moroder. · CC BY-SA 3.0",
     "name": "Castel Sant'Elmo",
     "slug": "castel-santelmo",
     "place_type": "landmark",
@@ -1287,6 +1524,9 @@
   "model": "naples44.place",
   "pk": 80,
   "fields": {
+    "image": "img/entities/place/padula.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Padula_(view_from_the_southeast).jpg",
+    "image_credit": "Carsten Steger · CC BY-SA 4.0",
     "name": "Padula",
     "slug": "padula",
     "place_type": "town",
@@ -1302,6 +1542,9 @@
   "model": "naples44.place",
   "pk": 81,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Piazza Municipio",
     "slug": "piazza-municipio",
     "place_type": "piazza",
@@ -1317,6 +1560,9 @@
   "model": "naples44.place",
   "pk": 82,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Villa Tiberius (Capri)",
     "slug": "villa-tiberius-capri",
     "place_type": "landmark",
@@ -1332,6 +1578,9 @@
   "model": "naples44.place",
   "pk": 83,
   "fields": {
+    "image": "img/entities/place/terni.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Terni_Collage.png",
+    "image_credit": "Pszimre · CC BY-SA 4.0",
     "name": "Terni",
     "slug": "terni",
     "place_type": "town",
@@ -1347,6 +1596,9 @@
   "model": "naples44.place",
   "pk": 84,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Santa Maria della Colombina",
     "slug": "santa-maria-della-colombina",
     "place_type": "town",
@@ -1362,6 +1614,9 @@
   "model": "naples44.place",
   "pk": 85,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Rione Amedeo",
     "slug": "rione-amedeo",
     "place_type": "district",
@@ -1377,6 +1632,9 @@
   "model": "naples44.place",
   "pk": 86,
   "fields": {
+    "image": "img/entities/place/monte-vergine.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Montevergine_1.jpg",
+    "image_credit": "Mentnafunangann · CC BY-SA 3.0",
     "name": "Monte Vergine",
     "slug": "monte-vergine",
     "place_type": "religious_site",
@@ -1392,6 +1650,9 @@
   "model": "naples44.place",
   "pk": 87,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Monte Santangelo",
     "slug": "monte-santangelo",
     "place_type": "religious_site",
@@ -1407,6 +1668,9 @@
   "model": "naples44.place",
   "pk": 88,
   "fields": {
+    "image": "img/entities/place/frattamaggiore.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Pre_frattamaggiore.jpg",
+    "image_credit": "Umberto Basilica at Italian Wikipedia · Public domain",
     "name": "Frattamaggiore",
     "slug": "frattamaggiore",
     "place_type": "town",
@@ -1422,6 +1686,9 @@
   "model": "naples44.place",
   "pk": 89,
   "fields": {
+    "image": "img/entities/place/duomo-di-napoli.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Naples_Cathedral_-_Duomo_di_Napoli,_Fa%C3%A7ade_(5315-Pan).jpg",
+    "image_credit": "Marco Ober · CC BY-SA 4.0",
     "name": "Duomo di Napoli",
     "slug": "duomo-di-napoli",
     "place_type": "religious_site",
@@ -1437,6 +1704,9 @@
   "model": "naples44.place",
   "pk": 90,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Vico Freddo",
     "slug": "vico-freddo",
     "place_type": "street",
@@ -1452,6 +1722,9 @@
   "model": "naples44.place",
   "pk": 91,
   "fields": {
+    "image": "img/entities/place/patrica.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Patrica_panorama1.jpg",
+    "image_credit": "Beatrice · CC BY 3.0",
     "name": "Patrica",
     "slug": "patrica",
     "place_type": "town",
@@ -1467,6 +1740,9 @@
   "model": "naples44.place",
   "pk": 92,
   "fields": {
+    "image": "img/entities/place/pofi.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:POFI_DJI_0983.jpg",
+    "image_credit": "Floggerbaby · CC BY-SA 4.0",
     "name": "Pofi",
     "slug": "pofi",
     "place_type": "town",
@@ -1482,6 +1758,9 @@
   "model": "naples44.place",
   "pk": 93,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Isoletta",
     "slug": "isoletta",
     "place_type": "town",
@@ -1497,6 +1776,9 @@
   "model": "naples44.place",
   "pk": 94,
   "fields": {
+    "image": "img/entities/place/supino.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Supino_Panorama.jpg",
+    "image_credit": "Gfiorito · CC BY-SA 3.0",
     "name": "Supino",
     "slug": "supino",
     "place_type": "town",
@@ -1512,6 +1794,9 @@
   "model": "naples44.place",
   "pk": 95,
   "fields": {
+    "image": "img/entities/place/morolo.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Morolo_dall%27alto_-_panoramio.jpg",
+    "image_credit": "pietro scerrato · CC BY 3.0",
     "name": "Morolo",
     "slug": "morolo",
     "place_type": "town",
@@ -1527,6 +1812,9 @@
   "model": "naples44.place",
   "pk": 96,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Lenola",
     "slug": "lenola",
     "place_type": "town",
@@ -1542,6 +1830,9 @@
   "model": "naples44.place",
   "pk": 97,
   "fields": {
+    "image": "img/entities/place/castro-dei-volsci.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Vista_sulla_citt%C3%A0_-_panoramio_(1).jpg",
+    "image_credit": "pietro scerrato · CC BY 3.0",
     "name": "Castro dei Volsci",
     "slug": "castro-dei-volsci",
     "place_type": "town",
@@ -1557,6 +1848,9 @@
   "model": "naples44.place",
   "pk": 98,
   "fields": {
+    "image": "img/entities/place/ceccano.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:PanoramicadiCeccano.jpg",
+    "image_credit": "The original uploader was Robertodimo at Italian Wikipedia. · CC BY-SA 3.0",
     "name": "Ceccano",
     "slug": "ceccano",
     "place_type": "town",
@@ -1572,6 +1866,9 @@
   "model": "naples44.place",
   "pk": 99,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Santa Maria a Vico",
     "slug": "santa-maria-a-vico",
     "place_type": "town",
@@ -1587,6 +1884,9 @@
   "model": "naples44.place",
   "pk": 100,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Gravina",
     "slug": "via-gravina",
     "place_type": "street",
@@ -1602,6 +1902,9 @@
   "model": "naples44.place",
   "pk": 101,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Cancello",
     "slug": "cancello",
     "place_type": "town",
@@ -1617,6 +1920,9 @@
   "model": "naples44.place",
   "pk": 102,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Rione Sant'Antonio Abate",
     "slug": "rione-santantonio-abate",
     "place_type": "district",
@@ -1632,6 +1938,9 @@
   "model": "naples44.place",
   "pk": 103,
   "fields": {
+    "image": "img/entities/place/guardia-sanframondi.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Guardia_Sanframondi_(31274008120).jpg",
+    "image_credit": "Gianfranco Vitolo from Sarno (Sa), Italia · CC BY 2.0",
     "name": "Guardia Sanframondi",
     "slug": "guardia-sanframondi",
     "place_type": "town",
@@ -1647,6 +1956,9 @@
   "model": "naples44.place",
   "pk": 104,
   "fields": {
+    "image": "img/entities/place/amalfi.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Amalfi_sea_view_Italy.JPG",
+    "image_credit": "No machine-readable author provided. Sudodana2048 assumed (based on copyright claims). · CC BY-SA 3.0",
     "name": "Amalfi",
     "slug": "amalfi",
     "place_type": "town",
@@ -1662,6 +1974,9 @@
   "model": "naples44.place",
   "pk": 105,
   "fields": {
+    "image": "img/entities/place/monte-nuovo.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:MonteNuovoTW3028.JPG",
+    "image_credit": "Denghiù · Public domain",
     "name": "Monte Nuovo",
     "slug": "monte-nuovo",
     "place_type": "natural_feature",
@@ -1677,6 +1992,9 @@
   "model": "naples44.place",
   "pk": 106,
   "fields": {
+    "image": "img/entities/place/mondragone.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Mondragone_-_Panorama_dal_monastero_di_Sant%27Anna_de_aquis_vivis.jpg",
+    "image_credit": "Pufui PcPifpef · CC BY-SA 4.0",
     "name": "Mondragone",
     "slug": "mondragone",
     "place_type": "town",
@@ -1692,6 +2010,9 @@
   "model": "naples44.place",
   "pk": 107,
   "fields": {
+    "image": "img/entities/place/baia.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Settore_di_Sosandra_20.JPG",
+    "image_credit": "Mentnafunangann · CC BY-SA 3.0",
     "name": "Baia",
     "slug": "baia",
     "place_type": "town",
@@ -1707,6 +2028,9 @@
   "model": "naples44.place",
   "pk": 108,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Capodichino airport",
     "slug": "capodichino-airport",
     "place_type": "landmark",
@@ -1722,6 +2046,9 @@
   "model": "naples44.place",
   "pk": 109,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Algeria",
     "slug": "algeria",
     "place_type": "region",
@@ -1737,6 +2064,9 @@
   "model": "naples44.place",
   "pk": 110,
   "fields": {
+    "image": "img/entities/place/altamura.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Altamura,_basilica_cattedrale_palatina_di_s.m._assunta,_01.jpg",
+    "image_credit": "Sailko · CC BY 3.0",
     "name": "Altamura",
     "slug": "altamura",
     "place_type": "town",
@@ -1752,6 +2082,9 @@
   "model": "naples44.place",
   "pk": 111,
   "fields": {
+    "image": "img/entities/place/benevento.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Benevento-collage.jpg",
+    "image_credit": "Antonio De Capua (original pictures: Phil Tizzani, Antonio De Capua, Miguel Hermoso Cuesta) · CC BY-SA 4.0",
     "name": "Benevento",
     "slug": "benevento",
     "place_type": "town",
@@ -1767,6 +2100,9 @@
   "model": "naples44.place",
   "pk": 112,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "San Giorgio (near Benevento)",
     "slug": "san-giorgio-near-benevento",
     "place_type": "town",
@@ -1782,6 +2118,9 @@
   "model": "naples44.place",
   "pk": 113,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Hotel Vesuvio (Benevento)",
     "slug": "hotel-vesuvio-benevento",
     "place_type": "landmark",
@@ -1797,6 +2136,9 @@
   "model": "naples44.place",
   "pk": 114,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Sagranella",
     "slug": "sagranella",
     "place_type": "town",
@@ -1812,6 +2154,9 @@
   "model": "naples44.place",
   "pk": 115,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "San Marco di Cavali",
     "slug": "san-marco-di-cavali",
     "place_type": "town",
@@ -1827,6 +2172,9 @@
   "model": "naples44.place",
   "pk": 116,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Monti del Sannio",
     "slug": "monti-del-sannio",
     "place_type": "region",
@@ -1842,6 +2190,9 @@
   "model": "naples44.place",
   "pk": 117,
   "fields": {
+    "image": "img/entities/place/campobasso.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Vista_su_Campobasso_dal_Castello_Monforte.jpg",
+    "image_credit": "Horcrux · CC BY-SA 4.0",
     "name": "Campobasso",
     "slug": "campobasso",
     "place_type": "town",
@@ -1857,6 +2208,9 @@
   "model": "naples44.place",
   "pk": 118,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Café Roma (Benevento)",
     "slug": "cafe-roma-benevento",
     "place_type": "landmark",
@@ -1872,6 +2226,9 @@
   "model": "naples44.place",
   "pk": 119,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Ufita river",
     "slug": "ufita-river",
     "place_type": "natural_feature",
@@ -1887,6 +2244,9 @@
   "model": "naples44.place",
   "pk": 120,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Corso Umberto",
     "slug": "corso-umberto",
     "place_type": "street",
@@ -1902,6 +2262,9 @@
   "model": "naples44.place",
   "pk": 121,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Tunisia",
     "slug": "tunisia",
     "place_type": "region",
@@ -1917,6 +2280,9 @@
   "model": "naples44.place",
   "pk": 122,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Lago di Patria",
     "slug": "lago-di-patria",
     "place_type": "natural_feature",
@@ -1932,6 +2298,9 @@
   "model": "naples44.place",
   "pk": 123,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Aniello Falcone",
     "slug": "via-aniello-falcone",
     "place_type": "street",
@@ -1947,6 +2316,9 @@
   "model": "naples44.place",
   "pk": 124,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Via Calabritto",
     "slug": "via-calabritto",
     "place_type": "street",
@@ -1962,6 +2334,9 @@
   "model": "naples44.place",
   "pk": 125,
   "fields": {
+    "image": "img/entities/place/villa-floridiana.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Floridiana_3.jpg",
+    "image_credit": "Baku · CC BY-SA 4.0",
     "name": "Villa Floridiana",
     "slug": "villa-floridiana",
     "place_type": "landmark",
@@ -1977,6 +2352,9 @@
   "model": "naples44.place",
   "pk": 126,
   "fields": {
+    "image": "img/entities/place/port-said.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Port_said_egypt_(6).JPG",
+    "image_credit": "Mohamed kamal 1984 · CC BY-SA 3.0",
     "name": "Port Said",
     "slug": "port-said",
     "place_type": "town",
@@ -1992,6 +2370,9 @@
   "model": "naples44.place",
   "pk": 127,
   "fields": {
+    "image": "img/entities/place/persian-gulf.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:PersianGulf_vue_satellite_du_golfe_persique.jpg",
+    "image_credit": "NASA · Public domain",
     "name": "Persian Gulf",
     "slug": "persian-gulf",
     "place_type": "region",
@@ -2007,6 +2388,9 @@
   "model": "naples44.place",
   "pk": 128,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Red Sea",
     "slug": "red-sea",
     "place_type": "region",
@@ -2022,6 +2406,9 @@
   "model": "naples44.place",
   "pk": 129,
   "fields": {
+    "image": "img/entities/place/khorramshahr.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Nowruz_2018_in_Khorramshahr_(13970109000585636579510470063573_33197).jpg",
+    "image_credit": "Mohammad Amin Ansari · CC BY 4.0",
     "name": "Khorramshahr",
     "slug": "khorramshahr",
     "place_type": "town",
@@ -2037,6 +2424,9 @@
   "model": "naples44.person",
   "pk": 1,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Captain Cartwright",
     "slug": "captain-cartwright",
     "person_type": "allied_colleague",
@@ -2049,6 +2439,9 @@
   "model": "naples44.person",
   "pk": 3,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Moore",
     "slug": "moore",
     "person_type": "allied_colleague",
@@ -2061,6 +2454,9 @@
   "model": "naples44.person",
   "pk": 4,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Robert Parkinson",
     "slug": "robert-parkinson",
     "person_type": "allied_colleague",
@@ -2073,6 +2469,9 @@
   "model": "naples44.person",
   "pk": 5,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Evans",
     "slug": "evans",
     "person_type": "allied_colleague",
@@ -2085,6 +2484,9 @@
   "model": "naples44.person",
   "pk": 7,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Eric Williams",
     "slug": "eric-williams",
     "person_type": "allied_colleague",
@@ -2097,6 +2499,9 @@
   "model": "naples44.person",
   "pk": 8,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Vincente Lattarullo",
     "slug": "vincente-lattarullo",
     "person_type": "informant_contact",
@@ -2109,6 +2514,9 @@
   "model": "naples44.person",
   "pk": 9,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Sauro",
     "slug": "sauro",
     "person_type": "notable_civilian",
@@ -2121,6 +2529,9 @@
   "model": "naples44.person",
   "pk": 10,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Signora Gentile",
     "slug": "signora-gentile",
     "person_type": "civilian_friend",
@@ -2133,6 +2544,9 @@
   "model": "naples44.person",
   "pk": 11,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Captain Frazer",
     "slug": "captain-frazer",
     "person_type": "allied_colleague",
@@ -2145,6 +2559,9 @@
   "model": "naples44.person",
   "pk": 12,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Signora Lola",
     "slug": "signora-lola",
     "person_type": "companion",
@@ -2157,6 +2574,9 @@
   "model": "naples44.person",
   "pk": 13,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Sergeant-Major (John) Dashwood",
     "slug": "sergeant-major-john-dashwood",
     "person_type": "allied_colleague",
@@ -2169,6 +2589,9 @@
   "model": "naples44.person",
   "pk": 14,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Ingeniere Losurdo",
     "slug": "ingeniere-losurdo",
     "person_type": "informant_contact",
@@ -2181,6 +2604,9 @@
   "model": "naples44.person",
   "pk": 15,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Avvocato Mosca",
     "slug": "avvocato-mosca",
     "person_type": "informant_contact",
@@ -2193,6 +2619,9 @@
   "model": "naples44.person",
   "pk": 16,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Prince A.",
     "slug": "prince-a",
     "person_type": "aristocrat",
@@ -2205,6 +2634,9 @@
   "model": "naples44.person",
   "pk": 17,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Luisa",
     "slug": "luisa",
     "person_type": "aristocrat",
@@ -2217,6 +2649,9 @@
   "model": "naples44.person",
   "pk": 18,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Professore Placella",
     "slug": "professore-placella",
     "person_type": "informant_contact",
@@ -2229,6 +2664,9 @@
   "model": "naples44.person",
   "pk": 19,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Albano",
     "slug": "albano",
     "person_type": "camorrista_bandit",
@@ -2241,6 +2679,9 @@
   "model": "naples44.person",
   "pk": 20,
   "fields": {
+    "image": "img/entities/person/vito-genovese.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Vito_Genovese_NYWTS.jpg",
+    "image_credit": "Phil Stanziola, World Telegram staff photographer · Public domain",
     "name": "Vito Genovese",
     "slug": "vito-genovese",
     "person_type": "camorrista_bandit",
@@ -2253,6 +2694,9 @@
   "model": "naples44.person",
   "pk": 21,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Donna Maria Fidora ('La Pitonessa')",
     "slug": "donna-maria-fidora-la-pitonessa",
     "person_type": "informant_contact",
@@ -2265,6 +2709,9 @@
   "model": "naples44.person",
   "pk": 22,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Norah Gemelli",
     "slug": "norah-gemelli",
     "person_type": "civilian_friend",
@@ -2277,6 +2724,9 @@
   "model": "naples44.person",
   "pk": 23,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Alberto Gemelli",
     "slug": "alberto-gemelli",
     "person_type": "civilian_friend",
@@ -2289,6 +2739,9 @@
   "model": "naples44.person",
   "pk": 24,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Carlo Del Giudice",
     "slug": "carlo-del-giudice",
     "person_type": "informant_contact",
@@ -2301,6 +2754,9 @@
   "model": "naples44.person",
   "pk": 25,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Susanna",
     "slug": "susanna",
     "person_type": "companion",
@@ -2313,6 +2769,9 @@
   "model": "naples44.person",
   "pk": 26,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Contessa della Peruta",
     "slug": "contessa-della-peruta",
     "person_type": "aristocrat",
@@ -2325,6 +2784,9 @@
   "model": "naples44.person",
   "pk": 27,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Domenico 'Lupo' (Wolf)",
     "slug": "domenico-lupo-wolf",
     "person_type": "camorrista_bandit",
@@ -2337,6 +2799,9 @@
   "model": "naples44.person",
   "pk": 28,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Fortuna",
     "slug": "fortuna",
     "person_type": "camorrista_bandit",
@@ -2349,6 +2814,9 @@
   "model": "naples44.person",
   "pk": 29,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Cuoca",
     "slug": "cuoca",
     "person_type": "camorrista_bandit",
@@ -2361,6 +2829,9 @@
   "model": "naples44.person",
   "pk": 30,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "George Hankin",
     "slug": "george-hankin",
     "person_type": "allied_colleague",
@@ -2373,6 +2844,9 @@
   "model": "naples44.person",
   "pk": 31,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Salvatore Loreto",
     "slug": "salvatore-loreto",
     "person_type": "notable_civilian",
@@ -2385,6 +2859,9 @@
   "model": "naples44.person",
   "pk": 32,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Giuseppina",
     "slug": "giuseppina",
     "person_type": "notable_civilian",
@@ -2397,6 +2874,9 @@
   "model": "naples44.person",
   "pk": 33,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "The Marchesa",
     "slug": "the-marchesa",
     "person_type": "aristocrat",
@@ -2409,6 +2889,9 @@
   "model": "naples44.person",
   "pk": 34,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Marshal Altamura",
     "slug": "marshal-altamura",
     "person_type": "police_official",
@@ -2421,6 +2904,9 @@
   "model": "naples44.person",
   "pk": 35,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Don Ubaldo",
     "slug": "don-ubaldo",
     "person_type": "civilian_friend",
@@ -2433,6 +2919,9 @@
   "model": "naples44.person",
   "pk": 36,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Bernard Durham",
     "slug": "bernard-durham",
     "person_type": "allied_colleague",
@@ -2445,6 +2934,9 @@
   "model": "naples44.person",
   "pk": 37,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "De Micco",
     "slug": "de-micco",
     "person_type": "camorrista_bandit",
@@ -2457,6 +2949,9 @@
   "model": "naples44.person",
   "pk": 38,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Neil Armstrong",
     "slug": "neil-armstrong",
     "person_type": "allied_colleague",
@@ -2469,6 +2964,9 @@
   "model": "naples44.person",
   "pk": 39,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Ingeniere Crespi",
     "slug": "ingeniere-crespi",
     "person_type": "civilian_friend",
@@ -2481,6 +2979,9 @@
   "model": "naples44.folkloreentity",
   "pk": 1,
   "fields": {
+    "image": "img/entities/folklore/madonna-of-pompeii.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Pompei_duomo.jpg",
+    "image_credit": "Velvet · CC BY-SA 3.0",
     "name": "Madonna of Pompeii",
     "slug": "madonna-of-pompeii",
     "description": "The Pontifical Shrine of the Blessed Virgin of the Rosary of Pompei is a Catholic cathedral, Marian pontifical shrine, and Pontifical minor basilica commissioned and co-founded by Bartolo Longo and his wife the Countess Mariana di Fusco, located in Pompei, Italy. It is the see of the Territorial Prelature of Pompei.",
@@ -2492,6 +2993,9 @@
   "model": "naples44.folkloreentity",
   "pk": 2,
   "fields": {
+    "image": "img/entities/folklore/evil-eye.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Kapadokya%27dan_Nazar_Boncu%C4%9Fu.jpg",
+    "image_credit": "Alev Akın · CC BY-SA 4.0",
     "name": "evil eye",
     "slug": "evil-eye",
     "description": "The evil eye is a supernatural belief in a curse brought about by a malevolent glare, usually inspired by envy. Amulets to protect against it have been found dating to around 5,000 years ago. It is found in many cultures in the Mediterranean region, the Balkans, Eastern Europe, West Asia, Central Asia, South Asia, Africa, the Caribbean, and Latin America, with such cultures often believing that receiving the evil eye will cause misfortune or injury, while others believe it to be a kind of supernatural force that casts or reflects a malevolent gaze back upon those who wish harm upon others.",
@@ -2503,6 +3007,9 @@
   "model": "naples44.folkloreentity",
   "pk": 3,
   "fields": {
+    "image": "img/entities/folklore/san-gennaro.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint_Januarius.jpg",
+    "image_credit": "Louis Finson · Public domain",
     "name": "San Gennaro",
     "slug": "san-gennaro",
     "description": "Januarius, also known as Januarius I of Benevento, was Bishop of Benevento and is a martyr and saint of the Catholic Church. While no contemporary sources on his life are preserved, later sources and legends say he died during the Great Persecution, which ended with Diocletian's retirement in 305.",
@@ -2514,6 +3021,9 @@
   "model": "naples44.folkloreentity",
   "pk": 4,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Zio di Roma",
     "slug": "zio-di-roma",
     "description": "A hired mourner who impersonates a distinguished 'uncle from Rome' at a funeral to raise the bereaved family's standing.",
@@ -2525,6 +3035,9 @@
   "model": "naples44.folkloreentity",
   "pk": 5,
   "fields": {
+    "image": "img/entities/folklore/san-rocco.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint_Roch_MET_EP14.jpg",
+    "image_credit": "Francesco Francia · CC0",
     "name": "San Rocco",
     "slug": "san-rocco",
     "description": "Roch, also called Rock in English, was a Majorcan Catholic confessor whose death is commemorated on 16 August and 9 September in Italy; he was especially invoked against the plague.",
@@ -2536,6 +3049,9 @@
   "model": "naples44.folkloreentity",
   "pk": 6,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Hunchbacks as luck-bringers",
     "slug": "hunchbacks-as-luck-bringers",
     "description": "A Neapolitan belief that a hunched back brings good fortune.",
@@ -2547,6 +3063,9 @@
   "model": "naples44.folkloreentity",
   "pk": 7,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Stork veneration",
     "slug": "stork-veneration",
     "description": "A Southern Italian taboo against harming storks, held to bring bad luck.",
@@ -2558,6 +3077,9 @@
   "model": "naples44.folkloreentity",
   "pk": 8,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Professional wailers",
     "slug": "professional-wailers",
     "description": "Mourners paid to weep and lament at a funeral, amplifying the family's display of loss.",
@@ -2569,6 +3091,9 @@
   "model": "naples44.folkloreentity",
   "pk": 9,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Blessed Egideo",
     "slug": "blessed-egideo",
     "description": "A holy figure whose preserved body is venerated at the church of San Pasquale in Naples.",
@@ -2580,6 +3105,9 @@
   "model": "naples44.folkloreentity",
   "pk": 10,
   "fields": {
+    "image": "img/entities/folklore/san-gaetano.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg",
+    "image_credit": "Francesco Solimena · Public domain",
     "name": "San Gaetano",
     "slug": "san-gaetano",
     "description": "Gaetano dei Conti di Thiene, known in English as Saint Cajetan, was an Italian Catholic priest and religious reformer, co-founder of the Theatines. He is recognised as a saint in the Catholic Church, and his feast day is 7 August.",
@@ -2591,6 +3119,9 @@
   "model": "naples44.folkloreentity",
   "pk": 11,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Vendetta mourning ritual",
     "slug": "vendetta-mourning-ritual",
     "description": "A funeral rite of the Southern Italian interior in which the dead man's mother mouths his wounds as a pledge of revenge.",
@@ -2602,6 +3133,9 @@
   "model": "naples44.folkloreentity",
   "pk": 12,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "pazzariello",
     "slug": "pazzariello",
     "description": "A traditional Neapolitan costumed figure, part street-advertiser, part exorcist; 'one is born a pazzariello, not made one'.",
@@ -2613,6 +3147,9 @@
   "model": "naples44.folkloreentity",
   "pk": 13,
   "fields": {
+    "image": "img/entities/folklore/san-sebastiano.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:St._Sebastian_by_Sodoma.jpg",
+    "image_credit": "Il Sodoma · Public domain",
     "name": "San Sebastiano",
     "slug": "san-sebastiano",
     "description": "Sebastian was an early Christian saint and martyr. According to traditional belief, he was killed during the Diocletianic Persecution of Christians. He was initially tied to a post or tree and shot with arrows, though this did not kill him.",
@@ -2624,6 +3161,9 @@
   "model": "naples44.folkloreentity",
   "pk": 14,
   "fields": {
+    "image": "img/entities/folklore/santantonio-abate.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Saint_Anthony_(Damaskinos).png",
+    "image_credit": "Michael Damaskinos · Public domain",
     "name": "Sant'Antonio Abate",
     "slug": "santantonio-abate",
     "description": "Anthony the Great was a Christian monk from Egypt, revered since his death as a saint. He is distinguished from other saints named Anthony, such as Anthony of Padua, by various epithets: Anthony of Egypt, Anthony the Abbot, Anthony of the Desert, Anthony the Anchorite, Anthony the Hermit, and Anthony of Thebes. For his importance among the Desert Fathers and to all later Christian monasticism, he is also known as the Father of All Monks.",
@@ -2635,6 +3175,9 @@
   "model": "naples44.folkloreentity",
   "pk": 15,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Santo Agnello",
     "slug": "santo-agnello",
     "description": "A Naples church, site of a 'speaking crucifix' during the 1944 miracle fervour.",
@@ -2646,6 +3189,9 @@
   "model": "naples44.folkloreentity",
   "pk": 16,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Santa Maria d'Intercessione",
     "slug": "santa-maria-dintercessione",
     "description": "A venerated Marian image in Naples.",
@@ -2657,6 +3203,9 @@
   "model": "naples44.folkloreentity",
   "pk": 17,
   "fields": {
+    "image": "img/entities/folklore/santa-maria-del-carmine.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:CarmineMaggiore_Napoli.png",
+    "image_credit": "Baku · CC BY-SA 4.0",
     "name": "Santa Maria del Carmine",
     "slug": "santa-maria-del-carmine",
     "description": "Santa Maria del Carmine is a church in Naples, Italy. It is at one end of Piazza Mercato, the centre of civic life in Naples for many centuries until it was cut off from the rest of the city by urban renewal in 1900. The church was founded in the 13th century by Carmelite friars driven from the Holy Land in the Crusades, presumably arriving in the Bay of Naples aboard Amalfitan ships.",
@@ -2668,6 +3217,9 @@
   "model": "naples44.folkloreentity",
   "pk": 18,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "St John / San Giovanni a Carbonara",
     "slug": "st-john-san-giovanni-a-carbonara",
     "description": "A Naples church holding a blood relic said to liquefy.",
@@ -2679,6 +3231,9 @@
   "model": "naples44.folkloreentity",
   "pk": 19,
   "fields": {
+    "image": "img/entities/folklore/santaspreno.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Luca_Giordano_Protector_saints_of_Naples.jpg",
+    "image_credit": "Luca Giordano · Public domain",
     "name": "Sant'Aspreno",
     "slug": "santaspreno",
     "description": "Aspren or Asprenas was a 1st-century Christian saint and venerated as the first Bishop of Naples.",
@@ -2690,6 +3245,9 @@
   "model": "naples44.folkloreentity",
   "pk": 20,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "visionary child (local 'Bernadette')",
     "slug": "visionary-child-local-bernadette",
     "description": "A child visionary of the Campi Flegrei reporting Marian apparitions in spring 1944.",
@@ -2701,6 +3259,9 @@
   "model": "naples44.folkloreentity",
   "pk": 21,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "flying monk of Pomigliano",
     "slug": "flying-monk-of-pomigliano",
     "description": "A stigmatic monk of Pomigliano credited with the power of flight — identified in the book's own footnote as the future Padre Pio.",
@@ -2712,6 +3273,9 @@
   "model": "naples44.folkloreentity",
   "pk": 22,
   "fields": {
+    "image": "img/entities/folklore/monte-vergine.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Montevergine_1.jpg",
+    "image_credit": "Mentnafunangann · CC BY-SA 3.0",
     "name": "Monte Vergine",
     "slug": "monte-vergine",
     "description": "Sanctuary of Montevergine is a Marian church in Mercogliano, located in the hamlet of Montevergine. It's a part of the Territorial Abbey of Montevergine, one of the six Italian territorial abbeys. Inside, the painting of the Madonna di Montevergine is venerated and it is estimated that about one and a half million pilgrims visit it every year.",
@@ -2723,6 +3287,9 @@
   "model": "naples44.folkloreentity",
   "pk": 23,
   "fields": {
+    "image": "img/entities/folklore/st-michael.jpeg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Monte_Sant%27Angelo_-_Santuario_di_San_Michele_Arcangelo_-_2023-09-22_19-49-58_003.jpeg",
+    "image_credit": "Baggio1979 · CC BY-SA 4.0",
     "name": "St Michael",
     "slug": "st-michael",
     "description": "The Sanctuary of Saint Michael the Archangel is a Roman Catholic shrine on Mount Gargano, Italy, part of the commune of Monte Sant'Angelo, in the province of Foggia, northern Apulia. It has the dignity of a minor basilica.",
@@ -2734,6 +3301,9 @@
   "model": "naples44.folkloreentity",
   "pk": 24,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Parenti di San Gennaro",
     "slug": "parenti-di-san-gennaro",
     "description": "A clique of aged Neapolitan women held to be the blood descendants of San Gennaro.",
@@ -2745,6 +3315,9 @@
   "model": "naples44.folkloreentity",
   "pk": 25,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Ischia radioactive cure belief",
     "slug": "ischia-radioactive-cure-belief",
     "description": "A local conviction that Ischia's natural radioactivity is health-giving.",
@@ -2756,6 +3329,9 @@
   "model": "naples44.folkloreentity",
   "pk": 26,
   "fields": {
+    "image": "img/entities/folklore/guardia-sanframondi-flagellant-rite.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Guardia_Sanframondi_(31274008120).jpg",
+    "image_credit": "Gianfranco Vitolo from Sarno (Sa), Italia · CC BY 2.0",
     "name": "Guardia Sanframondi flagellant rite",
     "slug": "guardia-sanframondi-flagellant-rite",
     "description": "Guardia Sanframondi is a town and comune in the Province of Benevento, in Campania region, in Italy. It is best known for its wine production, the wine festival Vinalia and for its Christian penitential rite held every seven years.",
@@ -2767,6 +3343,9 @@
   "model": "naples44.folkloreentity",
   "pk": 27,
   "fields": {
+    "image": "img/entities/folklore/festival-of-the-lilies-nola.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Linzer_Dom_-_Fenster_-_Paulinus_von_Nola.jpg",
+    "image_credit": "Wolfgang Sauber · CC BY-SA 3.0",
     "name": "Festival of the Lilies (Nola)",
     "slug": "festival-of-the-lilies-nola",
     "description": "Paulinus of Nola born Pontius Meropius Anicius Paulinus, was a Roman poet, writer, senator, and bishop. He attained the ranks of suffect consul and governor of Campania, but, prompted by the counsels of his Hispanic wife Therasia of Nola and by the assassination of the emperor Gratian, abandoned his career and was baptized as a Christian. Later, probably after Therasia's death, he became bishop of Nola in Campania.",
@@ -2778,6 +3357,9 @@
   "model": "naples44.folkloreentity",
   "pk": 28,
   "fields": {
+    "image": "img/entities/folklore/st-andrews-manna-amalfi.jpg",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Amalfi_BW_2013-05-15_10-09-21.jpg",
+    "image_credit": "Berthold Werner · CC BY-SA 3.0",
     "name": "St Andrew's Manna (Amalfi)",
     "slug": "st-andrews-manna-amalfi",
     "description": "Amalfi Cathedral is a medieval Roman Catholic cathedral in the Piazza del Duomo, Amalfi, Italy. It is dedicated to the Apostle Saint Andrew whose relics are kept here. Formerly the archiepiscopal seat of the Diocese of Amalfi, it has been since 1986 that of the Diocese of Amalfi-Cava de' Tirreni.",
@@ -2789,6 +3371,9 @@
   "model": "naples44.folkloreentity",
   "pk": 29,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Sagranella fox-cult",
     "slug": "sagranella-fox-cult",
     "description": "While stationed in southern Italy during the war, Lewis came across accounts of \"fox-magic\" in Sagranella, a remote village located in the hills behind Benevento. \r\n\r\nHe noted that the village felt so isolated and archaic that it \"seems hardly to have moved out of the Bronze Age.\"According to his writings, the local cult ritual involved two primary acts:\r\n\r\n- The Ritual Sacrifice: Every year, the villagers would capture a live fox and burn it to death.\r\n- The Display: After the burning, the fox's tail was severed and hung like a banner from a pole erected at the entrance of the village.\r\n\r\nHistorians and travel writers often link this specific practice to ancient Samnite or localized pagan traditions in the region, where animals were sacrificed to ward off evil spirits, ensure agricultural fertility, or mark territory.",
@@ -2800,6 +3385,9 @@
   "model": "naples44.folkloreentity",
   "pk": 30,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "Droit du seigneur (Sagranella)",
     "slug": "droit-du-seigneur-sagranella",
     "description": "The lord's claimed right of sexual access to the women of his estate.",
@@ -2811,6 +3399,9 @@
   "model": "naples44.folkloreentity",
   "pk": 31,
   "fields": {
+    "image": "",
+    "image_source_url": "",
+    "image_credit": "",
     "name": "fertility offering superstition",
     "slug": "fertility-offering-superstition",
     "description": "A gesture read as a survival of ancient fertility worship.",

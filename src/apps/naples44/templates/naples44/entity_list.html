@@ -4,12 +4,36 @@
 {% block title %}{{ kind }} — Naples ’44{% endblock %}
 {% block body_class %}page-entity-list{% endblock %}
 
+{% block extrahead %}
+{% if places_map %}<link rel="stylesheet" href="{% static 'css/leaflet.css' %}">{% endif %}
+{% endblock %}
+
 {% block content %}
 <div class="entity-index">
   {% include "naples44/_entity_icon.html" %}
   <p class="kicker">Browse</p>
   <h1>{{ kind }} <span class="eix-total">{{ total }}</span></h1>
   <p class="eix-blurb">{{ blurb }}</p>
+
+  {% if places_map %}
+  {{ places_map|json_script:"places-map-data" }}
+  <figure class="place-map-wrap places-overview">
+    <div class="map-scope" hidden>
+      <button type="button" data-scope="naples">Naples</button>
+      <button type="button" data-scope="campania" class="is-active">Campania</button>
+      <button type="button" data-scope="all">Everywhere</button>
+    </div>
+    <div id="places-map"></div>
+    <figcaption>
+      {{ places_map.places|length }} places on the map; the bigger the dot, the more diary entries mention it. Click one to open it.
+      {% if unmapped %}
+      <span class="map-unmapped">Not on the map ({{ unmapped|length }}, location unknown):
+        {% for it in unmapped %}<a href="{{ it.url }}">{{ it.name }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}.
+      </span>
+      {% endif %}
+    </figcaption>
+  </figure>
+  {% endif %}
 
   <div class="entity-sort" hidden>
     <button type="button" data-sort="type" class="is-active">{{ first_sort_label }}</button>
@@ -34,4 +58,8 @@
 
 {% block scripts %}
 <script src="{% static 'js/entity-list.js' %}"></script>
+{% if places_map %}
+<script src="{% static 'js/leaflet.js' %}"></script>
+<script src="{% static 'js/places-map.js' %}"></script>
+{% endif %}
 {% endblock %}

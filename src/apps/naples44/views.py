@@ -198,21 +198,19 @@ def _item(obj, count):
 
 
 def _render_index(request, *, kind, icon, groups, total, blurb,
-                  first_sort_label, wide=False):
-    return render(
-        request,
-        "naples44/entity_list.html",
-        {
-            "kind": kind,
-            "icon": icon,
-            "groups": groups,               # [{"label": str|None, "items": [...]}]
-            "total": total,
-            "blurb": blurb,
-            "wide": wide,                   # one-column rows (items with a description)
-            # label for the button that restores the server-rendered order
-            "first_sort_label": first_sort_label,
-        },
-    )
+                  first_sort_label, wide=False, extra=None):
+    ctx = {
+        "kind": kind,
+        "icon": icon,
+        "groups": groups,               # [{"label": str|None, "items": [...]}]
+        "total": total,
+        "blurb": blurb,
+        "wide": wide,                   # one-column rows (items with a description)
+        # label for the button that restores the server-rendered order
+        "first_sort_label": first_sort_label,
+    }
+    ctx.update(extra or {})
+    return render(request, "naples44/entity_list.html", ctx)
 
 
 _PLACE_GROUP_LABELS = {
@@ -247,14 +245,34 @@ def _grouped_by(qs, field, labels):
     return groups
 
 
+def _places_overview_map(qs):
+    """Every geocoded place as a marker (sized by mentions); the rest listed apart."""
+    mapped, unmapped = [], []
+    for p in sorted(qs, key=lambda p: (-p.n, p.name.lower())):
+        if p.has_coords:
+            mapped.append({
+                "name": p.name,
+                "lat": p.latitude,
+                "lon": p.longitude,
+                "url": p.get_absolute_url(),
+                "n": p.n,
+                "type": p.get_place_type_display(),
+            })
+        else:
+            unmapped.append(_item(p, p.n))
+    return {"places": mapped}, unmapped
+
+
 def place_list(request):
     qs = models.Place.objects.annotate(n=Count("entries"))
     groups = _grouped_by(qs, "place_type", _PLACE_GROUP_LABELS)
+    places_map, unmapped = _places_overview_map(qs)
     return _render_index(
         request, kind="Places", icon="place", groups=groups, total=qs.count(),
         first_sort_label="By type",
         blurb="Every place Lewis names in the diary, grouped by kind. "
         "Sort A–Z or by how often each is mentioned.",
+        extra={"places_map": places_map, "unmapped": unmapped},
     )
 
 

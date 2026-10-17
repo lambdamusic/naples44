@@ -25,6 +25,22 @@ def unique_slug(model, value, pk=None):
     return slug
 
 
+class EntityImage(models.Model):
+    """A picture for an entity page, downloaded once (never hotlinked) into
+    src/static so the static site carries its own copy. Filled by
+    `manage.py fetch_entity_images` from the Wikipedia article's lead image."""
+
+    image = models.CharField(
+        max_length=200, blank=True,
+        help_text="Path under src/static, e.g. img/entities/person/vito-genovese.jpg.",
+    )
+    image_source_url = models.URLField(blank=True, help_text="Where the image came from (file page).")
+    image_credit = models.CharField(max_length=300, blank=True, help_text="Author / licence line shown under it.")
+
+    class Meta:
+        abstract = True
+
+
 class Theme(models.Model):
     """One of the 11 controlled-vocabulary themes tagged on entries."""
 
@@ -47,7 +63,7 @@ class Theme(models.Model):
         return reverse("naples44:theme", args=[self.slug])
 
 
-class Place(models.Model):
+class Place(EntityImage):
     PLACE_TYPES = [
         ("street", "Street"),
         ("piazza", "Piazza"),
@@ -98,7 +114,7 @@ class Place(models.Model):
         return self.latitude is not None and self.longitude is not None
 
 
-class Person(models.Model):
+class Person(EntityImage):
     PERSON_TYPES = [
         ("camorrista_bandit", "Camorrista / bandit"),
         ("police_official", "Police official"),
@@ -140,7 +156,7 @@ class Person(models.Model):
         return reverse("naples44:person", args=[self.slug])
 
 
-class FolkloreEntity(models.Model):
+class FolkloreEntity(EntityImage):
     """A named saint, feast, superstition or folk custom recurring in the book."""
 
     name = models.CharField(max_length=120, unique=True)

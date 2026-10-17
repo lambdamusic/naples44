@@ -46,7 +46,7 @@ class ThemeAdmin(admin.ModelAdmin):
 
 @admin.register(models.Place)
 class PlaceAdmin(admin.ModelAdmin):
-    list_display = ["name", "place_type", "has_desc", "has_role", "has_link", "geo", "entry_count"]
+    list_display = ["name", "place_type", "has_desc", "has_role", "has_link", "has_image", "geo", "entry_count"]
     list_filter = ["place_type", "geocode_source"]
     search_fields = ["name"]
     prepopulated_fields = {"slug": ("name",)}
@@ -67,6 +67,10 @@ class PlaceAdmin(admin.ModelAdmin):
     def has_link(self, obj):
         return bool(obj.wikipedia_url)
 
+    @admin.display(boolean=True, description="img")
+    def has_image(self, obj):
+        return bool(obj.image)
+
     @admin.display(description="entries")
     def entry_count(self, obj):
         return obj.entries.count()
@@ -74,7 +78,7 @@ class PlaceAdmin(admin.ModelAdmin):
 
 @admin.register(models.Person)
 class PersonAdmin(admin.ModelAdmin):
-    list_display = ["name", "person_type", "has_desc", "has_role", "entry_count"]
+    list_display = ["name", "person_type", "has_desc", "has_role", "has_image", "entry_count"]
     list_filter = ["person_type"]
     search_fields = ["name"]
     prepopulated_fields = {"slug": ("name",)}
@@ -87,6 +91,10 @@ class PersonAdmin(admin.ModelAdmin):
     def has_role(self, obj):
         return bool(obj.book_role)
 
+    @admin.display(boolean=True, description="img")
+    def has_image(self, obj):
+        return bool(obj.image)
+
     @admin.display(description="entries")
     def entry_count(self, obj):
         return obj.entries.count()
@@ -94,7 +102,7 @@ class PersonAdmin(admin.ModelAdmin):
 
 @admin.register(models.FolkloreEntity)
 class FolkloreEntityAdmin(admin.ModelAdmin):
-    list_display = ["name", "has_desc", "has_role", "has_link", "entry_count"]
+    list_display = ["name", "has_desc", "has_role", "has_link", "has_image", "entry_count"]
     search_fields = ["name"]
     prepopulated_fields = {"slug": ("name",)}
 
@@ -109,6 +117,10 @@ class FolkloreEntityAdmin(admin.ModelAdmin):
     @admin.display(boolean=True, description="wiki")
     def has_link(self, obj):
         return bool(obj.wikipedia_url)
+
+    @admin.display(boolean=True, description="img")
+    def has_image(self, obj):
+        return bool(obj.image)
 
     @admin.display(description="entries")
     def entry_count(self, obj):
