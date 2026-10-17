@@ -199,7 +199,7 @@ def _item(obj, count):
 
 
 def _render_index(request, *, kind, icon, groups, total, blurb,
-                  first_sort_label, wide=False, extra=None):
+                  first_sort_label, wide=False, thumbs=False, extra=None):
     ctx = {
         "kind": kind,
         "icon": icon,
@@ -207,6 +207,7 @@ def _render_index(request, *, kind, icon, groups, total, blurb,
         "total": total,
         "blurb": blurb,
         "wide": wide,                   # one-column rows (items with a description)
+        "thumbs": thumbs,               # card grid: picture (or placeholder) + name
         # label for the button that restores the server-rendered order
         "first_sort_label": first_sort_label,
     }
@@ -292,7 +293,7 @@ def folklore_list(request):
     groups = [{"label": None, "items": [_item(o, o.n) for o in qs]}]
     return _render_index(
         request, kind="Saints & folklore", icon="folklore", groups=groups,
-        total=qs.count(), first_sort_label="A–Z",
+        total=qs.count(), first_sort_label="A–Z", thumbs=True,
         blurb="Saints, feasts, miracles and superstitions recorded in the book.",
     )
 
