@@ -14,7 +14,7 @@ id:dataset a schema:Dataset ;
     schema:creator [ a schema:Person ;
             schema:name "Michele Pasin" ;
             schema:url <https://www.michelepasin.org> ] ;
-    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:dateModified "2026-10-17"^^xsd:date ;
     schema:description "A hand-built dataset of Norman Lewis's memoir Naples '44: its 108 dated diary entries, each with a paraphrased summary and tagged by theme, place, person and folklore motif, plus 20 broader events of the war."@en ;
     schema:isBasedOn id:naples-44 ;
     schema:name "Naples '44 — a structured reading" ;
@@ -253,14 +253,14 @@ entry:26 a schema:Chapter ;
     schema:dateCreated "1943-10-28"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "invoked as patron of coitus reservatus"@en ;
-            schema:mentions folklore:san-rocco ],
+            schema:description "RASC captain, Lola's lover; Lewis interprets for the couple"@en ;
+            schema:mentions person:captain-frazer ],
         [ a schema:Role ;
             schema:description "Frazer's lover, met at Signora Gentile's dinner party; asks Lewis to interpret for the relationship"@en ;
             schema:mentions person:signora-lola ],
         [ a schema:Role ;
-            schema:description "RASC captain, Lola's lover; Lewis interprets for the couple"@en ;
-            schema:mentions person:captain-frazer ],
+            schema:description "invoked as patron of coitus reservatus"@en ;
+            schema:mentions folklore:san-rocco ],
         folklore:san-rocco,
         person:captain-frazer,
         person:signora-lola ;
@@ -276,14 +276,14 @@ entry:29 a schema:Chapter ;
     schema:dateCreated "1943-11-10"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "gynaecologist specialising in the restoration of virginity, one of Parkinson's medical contacts"@en ;
-            schema:mentions person:professore-placella ],
+            schema:description "the Prince's sister, for whom he requests entry to a nonexistent army brothel"@en ;
+            schema:mentions person:luisa ],
         [ a schema:Role ;
             schema:description "enthusiastic informant, absentee landlord and head of a leading noble family"@en ;
             schema:mentions person:prince-a ],
         [ a schema:Role ;
-            schema:description "the Prince's sister, for whom he requests entry to a nonexistent army brothel"@en ;
-            schema:mentions person:luisa ],
+            schema:description "gynaecologist specialising in the restoration of virginity, one of Parkinson's medical contacts"@en ;
+            schema:mentions person:professore-placella ],
         person:luisa,
         person:prince-a,
         person:professore-placella ;
@@ -595,17 +595,17 @@ entry:55 a schema:Chapter ;
     schema:dateCreated "1944-03-24"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "introduces his friend Del Giudice"@en ;
-            schema:mentions person:vincente-lattarullo ],
-        [ a schema:Role ;
-            schema:description "briefly replaced San Gennaro as fire-saint"@en ;
-            schema:mentions folklore:santantonio-abate ],
-        [ a schema:Role ;
             schema:description "non-practising lawyer turned folklore/astronomy writer, an expert on San Gennaro and Vesuvius"@en ;
             schema:mentions person:carlo-del-giudice ],
         [ a schema:Role ;
             schema:description "deposed then reinstated as protector, 1799 episode"@en ;
             schema:mentions folklore:san-gennaro ],
+        [ a schema:Role ;
+            schema:description "briefly replaced San Gennaro as fire-saint"@en ;
+            schema:mentions folklore:santantonio-abate ],
+        [ a schema:Role ;
+            schema:description "introduces his friend Del Giudice"@en ;
+            schema:mentions person:vincente-lattarullo ],
         folklore:san-gennaro,
         folklore:santantonio-abate,
         person:carlo-del-giudice,
@@ -718,14 +718,14 @@ entry:67 a schema:Chapter ;
     schema:dateCreated "1944-04-25"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "hosts a dinner in his looted, makeshift requisitioned flat"@en ;
+            schema:mentions person:captain-frazer ],
+        [ a schema:Role ;
             schema:description "hosts dinner at Frazer's flat"@en ;
             schema:mentions person:signora-lola ],
         [ a schema:Role ;
             schema:description "guest at Frazer's dinner party"@en ;
             schema:mentions person:susanna ],
-        [ a schema:Role ;
-            schema:description "hosts a dinner in his looted, makeshift requisitioned flat"@en ;
-            schema:mentions person:captain-frazer ],
         person:captain-frazer,
         person:signora-lola,
         person:susanna ;
@@ -743,14 +743,14 @@ entry:68 a schema:Chapter ;
     schema:dateCreated "1944-05-01"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "cave-sanctuary at Monte Santangelo"@en ;
-            schema:mentions folklore:st-michael ],
-        [ a schema:Role ;
             schema:description "Whitsun liquefaction expectation"@en ;
             schema:mentions folklore:san-gennaro ],
         [ a schema:Role ;
             schema:description "pilgrimage shrine of the Virgin, formerly an ancient shrine of Cybele"@en ;
             schema:mentions folklore:monte-vergine ],
+        [ a schema:Role ;
+            schema:description "cave-sanctuary at Monte Santangelo"@en ;
+            schema:mentions folklore:st-michael ],
         folklore:monte-vergine,
         folklore:san-gennaro,
         folklore:st-michael ;
@@ -858,11 +858,11 @@ entry:77 a schema:Chapter ;
     schema:dateCreated "1944-06-07"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "site referenced in a black-market swindle involving fake clergy"@en ;
-            schema:mentions folklore:monte-vergine ],
-        [ a schema:Role ;
             schema:description "resumes his role as a hired 'uncle from Rome' at funerals after the fall of Rome"@en ;
             schema:mentions person:vincente-lattarullo ],
+        [ a schema:Role ;
+            schema:description "site referenced in a black-market swindle involving fake clergy"@en ;
+            schema:mentions folklore:monte-vergine ],
         folklore:monte-vergine,
         person:vincente-lattarullo ;
     schema:name "June 7, 1944" ;
@@ -880,23 +880,23 @@ entry:78 a schema:Chapter ;
     schema:dateCreated "1944-06-09"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "visits Lewis in hospital"@en ;
+            schema:mentions person:carlo-del-giudice ],
+        [ a schema:Role ;
             schema:description "retires to Ischia with Lola for the summer"@en ;
             schema:mentions person:susanna ],
         [ a schema:Role ;
-            schema:description "visits Lewis in hospital along with Lo Scalzo and a Camorra contact"@en ;
-            schema:mentions person:donna-maria-fidora-la-pitonessa ],
-        [ a schema:Role ;
-            schema:description "visits Lewis in hospital"@en ;
-            schema:mentions person:carlo-del-giudice ],
+            schema:description "belief that the Naples-facing side of Ischia is radioactive and beneficial, slimming and good for the kidneys, bladder and complexion, aided by rabbits bred in darkness for pale, 'non-fattening' meat"@en ;
+            schema:mentions folklore:ischia-radioactive-cure-belief ],
         [ a schema:Role ;
             schema:description "posted away, ending his affair with Lola"@en ;
             schema:mentions person:captain-frazer ],
         [ a schema:Role ;
+            schema:description "visits Lewis in hospital along with Lo Scalzo and a Camorra contact"@en ;
+            schema:mentions person:donna-maria-fidora-la-pitonessa ],
+        [ a schema:Role ;
             schema:description "retires to Ischia for the summer as Frazer's affair with her ends"@en ;
             schema:mentions person:signora-lola ],
-        [ a schema:Role ;
-            schema:description "belief that the Naples-facing side of Ischia is radioactive and beneficial, slimming and good for the kidneys, bladder and complexion, aided by rabbits bred in darkness for pale, 'non-fattening' meat"@en ;
-            schema:mentions folklore:ischia-radioactive-cure-belief ],
         folklore:ischia-radioactive-cure-belief,
         person:captain-frazer,
         person:carlo-del-giudice,
@@ -918,14 +918,14 @@ entry:79 a schema:Chapter ;
     schema:dateCreated "1944-06-27"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "describes his frustrations with the Feast of the Lily disrupting telephone lines at Nola"@en ;
+            schema:mentions person:eric-williams ],
+        [ a schema:Role ;
             schema:description "relic in Amalfi Cathedral's crypt said to exude a miraculous liquid several times a year; Del Giudice queues to buy a sample"@en ;
             schema:mentions folklore:st-andrews-manna-amalfi ],
         [ a schema:Role ;
             schema:description "Feast of St Paulinus; giant wooden 'lily' towers paraded through Nola, cutting army telephone cables in the process"@en ;
             schema:mentions folklore:festival-of-the-lilies-nola ],
-        [ a schema:Role ;
-            schema:description "describes his frustrations with the Feast of the Lily disrupting telephone lines at Nola"@en ;
-            schema:mentions person:eric-williams ],
         [ a schema:Role ;
             schema:description "flagellant procession held every seven years in honour of the Virgin"@en ;
             schema:mentions folklore:guardia-sanframondi-flagellant-rite ],
@@ -1118,14 +1118,14 @@ entry:95 a schema:Chapter ;
     schema:dateCreated "1944-09-03"^^xsd:date ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "an annual fox burned as ritual, its tail hung at the village entrance"@en ;
-            schema:mentions folklore:sagranella-fox-cult ],
+            schema:description "reported to be practised as a matter of course on the neighbouring estate, where the steward is said to feel a prospective female worker's muscles before employing her"@en ;
+            schema:mentions folklore:droit-du-seigneur-sagranella ],
         [ a schema:Role ;
             schema:description "dies of typhoid"@en ;
             schema:mentions person:don-ubaldo ],
         [ a schema:Role ;
-            schema:description "reported to be practised as a matter of course on the neighbouring estate, where the steward is said to feel a prospective female worker's muscles before employing her"@en ;
-            schema:mentions folklore:droit-du-seigneur-sagranella ],
+            schema:description "an annual fox burned as ritual, its tail hung at the village entrance"@en ;
+            schema:mentions folklore:sagranella-fox-cult ],
         folklore:droit-du-seigneur-sagranella,
         folklore:sagranella-fox-cult,
         person:don-ubaldo ;
@@ -1453,11 +1453,11 @@ entry:15 a schema:Chapter ;
     schema:hasPart reflection:38 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "best Italian speaker, sent as a solitary exile to Nola"@en ;
-            schema:mentions person:eric-williams ],
-        [ a schema:Role ;
             schema:description "section member"@en ;
             schema:mentions person:bernard-durham ],
+        [ a schema:Role ;
+            schema:description "best Italian speaker, sent as a solitary exile to Nola"@en ;
+            schema:mentions person:eric-williams ],
         [ a schema:Role ;
             schema:description "section member"@en ;
             schema:mentions person:evans ],
@@ -1578,11 +1578,11 @@ entry:28 a schema:Chapter ;
     schema:hasPart reflection:43 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "impoverished engineer contact living in genteel poverty on the Via Chiaia, resembling Lattarullo"@en ;
-            schema:mentions person:ingeniere-losurdo ],
-        [ a schema:Role ;
             schema:description "impoverished lawyer contact, entitled to the style 'Conte' but no longer using it"@en ;
             schema:mentions person:avvocato-mosca ],
+        [ a schema:Role ;
+            schema:description "impoverished engineer contact living in genteel poverty on the Via Chiaia, resembling Lattarullo"@en ;
+            schema:mentions person:ingeniere-losurdo ],
         person:avvocato-mosca,
         person:ingeniere-losurdo ;
     schema:name "November 5, 1943" ;
@@ -1602,14 +1602,14 @@ entry:34 a schema:Chapter ;
     schema:hasPart reflection:44 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "malefic house belief"@en ;
+            schema:mentions folklore:evil-eye ],
+        [ a schema:Role ;
             schema:description "exorcist protector invoked against the evil eye"@en ;
             schema:mentions folklore:san-gaetano ],
         [ a schema:Role ;
             schema:description "incorrupt body at San Pasquale church, protector of pregnant women"@en ;
             schema:mentions folklore:blessed-egideo ],
-        [ a schema:Role ;
-            schema:description "malefic house belief"@en ;
-            schema:mentions folklore:evil-eye ],
         folklore:blessed-egideo,
         folklore:evil-eye,
         folklore:san-gaetano ;
@@ -1728,11 +1728,11 @@ entry:54 a schema:Chapter ;
     schema:hasPart reflection:51 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
-            schema:description "processional image confronting the eruption"@en ;
-            schema:mentions folklore:san-sebastiano ],
-        [ a schema:Role ;
             schema:description "image smuggled in as backup during the Vesuvius eruption"@en ;
             schema:mentions folklore:san-gennaro ],
+        [ a schema:Role ;
+            schema:description "processional image confronting the eruption"@en ;
+            schema:mentions folklore:san-sebastiano ],
         folklore:san-gennaro,
         folklore:san-sebastiano ;
     schema:name "March 22, 1944" ;
@@ -1749,14 +1749,14 @@ entry:56 a schema:Chapter ;
             schema:description "image said to bow its head"@en ;
             schema:mentions folklore:santa-maria-del-carmine ],
         [ a schema:Role ;
+            schema:description "bubbling blood relic"@en ;
+            schema:mentions folklore:st-john-san-giovanni-a-carbonara ],
+        [ a schema:Role ;
             schema:description "patron saint invoked against headaches; sufferers push their heads through a hole in the wall of his chapel seeking relief"@en ;
             schema:mentions folklore:santaspreno ],
         [ a schema:Role ;
             schema:description "speaking crucifix"@en ;
             schema:mentions folklore:santo-agnello ],
-        [ a schema:Role ;
-            schema:description "bubbling blood relic"@en ;
-            schema:mentions folklore:st-john-san-giovanni-a-carbonara ],
         [ a schema:Role ;
             schema:description "blood-liquefaction miracle, fear of its failure"@en ;
             schema:mentions folklore:san-gennaro ],
@@ -1784,14 +1784,14 @@ entry:59 a schema:Chapter ;
     schema:hasPart reflection:53 ;
     schema:isPartOf id:naples-44 ;
     schema:mentions [ a schema:Role ;
+            schema:description "on the Capri boat trip"@en ;
+            schema:mentions person:captain-frazer ],
+        [ a schema:Role ;
             schema:description "Lola's friend, on the Capri boat trip"@en ;
             schema:mentions person:susanna ],
         [ a schema:Role ;
             schema:description "on the Capri boat trip"@en ;
             schema:mentions person:signora-lola ],
-        [ a schema:Role ;
-            schema:description "on the Capri boat trip"@en ;
-            schema:mentions person:captain-frazer ],
         person:captain-frazer,
         person:signora-lola,
         person:susanna ;
@@ -1991,6 +1991,10 @@ entry:97 a schema:Chapter ;
 folklore:santa-maria-dintercessione a schema:DefinedTerm ;
     schema:description "A venerated Marian image in Naples."@en ;
     schema:disambiguatingDescription "In the church of Santo Agnello her image holds a 'regular conversation' with a speaking crucifix — 'a fact confirmed by reporters on the spot' — among the talking, bleeding, sweating images multiplying across Naples in spring 1944."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/santa-maria-dintercessione.jpg> ;
+            schema:creditText "Bartolomé Esteban Murillo · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Inmaculada_Concepci%C3%B3n_de_Aranjuez.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Santa Maria d'Intercessione" ;
     schema:url <https://naples44.michelepasin.org/folklore/santa-maria-dintercessione/> .
@@ -2024,6 +2028,10 @@ place:altavilla-silentina a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.5302405 ;
             schema:longitude 15.1310307 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/altavilla-silentina.jpg> ;
+            schema:creditText "Liberotag73 · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Altavilla_Silentina.jpg> ] ;
     schema:name "Altavilla Silentina" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Altavilla_Silentina> ;
     schema:url <https://naples44.michelepasin.org/places/altavilla-silentina/> .
@@ -2035,6 +2043,10 @@ place:amalfi a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.63367 ;
             schema:longitude 14.60262 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/amalfi.jpg> ;
+            schema:creditText "No machine-readable author provided. Sudodana2048 assumed (based on copyright claims). · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Amalfi_sea_view_Italy.JPG> ] ;
     schema:name "Amalfi" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Amalfi> ;
     schema:url <https://naples44.michelepasin.org/places/amalfi/> .
@@ -2046,6 +2058,10 @@ place:baia a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.3004047 ;
             schema:longitude 14.2513235 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/baia.jpg> ;
+            schema:creditText "Mentnafunangann · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Settore_di_Sosandra_20.JPG> ] ;
     schema:name "Baia" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Baiae> ;
     schema:url <https://naples44.michelepasin.org/places/baia/> .
@@ -2090,6 +2106,10 @@ place:campi-flegrei a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.827 ;
             schema:longitude 14.139 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/campi-flegrei.jpg> ;
+            schema:creditText "Baku · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:VedutaEremo2.jpg> ] ;
     schema:name "Campi Flegrei" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Phlegraean_Fields> ;
     schema:url <https://naples44.michelepasin.org/places/campi-flegrei/> .
@@ -2101,6 +2121,10 @@ place:campobasso a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.56027778 ;
             schema:longitude 14.66166667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/campobasso.jpg> ;
+            schema:creditText "Horcrux · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Vista_su_Campobasso_dal_Castello_Monforte.jpg> ] ;
     schema:name "Campobasso" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Campobasso> ;
     schema:url <https://naples44.michelepasin.org/places/campobasso/> .
@@ -2123,6 +2147,10 @@ place:castel-nuovo a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.8383171 ;
             schema:longitude 14.2537307 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/castel-nuovo.jpg> ;
+            schema:creditText "Little john at Italian Wikipedia · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Municip.jpg> ] ;
     schema:name "Castel Nuovo" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Castel_Nuovo> ;
     schema:url <https://naples44.michelepasin.org/places/castel-nuovo/> .
@@ -2133,6 +2161,10 @@ place:castel-santelmo a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.8437067 ;
             schema:longitude 14.2392516 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/castel-santelmo.jpg> ;
+            schema:creditText "This Photo was taken by Wolfgang Moroder. · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Castel_Sant_Elmo_Napoli_lato_ingresso.jpg> ] ;
     schema:name "Castel Sant'Elmo" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Castel_Sant%27Elmo> ;
     schema:url <https://naples44.michelepasin.org/places/castel-santelmo/> .
@@ -2143,6 +2175,10 @@ place:castellammare-di-stabia a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.69472222 ;
             schema:longitude 14.48027778 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/castellammare-di-stabia.jpg> ;
+            schema:creditText "Mentnafunangann · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Castellammare_di_Stabia_3.JPG> ] ;
     schema:name "Castellammare di Stabia" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Castellammare_di_Stabia> ;
     schema:url <https://naples44.michelepasin.org/places/castellammare-di-stabia/> .
@@ -2163,6 +2199,10 @@ place:castro-dei-volsci a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.5090635 ;
             schema:longitude 13.4065751 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/castro-dei-volsci.jpg> ;
+            schema:creditText "pietro scerrato · CC BY 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Vista_sulla_citt%C3%A0_-_panoramio_(1).jpg> ] ;
     schema:name "Castro dei Volsci" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Castro_dei_Volsci> ;
     schema:url <https://naples44.michelepasin.org/places/castro-dei-volsci/> .
@@ -2174,6 +2214,10 @@ place:ceccano a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.0757012 ;
             schema:longitude 14.3377596 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/ceccano.jpg> ;
+            schema:creditText "The original uploader was Robertodimo at Italian Wikipedia. · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:PanoramicadiCeccano.jpg> ] ;
     schema:name "Ceccano" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Ceccano> ;
     schema:url <https://naples44.michelepasin.org/places/ceccano/> .
@@ -2205,6 +2249,10 @@ place:duomo-di-napoli a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.8525 ;
             schema:longitude 14.2596 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/duomo-di-napoli.jpg> ;
+            schema:creditText "Marco Ober · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Naples_Cathedral_-_Duomo_di_Napoli,_Fa%C3%A7ade_(5315-Pan).jpg> ] ;
     schema:name "Duomo di Napoli" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Naples_Cathedral> ;
     schema:url <https://naples44.michelepasin.org/places/duomo-di-napoli/> .
@@ -2225,6 +2273,10 @@ place:guardia-sanframondi a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.25 ;
             schema:longitude 14.6 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/guardia-sanframondi.jpg> ;
+            schema:creditText "Gianfranco Vitolo from Sarno (Sa), Italia · CC BY 2.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Guardia_Sanframondi_(31274008120).jpg> ] ;
     schema:name "Guardia Sanframondi" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Guardia_Sanframondi> ;
     schema:url <https://naples44.michelepasin.org/places/guardia-sanframondi/> .
@@ -2245,6 +2297,10 @@ place:khorramshahr a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 30.43944444 ;
             schema:longitude 48.18166667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/khorramshahr.jpg> ;
+            schema:creditText "Mohammad Amin Ansari · CC BY 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Nowruz_2018_in_Khorramshahr_(13970109000585636579510470063573_33197).jpg> ] ;
     schema:name "Khorramshahr" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Khorramshahr> ;
     schema:url <https://naples44.michelepasin.org/places/khorramshahr/> .
@@ -2284,6 +2340,10 @@ place:marano a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.6270479 ;
             schema:longitude 14.3833988 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/marano.jpg> ;
+            schema:creditText "Salvatore.geometra · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Arcobaleno_su_marano.jpg> ] ;
     schema:name "Marano" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Marano_di_Napoli> ;
     schema:url <https://naples44.michelepasin.org/places/marano/> .
@@ -2304,6 +2364,10 @@ place:mondragone a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.114112 ;
             schema:longitude 13.893519 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/mondragone.jpg> ;
+            schema:creditText "Pufui PcPifpef · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Mondragone_-_Panorama_dal_monastero_di_Sant%27Anna_de_aquis_vivis.jpg> ] ;
     schema:name "Mondragone" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Mondragone> ;
     schema:url <https://naples44.michelepasin.org/places/mondragone/> .
@@ -2315,6 +2379,10 @@ place:monte-nuovo a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.83527778 ;
             schema:longitude 14.08805556 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/monte-nuovo.jpg> ;
+            schema:creditText "Denghiù · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:MonteNuovoTW3028.JPG> ] ;
     schema:name "Monte Nuovo" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Monte_Nuovo> ;
     schema:url <https://naples44.michelepasin.org/places/monte-nuovo/> .
@@ -2341,6 +2409,10 @@ place:morolo a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.638218 ;
             schema:longitude 13.197097 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/morolo.jpg> ;
+            schema:creditText "pietro scerrato · CC BY 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Morolo_dall%27alto_-_panoramio.jpg> ] ;
     schema:name "Morolo" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Morolo> ;
     schema:url <https://naples44.michelepasin.org/places/morolo/> .
@@ -2352,6 +2424,10 @@ place:oran a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 35.69694444 ;
             schema:longitude -0.63305556 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/oran.jpg> ;
+            schema:creditText "R hakka · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:31-4_Chapelle_de_Santa-Cruz_(7).jpg> ] ;
     schema:name "Oran" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Oran> ;
     schema:url <https://naples44.michelepasin.org/places/oran/> .
@@ -2374,6 +2450,10 @@ place:patrica a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.592217 ;
             schema:longitude 13.243998 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/patrica.jpg> ;
+            schema:creditText "Beatrice · CC BY 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Patrica_panorama1.jpg> ] ;
     schema:name "Patrica" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Patrica> ;
     schema:url <https://naples44.michelepasin.org/places/patrica/> .
@@ -2385,6 +2465,10 @@ place:persian-gulf a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 26.0 ;
             schema:longitude 52.0 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/persian-gulf.jpg> ;
+            schema:creditText "NASA · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:PersianGulf_vue_satellite_du_golfe_persique.jpg> ] ;
     schema:name "Persian Gulf" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Persian_Gulf> ;
     schema:url <https://naples44.michelepasin.org/places/persian-gulf/> .
@@ -2396,6 +2480,10 @@ place:philippeville a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 36.86666667 ;
             schema:longitude 6.9 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/philippeville.jpg> ;
+            schema:creditText "Dinatae13 · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Port_de_stora(skikda).jpg> ] ;
     schema:name "Philippeville" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Skikda> ;
     schema:url <https://naples44.michelepasin.org/places/philippeville/> .
@@ -2425,6 +2513,10 @@ place:pofi a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.56666667 ;
             schema:longitude 13.41666667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/pofi.jpg> ;
+            schema:creditText "Floggerbaby · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:POFI_DJI_0983.jpg> ] ;
     schema:name "Pofi" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Pofi> ;
     schema:url <https://naples44.michelepasin.org/places/pofi/> .
@@ -2436,6 +2528,10 @@ place:pomigliano a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.907912 ;
             schema:longitude 14.386233 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/pomigliano.jpg> ;
+            schema:creditText "Lukewill · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:DCN1125.JPG> ] ;
     schema:name "Pomigliano" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Pomigliano_d%27Arco> ;
     schema:url <https://naples44.michelepasin.org/places/pomigliano/> .
@@ -2447,6 +2543,10 @@ place:pompeii a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.75 ;
             schema:longitude 14.48611111 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/pompeii.jpg> ;
+            schema:creditText "Carsten Steger · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Aerial_image_of_Pompeii_and_Mount_Vesuvius_(view_from_the_southeast).jpg> ] ;
     schema:name "Pompeii" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Pompeii> ;
     schema:url <https://naples44.michelepasin.org/places/pompeii/> .
@@ -2458,6 +2558,10 @@ place:port-said a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 31.2625 ;
             schema:longitude 32.30611111 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/port-said.jpg> ;
+            schema:creditText "Mohamed kamal 1984 · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Port_said_egypt_(6).JPG> ] ;
     schema:name "Port Said" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Port_Said> ;
     schema:url <https://naples44.michelepasin.org/places/port-said/> .
@@ -2469,6 +2573,10 @@ place:portici a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.8189733 ;
             schema:longitude 14.3387454 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/portici.jpg> ;
+            schema:creditText "Ferdinando Scala. · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Reggia_di_Portici1.jpg> ] ;
     schema:name "Portici" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Portici> ;
     schema:url <https://naples44.michelepasin.org/places/portici/> .
@@ -2480,6 +2588,10 @@ place:posillipo-naples a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.80555556 ;
             schema:longitude 14.20333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/posillipo-naples.jpg> ;
+            schema:creditText "Baku · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Villa_Elisa_Napoli.jpg> ] ;
     schema:name "Posillipo (Naples)" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Posillipo> ;
     schema:url <https://naples44.michelepasin.org/places/posillipo-naples/> .
@@ -2530,6 +2642,10 @@ place:san-giorgio-near-vesuvius a schema:Place ;
     schema:additionalType "Town" ;
     schema:description "San Giorgio a Cremano is a city and comune (municipality) in the Metropolitan City of Naples in the region of Campania in southern Italy. It is located on the foothills of Mount Vesuvius to the west of the volcano and the Tyrrhenian Sea, and is five kilometres to the south east of the centre of Naples. The municipality has views of Mount Vesuvius, Mount Somma and the Bay of Naples."@en ;
     schema:disambiguatingDescription "San Giorgio a Cremano, below Vesuvius: during the March 1944 eruption Lewis passes its roadblock on the way to the threatened towns, and draws rations from the South Africans stationed there."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/san-giorgio-near-vesuvius.jpg> ;
+            schema:creditText "Tozzabancone · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:AerialVannucchi.jpg> ] ;
     schema:name "San Giorgio (near Vesuvius)" ;
     schema:sameAs <https://en.wikipedia.org/wiki/San_Giorgio_a_Cremano> ;
     schema:url <https://naples44.michelepasin.org/places/san-giorgio-near-vesuvius/> .
@@ -2571,6 +2687,10 @@ place:supino a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.9991804 ;
             schema:longitude 14.6860777 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/supino.jpg> ;
+            schema:creditText "Gfiorito · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Supino_Panorama.jpg> ] ;
     schema:name "Supino" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Supino> ;
     schema:url <https://naples44.michelepasin.org/places/supino/> .
@@ -2582,6 +2702,10 @@ place:terni a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 42.56194444 ;
             schema:longitude 12.64138889 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/terni.jpg> ;
+            schema:creditText "Pszimre · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Terni_Collage.png> ] ;
     schema:name "Terni" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Terni> ;
     schema:url <https://naples44.michelepasin.org/places/terni/> .
@@ -2593,6 +2717,10 @@ place:torre-del-greco a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.78333333 ;
             schema:longitude 14.36666667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/torre-del-greco.jpg> ;
+            schema:creditText "Simone Di Somma · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Torre_del_greco_porto.jpg> ] ;
     schema:name "Torre del Greco" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Torre_del_Greco> ;
     schema:url <https://naples44.michelepasin.org/places/torre-del-greco/> .
@@ -2717,6 +2845,10 @@ place:villa-floridiana a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.8394 ;
             schema:longitude 14.23005 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/villa-floridiana.jpg> ;
+            schema:creditText "Baku · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Floridiana_3.jpg> ] ;
     schema:name "Villa Floridiana" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Villa_Floridiana> ;
     schema:url <https://naples44.michelepasin.org/places/villa-floridiana/> .
@@ -2908,6 +3040,10 @@ reflection:70 a schema:CreativeWork ;
 folklore:blessed-egideo a schema:DefinedTerm ;
     schema:description "A holy figure whose preserved body is venerated at the church of San Pasquale in Naples."@en ;
     schema:disambiguatingDescription "The incorrupt body Lewis views in its two-hundred-year-old glass case — serene 'to the point of indifference' — locally famous as the protector of pregnant women, and two miracles short of full sainthood."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/blessed-egideo.jpg> ;
+            schema:creditText "Giuseppe Gnaccarini · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Sant%27Egidio_Maria_di_San_Giuseppe.JPG> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Blessed Egideo" ;
     schema:url <https://naples44.michelepasin.org/folklore/blessed-egideo/> .
@@ -2915,6 +3051,10 @@ folklore:blessed-egideo a schema:DefinedTerm ;
 folklore:droit-du-seigneur-sagranella a schema:DefinedTerm ;
     schema:description "The lord's claimed right of sexual access to the women of his estate."@en ;
     schema:disambiguatingDescription "Said, at Sagranella, to be still practised as a matter of course on the neighbouring big estate, whose steward reportedly feels a prospective woman worker's muscles before hiring her for a sixteen-hour day."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/droit-du-seigneur-sagranella.jpg> ;
+            schema:creditText "Vasily Polenov · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Le_droit_du_Seigneur_by_Vasiliy_Polenov.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Droit du seigneur (Sagranella)" ;
     schema:url <https://naples44.michelepasin.org/folklore/droit-du-seigneur-sagranella/> .
@@ -2922,6 +3062,10 @@ folklore:droit-du-seigneur-sagranella a schema:DefinedTerm ;
 folklore:fertility-offering-superstition a schema:DefinedTerm ;
     schema:description "A gesture read as a survival of ancient fertility worship."@en ;
     schema:disambiguatingDescription "A woman's ritual gesture that Lewis takes for an offering to a fertility deity — one of the glimpses of pre-Christian cult he keeps catching in and around Naples."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/fertility-offering-superstition.jpg> ;
+            schema:creditText "Mark Landon · CC BY 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Anatomical_votives_from_the_Gorga_collection_(Rome,_Mus_Naz_Rom).jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "fertility offering superstition" ;
     schema:url <https://naples44.michelepasin.org/folklore/fertility-offering-superstition/> .
@@ -2929,6 +3073,10 @@ folklore:fertility-offering-superstition a schema:DefinedTerm ;
 folklore:festival-of-the-lilies-nola a schema:DefinedTerm ;
     schema:description "Paulinus of Nola born Pontius Meropius Anicius Paulinus, was a Roman poet, writer, senator, and bishop. He attained the ranks of suffect consul and governor of Campania, but, prompted by the counsels of his Hispanic wife Therasia of Nola and by the assassination of the emperor Gratian, abandoned his career and was baptized as a Christian. Later, probably after Therasia's death, he became bishop of Nola in Campania."@en ;
     schema:disambiguatingDescription "Nola's Feast of St Paulinus, in which towering wooden 'lily' structures are carried through the streets; in 1944 the procession brought the town to a standstill and sliced through the army's telephone cables by the hundred — Eric Williams's despair."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/festival-of-the-lilies-nola.jpg> ;
+            schema:creditText "Wolfgang Sauber · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Linzer_Dom_-_Fenster_-_Paulinus_von_Nola.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Festival of the Lilies (Nola)" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Saint_Paulinus_of_Nola> ;
@@ -2937,6 +3085,10 @@ folklore:festival-of-the-lilies-nola a schema:DefinedTerm ;
 folklore:flying-monk-of-pomigliano a schema:DefinedTerm ;
     schema:description "A stigmatic monk of Pomigliano credited with the power of flight — identified in the book's own footnote as the future Padre Pio."@en ;
     schema:disambiguatingDescription "He claims to have flown through the air to rescue a downed pilot, and displays the stigmata — one of the wave of miracles sweeping the region in 1944."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/flying-monk-of-pomigliano.jpg> ;
+            schema:creditText "Jornal O Bom Católico · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Padre_Pio_Stigmata.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "flying monk of Pomigliano" ;
     schema:url <https://naples44.michelepasin.org/folklore/flying-monk-of-pomigliano/> .
@@ -2944,6 +3096,10 @@ folklore:flying-monk-of-pomigliano a schema:DefinedTerm ;
 folklore:guardia-sanframondi-flagellant-rite a schema:DefinedTerm ;
     schema:description "Guardia Sanframondi is a town and comune in the Province of Benevento, in Campania region, in Italy. It is best known for its wine production, the wine festival Vinalia and for its Christian penitential rite held every seven years."@en ;
     schema:disambiguatingDescription "The seven-yearly penitential procession in honour of the Virgin, revived in 1944 — described to Lewis by a colleague: robes soaked with blood, and one banner-carrier nearly lynched after being publicly named a cuckold."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/guardia-sanframondi-flagellant-rite.jpg> ;
+            schema:creditText "Gianfranco Vitolo from Sarno (Sa), Italia · CC BY 2.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Guardia_Sanframondi_(31274008120).jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Guardia Sanframondi flagellant rite" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Guardia_Sanframondi> ;
@@ -2952,6 +3108,10 @@ folklore:guardia-sanframondi-flagellant-rite a schema:DefinedTerm ;
 folklore:hunchbacks-as-luck-bringers a schema:DefinedTerm ;
     schema:description "A Neapolitan belief that a hunched back brings good fortune."@en ;
     schema:disambiguatingDescription "Lewis notes lottery-ticket buyers touching or stroking a hunchback's hump as part of the purchase."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/hunchbacks-as-luck-bringers.jpg> ;
+            schema:creditText "Didier Descouens · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:(Venice)_Il_Gobbo_di_Rialto_front_view.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Hunchbacks as luck-bringers" ;
     schema:url <https://naples44.michelepasin.org/folklore/hunchbacks-as-luck-bringers/> .
@@ -2959,6 +3119,10 @@ folklore:hunchbacks-as-luck-bringers a schema:DefinedTerm ;
 folklore:ischia-radioactive-cure-belief a schema:DefinedTerm ;
     schema:description "A local conviction that Ischia's natural radioactivity is health-giving."@en ;
     schema:disambiguatingDescription "The belief that the Naples-facing side of Ischia is beneficially radioactive — slimming, good for the kidneys, bladder and complexion — is why Lola and Susanna go there for the summer 'to deflate'."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/ischia-radioactive-cure-belief.jpg> ;
+            schema:creditText "Sam LaRussa from United States of America · CC BY-SA 2.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Radithor_bottle_(25799475341).jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Ischia radioactive cure belief" ;
     schema:url <https://naples44.michelepasin.org/folklore/ischia-radioactive-cure-belief/> .
@@ -2966,6 +3130,10 @@ folklore:ischia-radioactive-cure-belief a schema:DefinedTerm ;
 folklore:madonna-of-pompeii a schema:DefinedTerm ;
     schema:description "The Pontifical Shrine of the Blessed Virgin of the Rosary of Pompei is a Catholic cathedral, Marian pontifical shrine, and Pontifical minor basilica commissioned and co-founded by Bartolo Longo and his wife the Countess Mariana di Fusco, located in Pompei, Italy. It is the see of the Territorial Prelature of Pompei."@en ;
     schema:disambiguatingDescription "A soldier gives Lewis a scrap of tinsel torn from her mantle, promising it will render him bulletproof for a year."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/madonna-of-pompeii.jpg> ;
+            schema:creditText "Velvet · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Pompei_duomo.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Madonna of Pompeii" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Shrine_of_the_Virgin_of_the_Rosary_of_Pompei> ;
@@ -2974,6 +3142,10 @@ folklore:madonna-of-pompeii a schema:DefinedTerm ;
 folklore:parenti-di-san-gennaro a schema:DefinedTerm ;
     schema:description "A clique of aged Neapolitan women held to be the blood descendants of San Gennaro."@en ;
     schema:disambiguatingDescription "Led in to take their places around the cathedral altar, they are credited with the power — and the duty — of browbeating their ancestor into performing the blood miracle."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/parenti-di-san-gennaro.jpg> ;
+            schema:creditText "Pietro espasian · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Reliquiario_di_Roberto_d%27Angio.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Parenti di San Gennaro" ;
     schema:url <https://naples44.michelepasin.org/folklore/parenti-di-san-gennaro/> .
@@ -2981,6 +3153,10 @@ folklore:parenti-di-san-gennaro a schema:DefinedTerm ;
 folklore:pazzariello a schema:DefinedTerm ;
     schema:description "A traditional Neapolitan costumed figure, part street-advertiser, part exorcist; 'one is born a pazzariello, not made one'."@en ;
     schema:disambiguatingDescription "Cocked hat, stick, drummers and piper, hired to caper into a newly reopening shop — explained as advertising for the illiterate, but 'his real function is that of an exorcist', driving out evil spirits and the evil eye. Lewis sees his first on the Via San Pasquale."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/pazzariello.jpg> ;
+            schema:creditText "Unknown author · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Pazzariello_napoletano.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "pazzariello" ;
     schema:url <https://naples44.michelepasin.org/folklore/pazzariello/> .
@@ -2988,6 +3164,10 @@ folklore:pazzariello a schema:DefinedTerm ;
 folklore:professional-wailers a schema:DefinedTerm ;
     schema:description "Mourners paid to weep and lament at a funeral, amplifying the family's display of loss."@en ;
     schema:disambiguatingDescription "Lewis notes 'several professional wailers in attendance' at the funeral of a Carabiniere murdered by bandits at Casoria."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/professional-wailers.jpg> ;
+            schema:creditText "Marie-Lan Nguyen · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Female_mourners_Louvre_CA1325.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Professional wailers" ;
     schema:url <https://naples44.michelepasin.org/folklore/professional-wailers/> .
@@ -3002,6 +3182,10 @@ He noted that the village felt so isolated and archaic that it "seems hardly to 
 \r
 Historians and travel writers often link this specific practice to ancient Samnite or localized pagan traditions in the region, where animals were sacrificed to ward off evil spirits, ensure agricultural fertility, or mark territory."""@en ;
     schema:disambiguatingDescription "The annual ritual of the hill village where the section is billeted after Don Ubaldo's death: a live fox burned to death and its tail hung 'like a banner' from a pole at the village entrance, near an Easter Island-style stone head probably older than the Samnites."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/sagranella-fox-cult.jpg> ;
+            schema:creditText "ClaudiaTen · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Sagranella fox-cult" ;
     schema:url <https://naples44.michelepasin.org/folklore/sagranella-fox-cult/> .
@@ -3009,6 +3193,10 @@ Historians and travel writers often link this specific practice to ancient Samni
 folklore:san-gaetano a schema:DefinedTerm ;
     schema:description "Gaetano dei Conti di Thiene, known in English as Saint Cajetan, was an Italian Catholic priest and religious reformer, co-founder of the Theatines. He is recognised as a saint in the Catholic Church, and his feast day is 7 August."@en ;
     schema:disambiguatingDescription "Invoked as a 'powerful exorcist': the remedy for a Via Carducci block of flats blighted by suicides would be for the neighbours to club together and build a street shrine under his protection."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/san-gaetano.jpg> ;
+            schema:creditText "Francesco Solimena · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Francesco_Solimena_-_Estasi_di_San_Gaetano_da_Thiene.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "San Gaetano" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Saint_Cajetan> ;
@@ -3017,6 +3205,10 @@ folklore:san-gaetano a schema:DefinedTerm ;
 folklore:san-rocco a schema:DefinedTerm ;
     schema:description "Roch, also called Rock in English, was a Majorcan Catholic confessor whose death is commemorated on 16 August and 9 September in Italy; he was especially invoked against the plague."@en ;
     schema:disambiguatingDescription "Advising the exhausted Captain Frazer, Lewis recommends a medal of San Rocco — 'patron of coitus reservatus' — to be had in any religious-supplies shop."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/san-rocco.jpg> ;
+            schema:creditText "Francesco Francia · CC0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Saint_Roch_MET_EP14.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "San Rocco" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Saint_Roch> ;
@@ -3025,6 +3217,10 @@ folklore:san-rocco a schema:DefinedTerm ;
 folklore:san-sebastiano a schema:DefinedTerm ;
     schema:description "Sebastian was an early Christian saint and martyr. According to traditional belief, he was killed during the Diocletianic Persecution of Christians. He was initially tied to a post or tree and shot with arrows, though this did not kill him."@en ;
     schema:disambiguatingDescription "The patron of the town in the lava's path; his processional image is carried out to confront the 1944 eruption, and the smuggling-in of a rival San Gennaro image has to be hidden under a sheet to avoid giving him offence."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/san-sebastiano.jpg> ;
+            schema:creditText "Il Sodoma · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:St._Sebastian_by_Sodoma.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "San Sebastiano" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Saint_Sebastian> ;
@@ -3033,6 +3229,10 @@ folklore:san-sebastiano a schema:DefinedTerm ;
 folklore:santa-maria-del-carmine a schema:DefinedTerm ;
     schema:description "Santa Maria del Carmine is a church in Naples, Italy. It is at one end of Piazza Mercato, the centre of civic life in Naples for many centuries until it was cut off from the rest of the city by urban renewal in 1900. The church was founded in the 13th century by Carmelite friars driven from the Holy Land in the Crusades, presumably arriving in the Bay of Naples aboard Amalfitan ships."@en ;
     schema:disambiguatingDescription "Her image, first said to have bowed its head to dodge a cannon-shot during Alfonso of Aragon's siege of Naples, now 'does this as a matter of daily routine' in the 1944 wave of miracles."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/santa-maria-del-carmine.jpg> ;
+            schema:creditText "Baku · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:CarmineMaggiore_Napoli.png> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Santa Maria del Carmine" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Santa_Maria_del_Carmine,_Naples> ;
@@ -3041,6 +3241,10 @@ folklore:santa-maria-del-carmine a schema:DefinedTerm ;
 folklore:santantonio-abate a schema:DefinedTerm ;
     schema:description "Anthony the Great was a Christian monk from Egypt, revered since his death as a saint. He is distinguished from other saints named Anthony, such as Anthony of Padua, by various epithets: Anthony of Egypt, Anthony the Abbot, Anthony of the Desert, Anthony the Anchorite, Anthony the Hermit, and Anthony of Thebes. For his importance among the Desert Fathers and to all later Christian monasticism, he is also known as the Father of All Monks."@en ;
     schema:disambiguatingDescription "During the eruption he briefly displaces San Gennaro as the saint charged with holding back Vesuvius's fire."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/santantonio-abate.jpg> ;
+            schema:creditText "Michael Damaskinos · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Saint_Anthony_(Damaskinos).png> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Sant'Antonio Abate" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Anthony_the_Great> ;
@@ -3049,6 +3253,10 @@ folklore:santantonio-abate a schema:DefinedTerm ;
 folklore:santaspreno a schema:DefinedTerm ;
     schema:description "Aspren or Asprenas was a 1st-century Christian saint and venerated as the first Bishop of Naples."@en ;
     schema:disambiguatingDescription "The patron invoked against headaches: sufferers push their heads through a hole in the wall of his chapel in search of relief — one of the cures Lewis lists in the miracle-fever of spring 1944."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/santaspreno.jpg> ;
+            schema:creditText "Luca Giordano · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Luca_Giordano_Protector_saints_of_Naples.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Sant'Aspreno" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Aspren> ;
@@ -3057,6 +3265,10 @@ folklore:santaspreno a schema:DefinedTerm ;
 folklore:santo-agnello a schema:DefinedTerm ;
     schema:description "A Naples church, site of a 'speaking crucifix' during the 1944 miracle fervour."@en ;
     schema:disambiguatingDescription "Its crucifix carries on a running dialogue with the image of Santa Maria d'Intercessione — reported daily in the newspapers of spring 1944."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/santo-agnello.jpg> ;
+            schema:creditText "Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Facciata_di_Sant%27Agnello_Maggiore.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Santo Agnello" ;
     schema:url <https://naples44.michelepasin.org/folklore/santo-agnello/> .
@@ -3064,6 +3276,10 @@ folklore:santo-agnello a schema:DefinedTerm ;
 folklore:st-andrews-manna-amalfi a schema:DefinedTerm ;
     schema:description "Amalfi Cathedral is a medieval Roman Catholic cathedral in the Piazza del Duomo, Amalfi, Italy. It is dedicated to the Apostle Saint Andrew whose relics are kept here. Formerly the archiepiscopal seat of the Diocese of Amalfi, it has been since 1986 that of the Diocese of Amalfi-Cava de' Tirreni."@en ;
     schema:disambiguatingDescription "The relic in the crypt of Amalfi Cathedral said to exude a miraculous liquid several times a year; Del Giudice asks Lewis to drive him there, and queues to buy a sample."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/st-andrews-manna-amalfi.jpg> ;
+            schema:creditText "Berthold Werner · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Amalfi_BW_2013-05-15_10-09-21.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "St Andrew's Manna (Amalfi)" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Amalfi_Cathedral> ;
@@ -3072,6 +3288,10 @@ folklore:st-andrews-manna-amalfi a schema:DefinedTerm ;
 folklore:st-john-san-giovanni-a-carbonara a schema:DefinedTerm ;
     schema:description "A Naples church holding a blood relic said to liquefy."@en ;
     schema:disambiguatingDescription "One of the churches whose blood relic is reported to be bubbling amid the spring 1944 miracle fever."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/st-john-san-giovanni-a-carbonara.jpg> ;
+            schema:creditText "Diego Delso · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Iglesia_de_San_Giovanni_a_Carbonara,_N%C3%A1poles,_Italia,_2023-03-25,_DD_130.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "St John / San Giovanni a Carbonara" ;
     schema:url <https://naples44.michelepasin.org/folklore/st-john-san-giovanni-a-carbonara/> .
@@ -3079,6 +3299,10 @@ folklore:st-john-san-giovanni-a-carbonara a schema:DefinedTerm ;
 folklore:st-michael a schema:DefinedTerm ;
     schema:description "The Sanctuary of Saint Michael the Archangel is a Roman Catholic shrine on Mount Gargano, Italy, part of the commune of Monte Sant'Angelo, in the province of Foggia, northern Apulia. It has the dignity of a minor basilica."@en ;
     schema:disambiguatingDescription "The cave-sanctuary at Monte Sant'Angelo in Puglia — source of the venerated lump of rock that is, with a royal salver, the one treasured possession in Lattarullo's bare flat."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/st-michael.jpeg> ;
+            schema:creditText "Baggio1979 · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Monte_Sant%27Angelo_-_Santuario_di_San_Michele_Arcangelo_-_2023-09-22_19-49-58_003.jpeg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "St Michael" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Sanctuary_of_Monte_Sant%27Angelo> ;
@@ -3087,6 +3311,10 @@ folklore:st-michael a schema:DefinedTerm ;
 folklore:stork-veneration a schema:DefinedTerm ;
     schema:description "A Southern Italian taboo against harming storks, held to bring bad luck."@en ;
     schema:disambiguatingDescription "A village that ate its storks' young during the famine is regarded as having called down calamity on itself."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/stork-veneration.jpg> ;
+            schema:creditText "Charles J. Sharp · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:White_stork_(Ciconia_ciconia)_Bia%C5%82owieza.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Stork veneration" ;
     schema:url <https://naples44.michelepasin.org/folklore/stork-veneration/> .
@@ -3094,6 +3322,10 @@ folklore:stork-veneration a schema:DefinedTerm ;
 folklore:vendetta-mourning-ritual a schema:DefinedTerm ;
     schema:description "A funeral rite of the Southern Italian interior in which the dead man's mother mouths his wounds as a pledge of revenge."@en ;
     schema:disambiguatingDescription "When a man is killed in a vendetta his mother, if living, kisses and sucks at his wounds at the funeral — the kind of 'Bronze-Age' custom Lattarullo, ten miles away in Naples, knows nothing of."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/vendetta-mourning-ritual.jpg> ;
+            schema:creditText "Andrea Mantegna · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:The_dead_Christ_and_three_mourners,_by_Andrea_Mantegna.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Vendetta mourning ritual" ;
     schema:url <https://naples44.michelepasin.org/folklore/vendetta-mourning-ritual/> .
@@ -3101,6 +3333,10 @@ folklore:vendetta-mourning-ritual a schema:DefinedTerm ;
 folklore:visionary-child-local-bernadette a schema:DefinedTerm ;
     schema:description "A child visionary of the Campi Flegrei reporting Marian apparitions in spring 1944."@en ;
     schema:disambiguatingDescription "A twelve-year-old girl to whom the Virgin is said to appear with 'comforting messages for the population'; crowds flock out to watch, and the mayor of Marano arrives in a motor-hearse for want of other transport."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/visionary-child-local-bernadette.jpg> ;
+            schema:creditText "abbé P. Bernadou · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Bernadette_Soubirous.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "visionary child (local 'Bernadette')" ;
     schema:url <https://naples44.michelepasin.org/folklore/visionary-child-local-bernadette/> .
@@ -3108,6 +3344,10 @@ folklore:visionary-child-local-bernadette a schema:DefinedTerm ;
 folklore:zio-di-roma a schema:DefinedTerm ;
     schema:description "A hired mourner who impersonates a distinguished 'uncle from Rome' at a funeral to raise the bereaved family's standing."@en ;
     schema:disambiguatingDescription "Lattarullo's suspended sideline, resumed once Rome falls — complete with a rented car and driver and a special 'Zio di Roma' suit."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/zio-di-roma.jpg> ;
+            schema:creditText "Unknown author · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli,_Funerale_di_Enrico_Caruso.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Zio di Roma" ;
     schema:url <https://naples44.michelepasin.org/folklore/zio-di-roma/> .
@@ -3266,6 +3506,10 @@ place:acerra a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.95 ;
             schema:longitude 14.36666667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/acerra.jpg> ;
+            schema:creditText "Original uploaded by Balzacle (Transfered by T137) · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Acerra_aerea.jpg> ] ;
     schema:name "Acerra" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Acerra> ;
     schema:url <https://naples44.michelepasin.org/places/acerra/> .
@@ -3277,6 +3521,10 @@ place:albanella a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.48333333 ;
             schema:longitude 15.11666667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/albanella.jpg> ;
+            schema:creditText "Lobufalo · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Albanella_Panorama.jpg> ] ;
     schema:name "Albanella" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Albanella> ;
     schema:url <https://naples44.michelepasin.org/places/albanella/> .
@@ -3303,6 +3551,10 @@ place:caserta a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.06666667 ;
             schema:longitude 14.33333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/caserta.jpg> ;
+            schema:creditText "Lucamato · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Maddaloni_-_Panorama_di_Caserta_dal_Santuario_di_San_Michele.jpg> ] ;
     schema:name "Caserta" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Caserta> ;
     schema:url <https://naples44.michelepasin.org/places/caserta/> .
@@ -3314,6 +3566,10 @@ place:castel-capuano a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.85326944 ;
             schema:longitude 14.26415833 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/castel-capuano.jpg> ;
+            schema:creditText "Armando Mancini · CC BY-SA 2.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli_-_Castel_Capuano.jpg> ] ;
     schema:name "Castel Capuano" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Castel_Capuano> ;
     schema:url <https://naples44.michelepasin.org/places/castel-capuano/> .
@@ -3334,6 +3590,10 @@ place:frattamaggiore a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.93333333 ;
             schema:longitude 14.28333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/frattamaggiore.jpg> ;
+            schema:creditText "Umberto Basilica at Italian Wikipedia · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Pre_frattamaggiore.jpg> ] ;
     schema:name "Frattamaggiore" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Frattamaggiore> ;
     schema:url <https://naples44.michelepasin.org/places/frattamaggiore/> .
@@ -3345,6 +3605,10 @@ place:monte-vergine a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.9362 ;
             schema:longitude 14.7285 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/monte-vergine.jpg> ;
+            schema:creditText "Mentnafunangann · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Montevergine_1.jpg> ] ;
     schema:name "Monte Vergine" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine> ;
     schema:url <https://naples44.michelepasin.org/places/monte-vergine/> .
@@ -3356,6 +3620,10 @@ place:padula a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.34 ;
             schema:longitude 15.65666667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/padula.jpg> ;
+            schema:creditText "Carsten Steger · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Aerial_image_of_Padula_(view_from_the_southeast).jpg> ] ;
     schema:name "Padula" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Padula> ;
     schema:url <https://naples44.michelepasin.org/places/padula/> .
@@ -3367,6 +3635,10 @@ place:pozzuoli a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.84444444 ;
             schema:longitude 14.09333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/pozzuoli.jpg> ;
+            schema:creditText "© Ra Boe / Wikipedia · CC BY-SA 3.0 de" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Pozzuoli_2010-by-RaBoe-23.jpg> ] ;
     schema:name "Pozzuoli" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Pozzuoli> ;
     schema:url <https://naples44.michelepasin.org/places/pozzuoli/> .
@@ -3387,6 +3659,10 @@ place:taranto a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.47111111 ;
             schema:longitude 17.24305556 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/taranto.jpg> ;
+            schema:creditText "Bernard Gagnon · CC0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Ponte_Girevole_(Taranto)_01.jpg> ] ;
     schema:name "Taranto" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Taranto> ;
     schema:url <https://naples44.michelepasin.org/places/taranto/> .
@@ -3398,6 +3674,10 @@ place:torre-annunziata a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.75 ;
             schema:longitude 14.45 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/torre-annunziata.jpg> ;
+            schema:creditText "Bboss at Italian Wikipedia · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Torre_Annunziata_-_view_from_the_port.jpg> ] ;
     schema:name "Torre Annunziata" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Torre_Annunziata> ;
     schema:url <https://naples44.michelepasin.org/places/torre-annunziata/> .
@@ -3425,6 +3705,10 @@ place:bari a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.12527778 ;
             schema:longitude 16.86666667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/bari.jpg> ;
+            schema:creditText "Benjamin Smith · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Bari_-_Lungomare_Imperatore_Augusto_%26_Mare.jpg> ] ;
     schema:name "Bari" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Bari> ;
     schema:url <https://naples44.michelepasin.org/places/bari/> .
@@ -3436,6 +3720,10 @@ place:battipaglia a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.61666667 ;
             schema:longitude 14.98333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/battipaglia.jpg> ;
+            schema:creditText "DaniClick · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Battipaglia_-_Castelluccio_-_2023-09-29_17-18-53_001.JPG> ] ;
     schema:name "Battipaglia" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Battipaglia> ;
     schema:url <https://naples44.michelepasin.org/places/battipaglia/> .
@@ -3447,6 +3735,10 @@ place:ischia a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.731204 ;
             schema:longitude 13.895721 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/ischia.jpg> ;
+            schema:creditText "Retaggio · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Ischia_da_procida.jpg> ] ;
     schema:name "Ischia" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Ischia> ;
     schema:url <https://naples44.michelepasin.org/places/ischia/> .
@@ -3458,6 +3750,10 @@ place:porta-capuana a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.85433 ;
             schema:longitude 14.26544 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/porta-capuana.jpg> ;
+            schema:creditText "August Dominus · CC0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Porta_Capuana_2025.jpg> ] ;
     schema:name "Porta Capuana" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Porta_Capuana> ;
     schema:url <https://naples44.michelepasin.org/places/porta-capuana/> .
@@ -3469,6 +3765,10 @@ place:procida a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.758333 ;
             schema:longitude 14.016667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/procida.jpg> ;
+            schema:creditText "Ekrem Canli · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Corricella_2016,_Procida_(2).jpg> ] ;
     schema:name "Procida" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Procida> ;
     schema:url <https://naples44.michelepasin.org/places/procida/> .
@@ -3489,6 +3789,10 @@ place:resina a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.8085867 ;
             schema:longitude 14.347367 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/resina.jpg> ;
+            schema:creditText "CharlesS at Dutch Wikipedia · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Herculaneum03.jpg> ] ;
     schema:name "Resina" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Ercolano> ;
     schema:url <https://naples44.michelepasin.org/places/resina/> .
@@ -3506,6 +3810,10 @@ place:san-carlo-opera-house a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.8375 ;
             schema:longitude 14.24944444 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/san-carlo-opera-house.jpg> ;
+            schema:creditText "Diego Delso · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Teatro_de_San_Carlos,_N%C3%A1poles,_Italia,_2023-03-25,_DD_184-186_HDR.jpg> ] ;
     schema:name "San Carlo opera house" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Teatro_di_San_Carlo> ;
     schema:url <https://naples44.michelepasin.org/places/san-carlo-opera-house/> .
@@ -3541,6 +3849,10 @@ place:villa-nazionale a schema:Place ;
 folklore:monte-vergine a schema:DefinedTerm ;
     schema:description "Sanctuary of Montevergine is a Marian church in Mercogliano, located in the hamlet of Montevergine. It's a part of the Territorial Abbey of Montevergine, one of the six Italian territorial abbeys. Inside, the painting of the Madonna di Montevergine is venerated and it is estimated that about one and a half million pilgrims visit it every year."@en ;
     schema:disambiguatingDescription "The mountain sanctuary of the Virgin above Avellino, on the site of an ancient shrine of Cybele; the banning of its 1944 Whitsun pilgrimage causes widespread public dismay, and its district furnishes Lattarullo with a lurid tale of fake clergy fleecing a woman black-marketeer."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/monte-vergine.jpg> ;
+            schema:creditText "Mentnafunangann · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Montevergine_1.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "Monte Vergine" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Sanctuary_of_Montevergine> ;
@@ -3627,6 +3939,10 @@ person:vito-genovese a schema:Person ;
     schema:additionalType "Camorrista / bandit" ;
     schema:description "Vito Genovese was an Italian-born American mafioso and the boss of the Genovese crime family of New York City. A childhood friend and criminal associate of Lucky Luciano, Genovese took part in the Castellammarese War and helped Luciano shape the Mafia's rise as a major force in organized crime in the United States. He would later lead Luciano's crime family, which was renamed by the FBI after Genovese in 1957."@en ;
     schema:disambiguatingDescription "Born near Naples, the exiled American mafia boss has taken a job as an AMG interpreter and manoeuvred himself into 'unassailable power' in the military government; the new mayors of the Camorra-zone towns are said to be his nominees, and the black market runs under his protection."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/person/vito-genovese.jpg> ;
+            schema:creditText "Phil Stanziola, World Telegram staff photographer · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Vito_Genovese_NYWTS.jpg> ] ;
     schema:name "Vito Genovese" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Vito_Genovese> ;
     schema:url <https://naples44.michelepasin.org/people/vito-genovese/> .
@@ -3638,6 +3954,10 @@ place:avellino a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.91666667 ;
             schema:longitude 14.78888889 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/avellino.jpg> ;
+            schema:creditText "Costangelopacilio · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Campanile_del_Duomo_e_Torre_dell%27Orologio_al_tramonto.jpg> ] ;
     schema:name "Avellino" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Avellino> ;
     schema:url <https://naples44.michelepasin.org/places/avellino/> .
@@ -3649,6 +3969,10 @@ place:aversa a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.96666667 ;
             schema:longitude 14.2 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/aversa.jpg> ;
+            schema:creditText "http://www.comune.aversa.ce.it/biblioteca/nuova_pagina_2.htm · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Porta_Napoli_Aversa.jpg> ] ;
     schema:name "Aversa" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Aversa> ;
     schema:url <https://naples44.michelepasin.org/places/aversa/> .
@@ -3675,6 +3999,10 @@ place:piazza-dante a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.84901667 ;
             schema:longitude 14.25007222 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/piazza-dante.jpg> ;
+            schema:creditText "IlSistemone · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Piazza_Dante_(Naples).jpg> ] ;
     schema:name "Piazza Dante" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Piazza_Dante,_Naples> ;
     schema:url <https://naples44.michelepasin.org/places/piazza-dante/> .
@@ -3685,6 +4013,10 @@ place:altamura a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.6364944 ;
             schema:longitude 14.9124284 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/altamura.jpg> ;
+            schema:creditText "Sailko · CC BY 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Altamura,_basilica_cattedrale_palatina_di_s.m._assunta,_01.jpg> ] ;
     schema:name "Altamura" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Altamura> ;
     schema:url <https://naples44.michelepasin.org/places/altamura/> .
@@ -3696,6 +4028,10 @@ place:caivano a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.957112 ;
             schema:longitude 14.31023 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/caivano.jpg> ;
+            schema:creditText "Umberto Basilica at Italian Wikipedia · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Caivano.jpg> ] ;
     schema:name "Caivano" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Caivano> ;
     schema:url <https://naples44.michelepasin.org/places/caivano/> .
@@ -3707,6 +4043,10 @@ place:casoria a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.9045572 ;
             schema:longitude 14.2901223 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/casoria.jpg> ;
+            schema:creditText "mauro nemesio rossi at Italian Wikipedia · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Casoria.jpg> ] ;
     schema:name "Casoria" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Casoria> ;
     schema:url <https://naples44.michelepasin.org/places/casoria/> .
@@ -3718,6 +4058,10 @@ place:nola a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.92611111 ;
             schema:longitude 14.5275 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/nola.jpg> ;
+            schema:creditText "Bocachete · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:NolaDuomo.jpg> ] ;
     schema:name "Nola" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Nola> ;
     schema:url <https://naples44.michelepasin.org/places/nola/> .
@@ -3729,6 +4073,10 @@ place:paestum a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.42222222 ;
             schema:longitude 15.00527778 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/paestum.jpg> ;
+            schema:creditText "Oliver-Bonjoch · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Veduta_di_Paestum_2010.jpg> ] ;
     schema:name "Paestum" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Paestum> ;
     schema:url <https://naples44.michelepasin.org/places/paestum/> .
@@ -3740,6 +4088,10 @@ place:riviera-di-chiaia a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.83361111 ;
             schema:longitude 14.23361111 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/riviera-di-chiaia.jpg> ;
+            schema:creditText "Baku · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Riviera.jpg> ] ;
     schema:name "Riviera di Chiaia" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Riviera_di_Chiaia> ;
     schema:url <https://naples44.michelepasin.org/places/riviera-di-chiaia/> .
@@ -3761,6 +4113,10 @@ place:via-roma a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.84555556 ;
             schema:longitude 14.24916667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/via-roma.jpg> ;
+            schema:creditText "Unknown author · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli_-_Toledo_aka_Via_Roma.jpg> ] ;
     schema:name "Via Roma" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Via_Toledo> ;
     schema:url <https://naples44.michelepasin.org/places/via-roma/> .
@@ -3772,6 +4128,10 @@ place:vomero-naples a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.83333333 ;
             schema:longitude 14.23333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/vomero-naples.jpg> ;
+            schema:creditText "No machine-readable author provided. Inviaggiocommons assumed (based on copyright claims). · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Vomero.jpg> ] ;
     schema:name "Vomero (Naples)" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Vomero> ;
     schema:url <https://naples44.michelepasin.org/places/vomero-naples/> .
@@ -3779,6 +4139,10 @@ place:vomero-naples a schema:Place ;
 folklore:evil-eye a schema:DefinedTerm ;
     schema:description "The evil eye is a supernatural belief in a curse brought about by a malevolent glare, usually inspired by envy. Amulets to protect against it have been found dating to around 5,000 years ago. It is found in many cultures in the Mediterranean region, the Balkans, Eastern Europe, West Asia, Central Asia, South Asia, Africa, the Caribbean, and Latin America, with such cultures often believing that receiving the evil eye will cause misfortune or injury, while others believe it to be a kind of supernatural force that casts or reflects a malevolent gaze back upon those who wish harm upon others."@en ;
     schema:disambiguatingDescription "The pervasive Neapolitan dread of the malevolent glance — coral-horn amulets in every jeweller's window, a Via Carducci block shunned as cursed, a woman blamed for poisoning a village water supply — and, by September 1944, the Benevento notables making protective gestures at Lewis himself, taking him for a jettatore."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/evil-eye.jpg> ;
+            schema:creditText "Alev Akın · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Kapadokya%27dan_Nazar_Boncu%C4%9Fu.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "evil eye" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Evil_eye> ;
@@ -3798,6 +4162,10 @@ place:vesuvius a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.82138889 ;
             schema:longitude 14.42611111 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/vesuvius.jpg> ;
+            schema:creditText "pietro scerrato · CC BY 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Il_cratere_del_Vulcano_-_panoramio.jpg> ] ;
     schema:name "Vesuvius" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Mount_Vesuvius> ;
     schema:url <https://naples44.michelepasin.org/places/vesuvius/> .
@@ -3815,12 +4183,20 @@ place:sorrento a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.624906 ;
             schema:longitude 14.374836 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/sorrento.jpg> ;
+            schema:creditText "Kim Traynor · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:View_of_Sorrento.jpg> ] ;
     schema:name "Sorrento" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Sorrento> ;
     schema:url <https://naples44.michelepasin.org/places/sorrento/> .
 
 theme:allied_conduct a schema:DefinedTerm ;
     schema:description "Behavior/attitudes of Allied troops toward locals"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/allied_conduct.jpg> ;
+            schema:creditText "Serg. Gladstone, British Army Film and Photographic Unit (AFPU) Number 2 · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli_1943,_entrata_degli_alleati_(1).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Allied conduct" ;
     schema:url <https://naples44.michelepasin.org/themes/allied_conduct/> .
@@ -3832,6 +4208,10 @@ place:capri a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.55 ;
             schema:longitude 14.23333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/capri.jpg> ;
+            schema:creditText "Mario Apuzzo · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Capri_in_Cartolina_-_Vista_da_Termini_(Massa_Lubrense).jpg> ] ;
     schema:name "Capri" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Capri> ;
     schema:url <https://naples44.michelepasin.org/places/capri/> .
@@ -3858,12 +4238,20 @@ place:sicily a schema:Place ;
 
 theme:black_market a schema:DefinedTerm ;
     schema:description "Smuggling, theft of Allied goods, corruption, racketeering"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/black_market.jpg> ;
+            schema:creditText "Wayne Miller · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Wayne_Miller_-_Giovane_venditrice.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Black market" ;
     schema:url <https://naples44.michelepasin.org/themes/black_market/> .
 
 theme:superstition_religion a schema:DefinedTerm ;
     schema:description "Miracles, saints, folk magic, the evil eye, ritual"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/superstition_religion.jpg> ;
+            schema:creditText "Antonio Cavallo · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:CornicelloCharm.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Superstition & religion" ;
     schema:url <https://naples44.michelepasin.org/themes/superstition_religion/> .
@@ -3882,12 +4270,20 @@ place:afragola a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.91666667 ;
             schema:longitude 14.31666667 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/afragola.jpg> ;
+            schema:creditText "Original uploader was Utente:Danielevincenzo at it.wikipedia · CC BY-SA 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Municipio_Afragola.jpg> ] ;
     schema:name "Afragola" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Afragola> ;
     schema:url <https://naples44.michelepasin.org/places/afragola/> .
 
 theme:disease_health a schema:DefinedTerm ;
     schema:description "Illness, hospitals, epidemics, medical matters"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/disease_health.jpg> ;
+            schema:creditText "Signal Corps Archive from Ireland and United States · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:SC_190591_-_23rd_Gen._Hospital_view_of_operating_room._Naples,_Italy,_10_September,_1944._(49764764041).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Disease & health" ;
     schema:url <https://naples44.michelepasin.org/themes/disease_health/> .
@@ -3899,6 +4295,10 @@ place:salerno a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 40.6806 ;
             schema:longitude 14.7594 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/salerno.jpg> ;
+            schema:creditText "Cabalist12 · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Panorama_of_salerno_from_arechi.jpg> ] ;
     schema:name "Salerno" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Salerno> ;
     schema:url <https://naples44.michelepasin.org/places/salerno/> .
@@ -3916,6 +4316,10 @@ person:vincente-lattarullo a schema:Person ;
 folklore:san-gennaro a schema:DefinedTerm ;
     schema:description "Januarius, also known as Januarius I of Benevento, was Bishop of Benevento and is a martyr and saint of the Catholic Church. While no contemporary sources on his life are preserved, later sources and legends say he died during the Great Persecution, which ended with Diocletian's retirement in 305."@en ;
     schema:disambiguatingDescription "The patron of Naples, whose dried blood is expected to liquefy on his feast days; the wartime vigils over whether — and how fast — the miracle happens run through the book as a barometer of public nerves, and his rivalry with San Sebastiano flares during the eruption, when his image is smuggled to San Sebastiano 'on an outside chance'."@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/folklore/san-gennaro.jpg> ;
+            schema:creditText "Louis Finson · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Saint_Januarius.jpg> ] ;
     schema:inDefinedTermSet id:folklore ;
     schema:name "San Gennaro" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Januarius> ;
@@ -3935,6 +4339,10 @@ place:benevento a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.13333333 ;
             schema:longitude 14.78333333 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/benevento.jpg> ;
+            schema:creditText "Antonio De Capua (original pictures: Phil Tizzani, Antonio De Capua, Miguel Hermoso Cuesta) · CC BY-SA 4.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Benevento-collage.jpg> ] ;
     schema:name "Benevento" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Benevento> ;
     schema:url <https://naples44.michelepasin.org/places/benevento/> .
@@ -3946,30 +4354,50 @@ place:rome a schema:Place ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 41.89333333 ;
             schema:longitude 12.48277778 ] ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/place/rome.jpg> ;
+            schema:creditText "Diliff · CC BY 3.0" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Trevi_Fountain,_Rome,_Italy_2_-_May_2007.jpg> ] ;
     schema:name "Rome" ;
     schema:sameAs <https://en.wikipedia.org/wiki/Rome> ;
     schema:url <https://naples44.michelepasin.org/places/rome/> .
 
 theme:sex_relationships a schema:DefinedTerm ;
     schema:description "Prostitution, romance, marriage vetting, wartime liaisons"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/sex_relationships.jpg> ;
+            schema:creditText "Unknown author or not provided · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:SHE_MAY_LOOK_CLEAN_-_BUT_-_NARA_-_513618.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Sex & relationships" ;
     schema:url <https://naples44.michelepasin.org/themes/sex_relationships/> .
 
 theme:poverty_hunger a schema:DefinedTerm ;
     schema:description "Famine, scavenging, destitution, makeshift survival"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/poverty_hunger.jpg> ;
+            schema:creditText "Wayne Miller · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Children_of_Naples,_Italy_-_NARA_-_520941.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Poverty & hunger" ;
     schema:url <https://naples44.michelepasin.org/themes/poverty_hunger/> .
 
 theme:personal_reflection a schema:DefinedTerm ;
     schema:description "Lewis's own introspection, changing perspective, mood"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/personal_reflection.jpg> ;
+            schema:creditText "Fair use" ;
+            schema:isBasedOn <https://en.wikipedia.org/wiki/File:Norman_Lewis_(1908%E2%80%932003).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Personal reflection" ;
     schema:url <https://naples44.michelepasin.org/themes/personal_reflection/> .
 
 theme:crime_banditry a schema:DefinedTerm ;
     schema:description "Camorra, bandits, vendettas, organized crime"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/crime_banditry.jpg> ;
+            schema:creditText "Unknown · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:GiulianoGenovese1.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Crime & banditry" ;
     schema:url <https://naples44.michelepasin.org/themes/crime_banditry/> .
@@ -3980,12 +4408,20 @@ id:world-war-ii a schema:Event ;
 
 theme:naples_character a schema:DefinedTerm ;
     schema:description "Naples's social fabric, class, theatricality, daily life/customs"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/naples_character.jpg> ;
+            schema:creditText "Unknown author · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Pulcinella_-_stampa_ottocento.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Naples's character" ;
     schema:url <https://naples44.michelepasin.org/themes/naples_character/> .
 
 theme:bureaucracy_absurdity a schema:DefinedTerm ;
     schema:description "Military/administrative farce, red tape, false alarms"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/bureaucracy_absurdity.jpg> ;
+            schema:creditText "Margaret Bourke-White · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Napoli,_Gran_Dogana_Marittima_(nel_1943).jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "Bureaucracy & absurdity" ;
     schema:url <https://naples44.michelepasin.org/themes/bureaucracy_absurdity/> .
@@ -3995,6 +4431,10 @@ id:folklore a schema:DefinedTermSet ;
 
 theme:war_violence a schema:DefinedTerm ;
     schema:description "Combat, bombing, casualties, atrocities, military operations"@en ;
+    schema:image [ a schema:ImageObject ;
+            schema:contentUrl <https://naples44.michelepasin.org/media/static/img/entities/theme/war_violence.jpg> ;
+            schema:creditText "Wayne Miller · Public domain" ;
+            schema:isBasedOn <https://commons.wikimedia.org/wiki/File:Un_ragazzo_italiano_sostiene_il_suo_amico_ferito_gravemente_durante_il_bombardamento_alleato_su_Napoli_nel_1943.jpg> ] ;
     schema:inDefinedTermSet id:themes ;
     schema:name "War & violence" ;
     schema:url <https://naples44.michelepasin.org/themes/war_violence/> .

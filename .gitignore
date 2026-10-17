@@ -35,3 +35,7 @@ README_PRIVATE.md
 
 # source dataset — one-time seed only; backups/django/dump.json is the committed source
 plan-files/
+
+# The maintainer's backlog: kept locally, out of the public repo. On their machine this
+# is a symlink into Dropbox (the central backlog folder), hence no trailing slash.
+/backlog

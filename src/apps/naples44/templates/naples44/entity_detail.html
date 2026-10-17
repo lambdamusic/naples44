@@ -14,6 +14,13 @@
   <p class="kicker">{{ kind }}{% if subtitle %} · {{ subtitle }}{% endif %}</p>
   <h1>{{ entity.name }}</h1>
 
+  {% if entity.image %}
+  <figure class="entity-image">
+    <img src="{% static entity.image %}" alt="{{ entity.name }}" loading="lazy">
+    <figcaption>{% if entity.image_source_url %}<a href="{{ entity.image_source_url }}" target="_blank" rel="noopener">{{ entity.image_credit|default:"Wikimedia" }}</a>{% else %}{{ entity.image_credit }}{% endif %}</figcaption>
+  </figure>
+  {% endif %}
+
   {% if entity.description %}
   <div class="entity-desc prose">{{ entity.description|markdownify }}</div>
   {% endif %}

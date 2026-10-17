@@ -4,6 +4,10 @@
 {% block title %}{{ kind }} — Naples ’44{% endblock %}
 {% block body_class %}page-entity-list{% endblock %}
 
+{% block extrahead %}
+{% if places_map %}<link rel="stylesheet" href="{% static 'css/leaflet.css' %}">{% endif %}
+{% endblock %}
+
 {% block content %}
 <div class="entity-index">
   {% include "naples44/_entity_icon.html" %}
@@ -11,17 +15,39 @@
   <h1>{{ kind }} <span class="eix-total">{{ total }}</span></h1>
   <p class="eix-blurb">{{ blurb }}</p>
 
+  {% if places_map %}
+  {{ places_map|json_script:"places-map-data" }}
+  <figure class="place-map-wrap places-overview">
+    <div class="map-scope" hidden>
+      <button type="button" data-scope="naples">Naples</button>
+      <button type="button" data-scope="campania" class="is-active">Campania</button>
+      <button type="button" data-scope="all">Everywhere</button>
+    </div>
+    <div id="places-map"></div>
+    <figcaption>
+      {{ places_map.places|length }} places on the map; the bigger the dot, the more diary entries mention it. Click one to open it.
+      {% if unmapped %}
+      <span class="map-unmapped">Not on the map ({{ unmapped|length }}, location unknown):
+        {% for it in unmapped %}<a href="{{ it.url }}">{{ it.name }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}.
+      </span>
+      {% endif %}
+    </figcaption>
+  </figure>
+  {% endif %}
+
   <div class="entity-sort" hidden>
     <button type="button" data-sort="type" class="is-active">{{ first_sort_label }}</button>
     {% if first_sort_label != "A–Z" %}<button type="button" data-sort="name">A–Z</button>{% endif %}
     <button type="button" data-sort="count">Most mentioned</button>
   </div>
 
-  <ul class="ei-list{% if wide %} ei-list--wide{% endif %}">
+  <ul class="ei-list{% if wide %} ei-list--wide{% endif %}{% if thumbs %} ei-list--thumbs{% endif %}">
     {% for group in groups %}
       {% if group.label %}<li class="ei-group">{{ group.label }} <span>{{ group.items|length }}</span></li>{% endif %}
       {% for it in group.items %}
-      <li class="ei-item" data-name="{{ it.name|lower }}" data-count="{{ it.count }}">
+      <li class="ei-item{% if wide and it.image %} has-thumb{% endif %}" data-name="{{ it.name|lower }}" data-count="{{ it.count }}">
+        {% if wide and it.image %}<a class="ei-thumb" href="{{ it.url }}" tabindex="-1" aria-hidden="true"><img src="{% static it.image %}" alt="" loading="lazy"></a>{% endif %}
+        {% if thumbs %}<a class="ei-card-img{% if not it.image %} is-empty{% endif %}" href="{{ it.url }}" tabindex="-1" aria-hidden="true">{% if it.image %}<img src="{% static it.image %}" alt="" loading="lazy">{% else %}{% include "naples44/_entity_icon.html" %}{% endif %}</a>{% endif %}
         <a class="ei-name" href="{{ it.url }}">{{ it.name }}</a>
         {% if wide and it.description %}<span class="ei-desc">{{ it.description }}</span>{% endif %}
         <span class="ei-count" title="{{ it.count }} diary entr{{ it.count|pluralize:'y,ies' }}">{{ it.count }}</span>
@@ -34,4 +60,8 @@
 
 {% block scripts %}
 <script src="{% static 'js/entity-list.js' %}"></script>
+{% if places_map %}
+<script src="{% static 'js/leaflet.js' %}"></script>
+<script src="{% static 'js/places-map.js' %}"></script>
+{% endif %}
 {% endblock %}

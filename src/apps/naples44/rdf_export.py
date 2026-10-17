@@ -26,6 +26,7 @@ The model, in one paragraph:
 
 from datetime import date
 
+from django.templatetags.static import static
 from rdflib import BNode, Graph, Literal, Namespace, URIRef
 from rdflib.namespace import RDF, XSD
 
@@ -145,8 +146,23 @@ def _add_themes(g):
         g.add((uri, SCHEMA.name, Literal(t.label)))
         if t.description:
             g.add((uri, SCHEMA.description, _lit_en(t.description)))
+        _add_image(g, uri, t)
         g.add((uri, SCHEMA.inDefinedTermSet, THEME_SET))
         g.add((uri, SCHEMA.url, _abs(t.get_absolute_url())))
+
+
+def _add_image(g, subject, obj):
+    """The entity's locally stored picture → schema:image (an ImageObject with credit)."""
+    if not obj.image:
+        return
+    img = BNode()
+    g.add((img, RDF.type, SCHEMA.ImageObject))
+    g.add((img, SCHEMA.contentUrl, _abs(static(obj.image))))
+    if obj.image_credit:
+        g.add((img, SCHEMA.creditText, Literal(obj.image_credit)))
+    if obj.image_source_url:
+        g.add((img, SCHEMA.isBasedOn, URIRef(obj.image_source_url)))
+    g.add((subject, SCHEMA.image, img))
 
 
 def _add_places(g):
@@ -164,6 +180,7 @@ def _add_places(g):
             g.add((uri, SCHEMA.geo, geo))
         if p.wikipedia_url:
             g.add((uri, SCHEMA.sameAs, URIRef(p.wikipedia_url)))
+        _add_image(g, uri, p)
         g.add((uri, SCHEMA.url, _abs(p.get_absolute_url())))
 
 
@@ -176,6 +193,7 @@ def _add_people(g):
         _add_prose(g, uri, person.description, person.book_role)
         if person.wikipedia_url:
             g.add((uri, SCHEMA.sameAs, URIRef(person.wikipedia_url)))
+        _add_image(g, uri, person)
         g.add((uri, SCHEMA.url, _abs(person.get_absolute_url())))
 
 
@@ -189,6 +207,7 @@ def _add_folklore(g):
         _add_prose(g, uri, f.description, f.book_role)
         if f.wikipedia_url:
             g.add((uri, SCHEMA.sameAs, URIRef(f.wikipedia_url)))
+        _add_image(g, uri, f)
         g.add((uri, SCHEMA.inDefinedTermSet, FOLKLORE_SET))
         g.add((uri, SCHEMA.url, _abs(f.get_absolute_url())))
 
