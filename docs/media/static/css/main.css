@@ -327,7 +327,12 @@ a.stat:hover .lbl { color: var(--ink-soft); }
 .ring-guide { fill: none; stroke: var(--rule); }
 .month-tick { stroke: var(--rule); }
 .month-label { font-family: var(--sans); font-size: 10px; fill: var(--ink-faint); }
-.year-label { font-family: var(--serif); font-size: 13px; fill: var(--ink-faint); }
+.year-label {
+  font-family: var(--serif); font-size: 22px; font-weight: 700; letter-spacing: 0.04em;
+  fill: var(--ink-soft);
+  /* a paper-coloured halo keeps it legible where it crosses ticks and dots */
+  paint-order: stroke; stroke: var(--paper); stroke-width: 5px; stroke-linejoin: round;
+}
 
 .tooltip {
   position: fixed;
@@ -440,23 +445,24 @@ a.chip:hover { color: var(--accent); border-color: var(--accent-soft); }
 .entity-image figcaption { margin-top: 0.35rem; font-size: 0.72rem; color: var(--ink-faint); }
 .entity-image figcaption a { color: inherit; }
 
-.entity-book-role {
-  border-left: 2px solid var(--accent-soft);
-  padding: 0.1rem 0 0.1rem 1rem;
-  margin: 0 0 1.4rem;
-  color: var(--ink-soft);
+.entity-section { margin: 0 0 2.2rem; }
+.entity-section > h2 {
+  font-family: var(--serif); font-size: 1.35rem; font-weight: normal;
+  margin: 0 0 1rem; padding-top: 1rem; border-top: 1px solid var(--rule);
 }
-.entity-book-role p { margin: 0 0 0.5rem; }
-.entity-book-role-label {
-  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em;
-  color: var(--ink-faint); margin: 0 0 0.3rem !important;
-}
+.entity-section--background .entity-desc { font-size: 1.12rem; }
+.entity-background { color: var(--ink); margin: 0 0 1.2rem; }
+.entity-background p { margin: 0 0 0.75rem; }
 
-.entity-count { font-size: 0.9rem; color: var(--ink-faint); margin: 0 0 1.8rem; }
-.entity-external {
-  margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--rule);
-  font-size: 0.9rem; color: var(--ink-faint);
-}
+.entity-further { font-size: 0.8rem; color: var(--ink-faint); line-height: 1.6; }
+.entity-further p { display: inline; margin: 0; }
+.entity-further a { color: inherit; }
+.entity-further-label { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.68rem; }
+
+.entity-book-role { color: var(--ink); margin: 0 0 1rem; }
+.entity-book-role p { margin: 0 0 0.6rem; }
+
+.entity-count { font-size: 0.9rem; color: var(--ink-faint); margin: 0 0 1.4rem; }
 
 .place-map-wrap { margin: 0 0 1.8rem; }
 #place-map {
@@ -553,6 +559,10 @@ a.chip:hover { color: var(--accent); border-color: var(--accent-soft); }
   margin: 1.6rem 0 0.3rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--rule);
 }
 .ei-group:first-child { margin-top: 0; }
+.ei-group-icon {
+  width: 1.5rem; height: 1.5rem; vertical-align: -0.45rem; margin-right: 0.5rem;
+  color: var(--accent); stroke-width: 1.5;
+}
 .ei-group span { font-weight: 400; color: var(--ink-faint); opacity: 0.6; margin-left: 0.3rem; }
 .ei-list.flat .ei-group { display: none; }
 

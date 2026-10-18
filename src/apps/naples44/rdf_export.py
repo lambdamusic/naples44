@@ -24,6 +24,7 @@ The model, in one paragraph:
 * one ``schema:Dataset`` node describes the export itself.
 """
 
+import re
 from datetime import date
 
 from django.templatetags.static import static
@@ -205,6 +206,10 @@ def _add_folklore(g):
         g.add((uri, RDF.type, SCHEMA.DefinedTerm))
         g.add((uri, SCHEMA.name, Literal(f.name)))
         _add_prose(g, uri, f.description, f.book_role)
+        if f.background:
+            g.add((uri, SCHEMA.abstract, _lit_en(f.background)))
+        for url in re.findall(r"\]\((\S+?)\)", f.background_sources):
+            g.add((uri, SCHEMA.citation, URIRef(url)))
         if f.wikipedia_url:
             g.add((uri, SCHEMA.sameAs, URIRef(f.wikipedia_url)))
         _add_image(g, uri, f)

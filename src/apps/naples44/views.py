@@ -241,6 +241,7 @@ def _grouped_by(qs, field, labels):
         items = by_value.get(value)
         if items:
             groups.append({
+                "key": value,
                 "label": label,
                 "items": [_item(o, o.n) for o in sorted(items, key=lambda o: o.name.lower())],
             })

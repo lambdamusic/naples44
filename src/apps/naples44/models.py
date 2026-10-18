@@ -170,6 +170,15 @@ class FolkloreEntity(EntityImage):
         blank=True,
         help_text="How it figures in Naples '44 — hand-written, never auto-seeded.",
     )
+    background = models.TextField(
+        blank=True,
+        help_text="The wider tradition behind it, in general terms (markdown). Loadable "
+        "from a reviewed draft via `manage.py load_folklore_background`.",
+    )
+    background_sources = models.TextField(
+        blank=True,
+        help_text="Sources for the background, as one markdown line of links.",
+    )
     wikipedia_url = models.URLField(blank=True, help_text="Further reading — linked only from the entity's own page.")
 
     class Meta:

@@ -102,13 +102,18 @@ class PersonAdmin(admin.ModelAdmin):
 
 @admin.register(models.FolkloreEntity)
 class FolkloreEntityAdmin(admin.ModelAdmin):
-    list_display = ["name", "has_desc", "has_role", "has_link", "has_image", "entry_count"]
+    list_display = ["name", "has_desc", "has_background", "has_role", "has_link", "has_image",
+                    "entry_count"]
     search_fields = ["name"]
     prepopulated_fields = {"slug": ("name",)}
 
     @admin.display(boolean=True, description="desc")
     def has_desc(self, obj):
         return bool(obj.description)
+
+    @admin.display(boolean=True, description="background")
+    def has_background(self, obj):
+        return bool(obj.background)
 
     @admin.display(boolean=True, description="role")
     def has_role(self, obj):
