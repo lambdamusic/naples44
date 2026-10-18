@@ -21,35 +21,46 @@
   </figure>
   {% endif %}
 
-  {% if entity.description %}
-  <div class="entity-desc prose">{{ entity.description|markdownify }}</div>
-  {% endif %}
+  <section class="entity-section entity-section--background">
+    <h2>Background</h2>
 
-  {% if entity.book_role %}
-  <div class="entity-book-role prose">
-    <p class="entity-book-role-label">In the book</p>
-    {{ entity.book_role|markdownify }}
-  </div>
-  {% endif %}
+    {% if entity.description %}
+    <div class="entity-desc prose">{{ entity.description|markdownify }}</div>
+    {% endif %}
 
-  {% if place_map %}
-  {{ place_map|json_script:"place-map-data" }}
-  <figure class="place-map-wrap">
-    <div id="place-map"></div>
-    {% if place_map.others %}<figcaption>Grey dots: other places mentioned in the same entries. Click one to open it.</figcaption>{% endif %}
-  </figure>
-  {% endif %}
+    {% if entity.background %}
+    <div class="entity-background prose">{{ entity.background|markdownify }}</div>
+    {% endif %}
 
-  <p class="entity-count">
-    Appears in {{ rows|length }} diary entr{{ rows|length|pluralize:"y,ies" }}.
-  </p>
+    {% if place_map %}
+    {{ place_map|json_script:"place-map-data" }}
+    <figure class="place-map-wrap">
+      <div id="place-map"></div>
+      {% if place_map.others %}<figcaption>Grey dots: other places mentioned in the same entries. Click one to open it.</figcaption>{% endif %}
+    </figure>
+    {% endif %}
 
-  {% include "naples44/_entry_timeline.html" %}
+    <div class="entity-further">
+      <span class="entity-further-label">Further reading:</span>
+      {% if entity.background_sources %}{{ entity.background_sources|markdownify }} · {% endif %}
+      {% if entity.wikipedia_url %}<a href="{{ entity.wikipedia_url }}" target="_blank" rel="noopener">Wikipedia ↗</a> · {% endif %}
+      <a href="{{ google_url }}" target="_blank" rel="noopener nofollow">Search Google ↗</a>
+    </div>
+  </section>
 
-  <p class="entity-external">
-    {% if entity.wikipedia_url %}<a href="{{ entity.wikipedia_url }}" target="_blank" rel="noopener">Wikipedia ↗</a> · {% endif %}
-    <a href="{{ google_url }}" target="_blank" rel="noopener nofollow">Search Google ↗</a>
-  </p>
+  <section class="entity-section entity-section--book">
+    <h2>In Naples ’44</h2>
+
+    {% if entity.book_role %}
+    <div class="entity-book-role prose">{{ entity.book_role|markdownify }}</div>
+    {% endif %}
+
+    <p class="entity-count">
+      Appears in {{ rows|length }} diary entr{{ rows|length|pluralize:"y,ies" }}.
+    </p>
+
+    {% include "naples44/_entry_timeline.html" %}
+  </section>
 
   <nav class="entry-nav">
     {% if prev_entity %}<a class="prev" href="{{ prev_entity.get_absolute_url }}" rel="prev">← {{ prev_entity.name }}</a>{% else %}<span></span>{% endif %}
